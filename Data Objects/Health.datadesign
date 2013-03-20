@@ -62,6 +62,11 @@
             <property name="type">integer</property>
             <property name="isVisible">false</property>
         </structure>
+        <structure>
+            <property name="name">Data Cube.Contact History Group.NewTabularHierarchy1.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
     </list-property>
     <property name="Data Cube.Diagnostics Data Set.x">295</property>
     <property name="Data Cube.Diagnostics Data Set.y">104</property>
@@ -71,10 +76,11 @@
     <property name="Data Cube.Diagnostics Data Set.height">200</property>
     <property name="Data Cube.Conatact History Group.NewTabularHierarchy1.width">150</property>
     <property name="Data Cube.Conatact History Group.NewTabularHierarchy1.height">200</property>
-    <property name="Data Cube.Patient Group.NewTabularHierarchy2.x">35</property>
-    <property name="Data Cube.Patient Group.NewTabularHierarchy2.y">20</property>
+    <property name="Data Cube.Patient Group.NewTabularHierarchy2.x">595</property>
+    <property name="Data Cube.Patient Group.NewTabularHierarchy2.y">18</property>
     <property name="Data Cube.Patient Group.NewTabularHierarchy2.width">150</property>
     <property name="Data Cube.Patient Group.NewTabularHierarchy2.height">200</property>
+    <property name="Data Cube.Contact History Group.NewTabularHierarchy1.x">19</property>
     <data-sources>
         <oda-data-source extensionID="org.eclipse.datatools.connectivity.oda.flatfile" name="Health Data Source" id="2">
             <property name="HOME">C:\data\HealthTSV</property>
@@ -1836,67 +1842,17 @@
                     <property name="hierarchies">
                         <tabular-hierarchy name="NewTabularHierarchy" id="13">
                             <property name="levels">
-                                <tabular-level name="Diagnostic CIE Decode" id="14">
+                                <tabular-level name="Diagnostic" id="14">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Diagnostic CIE Decode</property>
                                 </tabular-level>
-                                <tabular-level name="Prescription Decode" id="15">
+                                <tabular-level name="Prescription" id="15">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Prescription Decode</property>
                                 </tabular-level>
                             </property>
-                        </tabular-hierarchy>
-                    </property>
-                </tabular-dimension>
-                <tabular-dimension name="Conatact History Group" id="16">
-                    <property name="defaultHierarchy">NewTabularHierarchy1</property>
-                    <property name="hierarchies">
-                        <tabular-hierarchy name="NewTabularHierarchy1" id="17">
-                            <property name="levels">
-                                <tabular-level name="Contact Date" id="48">
-                                    <property name="dataType">date</property>
-                                    <property name="levelType">dynamic</property>
-                                    <property name="alignment">left</property>
-                                    <property name="columnName">Contact Date1</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Year" id="18">
-                                    <property name="dataType">integer</property>
-                                    <property name="alignment">right</property>
-                                    <property name="columnName">Contact Date Year</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Semester" id="19">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Contact Date Semester</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Quarter" id="20">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Contact Date Quarter</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Month" id="21">
-                                    <property name="dataType">string</property>
-                                    <property name="alignment">left</property>
-                                    <property name="columnName">Contact Date Month</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Week No" id="22">
-                                    <property name="dataType">integer</property>
-                                    <property name="alignment">right</property>
-                                    <property name="columnName">Contact Date Week No</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date WeekDay" id="23">
-                                    <property name="dataType">integer</property>
-                                    <property name="alignment">right</property>
-                                    <property name="columnName">Contact Date WeekDay</property>
-                                </tabular-level>
-                                <tabular-level name="Contact History Id" id="45">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Contact History Id</property>
-                                </tabular-level>
-                                <tabular-level name="Patient Record Id" id="46">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Patient Record Id</property>
-                                </tabular-level>
-                            </property>
-                            <property name="dataSet">Contact History Data Set</property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
@@ -1909,41 +1865,24 @@
                                     <property name="dataType">integer</property>
                                     <property name="columnName">Age</property>
                                 </tabular-level>
-                                <tabular-level name="Age Numeric" id="28">
+                                <tabular-level name="Age Band" id="28">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Age Numeric</property>
                                 </tabular-level>
-                                <tabular-level name="DoB" id="29">
+                                <tabular-level name="Gender" id="32">
                                     <property name="dataType">string</property>
-                                    <property name="columnName">DoB</property>
-                                </tabular-level>
-                                <tabular-level name="Gender" id="31">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Gender</property>
-                                </tabular-level>
-                                <tabular-level name="Gender Decode" id="32">
-                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Gender Decode</property>
                                 </tabular-level>
-                                <tabular-level name="Surname" id="30">
+                                <tabular-level name="Income Band" id="34">
                                     <property name="dataType">string</property>
-                                    <property name="columnName">Surname</property>
-                                </tabular-level>
-                                <tabular-level name="Income" id="33">
-                                    <property name="dataType">float</property>
-                                    <property name="alignment">right</property>
-                                    <structure name="format">
-                                        <property name="category">General Number</property>
-                                        <property name="pattern">General Number</property>
-                                    </structure>
-                                    <property name="columnName">Income</property>
-                                </tabular-level>
-                                <tabular-level name="Income Numeric" id="34">
-                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Income Numeric</property>
                                 </tabular-level>
-                                <tabular-level name="Occupation Decode" id="35">
+                                <tabular-level name="Occupation" id="35">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Occupation Decode</property>
                                 </tabular-level>
                                 <tabular-level name="Patient Cost B5" id="37">
@@ -1956,6 +1895,44 @@
                                 </tabular-level>
                             </property>
                             <property name="dataSet">Patient Data Set</property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Contact History Group" id="49">
+                    <property name="defaultHierarchy">NewTabularHierarchy1</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy1" id="50">
+                            <property name="levels">
+                                <tabular-level name="Year" id="52">
+                                    <property name="dataType">integer</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="alignment">right</property>
+                                    <property name="columnName">Contact Date Year</property>
+                                </tabular-level>
+                                <tabular-level name="Quarter" id="53">
+                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="alignment">left</property>
+                                    <property name="columnName">Contact Date Quarter</property>
+                                </tabular-level>
+                                <tabular-level name="Month" id="54">
+                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="alignment">left</property>
+                                    <property name="columnName">Contact Date Month</property>
+                                </tabular-level>
+                                <tabular-level name="Contact Date" id="51">
+                                    <property name="dataType">string</property>
+                                    <property name="alignment">left</property>
+                                    <property name="columnName">Contact Date</property>
+                                </tabular-level>
+                                <tabular-level name="Contact History Id" id="55">
+                                    <property name="dataType">string</property>
+                                    <property name="alignment">left</property>
+                                    <property name="columnName">Contact History Id</property>
+                                </tabular-level>
+                            </property>
+                            <property name="dataSet">Contact History Data Set</property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
@@ -1972,8 +1949,11 @@
                             <property name="dataType">integer</property>
                         </tabular-measure>
                         <tabular-measure name="Unit Cost" id="11">
+                            <property name="function">sum</property>
+                            <property name="isCalculated">false</property>
                             <expression name="measureExpression" type="javascript">dataSetRow["Unit Cost"]</expression>
                             <property name="dataType">float</property>
+                            <property name="isVisible">true</property>
                         </tabular-measure>
                     </property>
                 </tabular-measure-group>
@@ -1983,20 +1963,20 @@
                 <structure>
                     <list-property name="joinConditions">
                         <structure>
-                            <property name="cubeKey">Contact History Id</property>
-                            <property name="hierarchyKey">Contact History Id</property>
-                        </structure>
-                    </list-property>
-                    <property name="hierarchy">NewTabularHierarchy1</property>
-                </structure>
-                <structure>
-                    <list-property name="joinConditions">
-                        <structure>
                             <property name="cubeKey">Patient Id</property>
                             <property name="hierarchyKey">Patient Record ID</property>
                         </structure>
                     </list-property>
                     <property name="hierarchy">NewTabularHierarchy2</property>
+                </structure>
+                <structure>
+                    <list-property name="joinConditions">
+                        <structure>
+                            <property name="cubeKey">Contact History Id</property>
+                            <property name="hierarchyKey">Contact History Id</property>
+                        </structure>
+                    </list-property>
+                    <property name="hierarchy">NewTabularHierarchy1</property>
                 </structure>
             </list-property>
         </tabular-cube>
