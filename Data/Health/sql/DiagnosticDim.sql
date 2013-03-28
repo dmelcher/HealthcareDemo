@@ -1,0 +1,5 @@
+SELECT [Diagnostic CIE]
+       ,[Diagnostic CIE Decode]
+  FROM [Health].[dbo].[Diagnostics]
+  GROUP BY [Diagnostic CIE],[Diagnostic CIE Decode]
+  ORDER BY [Diagnostic CIE]
