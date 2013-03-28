@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <property name="dashboardView">
+        <dashboard id="4">
+            <property name="tabs">
+                <tab-element name="ae22f504-c293-49f3-87de-a7fc0da0ec3b" id="5">
+                    <property name="title">New Tab 5</property>
+                    <property name="sections">
+                        <section id="6">
+                            <property name="width">50%</property>
+                            <property name="gadgets">
+                                <gadget name="Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5" id="7">
+                                    <property name="height">100px</property>
+                                    <property name="title">pLocationName</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="content">
+                                        <list-data-selector id="8">
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="targetBookmark">SelectMeasure/pLocationName</property>
+                                                    <property name="isNoValueSupported">false</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="controlType">list-box</property>
+                                            <property name="dataType">string</property>
+                                            <simple-property-list name="selectedValues">
+                                                <value>City Central</value>
+                                            </simple-property-list>
+                                            <property name="allowMultiValue">false</property>
+                                            <property name="enableSearch">false</property>
+                                            <property name="listLimit">1000</property>
+                                        </list-data-selector>
+                                    </property>
+                                    <property name="observers">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">pLocationName</property>
+                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                                <gadget name="Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97" id="9">
+                                    <property name="height">100px</property>
+                                    <property name="title">pMeasureName</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="content">
+                                        <list-data-selector id="10">
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="targetBookmark">SelectMeasure/pMeasureName</property>
+                                                    <property name="isNoValueSupported">false</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="controlType">list-box</property>
+                                            <property name="dataType">string</property>
+                                            <simple-property-list name="selectedValues">
+                                                <value>Concern shown for comfort: Good to Very Good</value>
+                                            </simple-property-list>
+                                            <property name="allowMultiValue">false</property>
+                                            <property name="enableSearch">false</property>
+                                            <property name="listLimit">1000</property>
+                                        </list-data-selector>
+                                    </property>
+                                    <property name="observers">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">pMeasureName</property>
+                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                                <gadget name="Gadget_8a784185-f18d-4914-8013-20a5214398bc" id="11">
+                                    <property name="height">100px</property>
+                                    <property name="title">pPeriodName</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="content">
+                                        <list-data-selector id="12">
+                                            <structure name="dateTimeFormat">
+                                                <property name="category">Custom</property>
+                                                <property name="pattern">YYYY/MM</property>
+                                            </structure>
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="targetBookmark">SelectMeasure/pPeriodName</property>
+                                                    <property name="isNoValueSupported">false</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="operator">eq</property>
+                                            <property name="controlType">list-box</property>
+                                            <property name="dataType">date</property>
+                                            <simple-property-list name="selectedValues">
+                                                <value>12/1/2012</value>
+                                            </simple-property-list>
+                                            <property name="allowMultiValue">false</property>
+                                            <property name="enableSearch">false</property>
+                                            <property name="listLimit">1000</property>
+                                        </list-data-selector>
+                                    </property>
+                                    <property name="observers">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">pPeriodName</property>
+                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                                <gadget name="07c4228c-f96e-4906-93fc-4a075e8298cd" id="13">
+                                    <property name="height">150px</property>
+                                    <property name="zIndex">1</property>
+                                    <property name="isVisible">false</property>
+                                    <property name="content">
+                                        <current-selections id="14"/>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                            </property>
+                        </section>
+                        <section id="15">
+                            <property name="width">50%</property>
+                            <property name="gadgets">
+                                <gadget name="Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef" id="16">
+                                    <property name="title">Reportlet - DataGauge - Data Gauge</property>
+                                    <property name="externalGadgetURI">/National Healthcare/DataGauge.rptdesign</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="showScrollBar">false</property>
+                                    <property name="content">
+                                        <data-view id="17">
+                                            <list-property name="userProperties">
+                                                <structure>
+                                                    <property name="name">showViewerToolbar</property>
+                                                    <property name="type">boolean</property>
+                                                </structure>
+                                            </list-property>
+                                            <property name="showViewerToolbar">true</property>
+                                            <property name="gadgetType">viewer</property>
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="targetBookmark">Data Gauge</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="paramSettings">
+                                                <param-setting>
+                                                    <property name="paramName">pLocationName</property>
+                                                    <expression name="value">All Hospitals</expression>
+                                                    <property name="isHidden">true</property>
+                                                    <expression name="defaultValue" type="javascript">All Hospitals</expression>
+                                                </param-setting>
+                                                <param-setting>
+                                                    <property name="paramName">pMeasureName</property>
+                                                    <expression name="value">Concern shown for comfort: Fair</expression>
+                                                    <property name="isHidden">true</property>
+                                                    <expression name="defaultValue" type="javascript">Concern shown for comfort: Fair</expression>
+                                                </param-setting>
+                                                <param-setting>
+                                                    <property name="paramName">pPeriodName</property>
+                                                    <expression name="value">2012-12-01</expression>
+                                                    <property name="isHidden">true</property>
+                                                    <expression name="defaultValue" type="javascript">2012-12-01</expression>
+                                                </param-setting>
+                                            </property>
+                                        </data-view>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">pLocationName</property>
+                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="appliedTo">pMeasureName</property>
+                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="appliedTo">pPeriodName</property>
+                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                            </property>
+                        </section>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

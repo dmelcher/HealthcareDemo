@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <property name="dashboardView">
+        <dashboard id="4">
+            <property name="tabs">
+                <tab-element name="3b788b76-6bf9-4f28-a15e-f0ac4ff2dae6" id="5">
+                    <property name="title">Trending</property>
+                    <property name="sections">
+                        <section id="6">
+                            <property name="width">50%</property>
+                            <property name="gadgets">
+                                <gadget name="Gadget_6e70355d-943c-4ac4-915d-ee399c88e224" id="7">
+                                    <property name="height">100px</property>
+                                    <property name="title">Select Location</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">1</property>
+                                    <property name="content">
+                                        <radio-data-selector id="8">
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/Objectives Dashboard_sm.rptdesign</property>
+                                                    <property name="targetBookmark">Measure Location/Location</property>
+                                                    <property name="isNoValueSupported">false</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="operator">eq</property>
+                                            <property name="controlType">list-box</property>
+                                            <property name="dataType">string</property>
+                                            <simple-property-list name="selectedValues">
+                                                <value>Mt. Mercer</value>
+                                            </simple-property-list>
+                                            <property name="orientation">horizontal</property>
+                                            <property name="autoAdjust">true</property>
+                                            <property name="autoAdjustNumber">3</property>
+                                            <property name="listLimit">1000</property>
+                                        </radio-data-selector>
+                                    </property>
+                                    <property name="observers">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">ac14d801-f16e-4826-96da-c989751a202c</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">Location</property>
+                                                    <property name="gadget">Gadget_813cbb72-0489-4799-9b7c-372f058f8352</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">Gadget_28dd7b96-a84b-41ef-be3e-2dfb749657c9</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                                <gadget name="ac14d801-f16e-4826-96da-c989751a202c" id="9">
+                                    <property name="height">150px</property>
+                                    <property name="zIndex">1</property>
+                                    <property name="isVisible">false</property>
+                                    <property name="content">
+                                        <current-selections id="10"/>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">Gadget_28dd7b96-a84b-41ef-be3e-2dfb749657c9</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_6e70355d-943c-4ac4-915d-ee399c88e224</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                                <gadget name="Gadget_28dd7b96-a84b-41ef-be3e-2dfb749657c9" id="11">
+                                    <property name="height">100px</property>
+                                    <property name="title">Select Strategic Driver</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">1</property>
+                                    <property name="content">
+                                        <list-data-selector id="12">
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/Objectives Dashboard_sm.rptdesign</property>
+                                                    <property name="targetBookmark">Measure Location/StrategicDriver</property>
+                                                    <property name="isNoValueSupported">false</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="operator">eq</property>
+                                            <property name="controlType">list-box</property>
+                                            <property name="dataType">string</property>
+                                            <simple-property-list name="selectedValues">
+                                                <value>Press Ganey in Patient Survey</value>
+                                            </simple-property-list>
+                                            <property name="allowMultiValue">false</property>
+                                            <property name="enableSearch">false</property>
+                                            <property name="listLimit">1000</property>
+                                        </list-data-selector>
+                                    </property>
+                                    <property name="observers">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="gadget">ac14d801-f16e-4826-96da-c989751a202c</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">StrategicDriver</property>
+                                                    <property name="gadget">Gadget_813cbb72-0489-4799-9b7c-372f058f8352</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="gadget">Gadget_6e70355d-943c-4ac4-915d-ee399c88e224</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                            </property>
+                        </section>
+                        <section id="13">
+                            <property name="width">50%</property>
+                            <property name="gadgets">
+                                <gadget name="Gadget_813cbb72-0489-4799-9b7c-372f058f8352" id="14">
+                                    <property name="title">High Level Objectives</property>
+                                    <property name="externalGadgetURI">/National Healthcare/Objectives Dashboard_sm.rptdesign</property>
+                                    <property name="showTitle">true</property>
+                                    <property name="showBorder">true</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="showScrollBar">false</property>
+                                    <property name="content">
+                                        <data-view id="15">
+                                            <list-property name="userProperties">
+                                                <structure>
+                                                    <property name="name">showViewerToolbar</property>
+                                                    <property name="type">boolean</property>
+                                                </structure>
+                                            </list-property>
+                                            <property name="showViewerToolbar">true</property>
+                                            <property name="gadgetType">viewer</property>
+                                            <property name="externalContentRef">
+                                                <external-element-ref>
+                                                    <property name="sourceFile">/National Healthcare/Objectives Dashboard_sm.rptdesign</property>
+                                                    <property name="targetBookmark">Objectives Dashboard</property>
+                                                </external-element-ref>
+                                            </property>
+                                            <property name="paramSettings">
+                                                <param-setting>
+                                                    <property name="paramName">StrategicDriver</property>
+                                                    <expression name="value">Core Measures</expression>
+                                                    <property name="isHidden">true</property>
+                                                    <expression name="defaultValue" type="javascript">Core Measures</expression>
+                                                </param-setting>
+                                                <param-setting>
+                                                    <property name="paramName">Location</property>
+                                                    <expression name="value">CPLC</expression>
+                                                    <property name="isHidden">true</property>
+                                                    <expression name="defaultValue" type="javascript">CPLC</expression>
+                                                </param-setting>
+                                            </property>
+                                        </data-view>
+                                    </property>
+                                    <property name="subscribeTo">
+                                        <event-subscriber>
+                                            <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                            <property name="eventObjects">
+                                                <event-object>
+                                                    <property name="appliedTo">StrategicDriver</property>
+                                                    <property name="gadget">Gadget_28dd7b96-a84b-41ef-be3e-2dfb749657c9</property>
+                                                </event-object>
+                                                <event-object>
+                                                    <property name="appliedTo">Location</property>
+                                                    <property name="gadget">Gadget_6e70355d-943c-4ac4-915d-ee399c88e224</property>
+                                                </event-object>
+                                            </property>
+                                        </event-subscriber>
+                                    </property>
+                                </gadget>
+                            </property>
+                        </section>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>
