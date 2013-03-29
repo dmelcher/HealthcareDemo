@@ -8,7 +8,7 @@
                 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
                     <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
                     <data-sources>
-                        <oda-data-source extensionID="com.actuate.ais.oda" name="CPLC Scorecard" id="2">
+                        <oda-data-source extensionID="com.actuate.ais.oda" name="Healthcare Scorecard" id="2">
                             <list-property name="privateDriverProperties">
                                 <ex-property>
                                     <name>UsingLocalIOs</name>
@@ -57,7 +57,7 @@
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -451,7 +451,7 @@ AAIAAgCvAAAAMAQAAAAA
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -602,7 +602,7 @@ FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectL
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAGKde0IAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIADl6fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
                                     NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jtq48BWlsbtWgptNkgYMLa73T4IW3HU
 2laQ
@@ -657,7 +657,7 @@ axXqnMY1o7+oZK8d//9g3X8yCGwQ9se9pbEk7J3KsH9zWPY3iMsg
                                     9G4wG47yu7OgwRDtP82ZaTwA
 BIUNa5MYHDxNDJIpvDYSRoqEiN1vxH+QLFE+h3lSxXBpf0AZj7Zwcr
                                     tT819CBfW/UEsHCCwDEYfo
-BQAAaDoAAFBLAwQUAAgACABinXtCAAAAAAAAAAAAAAAAJgAAAEFJU0Rh
+BQAAaDoAAFBLAwQUAAgACAA5en1CAAAAAAAAAAAAAAAAJgAAAEFJU0Rh
                                     dGFTZXRfdGVtcF8xMzUw
 ODM3NjI4MTMzXC5wcm9qZWN0dZBPTwMhEMXPmvgdmr0LXTfqHug2to2J59
                                     VzQ2HS0Cx/hMH48QVK
@@ -667,11 +667,11 @@ w8vbuOPIR8A9gnb7tntc9t3z00Pfdh2jhcmwsFqDwYHRyyu7NTkUQWfqENUkRw
                                     ciqyq3aZQbWZy6
 P6URLjByBKICRqkssZKThDo1wSaPgb8WSXPcH2NuEKqmc4PRv7uqcymTFmP0UOmz
                                     +LeHsD4Z9vNw
-5nKRwpfYa9Dv8fNP/gFQSwcI4qlQaOAAAACjAQAAUEsBAhQAFAAIAAgAYp17QiwDEY
+5nKRwpfYa9Dv8fNP/gFQSwcI4qlQaOAAAACjAQAAUEsBAhQAFAAIAAgAOXp9QiwDEY
                                     foBQAAaDoA
 AC0AAAAAAAAAAAAAAAAAAAAAAEFJU0RhdGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXFF1
                                     ZXJ5Rmls
-ZS5pb2JleFBLAQIUABQACAAIAGKde0LiqVBo4AAAAKMBAAAmAAAAAAAAAAAAAAAAAEMGAA
+ZS5pb2JleFBLAQIUABQACAAIADl6fULiqVBo4AAAAKMBAAAmAAAAAAAAAAAAAAAAAEMGAA
                                     BBSVNE
 YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
                                     AAA=
@@ -1379,7 +1379,7 @@ YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -2311,7 +2311,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -3219,7 +3219,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -3368,7 +3368,7 @@ FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"['Ov
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAJKje0IAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIANh9fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
                                     NcUXVlcnlGaWxlLmlvYmV47Vvbbts2GL4fsHcgWKzpgNaM3VOWWu3aNFm8JXaQZMGAYReMRMvs
 JNGl
@@ -3419,7 +3419,7 @@ y1I5y6YXRAgVFM2w1gGIVEvC5Clc+eFgweuMrdZWYt5TLn
                                     OPKvCZ9Mizu1sMUQvXycI/MhICht
 XtvE4NXjxCAdwvdGop8hIWP3Bw0eJEus/0J7VGtiZXvIuIi3c2
                                     rrU/PfwCT1N1BLBwh5tMlkdAUA
-AFw2AABQSwMEFAAIAAgAkqN7QgAAAAAAAAAAAAAAACYAAABBSVNE
+AFw2AABQSwMEFAAIAAgA2H19QgAAAAAAAAAAAAAAACYAAABBSVNE
                                     YXRhU2V0X3RlbXBfMTM1MDgz
 NzYyODEzM1wucHJvamVjdHWQT08DIRDFz5r4HZq9C1036h7oNraNie
                                     fVc0Nh0tAsf4TB+PEFSm3W
@@ -3429,11 +3429,11 @@ xBvv5Tdv3sDW33pafIEPyppV05JlswAjrFTmuGo+3l/v+2Y93N0y5+0J
                                     cHIqsqt2mUG1mcuj+l
 ES4wcgSiAkapLLGSk4Q6NcEmj4G/Fklz3B9jbhCqpnOD0b+7qnMpkxZj9FDp
                                     s/i3h7A+GfbzcOZy
-kcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIAJKje0J5tM
+kcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIANh9fUJ5tM
                                     lkdAUAAFw2AAAt
 AAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1xR
                                     dWVyeUZpbGUu
-aW9iZXhQSwECFAAUAAgACACSo3tC4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAADPBQ
+aW9iZXhQSwECFAAUAAgACADYfX1C4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAADPBQ
                                     AAQUlTRGF0
 YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                     AAAA
@@ -3817,7 +3817,7 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                 </ex-property>
                             </list-property>
                         </oda-data-set>
-                        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="WholeView2" id="11">
+                        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="OverallHealth" id="11">
                             <list-property name="columnHints">
                                 <structure>
                                     <property name="columnName">MeasureLevel</property>
@@ -3972,6 +3972,7 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                     <property name="dataType">string</property>
                                     <property name="nativeDataType">12</property>
                                     <property name="position">0</property>
+                                    <expression name="defaultValue" type="constant">Overall Health</expression>
                                     <property name="isOptional">false</property>
                                     <property name="isInput">true</property>
                                     <property name="isOutput">false</property>
@@ -4071,7 +4072,7 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                     </structure>
                                 </list-property>
                             </structure>
-                            <property name="dataSource">CPLC Scorecard</property>
+                            <property name="dataSource">Healthcare Scorecard</property>
                             <list-property name="resultSet">
                                 <structure>
                                     <property name="position">1</property>
@@ -4216,83 +4217,84 @@ CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor,
 HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
 
 FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, '', '', 
-'4', '1'] AS HierarchicalCalcDataFromView
+'1', '2'] AS HierarchicalCalcDataFromView
  INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
 (HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAJiQb0IAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIANB+fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jsak5S2LI3btRTabJAwYGx3u30QtuKo
-ta0g
-                                    y5D895MsS7YT4jgLqY/zPgB6ed5/1vPIsui9nwY+uMUsIjS0Ybu1BwEOHeqS0LPhH5fHLw7g
-+3c//t
-                                    BzaNBCDo8Rxy0S8dgltEWo2wqoi/1uvx+O6PD6K3Y4mAakawR2pEChIoy6YtyGY84nXcu6
-u7tr0cBr
-                                    UeZZf532NUmpEsNsCTIrJbNSMkuQWQlZCzuUYQhuYsxmNvyzf/kFPLsi+G6AAgyuEHPG
-iD0HT59MP7
-                                    xNfl0cnRwdXoIvBDM5SRzkHyLf+YQ4OmY0kKytU4yimOETfIt98OEC5Pu7SlYp/xli
-OOQpV2KIELIw
-                                    WEXSnIwCdynjCXUQF5goHxJFgr8wukKCsldzFL3Ij1ZxY15Kkb/cDMwE2Amj9iIb
-WsH7EUUmdLpdxV
-                                    xJKwc0n2yvUHVIg4lWlSjQAxX4tCrdrsAiHmwTjrRfjetMLNmMR/SqxENS992p
-ZhTNCsoE1TkKPdx3
-                                    CzHJhqvJOKQ+ZTnNSb+q0ZdTXuDX/V2gsteJyCctZWDfzXLE8fnwFDy9iSl/
-exZf+8SxLmSWcRBzLZ
-                                    n6WJA8vamQyCq1g9BrJervrs5Lu2BnR/0k6nb2Za+984+0o0xWQg36g8HR
-OQC/DvuDdYzMeZyZtJNm
-                                    FKU7IwHDgbLtWdX0ZOfkJwvhOYAAxZx+ZjSeiPpyFKJrH7s25CwWCTtX
-hNpQlBwARNHx4yCMkk7WBa
-                                    7QeDmbYBv2Q449zCBwaMgRCTGzoQVBKNXDfJKGwCXRxEezExx6fGzD
-F21hjOcx7IkqYsMBDYUJYxQN
-                                    Yt/XFomUhD3KZmdIclgwtUNY4gunhqMr5Mc4srJhl4xGWKZDGQ+V
-GM2kmL5N6N8VLOlZ6agRYpVJ6U
-                                    U0Zg4G6o8wyvpFNSPTkBX3GxalzymULbhgCRgzPLJh2bPyU2ev
-6iP9RJiSAmQawpRcdCxloEbTWolu
-                                    WqzvR3ehejYT4sUw1IFze3s4Nx7hurHtbIRtaYYu7D6biW4x
-BHXg+3LbOTq/t28myPfEoQ6k97eH9P
-                                    8Y147uqy2uY/N+3Uxsc/7Xgezr7SGrD0Gaiavxvg5U32yE
-6icqTMPLQZUmNBfUxPs6QD3Y3lLV54fN
-                                    RNV4XweqP29tqeoT3uaCWttSbW92OLUK1Su5jpsKqnS+
-Fkw3O4iqgOmZwxsNq/S/FmQ3O4ZahWzfnT
-                                    YXVul8LZhu8eip+GWx0djqGNQC8RbPnPLffxsNsIpA
-LfBu8dAp/3m+ufCaCNQC72YnT6XffpqVlNsG
-                                    1M0TcfHexmbf3ed6E8QEOBwzg2o2Alw8QrHPkwjb
-EAKGb2LCsgsc96zrxDtp6e/qNp4GX997gcDIV5
-                                    wXJJj4+KFQLapfF1afhN8uaaW1OmkZj77DOs0w
-ybfnQFfWG9DnkF0cYJTyw3RxpSidiyE4v7zvuVtj
-                                    3U+zeDVhCWEFkuJn0lKFhQ8xK8SV0eQO/ZdQ
-mOPjkvnkeGPJvDnTKplfxS/ftMun5RtbCYXc/JdP6/
-                                    1jOZWqUiU0ppItoTEaelb+WVRDLglwKK+H
-pUmgNyJ+sgBUL12PWnDaBcgnKLJh2ZqCYGrDzl4Hgpn6
-                                    u5DWH3j5Zu5b5VZnaT6x8dXea2Xjm4MN
-bZyvH0ssmut58tbex5mO+BjdktDTva+UZBuBpAMY8cZ8aT
-                                    H08WjJ5F7OO7FvcIm0PsvZhdFEzNF0
-wsoxLlyhUYYpprkbioX8uaC7Z2VeFtomk15gzmVQFmqnngBY
-                                    qMWRuubYXSwZGcdjrTpmYt1SnUVm
-rTKd07he9DcI+nGSemoOe7txYf++H+GXhL1TGvb/HJb9DeIyiI
-                                    NrzIaj/JYsqjFELx/nk9l+AAgK
-u9Q6Mdh/nBikj/DaSLQNEiJ2v5HwQbLE4mv2o6qAS8cjyniyb5N7
-                                    nIr/1Ceo/wVQSwcI3NugJ64F
-AAAqOAAAUEsDBBQACAAIAJiQb0IAAAAAAAAAAAAAAAAmAAAAQUlTRG
-                                    F0YVNldF90ZW1wXzEzNTA4
-Mzc2MjgxMzNcLnByb2plY3R1kE9PAyEQxc+a+B2avQtdN+oe6Da2jYnn
-                                    1XNDYdLQLH+EwfjxBUpt
-1sQb7+U3b97A1t96WnyBD8qaVdOSZbMAI6xU5rhqPt5f7/tmPdzdMuftCQ
-                                    TuIAivHCY6uTfMcA3D
-y9u448hHwD2Cdvu2e1z23fPTQ992HaOFybCwWoPBgdHLK7s1ORRBZ+oQ1SRH
-                                    ByKrKrdplBtZnLo/
-pREuMHIEogJGqSyxkpOEOjXBJo+BvxZJc9wfY24QqqZzg9G/u6pzKZMWY/RQ6b
-                                    P4t4ewPhn283Dm
-cpHCl9hr0O/x80/+AVBLBwjiqVBo4AAAAKMBAABQSwECFAAUAAgACACYkG9C3Nug
-                                    J64FAAAqOAAA
-LQAAAAAAAAAAAAAAAAAAAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcUX
-                                    VlcnlGaWxl
-LmlvYmV4UEsBAhQAFAAIAAgAmJBvQuKpUGjgAAAAowEAACYAAAAAAAAAAAAAAAAACQYA
-                                    AEFJU0Rh
-dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
-                                    AAAA==
+                                    NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jsak/SNpXG7lkLJBgkDxna32wdhK45a
+2wqy
+                                    DMl/P8myZDshjrOQ+jjvA6CX59Hz8pOeR5ZE78M08MEtZhGhoQ3brT0IcOhQl4SeDf+4PHqx
+Dz+8//
+                                    GHnkODFnJ4jDhukYjHLqEtQt1WQF3sd/v9cESH11+xw8E0IF0zYEcOKESEUVe023DM+aRr
+WXd3dy0a
+                                    eC3KPOuv074mKRVimC1BZqVkVkpmCTIrIWthhzIMwU2M2cyGf/Yvj8GzK4LvBijA4Aox
+Z4zYc/D0yf
+                                    Tju+TXxeHJ4cElOCaYyU7iIP8A+c5nxNERo4FkbZ1iFMUMn+Bb7IOPFyBf31VjlfKf
+IYZDnnIliohB
+                                    FhqrjDQ3RoG7lPGEOogLTJQNiSDBX2hdMYLSV3MUrci3VjFjfpQif7kamAmwE0Zt
+Rda0gvcTiozrdL
+                                    mKupJWNmg+WV4h6oAGEy0qEaAbKvBpUbpcgUVMbOOOtF6N60ws2YxH1Kr4Q1L3
+3almFMUKwgTVOQo9
+                                    3HcLPsmaq41xQH3KcpKTelWlL6e8wK/ru0BFrxMRT1pKwb6bxYij8+EpeHoT
+U/7uLL72iWNdyCjjIO
+                                    ZaMvSxIJm96SCRVaoHoddqqL+7Oi7tgp0d9ZOI22nLWmfnH6lH2VgJNegP
+BofnAPw67A/WUTJncabS
+                                    ThpRlOyMBAwHSrdnVcOTnRs/WQjPAQQo5vQLo/FE5JfDEF372LUhZ7EI
+2Lkk1IYi5QAgko4fB2GUVL
+                                    IqcIXEy9kE27AfcuxhBoFDQ45IiJkNLQhCKR7mgzQELokmPpqd4NDj
+Yxu+aAtlPI9hT2QRGw5oKFQY
+                                    o2gQ+77WSIQk7FE2O0OSw4KpHkITXxg1HF0hP8aRlTW7ZDTCMhxK
+f6jAaDpF921C/76gSc9KW80gVt
+                                    kovYjGzMFA/RFKWb+oYmQKMuN+wyL1OYW0BRc0AWOGRzYsmys/
+dfaqTuknQpUUIFMQquS8YykFNZrW
+                                    SnTTZH0/ugvZs5kQL7qhDpzb28O58QjXjW1nI2xLI3Rh99lM
+dIsuqAPfl9uO0fm9fTNBvscPdSD9an
+                                    tI/49x7ei+3uI6Nt/XzcQ2Z38dyL7ZHrL6EKSZuBrr60D1
+7UaofqZCNbwcVKlCc0FNrK8D1P3tLVV9
+                                    fthMVI31daD689aWqj7hbS6otS3V9maHU6tQvZLruKmg
+SuNrwXSzg6gKmJ45vNGwSvtrQXazY6hVyP
+                                    bdaXNhlcbXgukWj56KN4uNxlb7oBaIt3jmlL//bTTA
+ygO1wLvFQ6f89Xxz4TUeqAXezU6eSu9+mhWU
+                                    2wbUzQNx8d3GZvfuc7UJYgIcjplBNWsBLh6h2OeJ
+h204vBUTyvfBMUY+H0PA8E1MWPac455Vntgq9f
+                                    5dvc3TU0G/goHASFOcFySY+PihMC6KXwA5Nxly
+hq47F3wSfruklRb4pGUM/w6LOwMyX56bKUp7M1Pm
+                                    psNiA6OUH6QrMgXzXDTB+Zhwz4Mc636axfcM
+SwgrkBTvVksFFm5vVgxXRpO7KVhCYc6cS/qTM5El/e
+                                    YgrKR/Fb/8PC/vlp95JRTyi6G8W286y6lU
+aiuhMelvCY2R0LPyc1E1uSTAoXxTlsaK3oj4yQJQtXQ9
+                                    6oHTKkA+QZENy9YUBFMbdvY6EMzU34Vc
+8MDLNzPfKtc6yw2Jjq/33igd3+5vqON80lmi0VzNk0/9Ps
+                                    20x8foloSern2lJNs9JBXAiDfmSzOo
+j0dLOvdy1onNhkuk9oXQnrUmwxxOJ6wc48K7G6WYYpp71liI
+                                    nwuye1ZmZaFsIukF5lw6ZSHh6g6A
+hVgcqbeR3cWUkXE81qxjOtbN6Jln1krTOYnreX8Dpx8loadmt7
+                                    cb5/bve3O/xO2dUrf/Z7e0N/DL
+IA6uMRuO8luyqEYXvXycM7PzABAUdql1YvDqcWKQTuG1kWgbJITv
+                                    fiPhg0SJxW/zR5UBl7ZHlPFk
+3yb3OBX/E1BQ/wtQSwcIC1OjU8MFAABfOAAAUEsDBBQACAAIANB+fU
+                                    IAAAAAAAAAAAAAAAAmAAAA
+QUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3R1kE9P
+                                    AyEQxc+a+B2avQtdN+oe
+6Da2jYnn1XNDYdLQLH+EwfjxBUpt1sQb7+U3b97A1t96WnyBD8qaVdOSZb
+                                    MAI6xU5rhqPt5f7/tm
+PdzdMuftCQTuIAivHCY6uTfMcA3Dy9u448hHwD2Cdvu2e1z23fPTQ992HaOF
+                                    ybCwWoPBgdHLK7s1
+ORRBZ+oQ1SRHByKrKrdplBtZnLo/pREuMHIEogJGqSyxkpOEOjXBJo+BvxZJc9
+                                    wfY24QqqZzg9G/
+u6pzKZMWY/RQ6bP4t4ewPhn283DmcpHCl9hr0O/x80/+AVBLBwjiqVBo4AAAAKMB
+                                    AABQSwECFAAU
+AAgACADQfn1CC1OjU8MFAABfOAAALQAAAAAAAAAAAAAAAAAAAAAAQUlTRGF0YVNldF
+                                    90ZW1wXzEz
+NTA4Mzc2MjgxMzNcUXVlcnlGaWxlLmlvYmV4UEsBAhQAFAAIAAgA0H59QuKpUGjgAAAA
+                                    owEAACYA
+AAAAAAAAAAAAAAAAHgYAAEFJU0RhdGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZW
+                                    N0UEsF
+BgAAAAACAAIArwAAAFIHAAAAAA==
 
                                 </property>
                             </structure>
@@ -4312,6 +4314,9 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
         </design:attributes>
         <design:inputAttributes>
           <design:elementAttributes>
+            <design:defaultValues>
+              <design:values>Overall Health</design:values>
+            </design:defaultValues>
             <design:editable>true</design:editable>
             <design:optional>false</design:optional>
             <design:masksValue>false</design:masksValue>
@@ -6267,6 +6272,246 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                 </structure>
             </list-property>
         </data-mart-data-set>
+        <data-mart-data-set name="TopLevelPerspective" id="838">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">MeasureName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdx</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdxRangeId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdxColor</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompTxtColor</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Id</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MeasureLevel</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationLevel</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <list-property name="filter">
+                <structure>
+                    <property name="operator">eq</property>
+                    <expression name="expr" type="javascript">row["MeasureLevel"]</expression>
+                    <simple-property-list name="value1">
+                        <value>1</value>
+                    </simple-property-list>
+                </structure>
+                <structure>
+                    <property name="operator">eq</property>
+                    <expression name="expr" type="javascript">row["LocationLevel"]</expression>
+                    <simple-property-list name="value1">
+                        <value>2</value>
+                    </simple-property-list>
+                </structure>
+                <structure>
+                    <property name="operator">eq</property>
+                    <expression name="expr" type="javascript">row["CompName"]</expression>
+                    <simple-property-list name="value1">
+                        <value>"Target"</value>
+                    </simple-property-list>
+                </structure>
+                <structure>
+                    <property name="operator">like</property>
+                    <expression name="expr" type="javascript">row["LocationName"]</expression>
+                    <simple-property-list name="value1">
+                        <value>params["pLocation"].value</value>
+                    </simple-property-list>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">PeriodName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">CompIdx</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">CompIdxRangeId</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">CompIdxColor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">CompTxtColor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">Id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">CompName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">MeasureLevel</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">LocationLevel</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <property name="dataObject">OverallHealth</property>
+            <list-property name="selectedColumns">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">MeasureName</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">LocationName</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">PeriodName</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">CompIdx</property>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">CompIdxRangeId</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">CompIdxColor</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">CompTxtColor</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">Id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">CompName</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">MeasureLevel</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">LocationLevel</property>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+        </data-mart-data-set>
     </data-sets>
     <styles>
         <style name="report" id="4">
@@ -6348,7 +6593,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">CustomerGauge</property>
+                                    <property name="dataBindingRef">Press Ganey Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -6486,7 +6731,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">CustomerGauge</property>
+                                    <property name="dataBindingRef">Press Ganey Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -6624,7 +6869,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">CustomerGauge</property>
+                                    <property name="dataBindingRef">Press Ganey Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -6797,7 +7042,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">FinancialGauge</property>
+                                    <property name="dataBindingRef">Core Measures Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -6935,7 +7180,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">FinancialGauge</property>
+                                    <property name="dataBindingRef">Core Measures Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7073,7 +7318,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">FinancialGauge</property>
+                                    <property name="dataBindingRef">Core Measures Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7239,7 +7484,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">InternalGauge</property>
+                                    <property name="dataBindingRef">HCAHPs Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7368,7 +7613,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-173429263&amp;measureID=" + row["Id"] + &amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7377,7 +7622,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">InternalGauge</property>
+                                    <property name="dataBindingRef">HCAHPs Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7506,7 +7751,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=173429263&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7515,7 +7760,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">InternalGauge</property>
+                                    <property name="dataBindingRef">HCAHPs Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7644,7 +7889,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-173429263&amp;measureID=" + row["Id"] + &amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7682,7 +7927,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">LearningGauge</property>
+                                    <property name="dataBindingRef">Overall Health Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7820,7 +8065,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">LearningGauge</property>
+                                    <property name="dataBindingRef">Overall Health Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -7958,7 +8203,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                     <property name="height">25px</property>
                                     <property name="width">25px</property>
                                     <property name="dataSet">PressGaneyPerspective</property>
-                                    <property name="dataBindingRef">LearningGauge</property>
+                                    <property name="dataBindingRef">Overall Health Gauge</property>
                                     <list-property name="visibility">
                                         <structure>
                                             <property name="format">all</property>
@@ -8111,7 +8356,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
             <row id="17">
                 <cell id="18">
                     <property name="textAlign">center</property>
-                    <extended-item extensionName="FlashGadgets" name="CustomerGauge" id="7">
+                    <extended-item extensionName="FlashGadgets" name="Press Ganey Gauge" id="7">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
  <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
@@ -8126,10 +8371,10 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
   <gadgetPartsSupportingEffects _body="trendvalues"/>
   <gadgetPartsSupportingEffects _body="trendmarkers"/>
   <gadgetPartsSupportingEffects _body="tooltip"/>
-  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="120" min="60" minorTickMarksCount="4"/>
-  <region color="ff0000" endValue="90.0" label="Poor" startValue="0.0" transparency="255"/>
-  <region color="ffff00" endValue="100.0" label="Alert" startValue="90.0" transparency="255"/>
-  <region color="008000" endValue="200.0" label="Good" startValue="100.0" transparency="255"/>
+  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="110" min="0" minorTickMarksCount="4"/>
+  <region color="ff0000" endValue="45.0" label="Poor" startValue="0.0" transparency="255"/>
+  <region color="ffff00" endValue="85.0" label="Alert" startValue="45.0" transparency="255"/>
+  <region color="008000" endValue="110.0" label="Good" startValue="85.0" transparency="255"/>
   <thresholds isDashed="false" isTrendZone="false" length="40" lineWidth="4" markerRadius="4" showMarker="false" showValueOnTop="true" transparency="255"/>
   <ticks maxLabel="" minLabel="" placeTicksInside="false" placeValuesInside="false" showLimits="true" showTickMarks="true" showTickValues="true" ticksBelowGauge="true" ticksOnRight="false">
    <major height="8" width="1"/>
@@ -8162,18 +8407,10 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                         <property name="inheritColumns">false</property>
                         <list-property name="filter">
                             <structure>
-                                <property name="operator">eq</property>
+                                <property name="operator">like</property>
                                 <expression name="expr" type="javascript">row["MeasureName"]</expression>
                                 <simple-property-list name="value1">
                                     <value type="javascript">"Press Ganey in Patient Survey"</value>
-                                </simple-property-list>
-                                <property name="updateAggregation">true</property>
-                            </structure>
-                            <structure>
-                                <property name="operator">eq</property>
-                                <expression name="expr" type="javascript">row["MeasureLevel"]</expression>
-                                <simple-property-list name="value1">
-                                    <value type="javascript">2</value>
                                 </simple-property-list>
                                 <property name="updateAggregation">true</property>
                             </structure>
@@ -8296,7 +8533,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                 </cell>
                 <cell id="19">
                     <property name="textAlign">center</property>
-                    <extended-item extensionName="FlashGadgets" name="FinancialGauge" id="32">
+                    <extended-item extensionName="FlashGadgets" name="Core Measures Gauge" id="32">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
  <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
@@ -8311,10 +8548,10 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
   <gadgetPartsSupportingEffects _body="trendvalues"/>
   <gadgetPartsSupportingEffects _body="trendmarkers"/>
   <gadgetPartsSupportingEffects _body="tooltip"/>
-  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="120" min="60" minorTickMarksCount="4"/>
-  <region color="ff0000" endValue="90.0" label="Poor" startValue="0.0" transparency="255"/>
-  <region color="ffff00" endValue="100.0" label="Alert" startValue="90.0" transparency="255"/>
-  <region color="008000" endValue="200.0" label="Good" startValue="100.0" transparency="255"/>
+  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="110" min="0" minorTickMarksCount="4"/>
+  <region color="ff0000" endValue="45.0" label="Poor" startValue="0.0" transparency="255"/>
+  <region color="ffff00" endValue="85.0" label="Alert" startValue="45.0" transparency="255"/>
+  <region color="008000" endValue="110.0" label="Good" startValue="85.0" transparency="255"/>
   <thresholds isDashed="false" isTrendZone="false" length="40" lineWidth="4" markerRadius="4" showMarker="false" showValueOnTop="true" transparency="255"/>
   <ticks maxLabel="" minLabel="" placeTicksInside="false" placeValuesInside="false" showLimits="true" showTickMarks="true" showTickValues="true" ticksBelowGauge="true" ticksOnRight="false">
    <major height="8" width="1"/>
@@ -8473,7 +8710,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                 </cell>
                 <cell id="20">
                     <property name="textAlign">center</property>
-                    <extended-item extensionName="FlashGadgets" name="InternalGauge" id="34">
+                    <extended-item extensionName="FlashGadgets" name="HCAHPs Gauge" id="34">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
  <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
@@ -8488,10 +8725,10 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
   <gadgetPartsSupportingEffects _body="trendvalues"/>
   <gadgetPartsSupportingEffects _body="trendmarkers"/>
   <gadgetPartsSupportingEffects _body="tooltip"/>
-  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="120" min="60" minorTickMarksCount="4"/>
-  <region color="ff0000" endValue="90.0" label="Poor" startValue="0.0" transparency="255"/>
-  <region color="ffff00" endValue="100.0" label="Alert" startValue="90.0" transparency="255"/>
-  <region color="008000" endValue="200.0" label="Good" startValue="100.0" transparency="255"/>
+  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="110" min="0" minorTickMarksCount="4"/>
+  <region color="ff0000" endValue="45.0" label="Poor" startValue="0.0" transparency="255"/>
+  <region color="ffff00" endValue="85.0" label="Alert" startValue="45.0" transparency="255"/>
+  <region color="008000" endValue="110.0" label="Good" startValue="85.0" transparency="255"/>
   <thresholds isDashed="false" isTrendZone="false" length="40" lineWidth="4" markerRadius="4" showMarker="false" showValueOnTop="true" transparency="255"/>
   <ticks maxLabel="" minLabel="" placeTicksInside="false" placeValuesInside="false" showLimits="true" showTickMarks="true" showTickValues="true" ticksBelowGauge="true" ticksOnRight="false">
    <major height="8" width="1"/>
@@ -8650,7 +8887,7 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                 </cell>
                 <cell id="21">
                     <property name="textAlign">center</property>
-                    <extended-item extensionName="FlashGadgets" name="LearningGauge" id="33">
+                    <extended-item extensionName="FlashGadgets" name="Overall Health Gauge" id="33">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
  <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
@@ -8665,10 +8902,10 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
   <gadgetPartsSupportingEffects _body="trendvalues"/>
   <gadgetPartsSupportingEffects _body="trendmarkers"/>
   <gadgetPartsSupportingEffects _body="tooltip"/>
-  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="120" min="60" minorTickMarksCount="4"/>
-  <region color="ff0000" endValue="90.0" label="Poor" startValue="0.0" transparency="255"/>
-  <region color="ffff00" endValue="100.0" label="Alert" startValue="90.0" transparency="255"/>
-  <region color="008000" endValue="200.0" label="Good" startValue="100.0" transparency="255"/>
+  <scale autoAdjustMajorTickMarks="true" majorTickMarksCount="5" max="110" min="0" minorTickMarksCount="4"/>
+  <region color="ff0000" endValue="45.0" label="Poor" startValue="0.0" transparency="255"/>
+  <region color="ffff00" endValue="85.0" label="Alert" startValue="45.0" transparency="255"/>
+  <region color="008000" endValue="110.0" label="Good" startValue="85.0" transparency="255"/>
   <thresholds isDashed="false" isTrendZone="false" length="40" lineWidth="4" markerRadius="4" showMarker="false" showValueOnTop="true" transparency="255"/>
   <ticks maxLabel="" minLabel="" placeTicksInside="false" placeValuesInside="false" showLimits="true" showTickMarks="true" showTickValues="true" ticksBelowGauge="true" ticksOnRight="false">
    <major height="8" width="1"/>
@@ -8699,116 +8936,74 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                             </structure>
                         </list-property>
                         <property name="inheritColumns">false</property>
-                        <list-property name="filter">
-                            <structure>
-                                <property name="operator">eq</property>
-                                <expression name="expr" type="javascript">row["MeasureName"]</expression>
-                                <simple-property-list name="value1">
-                                    <value type="javascript">"Learning &amp; Growth"</value>
-                                </simple-property-list>
-                                <property name="updateAggregation">true</property>
-                            </structure>
-                            <structure>
-                                <property name="operator">eq</property>
-                                <expression name="expr" type="javascript">row["CompName"]</expression>
-                                <simple-property-list name="value1">
-                                    <value type="javascript">"Target"</value>
-                                </simple-property-list>
-                                <property name="updateAggregation">true</property>
-                            </structure>
-                        </list-property>
-                        <property name="dataSet">OverallHealthPerspective</property>
+                        <property name="dataSet">TopLevelPerspective</property>
                         <property name="height">1.7in</property>
                         <property name="width">3in</property>
                         <list-property name="boundDataColumns">
                             <structure>
-                                <property name="name">MeasureLevel</property>
-                                <expression name="expression" type="javascript">dataSetRow["MeasureLevel"]</expression>
-                                <property name="dataType">integer</property>
-                            </structure>
-                            <structure>
-                                <property name="name">ParentMeasureName</property>
-                                <expression name="expression" type="javascript">dataSetRow["ParentMeasureName"]</expression>
-                                <property name="dataType">string</property>
-                            </structure>
-                            <structure>
                                 <property name="name">MeasureName</property>
+                                <text-property name="displayName">MeasureName</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["MeasureName"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">LocationLevel</property>
-                                <expression name="expression" type="javascript">dataSetRow["LocationLevel"]</expression>
-                                <property name="dataType">integer</property>
-                            </structure>
-                            <structure>
-                                <property name="name">ParentLocationName</property>
-                                <expression name="expression" type="javascript">dataSetRow["ParentLocationName"]</expression>
-                                <property name="dataType">string</property>
-                            </structure>
-                            <structure>
                                 <property name="name">LocationName</property>
+                                <text-property name="displayName">LocationName</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["LocationName"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
                                 <property name="name">PeriodName</property>
+                                <text-property name="displayName">PeriodName</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["PeriodName"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">BaseName</property>
-                                <expression name="expression" type="javascript">dataSetRow["BaseName"]</expression>
-                                <property name="dataType">string</property>
-                            </structure>
-                            <structure>
-                                <property name="name">BaseData</property>
-                                <expression name="expression" type="javascript">dataSetRow["BaseData"]</expression>
-                                <property name="dataType">float</property>
-                            </structure>
-                            <structure>
-                                <property name="name">CompName</property>
-                                <expression name="expression" type="javascript">dataSetRow["CompName"]</expression>
-                                <property name="dataType">string</property>
-                            </structure>
-                            <structure>
-                                <property name="name">CompData</property>
-                                <expression name="expression" type="javascript">dataSetRow["CompData"]</expression>
-                                <property name="dataType">float</property>
-                            </structure>
-                            <structure>
-                                <property name="name">CompVar</property>
-                                <expression name="expression" type="javascript">dataSetRow["CompVar"]</expression>
-                                <property name="dataType">float</property>
-                            </structure>
-                            <structure>
-                                <property name="name">CompVarPct</property>
-                                <expression name="expression" type="javascript">dataSetRow["CompVarPct"]</expression>
-                                <property name="dataType">float</property>
-                            </structure>
-                            <structure>
                                 <property name="name">CompIdx</property>
+                                <text-property name="displayName">CompIdx</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["CompIdx"]</expression>
                                 <property name="dataType">float</property>
                             </structure>
                             <structure>
                                 <property name="name">CompIdxRangeId</property>
+                                <text-property name="displayName">CompIdxRangeId</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["CompIdxRangeId"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
                                 <property name="name">CompIdxColor</property>
+                                <text-property name="displayName">CompIdxColor</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["CompIdxColor"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
                                 <property name="name">CompTxtColor</property>
+                                <text-property name="displayName">CompTxtColor</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["CompTxtColor"]</expression>
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
                                 <property name="name">Id</property>
-                                <expression name="expression">dataSetRow["Id"]</expression>
+                                <text-property name="displayName">Id</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">CompName</property>
+                                <text-property name="displayName">CompName</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["CompName"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                            <structure>
+                                <property name="name">MeasureLevel</property>
+                                <text-property name="displayName">MeasureLevel</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureLevel"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationLevel</property>
+                                <text-property name="displayName">LocationLevel</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationLevel"]</expression>
                                 <property name="dataType">integer</property>
                             </structure>
                         </list-property>
@@ -9786,16 +9981,6 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAD0HAA
                                 <text-property name="displayName">Id</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
                                 <property name="dataType">integer</property>
-                            </structure>
-                        </list-property>
-                        <list-property name="filter">
-                            <structure>
-                                <property name="operator">eq</property>
-                                <expression name="expr" type="javascript">row["CompName"]</expression>
-                                <simple-property-list name="value1">
-                                    <value type="javascript">"Target"</value>
-                                </simple-property-list>
-                                <property name="updateAggregation">true</property>
                             </structure>
                         </list-property>
                         <column id="259">
