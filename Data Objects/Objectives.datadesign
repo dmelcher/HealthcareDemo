@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
+    <data-sources>
+        <oda-data-source extensionID="com.actuate.ais.oda" name="National Healthcare Scorecard" id="2">
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>UsingLocalIOs</name>
+                    <value>false</value>
+                </ex-property>
+            </list-property>
+            <property name="ServerUri">http://actuateone:8000</property>
+            <property name="Volume">ScorecardVolume</property>
+            <property name="UserName">National Healthcare/sysadmin</property>
+            <encrypted-property name="Password" encryptionID="jce">f3e795629001dbfacaab65efdde92e0b</encrypted-property>
+            <property name="UseLoggedInUserCredentialsOnServer">Yes</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="Views" id="4">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Id</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Name</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">National Healthcare Scorecard</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Id</property>
+                    <property name="nativeName">Id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Name</property>
+                    <property name="nativeName">Name</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[SELECT ObjectList.Id AS Id, ObjectList.Name AS Name
+
+FROM "Public/Scorecard/Information Objects/ObjectList.iob"['View'] AS ObjectList]]></xml-property>
+            <structure name="designerState">
+                <property name="version">11.0.0.0</property>
+                <property name="stateContentAsBlob">
+                    UEsDBBQACAAIAIdmVUEAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
+Mz
+                    FcUXVlcnlGaWxlLmlvYmV45VZbT9swFH6ftP9gGQ1eRkw7aZpKA2MIpmrcRFk1adqDG5+mZokd
+HIe2
+                    /37HiXOhXAaaeNpL43Pxdy7f8VGH+8s0IbdgcqlVSHvBDiWgIi2kikP6/ep4+xPd33v7Zhjp
+NOCRLb
+                    iFQOa2EFIHUosg1QKSwWikZvp8eg2RJctUDhrAvgPEECofoD6kc2uzAWOLxSLQaRxoE7Mf
+p6Pa5ckg
+                    zWWGbsy7Me/G0I2VbgFE2gAlNwWYVUjHRydHh1ekyu0EvYORIAdjMhLvu8oznoJTu+/m
+xvJgt/w5vj
+                    w/JZs3hba7F8U0kREbO/CIG8FcxSblFsv0QDnrAEo9rS7+3JpIWGz9cuitnRJeWP3V
+6CLDTh8pPk1A
+                    hNSaAlPv0NGj2HxCsP1Jkaq8FFqRCG751SqDkI6UhRgMJZFWlksFJqSMEoX1oFFQ
+ImSeJXx1Aiq285
+                    Bu9zCFODYQYxdDeqYVBp7z/KxIkjqPCE2xNqsL7m4w6qNj/ARLOJ9NeFJAzlq1
+kLMZGFD22Oj0grtT
+                    Y0Tzbem/dyeTIfPaBoQ9hTLMdWEiINUHk2Kfq2PeHNzE/QakPkKq6b34ZG5g
+FtKn+HzX33mY0Q0M51
+                    vfHDBcpwOsSqLmif2Vtwk30Zw/wpubxv+TubLy1+eu91zu1qSMG0zQ4jsl
+7TGkHm1otLaHngJP5SWq
+                    6PoYNK+TPWwpu+AxWRe0UgmZgnKbwjM5nMnEJeIl39Ua2ouEJ5Jjrt1d
+tAzph499SrD1vf4OvcfZP7
+                    W9LY51M1qTYrcKv6zq3Of8FvdiLV1r2dTY9HsM1jqfGv2egcAyM5BX
+q9Qt4U5hjfOz5jELsKhvUonX
+                    Gct2hLrntcXSGF76aNsuvOjFdiLe6fSj+lwbW5Lk3soz/yyg9x9Q
+SwcIrxqxl5kCAACCCAAAUEsDBB
+                    QACAAIAIdmVUEAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90
+ZW1wXzEzNTA3NDQ5MDY5MzFcLnBy
+                    b2plY3SFkVtLAzEQhZ8V/A9l3012ab0U0i1qEXxefS5pMpTI
+5mIyEX++SZpVVhHf5hy+M3NI2PZDj4
+                    t38EFZs2k60jYLMMJKZY6b5uX58fK22fYX58x5+woCdxCE
+Vw4TndwzZriG/u5p2HHkA+AeQbt9t7xq
+                    b1ardXu9XnaMFibDwmoNBntGpym7dXMogs7UIapRDg5E
+VlU+pCg3sjj1ftpGuMDIEYgKGKWyxEpOEu
+                    rUCPc5Bv67SMpxf4y5Qaiazg1Gf96qzlQmHcboodIn
+8WcPYX0y7NvhxOUihf8vW3LV/B2d5tzh693m
+                    //MJUEsHCNhTML/oAAAA3gEAAFBLAQIUABQACAAI
+AIdmVUGvGrGXmQIAAIIIAAAtAAAAAAAAAAAAAA
+                    AAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDc0
+NDkwNjkzMVxRdWVyeUZpbGUuaW9iZXhQSwECFAAU
+                    AAgACACHZlVB2FMwv+gAAADeAQAAJgAAAAAA
+AAAAAAAAAAD0AgAAQUlTRGF0YVNldF90ZW1wXzEzNT
+                    A3NDQ5MDY5MzFcLnByb2plY3RQSwUGAAAA
+AAIAAgCvAAAAMAQAAAAA
+
+                </property>
+            </structure>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets>
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria>
+        <design:rowOrdering/>
+      </design:criteria>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="CalcDataFromView" id="12">
+            <list-property name="computedColumns">
+                <structure>
+                    <property name="name">MyDate</property>
+                    <expression name="expression" type="javascript">new Date(row["PeriodName"] + "/01")</expression>
+                    <property name="dataType">date</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">MeasureLevel</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ParentMeasureName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MeasureName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationLevel</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ParentLocationName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">BaseName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">BaseData</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompName</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompData</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompVar</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompVarPct</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdx</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdxRangeId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompIdxColor</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompTxtColor</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompName_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationName_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MeasureName_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodName_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">BaseName_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">BaseData_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CompData_1</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MeasureID</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationID</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodID</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MyDate</property>
+                    <property name="analysis">dimension</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+            </list-property>
+            <list-property name="filter">
+                <structure>
+                    <property name="operator">eq</property>
+                    <expression name="expr" type="javascript">row["CompName_1"]</expression>
+                    <simple-property-list name="value1">
+                        <value type="javascript">"Target"</value>
+                    </simple-property-list>
+                    <property name="isOptional">false</property>
+                    <property name="extensionName">com.actuate.data.oda.ais.dynamicResultSetExtension</property>
+                    <property name="extensionExprId">1001</property>
+                    <property name="pushDown">true</property>
+                </structure>
+            </list-property>
+            <list-property name="parameters">
+                <structure>
+                    <property name="name">ViewName</property>
+                    <property name="paramName">View</property>
+                    <property name="nativeName">ViewName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                    <property name="position">0</property>
+                    <property name="isOptional">false</property>
+                    <property name="isInput">true</property>
+                    <property name="isOutput">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">MeasureLevel</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">ParentMeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">MeasureName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">LocationLevel</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">ParentLocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">LocationName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">PeriodName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">BaseName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">BaseData</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">CompName</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">CompData</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">CompVar</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">CompVarPct</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">CompIdx</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">CompIdxRangeId</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">CompIdxColor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">CompTxtColor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">CompName_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">LocationName_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">MeasureName_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">PeriodName_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">BaseName_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">BaseData_1</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">CompData_1</property>
+                        <property name="dataType">float</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">MeasureID</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">LocationID</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">PeriodID</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">MyDate</property>
+                        <property name="dataType">date</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">National Healthcare Scorecard</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">MeasureLevel</property>
+                    <property name="nativeName">MeasureLevel</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">ParentMeasureName</property>
+                    <property name="nativeName">ParentMeasureName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">MeasureName</property>
+                    <property name="nativeName">MeasureName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">LocationLevel</property>
+                    <property name="nativeName">LocationLevel</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">ParentLocationName</property>
+                    <property name="nativeName">ParentLocationName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">LocationName</property>
+                    <property name="nativeName">LocationName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">PeriodName</property>
+                    <property name="nativeName">PeriodName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">BaseName</property>
+                    <property name="nativeName">BaseName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">BaseData</property>
+                    <property name="nativeName">BaseData</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">CompName</property>
+                    <property name="nativeName">CompName</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">CompData</property>
+                    <property name="nativeName">CompData</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">CompVar</property>
+                    <property name="nativeName">CompVar</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">CompVarPct</property>
+                    <property name="nativeName">CompVarPct</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">CompIdx</property>
+                    <property name="nativeName">CompIdx</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">CompIdxRangeId</property>
+                    <property name="nativeName">CompIdxRangeId</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">CompIdxColor</property>
+                    <property name="nativeName">CompIdxColor</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">CompTxtColor</property>
+                    <property name="nativeName">CompTxtColor</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">CompName_1</property>
+                    <property name="nativeName">CompName_1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">LocationName_1</property>
+                    <property name="nativeName">LocationName_1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">MeasureName_1</property>
+                    <property name="nativeName">MeasureName_1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">PeriodName_1</property>
+                    <property name="nativeName">PeriodName_1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">BaseName_1</property>
+                    <property name="nativeName">BaseName_1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">BaseData_1</property>
+                    <property name="nativeName">BaseData_1</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">CompData_1</property>
+                    <property name="nativeName">CompData_1</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">MeasureID</property>
+                    <property name="nativeName">MeasureID</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">LocationID</property>
+                    <property name="nativeName">LocationID</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">PeriodID</property>
+                    <property name="nativeName">PeriodID</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[WITH (ViewName Varchar) 
+
+SELECT HierarchicalCalcDataFromView.MeasureLevel AS MeasureLevel, 
+HierarchicalCalcDataFromView.ParentMeasureName AS ParentMeasureName, CalcDataFromView.MeasureName 
+AS MeasureName, HierarchicalCalcDataFromView.LocationLevel AS LocationLevel, 
+HierarchicalCalcDataFromView.ParentLocationName AS ParentLocationName, 
+CalcDataFromView.LocationName AS LocationName, CalcDataFromView.PeriodName AS PeriodName, 
+CalcDataFromView.BaseName AS BaseName, CalcDataFromView.BaseData AS BaseData, 
+CalcDataFromView.CompName AS CompName, CalcDataFromView.CompData AS CompData, 
+CalcDataFromView.CompVar AS CompVar, CalcDataFromView.CompVarPct AS CompVarPct, 
+CalcDataFromView.CompIdx AS CompIdx, CalcDataFromView.CompIdxRangeId AS CompIdxRangeId, 
+CalcDataFromView.CompIdxColor AS CompIdxColor, CalcDataFromView.CompTxtColor AS CompTxtColor, 
+HierarchicalCalcDataFromView.CompName AS CompName_1, HierarchicalCalcDataFromView.LocationName AS 
+LocationName_1, HierarchicalCalcDataFromView.MeasureName AS MeasureName_1, 
+HierarchicalCalcDataFromView.PeriodName AS PeriodName_1, HierarchicalCalcDataFromView.BaseName AS 
+BaseName_1, HierarchicalCalcDataFromView.BaseData AS BaseData_1, 
+HierarchicalCalcDataFromView.CompData AS CompData_1, ObjectList.Id AS MeasureID, ObjectList_1.Id AS 
+LocationID, ObjectList_2.Id AS PeriodID
+
+FROM "Public/Scorecard/Information Objects/CalcDataFromView.iob"[:ViewName, 'All Measures', 'True'] 
+AS CalcDataFromView
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
+(CalcDataFromView.MeasureName=ObjectList.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_1 ON 
+(CalcDataFromView.LocationName=ObjectList_1.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList_2 ON 
+(CalcDataFromView.PeriodName=ObjectList_2.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, '', 
+'', '5', '5'] AS HierarchicalCalcDataFromView ON 
+(CalcDataFromView.MeasureName=HierarchicalCalcDataFromView.MeasureName AND 
+CalcDataFromView.LocationName=HierarchicalCalcDataFromView.LocationName AND 
+CalcDataFromView.BaseName=HierarchicalCalcDataFromView.BaseName AND 
+CalcDataFromView.CompName=HierarchicalCalcDataFromView.CompName AND 
+CalcDataFromView.PeriodName<>HierarchicalCalcDataFromView.PeriodName ) ]]></xml-property>
+            <structure name="designerState">
+                <property name="version">11.0.0.0</property>
+                <property name="stateContentAsBlob">
+                    UEsDBBQACAAIAD1aekIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5
+Nj
+                    RcUXVlcnlGaWxlLmlvYmV47Vxtb9s2EP4+YP+BYLGmBVorfknaplG7NC+rt9TOEi8bMAyBItG2
+Wll0
+                    KSlx/v1ISZQoy6JlW5Kbql8SkTzeHe/hHd99+H42scAdIo6JbRU2G7sQIFvHhmmPVPjX4Ozl
+a/j+3c
+                    8/Hep40tB019Nc1DAd1zNM3DCx0ZhgA1kH3a49xP3bz0h3wWxiHkQMW4whFWE7BzRfhWPX
+nR4oyv39
+                    fQNPRg1MRso/n7qcRCokqqxQMiUkU0IyhZIpPlkD6ZggCL56iDyo8O/u4CN4dm2i+542
+QeBaI/pYI8
+                    /B0yezo7f+n6vT89PjAfhoIsIKTV2zjjVLP9Fc7YzgCava+IQ0xyPoHN0hCxxdATH9
+IuAlrX+hEWS7
+                    YS1fEcoklfkCZAn2q/hiYuFBDanYc6xrLsUh0juRkV9xXi2puZgb8srUgNdM1kmL
+Q4QCGYmJUlnsP2
+                    hOZE7+vYAtK2IZnIx9Z7E8xpMpZ8m/F7BkRZwl/5axpB2Pk9LPDIa05IJ6UExH
+UzKmXWPGielnBlNa
+                    cqnZI9Q1BNowZwnzY2xhItTy0xliBjM3Qc7TeXrZIpvfNHN2bl7RFyNmLuUw
+549CklXN4RwZvXWpYL
+                    Hb+mJ4Rq6a8z05n7KLOiyrGUTtcxpHG0EPCc3QPRHLbpphacLKczStkCaw
+RPckjrFnl/1P4OlXD7tv
+                    L7xby9SVKxaldY0YChs6yMTnFzJzlJT2Jr4Nqv97wGP5C7BzZFlcXWeH
+pgfEQzv/RYFynoufD7q93u
+                    klAL/3u71VVBLsFCuzE0qnQqm8mAT0e4EWz2SdThV4+t0hHJaKVZGD
+Na/jTVOipehHaqIblKdo0G1S
+                    arYkasY+pyb6YRFKSr1pcX/cCR2RfezsBX/85sh45ewr+SNZ7yTH
+YCznl4ytmQx52JIzi6NdJiMe9O
+                    WM4mEik1HcIZ5a7tt3ecP3cwCB5rn4N4K9KZ36ntrarYUMFbo0
+okBxftyEdDYMAJ0PW97EdvxEnAQG
+                    FTB4mCIVdm0XjRCBQMe2q5k2IipUILBZK6E4f4TAMJ2ppT2c
+I3vkjlX4skmVGY0IGtEJrgp72KYqjD
+                    Wn51kW14jCg0aYPFxorIYCQz2oJhb1gP7wWrM85ChxtmEO
+h4jN2ljzg/lbVEiL73z6dwlNDpUwN2Ki
+                    yLgcOtgjOgLBP6qU8mvw6UQf1HrgC6Kzcj0xo4YpTcCY
+oKEKZX76S2s3r6c+oaqEAEUfdF0iWEcJFO
+                    RoKkvRDdcRi9FNTezrCXHaDNvAuVkezjVFeHfeiYvA
+tiK/lUblxOq4TojGPps0wTb8tV12XBbnNvUE
+                    eYEdtoF0pzyk64rxbsqRK43NJY618WS9nngK7a8K
+zVZ5aPIlYT2xjFpfFZKbjaknmKqDsoFkKtQXSL
+                    /1VQFZ4pDJN1fqiWTU+qqQ3CvNJfnmfn2BrNQl
+90sF8pq5a11xZI2vCsZXZcN4obu1RpK1vyowX5cK
+                    ZteY1RdJ1viqYHxT7mwnvgZRazi5DSrbJCjx
+5EW8p1JrUAMLVAZpiRs/4l2i+kIaWaAySEvc/YmveN
+                    UJ0Gbhi821dt1LHFSTl+/qie3WT1U221jI
+e95dV3i3fZuhxKgs3l+tJ7jFnbGshe1mO0m5zlvqimxR
+                    Jy5r4Vre1lJ8A7y+sBax2bsWrOVuMtUZ
+1qL28Ne7L1jiBbPoaUWdcG1FuG6+yZR8OLCt+4H1wq/93e
+                    DH3yXVCb3ON4reXGqqEQqRi0iEbZwD
+DDTUPMv1LaxCCAj66pkkfp6xYBLst45p+mfwDJh3Af5YB4KI
+                    f1DzypxMLVQUqknxq8JqmfaXAc41
+WE4bUYsqGCxjTMTvOdAD7SPQ55BNZxCM3ePQuUKULmkWnHfyBS
+                    9nlMU06YcHGYQ5SJIXoqUCE1s/
+S9jJaIRlaAZFtJyRlPsTqIzyaANSUr6sPjuclxezE18JBTtJlBfz
+                    kyk5VbAvLqGJ9s6XWOOmmQe1
+bKrk9thScLNphNX6EoCzKYQ1hFxdOhwuaXU2RTSgKqFvi74cZBnmBN
+                    ns8VwYRA+HpuUHkCAVxjPO
+PkwCzTI1hzZiLg5BMFPhqz0IaORr03/3psEG49YeDYdjZI7GLs3vvBKi
+                    eDhCFnBGEttAkSstC6R+
+AzphC5r7cQs6bbEFbzZswfJYnrs18Zgf6N5+4+ve2W9uqOP8ZGINjdj6mO
+                    rUau0HOjVb34BOLV+n
+9l5opk07Y06V5lIj9o71wwP3srF2Z9ojnvqMzXgK7ScACXpexkzDQsOMwl2h
+                    dXTGbZhM+3iek8j1
+2ZzOpiTt14lt9UCZgDDvo2dhApJbZvKNSF6hCwfwFaTGN9/zSkwN9itIiy/15p
+                    WWmhqsIE18o5FX
+nlgHTymh6z+09l9vJ6aVqe51qKzWkTtVdOQME6R+nKDYprWraFqmv6R+HqLYxrW2
+                    GYDmfqEjf8sS
+39GS5wq5LovEqUUuLwCIikVO8GsDB+m1XVwj1+WR4paHGy0Jo4JV19GxNVZaQwsSV7
+                    O4+IMyGxj9
+zJ/jbsHszcdpdva7PRuYOwi6fdt6qNjcrcdp7vXjyje87fRorL+B0YuLKxuYXR5jtmGW
+                    au9trBUL
+1jbL3gZ26XmTW0T6Q3HP1NmiidqP02GLgCCxjbxNDDqPE4OwC6+MRCtCgtruD9MuJEqkz8
+                    G+rxGK
+d9aVrd3+Ye3VrR2MXivbuvPD1ilbZ+Y7mLj+9idbtef8IWtK/T9QSwcI60z0fN8HAAAeWwAA
+                    UEsD
+BBQACAAIAD1aekIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5Nj
+                    Rc
+LnByb2plY3R1kE9PAjEQxc+S+B3I3m0BV8WkLBEJiefVMynthNRs/9hOjR+fthTJmnjre/nNmzdl
+                    
+6x89TL/BB2XNqpmTWTMFI6xU5rhqPt53d8tm3d1OmPP2EwRuIQivHCY6uTfMcA3dy1u/5ch7wD2C
+
+                    dvv5/cNi2c4WT+3zY8toYTIsrNZgsGP08spuTQ5F0JE6RDXI3oHIqsrXNMqNLE7dn9IIFxg5AlEB
+o1
+                    SWWMlJQp0aYJPHwF+LpDnujzE3CFXTscHo313VuZRJizF6qPRZ/NtDWJ8M+3U4c7lI4UvsNej3
++PEn
+                    nwBQSwcI1zqHo+EAAACjAQAAUEsBAhQAFAAIAAgAPVp6QutM9HzfBwAAHlsAAC0AAAAAAAAA
+AAAAAA
+                    AAAAAAAEFJU0RhdGFTZXRfdGVtcF8xMzUyODQwMjc0OTY0XFF1ZXJ5RmlsZS5pb2JleFBL
+AQIUABQA
+                    CAAIAD1aekLXOoej4QAAAKMBAAAmAAAAAAAAAAAAAAAAADoIAABBSVNEYXRhU2V0X3Rl
+bXBfMTM1Mj
+                    g0MDI3NDk2NFwucHJvamVjdFBLBQYAAAAAAgACAK8AAABvCQAAAAA=
+
+                </property>
+            </structure>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <DataSetParameters>
+    <parameter>
+      <design:ParameterDefinition>
+        <design:inOutMode>In</design:inOutMode>
+        <design:attributes>
+          <design:identifier>
+            <design:name>ViewName</design:name>
+          </design:identifier>
+          <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+          <design:uiHints/>
+        </design:attributes>
+        <design:inputAttributes>
+          <design:elementAttributes>
+            <design:editable>true</design:editable>
+            <design:optional>false</design:optional>
+            <design:masksValue>false</design:masksValue>
+            <design:uiHints>
+              <design:promptStyle>TextField</design:promptStyle>
+              <design:autoSuggestThreshold>1</design:autoSuggestThreshold>
+            </design:uiHints>
+          </design:elementAttributes>
+        </design:inputAttributes>
+        <design:outputUsageHints>
+          <design:formattingHints/>
+        </design:outputUsageHints>
+      </design:ParameterDefinition>
+    </parameter>
+  </DataSetParameters>
+  <design:ResultSets>
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>MeasureName</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>LocationName</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>PeriodName</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>BaseName</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>BaseData</design:name>
+              <design:position>5</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>8</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompName</design:name>
+              <design:position>6</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompData</design:name>
+              <design:position>7</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>8</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompVar</design:name>
+              <design:position>8</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>8</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompVarPct</design:name>
+              <design:position>9</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>8</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompIdx</design:name>
+              <design:position>10</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>8</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompIdxRangeId</design:name>
+              <design:position>11</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompIdxColor</design:name>
+              <design:position>12</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>CompTxtColor</design:name>
+              <design:position>13</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria>
+        <design:rowOrdering/>
+      </design:criteria>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>Last Data Source Used</name>
+                    <value>Published</value>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+    </data-sets>
+    <parameters>
+        <scalar-parameter name="View" id="6">
+            <property name="valueType">dynamic</property>
+            <property name="isRequired">true</property>
+            <property name="dataSetName">Views</property>
+            <expression name="valueExpr" type="javascript">dataSetRow["Name"]</expression>
+            <expression name="labelExpr" type="javascript">dataSetRow["Name"]</expression>
+            <property name="dataType">string</property>
+            <property name="distinct">true</property>
+            <simple-property-list name="defaultValue">
+                <value type="constant">Overall Health</value>
+            </simple-property-list>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">false</property>
+            <property name="fixedOrder">true</property>
+            <property name="autoSuggestThreshold">1</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+    </parameters>
+</datamart>
