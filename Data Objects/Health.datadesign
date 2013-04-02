@@ -1922,7 +1922,15 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="levels">
                                 <tabular-level name="Age Band" id="119">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="alignment">left</property>
+                                    <list-property name="action">
+                                        <structure>
+                                            <property name="linkType">hyperlink</property>
+                                            <expression name="uri" type="constant">http://win2k8svr01/qfrontend/client/main.aspx</expression>
+                                            <property name="targetWindow">_blank</property>
+                                        </structure>
+                                    </list-property>
                                     <property name="columnName">Age Numeric</property>
                                 </tabular-level>
                                 <tabular-level name="Age" id="118">
