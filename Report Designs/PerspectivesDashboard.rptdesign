@@ -80,7 +80,7 @@ FROM "Public/Scorecard/Information Objects/ObjectList.iob"['View'] AS ObjectList
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAIdmVUEAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
+                                    UEsDBBQACAAIAGiigkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
 Mz
                                     FcUXVlcnlGaWxlLmlvYmV45VZbT9swFH6ftP9gGQ1eRkw7aZpKA2MIpmrcRFk1adqDG5+mZokd
 HIe2
@@ -106,24 +106,24 @@ tAzph499SrD1vf4OvcfZP7
 q9Qt4U5hjfOz5jELsKhvUonX
                                     Gct2hLrntcXSGF76aNsuvOjFdiLe6fSj+lwbW5Lk3soz/yyg9x9Q
 SwcIrxqxl5kCAACCCAAAUEsDBB
-                                    QACAAIAIdmVUEAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90
+                                    QACAAIAGiigkIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90
 ZW1wXzEzNTA3NDQ5MDY5MzFcLnBy
-                                    b2plY3SFkVtLAzEQhZ8V/A9l3012ab0U0i1qEXxefS5pMpTI
-5mIyEX++SZpVVhHf5hy+M3NI2PZDj4
-                                    t38EFZs2k60jYLMMJKZY6b5uX58fK22fYX58x5+woCdxCE
-Vw4TndwzZriG/u5p2HHkA+AeQbt9t7xq
-                                    b1ardXu9XnaMFibDwmoNBntGpym7dXMogs7UIapRDg5E
-VlU+pCg3sjj1ftpGuMDIEYgKGKWyxEpOEu
-                                    rUCPc5Bv67SMpxf4y5Qaiazg1Gf96qzlQmHcboodIn
-8WcPYX0y7NvhxOUihf8vW3LV/B2d5tzh693m
-                                    //MJUEsHCNhTML/oAAAA3gEAAFBLAQIUABQACAAI
-AIdmVUGvGrGXmQIAAIIIAAAtAAAAAAAAAAAAAA
-                                    AAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDc0
-NDkwNjkzMVxRdWVyeUZpbGUuaW9iZXhQSwECFAAU
-                                    AAgACACHZlVB2FMwv+gAAADeAQAAJgAAAAAA
-AAAAAAAAAAD0AgAAQUlTRGF0YVNldF90ZW1wXzEzNT
-                                    A3NDQ5MDY5MzFcLnByb2plY3RQSwUGAAAA
-AAIAAgCvAAAAMAQAAAAA
+                                    b2plY3R1kE9LAzEQxc8Kfoeyd5NdWrWFdEtrETyvnkuaDCWy
++WMyET++SZpaVvCW9/jNmzdhm289zr
+                                    7AB2XNuulI28zACCuVOa2b97eX+2Wz6e9umfP2AwTuIQiv
+HCY6uTfMcA399nXYc+QD4AFBu0M3f2if
+                                    FotV+7iad4wWJsPCag0Ge0Yvr+zW5FAEnahjVKMcHIis
+qnxOo9zI4tT9KY1wgZEjEBUwSmWJlZwk1K
+                                    kRdnkM/LVImuP+FHODUDWdGoz+3VWdS5m0GKOHSp/F
+vz2E9cmwn8czl4sUvsReg36Pn37yD1BLBwiA
+                                    JJuV4AAAAKMBAABQSwECFAAUAAgACABoooJCrxqx
+l5kCAACCCAAALQAAAAAAAAAAAAAAAAAAAAAAQU
+                                    lTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5MzFc
+UXVlcnlGaWxlLmlvYmV4UEsBAhQAFAAIAAgAaKKC
+                                    QoAkm5XgAAAAowEAACYAAAAAAAAAAAAAAAAA
+9AIAAEFJU0RhdGFTZXRfdGVtcF8xMzUwNzQ0OTA2OT
+                                    MxXC5wcm9qZWN0UEsFBgAAAAACAAIArwAA
+ACgEAAAAAA==
 
                                 </property>
                             </structure>
@@ -182,6 +182,344 @@ AAIAAgCvAAAAMAQAAAAA
     </design:resultSetDefinitions>
   </design:ResultSets>
 </model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>Last Data Source Used</name>
+                                    <value>Published</value>
+                                </ex-property>
+                            </list-property>
+                        </oda-data-set>
+                        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="Location" id="23">
+                            <list-property name="columnHints">
+                                <structure>
+                                    <property name="columnName">Id</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">true</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Name</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">true</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                            </list-property>
+                            <list-property name="parameters"/>
+                            <structure name="cachedMetaData">
+                                <list-property name="resultSet">
+                                    <structure>
+                                        <property name="position">1</property>
+                                        <property name="name">Id</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                            </structure>
+                            <property name="dataSource">Healthcare Scorecard</property>
+                            <list-property name="resultSet">
+                                <structure>
+                                    <property name="position">1</property>
+                                    <property name="name">Id</property>
+                                    <property name="nativeName">Id</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">2</property>
+                                    <property name="name">Name</property>
+                                    <property name="nativeName">Name</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">12</property>
+                                </structure>
+                            </list-property>
+                            <xml-property name="queryText"><![CDATA[SELECT ObjectList.Id AS Id, ObjectList.Name AS Name
+
+FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList]]></xml-property>
+                            <structure name="designerState">
+                                <property name="version">11.0.0.0</property>
+                                <property name="stateContentAsBlob">
+                                    UEsDBBQACAAIAD2dgkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
+Mz
+                                    FcUXVlcnlGaWxlLmlvYmV45VZLTxsxEL5X6n+wjAqXsiapVFUhC6UIqqjhIUJRpaoHZz3ZmO7a
+i9cb
+                                    kn/f8a73QXgUVHHqJet5eOab+cajDPeXaUIWYHKpVUh7wQ4loCItpIpD+v3yePsT3d97+2YY
+6TTgkS
+                                    24hUDmthBSB1KLINUCksFopGb6bHoNkSXLVA6agH0XEFOofID6kM6tzQaM3d7eBjqNA21i
+9uNkVLs8
+                                    maS5zNCNeTfm3Ri6sdItgEgboOSmALMK6eRofHR4SSpsY/QORoIcTMhIvO8qT3kKTu2+
+mxvLg93y5/
+                                    ji7IRs3hTa7p4X00RGbOKCR9wI5io2KbdYpg+Us05AqafVxZ9bYx2Vblu/XIbWhxJe
+WP3V6CLDbh8p
+                                    Pk1AhNSaAuF3KOlRJIAQpCApUpWXQisSwS2/XGUQ0pGyEIOhJNLKcqnAhJRRorAm
+NApKhMyzhK/GoG
+                                    I7D+l2DyHEsYEYOxnSU60w8Zznp0WS1DgQOsTarM65u8Goz475EyzhbHbFkwJy
+1qqFnM3AgLLHRqfn
+                                    3J0aI5oXpf/eHSRD5rVNEPZUlGGuCxMBqT4Iin2ujnlzcFP3G5D+COmm9/KT
+uYFZSJ/i9F1/52FWNz
+                                    Cdb31zwHSdDrAKRM0T+ytvV9xEc/4Ib24i/0/myspfn7vec7lbkzJuEKDF
+d0raY0h9tKHR2h56CjyV
+                                    F6ii62PQvE72sKXsgo/JukErlZApKLcpPJPDmUwcEC/5rtahvUh4Ijli
+7e6iZUg/fOxTgq3v9XfoPc
+                                    7+qe1tcayLaE2K3Sr8sqqxz/kC92ItXWvZ1Nj0ewLWOp86+j0DgWVm
+IK9Wab2IO8U1F541k1mAhX2T
+                                    SrzOaLZj1D2vLZfG8NKH23biRa+2k/FOtx/V59rYkij3Xp75pwG9
+/wBQSwcIm/l7dpwCAACKCAAAUE
+                                    sDBBQACAAIAD2dgkIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNl
+dF90ZW1wXzEzNTA3NDQ5MDY5MzFc
+                                    LnByb2plY3R1kE9LAzEQxc8Kfoeyd5NdWrWFdEtrETyvnkua
+DCWy+WMyET++SZpaVvCW9/jNmzdhm2
+                                    89zr7AB2XNuulI28zACCuVOa2b97eX+2Wz6e9umfP2AwTu
+IQivHCY6uTfMcA399nXYc+QD4AFBu0M3
+                                    f2ifFotV+7iad4wWJsPCag0Ge0Yvr+zW5FAEnahjVKMc
+HIisqnxOo9zI4tT9KY1wgZEjEBUwSmWJlZ
+                                    wk1KkRdnkM/LVImuP+FHODUDWdGoz+3VWdS5m0GKOH
+Sp/Fvz2E9cmwn8czl4sUvsReg36Pn37yD1BL
+                                    BwiAJJuV4AAAAKMBAABQSwECFAAUAAgACAA9nYJC
+m/l7dpwCAACKCAAALQAAAAAAAAAAAAAAAAAAAA
+                                    AAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
+MzFcUXVlcnlGaWxlLmlvYmV4UEsBAhQAFAAIAAgA
+                                    PZ2CQoAkm5XgAAAAowEAACYAAAAAAAAAAAAA
+AAAA9wIAAEFJU0RhdGFTZXRfdGVtcF8xMzUwNzQ0OT
+                                    A2OTMxXC5wcm9qZWN0UEsFBgAAAAACAAIA
+rwAAACsEAAAAAA==
+
+                                </property>
+                            </structure>
+                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets>
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria>
+        <design:rowOrdering/>
+      </design:criteria>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>Last Data Source Used</name>
+                                    <value>Published</value>
+                                </ex-property>
+                            </list-property>
+                        </oda-data-set>
+                        <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="Period" id="24">
+                            <list-property name="columnHints">
+                                <structure>
+                                    <property name="columnName">Id</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">true</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">Name</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">true</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                            </list-property>
+                            <list-property name="parameters"/>
+                            <structure name="cachedMetaData">
+                                <list-property name="resultSet">
+                                    <structure>
+                                        <property name="position">1</property>
+                                        <property name="name">Id</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">2</property>
+                                        <property name="name">Name</property>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                            </structure>
+                            <property name="dataSource">Healthcare Scorecard</property>
+                            <list-property name="resultSet">
+                                <structure>
+                                    <property name="position">1</property>
+                                    <property name="name">Id</property>
+                                    <property name="nativeName">Id</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">2</property>
+                                    <property name="name">Name</property>
+                                    <property name="nativeName">Name</property>
+                                    <property name="dataType">string</property>
+                                    <property name="nativeDataType">12</property>
+                                </structure>
+                            </list-property>
+                            <xml-property name="queryText"><![CDATA[SELECT ObjectList.Id AS Id, ObjectList.Name AS Name
+
+FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList]]></xml-property>
+                            <structure name="designerState">
+                                <property name="version">11.0.0.0</property>
+                                <property name="stateContentAsBlob">
+                                    UEsDBBQACAAIAFqdgkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA3NDQ5MDY5
+Mz
+                                    FcUXVlcnlGaWxlLmlvYmV45VZbT9swFH6ftP9gGQ1eRkw7aZpKA2MIpmpcKsrQpGkPbnyamiV2
+cJzS
+                                    /vsdJ86Fchlo4mkvjc/F37l8x0cd7i/ThCzA5FKrkPaCHUpARVpIFYf0++Xx9ie6v/f2zTDS
+acAjW3
+                                    ALgcxtIaQOpBZBqgUkg9FIzfT59BoiS5apHDSAfQeIIVQ+QH1I59ZmA8Zub28DncaBNjH7
+cTqqXZ4M
+                                    0lxm6Ma8G/NuDN1Y6RZApA1QclOAWYV0cnRydHhJqtxO0DsYCXIwISPxvqs84yk4tftu
+biwPdsuf44
+                                    vzU7J5U2i7Oy6miYzYxIFH3AjmKjYpt1imB8pZB1DqaXXx59YYDGa39cvhtx6U8MLq
+r0YXGfb6SPFp
+                                    AiKk1hSYfIeQHsX2E4IEJEWq8lJoRSK45ZerDEI6UhZiMJREWlkuFZiQMkoUVoRG
+QYmQeZbw1Qmo2M
+                                    5Dut3DFOLYQIx9DOmZVhh4zvOzIknqPCI0xdqsxtzdYNRHx/gJlnA+u+JJATlr
+1ULOZmBA2WOj0zF3
+                                    p8aI5kXpv3cnkyHz2gaEPYUyzHVhIiDVB5Nin6tj3hzczP0GJD9Csum9+GRu
+YBbSpxh91995mNMNDO
+                                    db3xwwXKcDrEqi5on9lbcrbqI5f4Q3N4//J3Nl5a/PXe+53K1JGTeYoMV3
+StpjSD3a0GhtDz0FnsoL
+                                    VNH1MWheJ3vYUnbBY7IuaKUSMgXlNoVncjiTiUvES76rNbQXCU8kx1y7
+u2gZ0g8f+5Rg63v9HXqPs3
+                                    9qe1sc62a0JsVuFX5Z1bnP+QL3Yi1da9nU2PR7AtY6nxr9noHAMjOQ
+V6u0WsOd0hr3Z01kFmBZ36QS
+                                    rzOY7RB1z2urpTG89Nm2fXjRm+1EvNPrR/W5Nrakyb2WZ/5hQO8/
+UEsHCIbJgjaaAgAAhggAAFBLAw
+                                    QUAAgACABanYJCAAAAAAAAAAAAAAAAJgAAAEFJU0RhdGFTZXRf
+dGVtcF8xMzUwNzQ0OTA2OTMxXC5w
+                                    cm9qZWN0dZBPSwMxEMXPCn6HsneTXVq1hXRLaxE8r55Lmgwl
+svljMhE/vkmaWlbwlvf4zZs3YZtvPc
+                                    6+wAdlzbrpSNvMwAgrlTmtm/e3l/tls+nvbpnz9gME7iEI
+rxwmOrk3zHAN/fZ12HPkA+ABQbtDN39o
+                                    nxaLVfu4mneMFibDwmoNBntGL6/s1uRQBJ2oY1SjHByI
+rKp8TqPcyOLU/SmNcIGRIxAVMEpliZWcJN
+                                    SpEXZ5DPy1SJrj/hRzg1A1nRqM/t1VnUuZtBijh0qf
+xb89hPXJsJ/HM5eLFL7EXoN+j59+8g9QSwcI
+                                    gCSbleAAAACjAQAAUEsBAhQAFAAIAAgAWp2CQobJ
+gjaaAgAAhggAAC0AAAAAAAAAAAAAAAAAAAAAAE
+                                    FJU0RhdGFTZXRfdGVtcF8xMzUwNzQ0OTA2OTMx
+XFF1ZXJ5RmlsZS5pb2JleFBLAQIUABQACAAIAFqd
+                                    gkKAJJuV4AAAAKMBAAAmAAAAAAAAAAAAAAAA
+APUCAABBSVNEYXRhU2V0X3RlbXBfMTM1MDc0NDkwNj
+                                    kzMVwucHJvamVjdFBLBQYAAAAAAgACAK8A
+AAApBAAAAAA=
+
+                                </property>
+                            </structure>
+                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets>
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Name</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:uiHints/>
+          </design:attributes>
+          <design:usageHints>
+            <design:formattingHints>
+              <design:displaySize>0</design:displaySize>
+              <design:textFormatType>Plain</design:textFormatType>
+              <design:horizontalAlignment>Left</design:horizontalAlignment>
+              <design:textWrapType>None</design:textWrapType>
+            </design:formattingHints>
+          </design:usageHints>
+          <design:multiDimensionAttributes>
+            <design:axisType>DimensionMember</design:axisType>
+          </design:multiDimensionAttributes>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria>
+        <design:rowOrdering/>
+      </design:criteria>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+                            <list-property name="privateDriverProperties">
+                                <ex-property>
+                                    <name>Last Data Source Used</name>
+                                    <value>Published</value>
+                                </ex-property>
+                            </list-property>
                         </oda-data-set>
                         <oda-data-set extensionID="ActuateIntegrationServiceDataSource" name="PressGaneyPerspective" id="5">
                             <property name="isVisible">true</property>
@@ -324,7 +662,23 @@ AAIAAgCvAAAAMAQAAAAA
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Id</property>
+                                    <property name="columnName">MeasureId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">PeriodId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">LocationId</property>
                                     <property name="analysis">dimension</property>
                                     <property name="onColumnLayout">true</property>
                                     <property name="horizontalAlign">left</property>
@@ -446,7 +800,17 @@ AAIAAgCvAAAAMAQAAAAA
                                     </structure>
                                     <structure>
                                         <property name="position">18</property>
-                                        <property name="name">Id</property>
+                                        <property name="name">MeasureId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">19</property>
+                                        <property name="name">PeriodId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">20</property>
+                                        <property name="name">LocationId</property>
                                         <property name="dataType">integer</property>
                                     </structure>
                                 </list-property>
@@ -574,8 +938,22 @@ AAIAAgCvAAAAMAQAAAAA
                                 </structure>
                                 <structure>
                                     <property name="position">18</property>
-                                    <property name="name">Id</property>
-                                    <property name="nativeName">Id</property>
+                                    <property name="name">MeasureId</property>
+                                    <property name="nativeName">MeasureId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">19</property>
+                                    <property name="name">PeriodId</property>
+                                    <property name="nativeName">PeriodId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">20</property>
+                                    <property name="name">LocationId</property>
+                                    <property name="nativeName">LocationId</property>
                                     <property name="dataType">integer</property>
                                     <property name="nativeDataType">4</property>
                                 </structure>
@@ -593,88 +971,98 @@ CompName, HierarchicalCalcDataFromView.CompData AS CompData, HierarchicalCalcDat
 AS CompVar, HierarchicalCalcDataFromView.CompVarPct AS CompVarPct, 
 HierarchicalCalcDataFromView.CompIdx AS CompIdx, HierarchicalCalcDataFromView.CompIdxRangeId AS 
 CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor, 
-HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
+HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS MeasureId, 
+ObjectList_1.Id AS PeriodId, ObjectList_2.Id AS LocationId
 
-FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList
+FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_2
  INNER  JOIN "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, 
 :FilterName, '', '3', '1'] AS HierarchicalCalcDataFromView ON 
-(ObjectList.Name=HierarchicalCalcDataFromView.MeasureName ) ]]></xml-property>
+(ObjectList_2.Name=HierarchicalCalcDataFromView.LocationName ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
+(ObjectList.Name=HierarchicalCalcDataFromView.MeasureName ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList_1 ON 
+(ObjectList_1.Name=HierarchicalCalcDataFromView.PeriodName ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIADl6fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIAHOigkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jtq48BWlsbtWgptNkgYMLa73T4IW3HU
-2laQ
-                                    ZUj++0m25Zc4cZyG4HHeBxJLet5/0vMosui9m3ouuMMsINQ3oaHtQYB9i9rEd0z4x9XJq0P4
-7u333/
-                                    Us6mnI4iHiWCMBD21CNUJtzaM2drv9vj+iw5sv2OJg6pFuKrAjBQoVftAV/SYccz7p6vr9
-/b1GPUej
-                                    zNH/OusrkkolKbMuyPSETE/IdEGmR2QatijDENyGmM1M+Gf/6jN4cU3w/QB5GFwjZo0R
-2wUnxOWY5f
-                                    tegufPpu/fRB+Xx6fHR1fgM8FMDhILuUfItT4ijk4Y9aQ47QyjIGT4FN9hF7y/BPn2
-biyrkv8cMezz
-                                    hCsyRAgpddaRNCejwF3JeEotxAVOsQ+RIsFf6F0hIbZXcRS9yPfWcWNeSpG/2gzM
-xASIGJUXWdcK3g
-                                    8oSEOnnuuYK2llh+KTzytUHVFvolRFClRHDT6lSj3XYBETOw1H0q7HdS6WccYj
-WnXiIan79lQxisca
-                                    ygTVBfId3LcLMcm668k4oi5lOc1Ru67RV1Ne4FftXRBntFORY7TYwL6d5YiT
-i+EZeH4bUv7mPLxxia
-                                    VfysxjIWbrMh0yL5q9iZBAzwkj9CZm/HsnWaw7/0jxGUmkAfQHg+MLAH4d
-9gfraKr0ONPdVVkxCVQ3
-                                    y4m7YGdH/O3LDyO2rUooGA5iES9yTko5Zu289RJAgEJOPzEaTkTxOfbR
-jYttE3IWimyeq1AGFPUIAF
-                                    GR3NDzg6iRNYEtNFzNJtiEfZ9jBzMILOpzRHzMTKhD4Eu7YD5bQ2CT
-YOKi2Sn2HT424StDGOM4DDui
-                                    xJhwQH1hwhgFg9B1lUUiN2GHstk5khw6TOwQlrjC++HoGrkhDvSs
-2yajEZZ5UfofZ8h0UAzfRfRvC5
-                                    b09KQ3FaJXSekFNGQWBvGXMEr/JX4M0gdZjr9iURetQv2CJUvA
-mOGRCavm2w+dvboz7pkwJQEofRCm
-                                    5KKjxwYqNPWV6CZVezG6pTLaTojLYWgCZ2N7OLce4aax7WyE
-bWWGLmxD24luMQRN4Lu/7Ryd3+S3E+
-                                    QFcWgC6YPtIf0/xo2j++MW13H6Q7ud2Ob8bwLZn7aHrDoN
-aSeuqfdNoPp6I1Q/UmEaXg6qNKG9oEbe
-                                    NwHq4faWqjpIbCeqqfdNoPrz1paqOuptL6iNLVVjs8Op
-Vahey3XcVlCl841gutlBVA1Mzy3ealil/4
-                                    0gu9kx1Cpk+/a0vbBK5xvBdItHT8VXjK3GVsWgEYi3
-eOaUfxHcaoDjCDQC7xYPnfLv6dsLbxqBRuDd
-                                    7OSp8t1Pu5KykYK6eSIu3jLZ7L37XGuCmACHY5ai
-mvUAG49Q6PIowsJYhoMAfEI+nkHA8G1IWHaXY8
-                                    ESjxyVRv8e39pT80DdUIEgVRVzXhJv4uKHArio
-voRwbibkvFx3IrjE/3pFa63uiZY6/ggrO0Mx/zw3
-                                    TWLr02nybXMBDO+EOa4LpPq1JkJ2NWnLU+HR
-EM551BzGxhoYlzsYpfwoSbkJTheiC84n/QU3rvTFNO
-                                    ULK0sIa5AUX55XKiy8nlshroom9ypoCUX6
-UqFiPDr0WjKennRWjK/il+cv1cPyd3wFhfxJWD2sflVU
-                                    U8V7lwqadH+zhCbV0NPzczHusomHfXlp
-MEkCvVG04lQrWZFKcNIEyCUoMGHVmoJgasLOXgeCWfxdKv
-                                    YPvHwz9/Vqq7PiH9l48NqIbewcbmjj
-/K5iiUVzLUfe5fwwUxEfozviO6r1hZJsexg1ACPOmC/Nmy4e
-                                    LRk0ct6J3aRNpPWF8p31RmKOpxOW
-j5YWF5ZIfzxW995qIX+WdPf0zMvCc5pJLzHnMiilKqoGABb2iA
-                                    IaXX7tlrcFGcdT3VmkA+uW6iwy
-axXqnMY1o7+oZK8d//9g3X8yCGwQ9se9pbEk7J3KsH9zWPY3iMsg
-                                    9G4wG47yu7OgwRDtP82ZaTwA
-BIUNa5MYHDxNDJIpvDYSRoqEiN1vxH+QLFE+h3lSxXBpf0AZj7Zwcr
-                                    tT819CBfW/UEsHCCwDEYfo
-BQAAaDoAAFBLAwQUAAgACAA5en1CAAAAAAAAAAAAAAAAJgAAAEFJU0Rh
-                                    dGFTZXRfdGVtcF8xMzUw
-ODM3NjI4MTMzXC5wcm9qZWN0dZBPTwMhEMXPmvgdmr0LXTfqHug2to2J59
-                                    VzQ2HS0Cx/hMH48QVK
-bdbEG+/lN2/ewNbfelp8gQ/KmlXTkmWzACOsVOa4aj7eX+/7Zj3c3TLn7QkE
-                                    7iAIrxwmOrk3zHAN
-w8vbuOPIR8A9gnb7tntc9t3z00Pfdh2jhcmwsFqDwYHRyyu7NTkUQWfqENUkRw
-                                    ciqyq3aZQbWZy6
-P6URLjByBKICRqkssZKThDo1wSaPgb8WSXPcH2NuEKqmc4PRv7uqcymTFmP0UOmz
-                                    +LeHsD4Z9vNw
-5nKRwpfYa9Dv8fNP/gFQSwcI4qlQaOAAAACjAQAAUEsBAhQAFAAIAAgAOXp9QiwDEY
-                                    foBQAAaDoA
-AC0AAAAAAAAAAAAAAAAAAAAAAEFJU0RhdGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXFF1
-                                    ZXJ5Rmls
-ZS5pb2JleFBLAQIUABQACAAIADl6fULiqVBo4AAAAKMBAAAmAAAAAAAAAAAAAAAAAEMGAA
-                                    BBSVNE
-YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
-                                    AAA=
+                                    NcUXVlcnlGaWxlLmlvYmV47Vxtc9M4EP5+M/cfNGKOwkyJcVKghBgOSgvhStJre72bublhVFtx
+DI6V
+                                    ynab/vuTZMuW48RxmrqmmA8US9rVvjyr1VpW23szm7jgElPfIZ4B9dZTCLBnEsvxbAP+dXrw
+ZBe+ef
+                                    3rLz2TTFrIDEIU4JbjB6HlkJZDrNaEWNjt9vveiAzPv2IzALOJ000mbPMJmQjP77J+A46D
+YNrVtKur
+                                    qxaZ2C1Cbe2fz31JUigkYdYYmRaTaTGZxsg0QdbCJqEYgosQ02sD/t0//QgenTn4aoAm
+GJwhao4R3Q
+                                    YHjhtgqvY9Bg8fzN6+Ej9O9g/3907BRwdTPuiYyN1DrvkeBeiAkgmfrvUZIz+k+BBf
+Yhe8PQFqezua
+                                    q5D/CFHsBTGXUIRNkussM9PcHBnuQsZDYqKA4RTZIAQx/kzvihkifSVH1gq1t4wZ
+87Nk+YvVwJQFgG
+                                    CUVqRdK3jfIT9xnXwuoy6n5R2Sjz+vELVHJlMpSgiQHSX4pCj5XIKFBXbijrhd
+juuILeOUh7XK+INT
+                                    962ZZGSPJYQxqmPk2bhvZXySdpebY4+4hCqSRbus0qezIMMv29sgymiHLMe0
+IgXjpcXVEnOnBF/0mC
+                                    SKO06hDLbjQRnSfSvNNQfHw8/g4UVIgldH4bnrmNoJz2AmopbG0yqdCJZ4
+Ol9TlHLIecT475acees/
+                                    LkcVLYSA/mCwfwzAp2F/sI6wQuel4rsywcZ+6abpdRtsbbF/Hf5Dj7Qr
+mhQMB9EUjzLu4zMZ5bNHnM
+                                    tvavViF8fgz3t4kcYl9FWTdiXqRoGYiwd9oYf1EhorSfYxgACFAflA
+SThlpcK+h85dbBkwoCHbe5V6
+                                    QoesegCA1Q9uOPF80UibwGICTq+n2IB9L8A2phCYxAuQ42FqQA0C
+j6sF1b0VAsvxpy66PsSeHYwN+E
+                                    Rnytg2xTYrCAw4IB5TYYz8Qei6UiMWG9gm9PoIcQ4NxnowTVxm
+/nB0htwQ+1rabTmjEea7GDc/2s+S
+                                    QTZ8KehfZzTpaXFvMolWNEvPJyE1MYj+Y0ppv0ePfvLAi6dv
+mFUxZqbagDlNwJjikQGLouW39tOyi/
+                                    oBUyUGKHlgqije0SIFJZraSnTjGmsxurmip5kQ591QB856
+dTg3HuG6sW1vhG1hhs68NDQT3awL6sC3
+                                    U3WOVousZoK8wA91IL1THdI/Ma4d3WcVruOkiG8mtor9
+dSD7vDpk5dlVM3FNrK8D1RcbofqeMNXwcl
+                                    C5Cs0FVVhfB6i71S1VeezbTFQT6+tA9WVlS1UezDcX
+1NqWqr7Z4dQqVM/4Om4qqNz4WjDd7CCqBKZH
+                                    ZtBoWLn9tSC72THUKmT71qy5sHLja8G0wqOn7Afh
+RmMrfVALxBWeOamf7RsNcOSBWuCt8NBJvVXRXH
+                                    gTD9QC72YnT2W+zjcrN+sJtpvn4+wFjgo+vxfC
+J28sNQm99g+DXnqlrEn4db5T/OZaU0QZSAGmCbpp
+                                    D7DwCIVuIDzMlKXY98EH5OFrCCi+CB2aXqha
+sM8KQ7nSf0YXnWU8yJt4ECSiIs4TZzJ18W0BnBWfQ1
+                                    iJBMXKdQPBdbxvp6TUFjttJYbfwfaaoqg+
+z4VJpH0SJjeLBTC8ZOq4LuDi1wqE9ApmxaFwZwgrFtWH
+                                    sb4GxvkOSkiwF6fcGKdj1gXnk/+Ca4/a
+Ypr8rbElhCVIsjdYCgVmvpGvmK6IRvkeu4Qi+bJXMC5Onp
+                                    eMJ58bCsZX8fND0OJhfphWQMHPZYqH
+5at9MVX0AlFAk7xkFEfBckFJNbgC1ISip6lBHXVZzgR7/Apw
+                                    nE16I7F0ZSte2lJA3ATIdZBvwKLF
+CcHMgO3nuxCwjKC/UFJYXDTcchpIvaAVK50WEULFZzsdoeLuzo
+                                    YqzhcnN1Doiy5UYm+Awmnt70Cj
+doTjyxdCpfbzO/LSXMvmt9ffXcuoHKNLx7Nl6ytx0ppcNAB17HGw
+                                    dJNy8WjJoK5Yx0p4y+HaZ2ql
+tFdMsz+bUtVfrWgXF/KjsbK/WpDZrHKye9otWtne1Mr4lxDK27lg76
+                                    jezM7GZrbXNHPhNrrS0Mxz
+Uoac4CDgQZ4rQeUAwEwhVn2KX9/o5mvqlOO+luXJwLp1buqZtapcReKa
+                                    3l9U767t/++waL43CGzg
+9ru9Z7jE7e1Ct9/YLZ0N/DIIJ+eYDkfqq41fo4s69zMy9VuAIPO2VycGO/
+                                    cTgziE10ZCT5BgvvvD
+8W4lS+QPMX+szTDKp2v7uv3T1+v7WiaGtb3d+entnLeX9vuEBuJlkxfyJf+4
+                                    CqP+H1BLBwj9SMeq
+lAYAALJFAABQSwMEFAAIAAgAc6KCQgAAAAAAAAAAAAAAACYAAABBSVNEYXRhU2
+                                    V0X3RlbXBfMTM1
+MDgzNzYyODEzM1wucHJvamVjdHWQT08DIRDFz5r4HZq9C1036h7oNraNiefVc0Nh
+                                    0tAsf4TB+PEF
+Sm3WxBvv5Tdv3sDW33pafIEPyppV05JlswAjrFTmuGo+3l/v+2Y93N0y5+0JBO4gCK
+                                    8cJjq5N8xw
+DcPL27jjyEfAPYJ2+7Z7XPbd89ND33Ydo4XJsLBag8GB0csruzU5FEFn6hDVJEcHIqsq
+                                    t2mUG1mc
+uj+lES4wcgSiAkapLLGSk4Q6NcEmj4G/Fklz3B9jbhCqpnOD0b+7qnMpkxZj9FDps/i3h7
+                                    A+Gfbz
+cOZykcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIAHOigkL9SMeqlAYA
+                                    ALJF
+AAAtAAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1xRdWVyeU
+                                    Zp
+bGUuaW9iZXhQSwECFAAUAAgACABzooJC4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAADvBgAAQUlT
+                                    
+RGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAIwgAAAAA
 
                                 </property>
                             </structure>
@@ -1254,7 +1642,19 @@ YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Id</property>
+                                    <property name="columnName">MeasureId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">LocationId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">PeriodId</property>
                                     <property name="analysis">dimension</property>
                                     <property name="onColumnLayout">true</property>
                                     <property name="horizontalAlign">left</property>
@@ -1374,7 +1774,17 @@ YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
                                     </structure>
                                     <structure>
                                         <property name="position">18</property>
-                                        <property name="name">Id</property>
+                                        <property name="name">MeasureId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">19</property>
+                                        <property name="name">LocationId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">20</property>
+                                        <property name="name">PeriodId</property>
                                         <property name="dataType">integer</property>
                                     </structure>
                                 </list-property>
@@ -1502,8 +1912,22 @@ YXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAB3BwAA
                                 </structure>
                                 <structure>
                                     <property name="position">18</property>
-                                    <property name="name">Id</property>
-                                    <property name="nativeName">Id</property>
+                                    <property name="name">MeasureId</property>
+                                    <property name="nativeName">MeasureId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">19</property>
+                                    <property name="name">LocationId</property>
+                                    <property name="nativeName">LocationId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">20</property>
+                                    <property name="name">PeriodId</property>
+                                    <property name="nativeName">PeriodId</property>
                                     <property name="dataType">integer</property>
                                     <property name="nativeDataType">4</property>
                                 </structure>
@@ -1521,88 +1945,98 @@ CompName, HierarchicalCalcDataFromView.CompData AS CompData, HierarchicalCalcDat
 AS CompVar, HierarchicalCalcDataFromView.CompVarPct AS CompVarPct, 
 HierarchicalCalcDataFromView.CompIdx AS CompIdx, HierarchicalCalcDataFromView.CompIdxRangeId AS 
 CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor, 
-HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
+HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS MeasureId, 
+ObjectList_1.Id AS LocationId, ObjectList_2.Id AS PeriodId
 
 FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, 
 :FilterName, '', '3', '1'] AS HierarchicalCalcDataFromView
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList_2 ON 
+(HierarchicalCalcDataFromView.PeriodName=ObjectList_2.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_1 ON 
+(HierarchicalCalcDataFromView.LocationName=ObjectList_1.Name ) 
  INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
 (HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIACaje0IAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIAAyngkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jsak1C2No3b0RRKNkgyYGx3u30QtuKo
-ta0g
-                                    y5D895NsS7bz4jgLqcd5H0gs6Xn/Sc+jyKLzYeq54B6zgFDfhM3GAQTYt6hNfMeEv1+fvnoD
-P7z//r
-                                    uORb0GsniIOG6QgIc2oQ1C7YZHbey2ez1/RAe3X7DFwdQjbS2wJQUKFX7QFv0mHHM+aRvG
-w8NDg3pO
-                                    gzLH+POip0gKlWhmQ5AZCZmRkBmCzIjIGtiiDENwF2I2M+Efvesz8OKG4Ic+8jC4Qcwa
-I7YPTonLMc
-                                    v2vQTPn02P30UfVyfnJ91rcEYwk4PEQm4XudYnxNEpo54U17jAKAgZPsf32AXHVyDb
-3o9lFfIPEcM+
-                                    T7giQ4SQhc4ykuZk5LgLGc+phbjAKfYhUiT4c71rJMT2Ko68F9neMm7MS8nzF5uB
-mZgAEaPyIu1aw/
-                                    sRBTp06rmMuZJWdig++bxGVZd6E6UqUqA6SvApVeq5BIuY2DocSbsc11As45RH
-tMrEQ1L37KliFI8l
-                                    lAmqS+Q7uGfnYpJ2l5PRpS5lGc1Ru6zR11Oe41ftfRBntHORYxqxgT07zRGn
-l4ML8PwupPzdMLx1iW
-                                    VcycxjIWYbMh0yL5q9iZDAKLSD0NtY1F9tlasS89tpptoHe3vi71B+NPf+
-lgYVCY3YQa/fP7kE4JdB
-                                    r7+JtRnXU9v2ktQS605JwKAfG/uibJ4yM/KjFfESQIBCTj8zGk5E8Tnx
-0a2LbRNyFopsnqlQTSjqEQ
-                                    CiIrmh5wdRI20CW2i8nk2wCXs+xw5mEFjU54j4mJnQgMCX6mE2W0Ng
-k2Diotk59h0+NuGrpjDGcRh2
-                                    RIkxYZ/6woQxCvqh6yqLRG7CDmWzIZIcBkzsEJa4wqnB6Aa5IQ6M
-tNsmoxGWeVHGI86QelAM30f073
-                                    OWdIykVwsxiqR0AhoyC4P4Sxhl/Bw/BvpBluOvWNRFK1e/4IIl
-YMzwyIRFc+WH1kHZuf1MmJIApB+E
-                                    KZnoGLGBCk1jLbpJ1V6O7kIZrSfEi2GoAufm7nCuPcJVY9va
-CtvCDJ3bhtYT3XwIqsD3cNc5OrvJry
-                                    fIS+JQBdKvd4f0/xhXju7RDtex/qFdT2wz/leB7I+7Q1ad
-htQTV+19Faj+tBWqn6gwDa8GVZpQX1Aj
-                                    76sA9c3ulqo6SKwnqtr7KlB9u7Olqo566wtqZUu1ud3h
-1DpUb+Q6riuo0vlKMN3uIKoEpkOL1xpW6X
-                                    8lyG53DLUO2Z49rS+s0vlKMN3h0VP+FWOtsVUxqATi
-HZ45ZV8E1xrgOAKVwLvDQ6fse/r6wqsjUAm8
-                                    2508Fb77qVdSbmpQt0/E+Xsb2713n2tNEBPgcMw0
-qmkPsPEIhS6PImzCs+7x2TCAgOG7kLD0GseS1R
-                                    35KO39Lb6wp6aAugYDgdYSc14Rb+Lix8I2r34B
-3MwkyDi46Rxwif/1mpZa2JOGdvwbLOoUwOzz3AyJ
-                                    rdczZONpAAb3whLXBVLzRnMgvfq041nwzcDN
-eFQdvM0N4F3sYJTybpJoE5wuRRecT/VL7lkZy2kWr6
-                                    msICxBkn9lXqgw91JujbgimswLoBUU+lVC
-wXh01LViXJ9vFoyv45enLsXD8td7AYX8IVg8rH5LFFPF
-                                    O5YCGr2rWUGjNXSM7FyMu2ziYV9eFUyS
-QGcUrTjVSlakEpw0AXIJCkS+KlhTEExN2DpoQTCLvxdK/C
-                                    Mv39R9o9jqtORHNh4dvY1tbG5r4/xe
-YoVFcy1H3uD8OFMRH6N74juq9YWSdFMYNQAjzpiv3Bi5eLRi
-                                    8CDjndhD2kRan6vcaW8k5mQ6YcUY
-565TxYbFTHO3VXP5c0F3x0i9zD3rTHqFOZdBWSigagBgoRYH8Z
-                                    XX9uKOIOV4qpsKPbBpqU4js1Gh
-zmjcMPrLSvbG8f8P1v0ng8AWYf+2dzNWhL1VGPZ/HZbDLeLSD71b
-                                    zAaj7O4sqDBEh09zZjYfAYLc
-hrVKDF4/TQySKbwxEk2NhIjdr8R/lCyxePrypIrhyv6AMh5t4eR2p+
-                                    Q/ggrqfwBQSwcIzwLwz+cF
-AABeOgAAUEsDBBQACAAIACaje0IAAAAAAAAAAAAAAAAmAAAAQUlTRGF0
-                                    YVNldF90ZW1wXzEzNTA4
-Mzc2MjgxMzNcLnByb2plY3R1kE9PAyEQxc+a+B2avQtdN+oe6Da2jYnn1X
-                                    NDYdLQLH+EwfjxBUpt
-1sQb7+U3b97A1t96WnyBD8qaVdOSZbMAI6xU5rhqPt5f7/tmPdzdMuftCQTu
-                                    IAivHCY6uTfMcA3D
-y9u448hHwD2Cdvu2e1z23fPTQ992HaOFybCwWoPBgdHLK7s1ORRBZ+oQ1SRHBy
-                                    KrKrdplBtZnLo/
-pREuMHIEogJGqSyxkpOEOjXBJo+BvxZJc9wfY24QqqZzg9G/u6pzKZMWY/RQ6bP4
-                                    t4ewPhn283Dm
-cpHCl9hr0O/x80/+AVBLBwjiqVBo4AAAAKMBAABQSwECFAAUAAgACAAmo3tCzwLwz+
-                                    cFAABeOgAA
-LQAAAAAAAAAAAAAAAAAAAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcUXVl
-                                    cnlGaWxl
-LmlvYmV4UEsBAhQAFAAIAAgAJqN7QuKpUGjgAAAAowEAACYAAAAAAAAAAAAAAAAAQgYAAE
-                                    FJU0Rh
-dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
-                                    AA==
+                                    NcUXVlcnlGaWxlLmlvYmV47Vz/c5s2FP99d/sfdOqt6e5SE+ykX1zTLk2TxltqZ0mW7W636ykg
+Y1pA
+                                    roDE+e8nAQJhbAx1CE3pD02R9J70ee8jPT2EksGbuWODa0w9i7gaVDs7EGBXJ4blmhr86+Lo
+6Qv45v
+                                    XPPw104nSQ7gfIxx3L8wPDIh2LGB2HGNjuD4fuhIyvPmHdB3PH6icddnmHbAjX67N6DU59
+f9ZXlJub
+                                    mw5xzA6hpvLPh6EQKRwkUVaYmBKLKbGYwsSUUKyDdUIxBF8CTG81+Pfw4hg8ubTwzQg5
+GFwiqk8R3Q
+                                    ZHlu1jKtf9Ch4/mu+/Cn+cH54cHlyAYwtT3mjpyD5Atv4O+eiIEod31/mAkRdQfIKv
+sQ32z4Fc3o76
+                                    KtQ/RRS7fqwVAmGd5CrL9LTQR0a7UPGE6MhnPEU2hAMx/Uztmh4ivEIja4VcW8aM
+xV6y+sUwMGUTIF
+                                    QUVqRVa3TfIi9xnXguA5fL8gqhx5/XDHVAnJkYKhxAVJTQE0OJ5xIqbGIn7ojL
+5bRO2TJOdVipjD+4
+                                    9NCYC0X2WGIwJnWGXBMPjYxP0upyfRwQm1Bp5LBcFvTF3M/oi/I2iCLaCYsx
+nQhgvLQ4rLDvVOCjGo
+                                    uIWctlpOZu3BxNy6GRxpqjs/EH8PhLQPxXp8GVbenKOY9gOqKGwsMqdcL+
+4s48pdAei1xFXf3bFzEv
+                                    htpPI9422Npi/3r8h7r1H4dV1GmoDoaj0eEZAL+Ph6MqaCUXpti2Ii9E
+Q8tOAuNRhPZJyeWuZVwcrq
+                                    04jt8tYMFqDrJaErIczLTMtKkPdDxbFzGXRCxtIxJgARcCFPjkPSXB
+jKUKhy66srGhQZ8GbO+V8gkV
+                                    suwBAJY/2IHjemEhLQKDjXhxO8MaHLo+NjGFQCeujywXUw0qELh8
+eCjvrRAYljez0e0Jdk1/qsGnKg
+                                    NjmhSbLCHQ4Ii4DMIUeaPAtgUi5nxsEnp7iriGAmMcDInNjBpP
+LpEdYE9Jqw1rMsF8F+P+iPazpJE1
+                                    X4fyrzNIBkpcm3SiFPUy8EhAdQyi/xgo5bfo0UseePL0GbMs
+Rs9kGzCHBEwpnmiwaK780t0pG0EeMS
+                                    gxQckDgyJ5R4kACjaVtezGOdZydnNJTzspzruhCZ7V+nhu
+PcNNc9vdiNvCCJ15aWgnu1kXNMFvr+4Y
+                                    LWcx7SR5iR+aYHq3PqZ/cNw4u3s1ruPk1amd3Er2N8Hs
+s/qYFWdX7eQ1sb4JVp9vxOo7wqDh1aRyCO
+                                    0lNbS+CVJf1LdUxbFvO1lNrG+C1Ze1LVVxMN9eUhtb
+qupmh1PrWL3k67itpHLjG+F0s4OoEpye6n6r
+                                    aeX2N8LsZsdQ65gdGvP20sqNb4TTGo+esh+EW82t
+8EEjFNd45iR/tm81wZEHGqG3xkMn+VZFe+lNPN
+                                    AIvZudPJX5Ot+u2Kwm3G4ej7PXN2r4/F7q0127
++Ot+N/yJK2VtYq/3jbK3UJohyijyMU24TWuAgSco
+                                    sP3Qwxo8Ptg/PvUgoPhLYNH0LtWSLTa0keP9
+M7rjLCaCuPEHQTJKpHluOTMb3xW32eFz5EqTQDKw6h
+                                    ywLffzBSm1u846ieH3sLOmBMrPCzMkQp/M
+kMrTAIyvGRLbBnzkSnMgveVZ8yy4N3Ili5qjV61Ab76C
+                                    EuIfxIE25umMVcHFgL/ksqOyXCZ/V2yF
+YAmR7L2VwgEzX8bXdFckI32FXSGRfM8raA/Pm1e0Jx8ZCt
+                                    rX6fOjz+JmfoRWIMFPY4qbxQt9sVT0
+2lAgk7xaFM+C1QNJOWAhZUn7QJEndVRlWA52+cXfOJoMJuHS
+                                    FaV4aYvu4yJAtoU8FvgKFicEcw32
+dvcgYBFB3XkpxbA4V7jjOJA6QSlGneYOIca9vZchxq7a3RDjYl
+                                    LyFYg+qiEmdW8nxNR7/g1A6kaQ
+dnYjNz3buR9MCyWTX1t/eysm5hRdW64pSp+IlabiYQFQy5z6K18D
+                                    bTxZ0ShbxzJ3w+LoM5lSWht2
+czif0eKlkLlDGgGLlBau6Gf2q9zYA6Wald37tjJ7CW2pmfGvTtytob
+                                    37NlS+j7XczG5FMzPPSSZy
+jn2fT/JcAioaAGYDYy/6vY1+PqNONR5qUp40VE11U89USnSlESt6f1nK
+                                    W9n/32De/GAY2MDt93vB
+cIXbu4Vu/2q39DbwyyhwrjAdT+S3G69BF/Ue5sxU74CCzAtfkxzsPkwO4i
+                                    lcmQk1YYL57g/LvZMo
+kT+9/L42QzFZK3u7+8Pb1b0d7V6Vfd374eucr1fWe4T64csmT+RL/lUVJv0/
+                                    UEsHCHhuLvOQBgAA
+q0UAAFBLAwQUAAgACAAMp4JCAAAAAAAAAAAAAAAAJgAAAEFJU0RhdGFTZXRfdG
+                                    VtcF8xMzUwODM3
+NjI4MTMzXC5wcm9qZWN0dZBPTwMhEMXPmvgdmr0LXTfqHug2to2J59VzQ2HS0Cx/
+                                    hMH48QVKbdbE
+G+/lN2/ewNbfelp8gQ/KmlXTkmWzACOsVOa4aj7eX+/7Zj3c3TLn7QkE7iAIrxwmOr
+                                    k3zHANw8vb
+uOPIR8A9gnb7tntc9t3z00Pfdh2jhcmwsFqDwYHRyyu7NTkUQWfqENUkRwciqyq3aZQb
+                                    WZy6P6UR
+LjByBKICRqkssZKThDo1wSaPgb8WSXPcH2NuEKqmc4PRv7uqcymTFmP0UOmz+LeHsD4Z9v
+                                    Nw5nKR
+wpfYa9Dv8fNP/gFQSwcI4qlQaOAAAACjAQAAUEsBAhQAFAAIAAgADKeCQnhuLvOQBgAAq0UA
+                                    AC0A
+AAAAAAAAAAAAAAAAAAAAAEFJU0RhdGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXFF1ZXJ5RmlsZS
+                                    5p
+b2JleFBLAQIUABQACAAIAAyngkLiqVBo4AAAAKMBAAAmAAAAAAAAAAAAAAAAAOsGAABBSVNEYXRh
+                                    
+U2V0X3RlbXBfMTM1MDgzNzYyODEzM1wucHJvamVjdFBLBQYAAAAAAgACAK8AAAAfCAAAAAA=
 
                                 </property>
                             </structure>
@@ -2184,12 +2618,22 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Id</property>
+                                    <property name="columnName">MeasureId</property>
                                     <property name="analysis">dimension</property>
                                     <property name="onColumnLayout">true</property>
                                     <property name="horizontalAlign">left</property>
-                                    <property name="indexColumn">false</property>
-                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">LocationId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">PeriodId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
                                 </structure>
                             </list-property>
                             <list-property name="parameters">
@@ -2306,7 +2750,17 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     </structure>
                                     <structure>
                                         <property name="position">18</property>
-                                        <property name="name">Id</property>
+                                        <property name="name">MeasureId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">19</property>
+                                        <property name="name">LocationId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">20</property>
+                                        <property name="name">PeriodId</property>
                                         <property name="dataType">integer</property>
                                     </structure>
                                 </list-property>
@@ -2434,8 +2888,22 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                 </structure>
                                 <structure>
                                     <property name="position">18</property>
-                                    <property name="name">Id</property>
-                                    <property name="nativeName">Id</property>
+                                    <property name="name">MeasureId</property>
+                                    <property name="nativeName">MeasureId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">19</property>
+                                    <property name="name">LocationId</property>
+                                    <property name="nativeName">LocationId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">20</property>
+                                    <property name="name">PeriodId</property>
+                                    <property name="nativeName">PeriodId</property>
                                     <property name="dataType">integer</property>
                                     <property name="nativeDataType">4</property>
                                 </structure>
@@ -2453,88 +2921,98 @@ CompName, HierarchicalCalcDataFromView.CompData AS CompData, HierarchicalCalcDat
 AS CompVar, HierarchicalCalcDataFromView.CompVarPct AS CompVarPct, 
 HierarchicalCalcDataFromView.CompIdx AS CompIdx, HierarchicalCalcDataFromView.CompIdxRangeId AS 
 CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor, 
-HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
+HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS MeasureId, 
+ObjectList_1.Id AS LocationId, ObjectList_2.Id AS PeriodId
 
 FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, 
 :FilterName, '', '4', '1'] AS HierarchicalCalcDataFromView
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_1 ON 
+(HierarchicalCalcDataFromView.LocationName=ObjectList_1.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList_2 ON 
+(HierarchicalCalcDataFromView.PeriodName=ObjectList_2.Name ) 
  INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
 (HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAG+de0IAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIABangkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47Vttc9o2HH+/u30HnXpr2rsUB5J1HcXt2jRp2RLIEpbtbrcXii2M
-Wtsi
-                                    spzAt59kW7KNwZgS6uW8FwE9/J9/0l9CUnpvZ54L7jALCPVN2G4dQIB9i9rEd0z4x+j0xSv4
-9s333/
-                                    Us6rWQxUPEcYsEPLQJbRFqtzxqY7fb7/tjOrz5jC0OZh7paoEdKVCo8IOuaDfhhPNp1zDu
-7+9b1HNa
-                                    lDnGX+d9RVKqRDMbgsxIyIyEzBBkRkTWwhZlGILbELO5Cf/sjz6BZ9cE3w+Qh8E1YtYE
-sX1wSlyOWb
-                                    btOXj6ZPbudfRxdXJ2cjwCnwhmspNYyD1GrvUBcXTKqCfFtc4xCkKGz/AddsG7K5Ct
-78eySvkvEMM+
-                                    T7giQ4SQQmMVSQsyctyljGfUQlzgFPsQKRL8udY1EmJ7FUfei2xrFTcWpeT5y83A
-TAyAiFF5kTat4X
-                                    2PAh06Va5irqSVDYpPlteoOqbeVKmKFKiGCnxKlSpXYBEDW4cjqVfjuhDTOOUR
-tSrxkNR9e6YYRbGC
-                                    MkF1iXwH9+1cTNLmajKOqUtZRnNUr2r0aMZz/Kq+D+KMdiZyTCs2sG+nOeL0
-cngOnt6GlL++CG9cYh
-                                    lXMvNYiNmGTIfMi0ZvIiQwSu0g9CYW9XdX5arE/G6aqfbB3p74O5If7b1/
-pEFlQiN20B8MTi4B+HXY
-                                    H2xibcb11La9JLXEulMSMBzExj6rmqfMjPxoRjwHEKCQ04+MhlOx+Jz4
-6MbFtgk5C0U2z6xQbSjWIw
-                                    DEiuSGnh9ElbQKbKFxNJ9iE/Z9jh3MILCozxHxMTOhAYEv1cNstobA
-JsHURfMz7Dt8YsIXbWGM4zDs
-                                    iCXGhAPqCxMmKBiErqssErkJO5TNL5DkMGBih7DEFU4Nx9fIDXFg
-pM02GY+xzIsyHnGG1J2i+y6if5
-                                    OzpGckrVqIUSalF9CQWRjEX8Io45e4GOiCXI6/YLEuWrn1CxYs
-AROGxyYsGys/dA6qju0nwpQEIF0Q
-                                    pmSiY8QGKjSNtegmq/ZydAvLaDMhLoahDpzbu8O58QjXjW1n
-K2xLM3RuG9pMdPMhqAPfw13n6Owmv5
-                                    kgL4lDHUgf7Q7p/zGuHd0fdziP9Q/tZmKb8b8OZF/uDll1
-GtJMXLX3daD601aofqDCNLwaVGlCc0GN
-                                    vK8D1Fe7m6rqILGZqGrv60D1551NVXXU21xQa5uq7e0O
-p9ahei3ncVNBlc7Xgul2B1EVML2weKNhlf
-                                    7Xgux2x1DrkO3bs+bCKp2vBdMdHj3lrxgbja2KQS0Q
-7/DMKXsR3GiA4wjUAu8OD52y9/TNhVdHoBZ4
-                                    tzt5Kr37aVZSbmtQt0/E+Xcb2927L9SmiAlwOGYa
-1bQF2HiMQpdHEZbTk2H1Di2AgOHbkLD0NceSSR
-                                    65Ks3+PX63p0aCeg0DgVYWc14Rb+rih4I4r76A
-cWYsZPzcdCi4xP8yopXm97SlHf8GczvFMVteGCix
-                                    9XqgfO1oAMM7YZDrAmnARkMhfQi148HwzTDO
-eFQfyu0NUC42MEr5cZJ2E5wuRRNcTPxLXl0Zy2mKj1
-                                    ZWEFYgyV+glyrMXdGtEVdGk7kOWkGhLxZK
-+qODrxX9+rSzpH8dvzyDKe+Wv+VLKOTPwvJu9cuinCre
-                                    v5TQ6D3OChqtoWdkx2LcZBMP+/LhYJIE
-euNoxqlaMiOV4KQKkEtQYMKyOQXBzISdgw4E8/i7sOA/8P
-                                    RN3TfKrU43AJGNRy9jGw/Fbnw7Gxd3
-FissWqg58j3n+7mK+ATdEd9Rtc+UpFvEqAIYcSZ85TbJxeMV
-                                    nQcZ78SO0ibS+twCnrZGYk5mU1aO
-ce5xVWxYzLTwdjWXPwu6e0bqZa6sM+kV5lwGpbCOqg6AhVocxA
-                                    9gu8WNQcrxWPcWumPTpTqNzEYL
-dUbjhtFftmRvHP//4Lr/aBDYIuzf9qXGirB3SsP+1WE52iIug9C7
-                                    wWw4zu7OghpDdPg4R2b7ASDI
-bVjrxODocWKQDOGNkWhrJETsfiP+g2SJ4lnMo1oMV7YHlPFoCye3Ox
-                                    X/LVRQ/wtQSwcIE9p+5ucF
-AABsOgAAUEsDBBQACAAIAG+de0IAAAAAAAAAAAAAAAAmAAAAQUlTRGF0
-                                    YVNldF90ZW1wXzEzNTA4
-Mzc2MjgxMzNcLnByb2plY3R1kE9PAyEQxc+a+B2avQtdN+oe6Da2jYnn1X
-                                    NDYdLQLH+EwfjxBUpt
-1sQb7+U3b97A1t96WnyBD8qaVdOSZbMAI6xU5rhqPt5f7/tmPdzdMuftCQTu
-                                    IAivHCY6uTfMcA3D
-y9u448hHwD2Cdvu2e1z23fPTQ992HaOFybCwWoPBgdHLK7s1ORRBZ+oQ1SRHBy
-                                    KrKrdplBtZnLo/
-pREuMHIEogJGqSyxkpOEOjXBJo+BvxZJc9wfY24QqqZzg9G/u6pzKZMWY/RQ6bP4
-                                    t4ewPhn283Dm
-cpHCl9hr0O/x80/+AVBLBwjiqVBo4AAAAKMBAABQSwECFAAUAAgACABvnXtCE9p+5u
-                                    cFAABsOgAA
-LQAAAAAAAAAAAAAAAAAAAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcUXVl
-                                    cnlGaWxl
-LmlvYmV4UEsBAhQAFAAIAAgAb517QuKpUGjgAAAAowEAACYAAAAAAAAAAAAAAAAAQgYAAE
-                                    FJU0Rh
-dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
-                                    AA==
+                                    NcUXVlcnlGaWxlLmlvYmV47Vzhc5s2FP++u/0POvXWdHepKTjdGte0a9Ok9ZbaWZJlu9vtegrI
+mBaQ
+                                    KyBx/vtJgEAYG0MdQlP6oSmS3pN+7/2epIdQMny5cB1whalvE0+Hau8JBNgziGl7lg7/Oj96
+/Ay+fP
+                                    HjD0ODuD1kBCEKcM/2g9C0Sc8mZs8lJnYGo5E3JZPLj9gIwMK1B2mHGu+QDeH5A1avw1kQ
+zAeKcn19
+                                    3SOu1SPUUv55PxIipYOkygoTUxIxJRFTmJgSifWwQSiG4HOI6Y0O/x6dvwOPLmx8PUYu
+BheIGjNEd8
+                                    GR7QSYynU/g4cPFq+eRz/ODo8PD87BOxtT3mgbyDlAjvEGBeiIEpd313uPkR9SfIyv
+sANenQG5vBv3
+                                    Vap/gij2gkQrAsI6KVRW6Wmpj5x2qeIxMVDAeIptiAZi+rnaDT3EeIVG3gq5tooZ
+y73k9cthYMoCIF
+                                    IUVmRVG3RfIz91nXiuApfL8gqhx583DHVA3LkYKhpAVFTQE0OJ5woqLLBTdyTl
+alonbBpnOqxUxR9c
+                                    emQuhCJ7rDAYkzpFnoVHZs4nWXW1Pg6IQ6g0clSuCvp8EeT0RXkXxCvaMVtj
+ejHAZGpxWFHfmcAHNR
+                                    ERUctlpGYtaY7DcmRma83R6eQ9ePg5JMHzk/DSsQ3ljK9gBqKmwpdV6kb9
+JZ35Sqk9NrmMu/p3INa8
+                                    BOogW/F2wc4O+7fHf6g7/3FYZZ1G6mA0Hh+eAvD7ZDSug1ZyYYZtRzgp
+Hlz2IpiMY7yPKq8Veo6FaH
+                                    4la/ntgo6pK0DWKkLOFiQ9FxfNAU6idRlxRbzSNiIBFnAhQGFA3lIS
+zlmqcOihSwebOgxoyPZeKZ9Q
+                                    IcseAGD5gxO6nh8VsiIw2YjnN3Osw5EXYAtTCAziBcj2MNWhAoHH
+h4fy3gqBaftzB90cY88KZjp8rD
+                                    IwlkWxxRICHY6JxyDMkD8OHUcgYtGCLUJvThDXUGCCgyFxmFGT
+6QVyQuwrWbVpT6eY72LcH/F+ljay
+                                    5qtI/kUOyVBJatNOlLJehj4JqYFB/B8DpfwWP/rpA0+ePmGW
+xRi5bAMWkIAZxVMdlsXKT9qTqivIAw
+                                    YlISh9YFAk7ygxQMGmspHdJMdazW4h6ekmxUU3tMGz2hzP
+nWe4bW61rbgtXaFzLw3dZDfvgjb47Te9
+                                    RstpVzdJXuGHNpjea47p7xy3zu7TBudx+hbSTW4l+9tg
+9pfmmBVnV93kNbW+DVZ/3YrVN4RBw+tJ5R
+                                    C6S2pkfRukPmtuqopj326ymlrfBqv7jU1VcTDfXVJb
+m6rqdodTm1i94PO4q6Ry41vhdLuDqAqcnhhB
+                                    p2nl9rfC7HbHUJuYHZmL7tLKjW+F0waPnvIfhDvN
+rfBBKxQ3eOYkf7bvNMGxB1qht8FDJ/lWRXfpTT
+                                    3QCr3bnTxV+TrfrbVZTbndfj3OX99o4PN7pU93
+3eJP+2b4E1fKusRe/ytlb6k0R5RRFGCacpvVABNP
+                                    UegEkYf5HkmxuF/oQ0Dx59Cm2ZWqFTttZCqH
+/Wd81VnEg7j4B0E6WKx5ZrtzB98WxfnhCxxLsSDZWT
+                                    cUHNv7dE4qbbLzXmr4HWywGY/y81KgxOjT
+QPnSaACTKwbIcQAHUCsUsjufDQfDnXEsWdQey2oNlosV
+                                    lJDgIFl2E55OWRVcXv5XXH1UVssUb46t
+Eawgkr/FUjpg7jv5hu7KZKRvsmsk0q97Je3R6fOa9vSTQ0
+                                    n7Jn1+EFrezA/USiT42Ux5s3i9L5eK
+XyJKZNIXjfIoWD+QlBGWUpa2DxU5qOMq03axx68BJ6vJcBpN
+                                    XVFKprboPikC5NjI12HZ5IRgocO+
+ugcBWxH296UlLEkcbnkZyHyglIPOEokI4tO9/Qii1n+yJcblDO
+                                    ULEH1QI0zPYq9pT78CRFpMpJYg
+2pbIipCWSha/wf76RkTlDF3ZniVKH4mdZeVRAVDbmgVr3wgdPF3T
+                                    KIcAS+JNm6PPZUtZbdTN4WJO
+y+dB7jppDCxWWrqtn9usCmMPlXpW9u/aSvnG0kojk9+huF0ztbs2M3
+                                    /tbrWhak1Dc89pGnKGg4AH
+eSEJFQ0As4GxH/8Kx6CYVWca9zUxTxvq5rmZZ2pludKINb2/Kt+t7f+v
+                                    MGm+Nwxs4fa7vWu4xu1a
+qdu/2C17W/hlHLqXmE6m8quN36KL+vczMtVboCD3ttcmB3v3k4MkhGszoa
+                                    ZMMN/9YXu3skoUDzK/
+rc1QBGttb2vfvV3f2/HuVdvX/e++Lvh6bb1PaBC9bPJEvuIfWGHS/wNQSwcI
+                                    x8i6D4wGAAC2RQAA
+UEsDBBQACAAIABangkIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90ZW1wXz
+                                    EzNTA4Mzc2Mjgx
+MzNcLnByb2plY3R1kE9PAyEQxc+a+B2avQtdN+oe6Da2jYnn1XNDYdLQLH+Ewfjx
+                                    BUpt1sQb7+U3
+b97A1t96WnyBD8qaVdOSZbMAI6xU5rhqPt5f7/tmPdzdMuftCQTuIAivHCY6uTfMcA
+                                    3Dy9u448hH
+wD2Cdvu2e1z23fPTQ992HaOFybCwWoPBgdHLK7s1ORRBZ+oQ1SRHByKrKrdplBtZnLo/
+                                    pREuMHIE
+ogJGqSyxkpOEOjXBJo+BvxZJc9wfY24QqqZzg9G/u6pzKZMWY/RQ6bP4t4ewPhn283Dmcp
+                                    HCl9hr
+0O/x80/+AVBLBwjiqVBo4AAAAKMBAABQSwECFAAUAAgACAAWp4JCx8i6D4wGAAC2RQAALQAA
+                                    AAAA
+AAAAAAAAAAAAAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcUXVlcnlGaWxlLmlvYm
+                                    V4
+UEsBAhQAFAAIAAgAFqeCQuKpUGjgAAAAowEAACYAAAAAAAAAAAAAAAAA5wYAAEFJU0RhdGFTZXRf
+                                    
+dGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAABsIAAAAAA==
 
                                 </property>
                             </structure>
@@ -3116,12 +3594,22 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Id</property>
+                                    <property name="columnName">MeasureId</property>
                                     <property name="analysis">dimension</property>
                                     <property name="onColumnLayout">true</property>
                                     <property name="horizontalAlign">left</property>
-                                    <property name="indexColumn">false</property>
-                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">LocationId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">PeriodId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
                                 </structure>
                             </list-property>
                             <list-property name="parameters"/>
@@ -3214,7 +3702,17 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                     </structure>
                                     <structure>
                                         <property name="position">18</property>
-                                        <property name="name">Id</property>
+                                        <property name="name">MeasureId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">19</property>
+                                        <property name="name">LocationId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">20</property>
+                                        <property name="name">PeriodId</property>
                                         <property name="dataType">integer</property>
                                     </structure>
                                 </list-property>
@@ -3342,8 +3840,22 @@ dGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAHYHAAAA
                                 </structure>
                                 <structure>
                                     <property name="position">18</property>
-                                    <property name="name">Id</property>
-                                    <property name="nativeName">Id</property>
+                                    <property name="name">MeasureId</property>
+                                    <property name="nativeName">MeasureId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">19</property>
+                                    <property name="name">LocationId</property>
+                                    <property name="nativeName">LocationId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">20</property>
+                                    <property name="name">PeriodId</property>
+                                    <property name="nativeName">PeriodId</property>
                                     <property name="dataType">integer</property>
                                     <property name="nativeDataType">4</property>
                                 </structure>
@@ -3359,84 +3871,96 @@ CompName, HierarchicalCalcDataFromView.CompData AS CompData, HierarchicalCalcDat
 AS CompVar, HierarchicalCalcDataFromView.CompVarPct AS CompVarPct, 
 HierarchicalCalcDataFromView.CompIdx AS CompIdx, HierarchicalCalcDataFromView.CompIdxRangeId AS 
 CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor, 
-HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
+HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS MeasureId, 
+ObjectList_1.Id AS LocationId, ObjectList_2.Id AS PeriodId
 
-FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"['Overall Health', 
-'High Level Metrics', '', '2', '2'] AS HierarchicalCalcDataFromView
+FROM "Public/Scorecard/Information Objects/ObjectList.iob"['Period'] AS ObjectList_2
+ INNER  JOIN 
+"Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"['Overall Health', 
+'High Level Metrics', '', '2', '2'] AS HierarchicalCalcDataFromView ON 
+(ObjectList_2.Name=HierarchicalCalcDataFromView.PeriodName ) 
  INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
-(HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) ]]></xml-property>
+(HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) 
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_1 ON 
+(ObjectList_1.Name=HierarchicalCalcDataFromView.LocationName ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIANh9fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIALalgkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47Vvbbts2GL4fsHcgWKzpgNaM3VOWWu3aNFm8JXaQZMGAYReMRMvs
-JNGl
-                                    qMR++5KSqIMd0coUVwi0i9g8/OeP/EmTzPDDwvfADeEhZYEF+71dCEhgM4cGrgX/vDx6sQc/
-vP/xh6
-                                    HN/B62RYQF6dFQRA5lPcqcns8c4u2PRsGUTa6/EFuAhU/3M4EDJVCqCMJ92W7BmRDzfYRu
-b297zHd7
-                                    jLvor9ORJjEqyZiRJEMpGUrJkCRDMVmP2IwTCL5GhC8teHF4cnhwCY4p4ZjbM2pj7wB7
-9mcs8BFn/h
-                                    Ult71TgsOIkxNyQzzw8QIU68/B0yeLj++M/GeYk0CkXGPsEyVkrbGOpBUZJW4j4wmz
-sZART3yIFUn+
-                                    UusGCYm9mqPsRbG1jhurUsr8ZjMIl1DGjNqLvGkD7yccZqHT5TrmKlrVoPlUeYOq
-A+bPtapYgW6owa
-                                    dV6XINlivMs3Ck9XpcZ3JC5jyyViceinrkLDSjLNZQJqnOceCSkVOKSd5cT8YB
-8xgvaI7rdY2+XIgS
-                                    v64/B0luOpHZopcYOHJikfHH0fnkFDz9GjHx7iy69qiNLlQOsTF3kEps3I9H
-byokREY7KLtORP29M5
-                                    FpEHseOCbYE7Od1IudY+rOQDJRT4ng1A5l1476GyQf/ygDTUpiOWA0Hh+e
-A/D7ZDS+j/WFUBRsTVNN
-                                    ojsnAZNxYvWzunnLKsiPZ8jPAAIcCfYbZ9FcLiuHAb72iGNBwSOZpwtr
-Tx/KlQYAudZ4kR+EcSWvAk
-                                    dqvFzOiQVHgSAu4RDYLBCYBoRbEEEQKPWwmL0hcGg49/DyhASumFnw
-RV8a47qcuHLxsOCYBdKEGQ7H
-                                    kedpi2SuIi7jyzOsOBBM7ZCWeNKpyfQKexEJUd7s0OmUqDyp4pFk
-zKxTdt/E9O9LlgxR2poJQSYpw5
-                                    BF3CYg+ZJGoV+TYpgV1EL7L5Ernl1az+CaJWDGydSCprHy02C3
-7lh/Ik1JAcoK0pRCdFBioEYTbUT3
-                                    SunDFeiuLavdhHg9DG3g3N8ezp1HuG1sB42wNWbo0ra0m+iW
-Q9AGvi+3naOLm/5ugnxHHNpA+tX2kP
-                                    4f49bRfb3FeZz98O4mtgX/20D2zfaQ1acj3cQ1874NVN82
-QvUzk6aRalCVCd0FNfa+DVD3tjdV9cFi
-                                    N1HNvG8D1V+2NlX10W93QW1tqvabHU5tQvVKzeOugqqc
-bwXTZgdRNTA9s0WnYVX+t4Jss2OoTciOnE
-                                    V3YVXOt4LpFo+eyleOncZWx6AViLd45lS8GO40wEkE
-WoF3i4dOxXv77sKbRaAVeJudPBnvfrqVlPsZ
-                                    qM0TcfndRrN795XaHHMJjiA8BHnRgqm0IWdMHKQA
-pDCeyya4OgTueH+B7qZZv76uIKxBUr5KMyosHd
-                                    ZvEGeiKRwMV1BkR4yG/vgncEV/du5h6N/Er36N
-mbvVrt5AoTaI5m69xzBTJZnMQJNluwqaTMMQFcdi
-                                    0uRQnwTqCVE6/YdT6qnxm9bSqagFp1WAPYrl
-EDflRwgWFhzsDiBYJt9rU/+BU3HuPjJbnaeC2MbXu2
-                                    8SG9/uNbRxNcdUWLRSc9XLrk9LHfEZvqGB
-q2tfGM0Xi7gCOHVnojJhemRa0blb8E6uLQ5V1ufputQa
-                                    izlczLkZ49Izi8SwhGnlFVspsa7pHqLc
-y1I5y6YXRAgVFM2w1gGIVEvC5Clc+eFgweuMrdZWYt5TLn
-                                    6v49N85SiWV9akrOO+K3Uennst0wWN
-94Ng/ZFmAxiO4ozUMhD9xwlEg7B/3/vbirAPjGH/z2EZNIjL
-                                    OPKvCZ9Mizu1sMUQvXycI/MhICht
-XtvE4NXjxCAdwvdGop8hIWP3Bw0eJEus/0J7VGtiZXvIuIi3c2
-                                    rrU/PfwCT1N1BLBwh5tMlkdAUA
-AFw2AABQSwMEFAAIAAgA2H19QgAAAAAAAAAAAAAAACYAAABBSVNE
-                                    YXRhU2V0X3RlbXBfMTM1MDgz
-NzYyODEzM1wucHJvamVjdHWQT08DIRDFz5r4HZq9C1036h7oNraNie
-                                    fVc0Nh0tAsf4TB+PEFSm3W
-xBvv5Tdv3sDW33pafIEPyppV05JlswAjrFTmuGo+3l/v+2Y93N0y5+0J
-                                    BO4gCK8cJjq5N8xwDcPL
-27jjyEfAPYJ2+7Z7XPbd89ND33Ydo4XJsLBag8GB0csruzU5FEFn6hDVJE
-                                    cHIqsqt2mUG1mcuj+l
-ES4wcgSiAkapLLGSk4Q6NcEmj4G/Fklz3B9jbhCqpnOD0b+7qnMpkxZj9FDp
-                                    s/i3h7A+GfbzcOZy
-kcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIANh9fUJ5tM
-                                    lkdAUAAFw2AAAt
-AAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1xR
-                                    dWVyeUZpbGUu
-aW9iZXhQSwECFAAUAAgACADYfX1C4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAADPBQ
-                                    AAQUlTRGF0
-YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
-                                    AAAA
+                                    NcUXVlcnlGaWxlLmlvYmV47VxtU9s4EP5+M/cfNOpcuc60MXagpTRur6Vw5A4SBjjmZm5uOsJW
+HPcc
+                                    K5VlCP/+JNvyS0wUBxNcaj6UWtKu9tl99LKWBb0Ps4kHrjANXOKbUO9sQoB9i9iu75jwr/OD
+Vzvww/
+                                    uff+pZZNJBFgsRwx03YKHtko5L7M6E2Njb7ff9ERlefsUWA7OJu5t2aIgOuQk/2OX1Jhwz
+Nt3VtOvr
+                                    6w6ZOB1CHe3v474UURpJlTUupiViWiKmcTEtEutgi1AMwbcQ0xsTnu0f7e+dg0MXU0St
+sWshbw951m
+                                    fE0AElkwsXX3eOMQpCio/wFfbAxzOQL78Ez5/NPr5T6p8gin2WaA3QBItOSpVVeprr
+o6CtVDwiFmI8
+                                    4rEPkSGuX6hd0kOMV2oUvcjXVnFjvpeivhoGppzKSFF6kVUt0f2EgjR08rkKXCEr
+KqSeeF5iao9Mpt
+                                    JUZEBWVNCTpuRzBZULRNNwJOVqWid8QmY6vFQlHkK6b8+kIn+sYIxLnSLfwX27
+EJOsulofe8QjNGc5
+                                    KlcFfT5jBX1ZfgnitemIrxadGGAytQSsqO9M4IueiMhRK2RyzUbSHA/Lvh2p
+Rz8OTofH4Pm3kLB3J+
+                                    Gl51ramViLLERtTSyQdBL1l3QWaDlQLrmMFf/ZiPvd+FfYyJuNTID+YLB/
+CsAfw/4gBr6CPWX8cgiG
+                                    fPlGngcOMfLYeCOJ0Mah64xBvMAcY0ZdK+BNG+KfEf+IIKuMgGEC+tdC
+PMW8MauuCi/ALYGoG/NkNM
+                                    wHPcNbddU2c/2vD64cmaVBot8aYb1ChAtL9gsAAQoZ+Z2ScMozgX0f
+XXrYNiGjId9ac+mCDnlyAABP
+                                    D7xw4gdRISsCm5s4v5liE/Z9hh1MIbCIz5DrY2pCDQJfAIP5DRcC
+2w2mHro5wr7DxiZ8pXMwjkOxw/
+                                    d7Ew6IzyGMUTAIPU8i4tixQ+jNCRIaGkxwcCQeD8BwdIG8EAda
+Vm27oxEWW5sIQLzJpY28+SqSf19A
+                                    0tOS2rQTTdVLLyAhtTCI/+OgtN/ixyB9ELnRf5gnKVYhBYEl
+JGBM8ciEqhHzi7FZdZo/41ASgtIHDi
+                                    UXHS0GKNnUlrJ7IeyhBeyWMqF2UlwOQxM86+vjufUMN82t
+UYtb5QpdeJNoJ7vFEDTBb3fda3Q+CWgn
+                                    ybfEoQmmt9bH9BPHjbO7vcZ5nL4otZPbnP9NMPt6fczK
+A6128pp63wSrb2qx+plwaHgxqQJCe0mNvG
+                                    +C1J31TVV5FtxOVlPvm2D17dqmqjytby+pjU1Vvd7h
+1DJWL8Q8biupwvlGOK13EFWB0xOLtZpW4X8j
+                                    zNY7hlrGbN+etZdW4XwjnK7x6Kn4lbjV3MoYNELx
+Gs+c8t/yW01wHIFG6F3joVP+qkV76U0j0Ai99U
+                                    6eqnydb9farKfc1l+Pi5c41vD5vdKnu3bxZ/ww
+/Ml7Zm1ir/udsjdXmiLKKWKYBiB7NGHSW48SwvYS
+                                    AhIyT3kVnB8It1yC0m6XKd8hWSBYQaT4PVtp
+sPDFbEl3Kpnc15kFEuk5v6I9Ooda0J4ePiral+mLIx
+                                    F1s3i1VkiItzR1s0z01VJxOqGQSVMO9ShY
+bCi3NygpS9t7Wn5Qx1W2O8G+uBCYrCO9keuJiZCUkjkt
+                                    u0+KAHku4nNFle1AMDOhsbUDAV8K9C0d
+ltaQe06ssiBoatTZmhJh3N58HWE03uzUxDi/WN0B0Rc9jt
+                                    t2Auk7QGTEUYoBve0+DKK5kiPusn66
+kaNyjK5c35Glr8TN9ueoAKjrjNnC3NDDowWNmznv+HZuuwJ9
+                                    tjcWaqNu9mdTqp4HhYtlMbBYae6y
+cWEXK9nuaat5uany0ribl6VLyQV3Kl9QfkBHu7UdNVZ09JZNcq
+                                    mbhec0FTnDjIlBLhVKDQBzODiI
+L3MXb/3n3E7VKr0MTzvCi4f6AJilXfnnuYQubVg1zc3Cs1KOm7O4
+                                    GgXl37CoQcNBtAs3TIT+OImo
+EfaHvYG0IOyGMux3DotRIy6DcHKJ6XCUf80JGgxR93GOzPugoPDm1y
+                                    QHW4+Tg2QIr8yEnjLBY/en
+69/LKlE+3vix9kQ5WFeOtvEU7dWjHe9eK8e6+xTrUqwX1geEsujFUyT1
+                                    Ff+qApf+H1BLBwhbfuYN
+IgYAAKtBAABQSwMEFAAIAAgAtqWCQgAAAAAAAAAAAAAAACYAAABBSVNEYX
+                                    RhU2V0X3RlbXBfMTM1
+MDgzNzYyODEzM1wucHJvamVjdHWQT08DIRDFz5r4HZq9C1036h7oNraNiefV
+                                    c0Nh0tAsf4TB+PEF
+Sm3WxBvv5Tdv3sDW33pafIEPyppV05JlswAjrFTmuGo+3l/v+2Y93N0y5+0JBO
+                                    4gCK8cJjq5N8xw
+DcPL27jjyEfAPYJ2+7Z7XPbd89ND33Ydo4XJsLBag8GB0csruzU5FEFn6hDVJEcH
+                                    Iqsqt2mUG1mc
+uj+lES4wcgSiAkapLLGSk4Q6NcEmj4G/Fklz3B9jbhCqpnOD0b+7qnMpkxZj9FDps/
+                                    i3h7A+Gfbz
+cOZykcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIALalgkJbfuYN
+                                    IgYAAKtB
+AAAtAAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1xRdW
+                                    VyeUZp
+bGUuaW9iZXhQSwECFAAUAAgACAC2pYJC4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAAB9BgAA
+                                    QUlT
+RGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAsQcAAA
+                                    AA
 
                                 </property>
                             </structure>
@@ -3956,7 +4480,15 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Id</property>
+                                    <property name="columnName">MeasureId</property>
+                                    <property name="analysis">dimension</property>
+                                    <property name="onColumnLayout">true</property>
+                                    <property name="horizontalAlign">left</property>
+                                    <property name="indexColumn">false</property>
+                                    <property name="compressed">false</property>
+                                </structure>
+                                <structure>
+                                    <property name="columnName">LocationId</property>
                                     <property name="analysis">dimension</property>
                                     <property name="onColumnLayout">true</property>
                                     <property name="horizontalAlign">left</property>
@@ -4067,7 +4599,12 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                     </structure>
                                     <structure>
                                         <property name="position">18</property>
-                                        <property name="name">Id</property>
+                                        <property name="name">MeasureId</property>
+                                        <property name="dataType">integer</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">19</property>
+                                        <property name="name">LocationId</property>
                                         <property name="dataType">integer</property>
                                     </structure>
                                 </list-property>
@@ -4195,8 +4732,15 @@ YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAAAwcA
                                 </structure>
                                 <structure>
                                     <property name="position">18</property>
-                                    <property name="name">Id</property>
-                                    <property name="nativeName">Id</property>
+                                    <property name="name">MeasureId</property>
+                                    <property name="nativeName">MeasureId</property>
+                                    <property name="dataType">integer</property>
+                                    <property name="nativeDataType">4</property>
+                                </structure>
+                                <structure>
+                                    <property name="position">19</property>
+                                    <property name="name">LocationId</property>
+                                    <property name="nativeName">LocationId</property>
                                     <property name="dataType">integer</property>
                                     <property name="nativeDataType">4</property>
                                 </structure>
@@ -4214,87 +4758,92 @@ CompName, HierarchicalCalcDataFromView.CompData AS CompData, HierarchicalCalcDat
 AS CompVar, HierarchicalCalcDataFromView.CompVarPct AS CompVarPct, 
 HierarchicalCalcDataFromView.CompIdx AS CompIdx, HierarchicalCalcDataFromView.CompIdxRangeId AS 
 CompIdxRangeId, HierarchicalCalcDataFromView.CompIdxColor AS CompIdxColor, 
-HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS Id
+HierarchicalCalcDataFromView.CompTxtColor AS CompTxtColor, ObjectList.Id AS MeasureId, 
+ObjectList_1.Id AS LocationId
 
 FROM "Public/Scorecard/Information Objects/HierarchicalCalcDataFromView.iob"[:ViewName, '', '', 
 '1', '2'] AS HierarchicalCalcDataFromView
+ INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Location'] AS ObjectList_1 ON 
+(HierarchicalCalcDataFromView.LocationName=ObjectList_1.Name ) 
  INNER  JOIN "Public/Scorecard/Information Objects/ObjectList.iob"['Measure'] AS ObjectList ON 
 (HierarchicalCalcDataFromView.MeasureName=ObjectList.Name ) ]]></xml-property>
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIANB+fUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
+                                    UEsDBBQACAAIAFSugkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2Mjgx
 Mz
-                                    NcUXVlcnlGaWxlLmlvYmV47VvtU9s2GP++u/0POvVW2jsak/SNpXG7lkLJBgkDxna32wdhK45a
-2wqy
-                                    DMl/P8myZDshjrOQ+jjvA6CX59Hz8pOeR5ZE78M08MEtZhGhoQ3brT0IcOhQl4SeDf+4PHqx
-Dz+8//
-                                    GHnkODFnJ4jDhukYjHLqEtQt1WQF3sd/v9cESH11+xw8E0IF0zYEcOKESEUVe023DM+aRr
-WXd3dy0a
-                                    eC3KPOuv074mKRVimC1BZqVkVkpmCTIrIWthhzIMwU2M2cyGf/Yvj8GzK4LvBijA4Aox
-Z4zYc/D0yf
-                                    Tju+TXxeHJ4cElOCaYyU7iIP8A+c5nxNERo4FkbZ1iFMUMn+Bb7IOPFyBf31VjlfKf
-IYZDnnIliohB
-                                    FhqrjDQ3RoG7lPGEOogLTJQNiSDBX2hdMYLSV3MUrci3VjFjfpQif7kamAmwE0Zt
-Rda0gvcTiozrdL
-                                    mKupJWNmg+WV4h6oAGEy0qEaAbKvBpUbpcgUVMbOOOtF6N60ws2YxH1Kr4Q1L3
-3almFMUKwgTVOQo9
-                                    3HcLPsmaq41xQH3KcpKTelWlL6e8wK/ru0BFrxMRT1pKwb6bxYij8+EpeHoT
-U/7uLL72iWNdyCjjIO
-                                    ZaMvSxIJm96SCRVaoHoddqqL+7Oi7tgp0d9ZOI22nLWmfnH6lH2VgJNegP
-BofnAPw67A/WUTJncabS
-                                    ThpRlOyMBAwHSrdnVcOTnRs/WQjPAQQo5vQLo/FE5JfDEF372LUhZ7EI
-2Lkk1IYi5QAgko4fB2GUVL
-                                    IqcIXEy9kE27AfcuxhBoFDQ45IiJkNLQhCKR7mgzQELokmPpqd4NDj
-Yxu+aAtlPI9hT2QRGw5oKFQY
-                                    o2gQ+77WSIQk7FE2O0OSw4KpHkITXxg1HF0hP8aRlTW7ZDTCMhxK
-f6jAaDpF921C/76gSc9KW80gVt
-                                    kovYjGzMFA/RFKWb+oYmQKMuN+wyL1OYW0BRc0AWOGRzYsmys/
-dfaqTuknQpUUIFMQquS8YykFNZrW
-                                    SnTTZH0/ugvZs5kQL7qhDpzb28O58QjXjW1nI2xLI3Rh99lM
-dIsuqAPfl9uO0fm9fTNBvscPdSD9an
-                                    tI/49x7ei+3uI6Nt/XzcQ2Z38dyL7ZHrL6EKSZuBrr60D1
-7UaofqZCNbwcVKlCc0FNrK8D1P3tLVV9
-                                    fthMVI31daD689aWqj7hbS6otS3V9maHU6tQvZLruKmg
-SuNrwXSzg6gKmJ45vNGwSvtrQXazY6hVyP
-                                    bdaXNhlcbXgukWj56KN4uNxlb7oBaIt3jmlL//bTTA
-ygO1wLvFQ6f89Xxz4TUeqAXezU6eSu9+mhWU
-                                    2wbUzQNx8d3GZvfuc7UJYgIcjplBNWsBLh6h2OeJ
-h204vBUTyvfBMUY+H0PA8E1MWPac455Vntgq9f
-                                    5dvc3TU0G/goHASFOcFySY+PihMC6KXwA5Nxly
-hq47F3wSfruklRb4pGUM/w6LOwMyX56bKUp7M1Pm
-                                    psNiA6OUH6QrMgXzXDTB+Zhwz4Mc636axfcM
-SwgrkBTvVksFFm5vVgxXRpO7KVhCYc6cS/qTM5El/e
-                                    YgrKR/Fb/8PC/vlp95JRTyi6G8W286y6lU
-aiuhMelvCY2R0LPyc1E1uSTAoXxTlsaK3oj4yQJQtXQ9
-                                    6oHTKkA+QZENy9YUBFMbdvY6EMzU34Vc
-8MDLNzPfKtc6yw2Jjq/33igd3+5vqON80lmi0VzNk0/9Ps
-                                    20x8foloSern2lJNs9JBXAiDfmSzOo
-j0dLOvdy1onNhkuk9oXQnrUmwxxOJ6wc48K7G6WYYpp71liI
-                                    nwuye1ZmZaFsIukF5lw6ZSHh6g6A
-hVgcqbeR3cWUkXE81qxjOtbN6Jln1krTOYnreX8Dpx8loadmt7
-                                    cb5/bve3O/xO2dUrf/Z7e0N/DL
-IA6uMRuO8luyqEYXvXycM7PzABAUdql1YvDqcWKQTuG1kWgbJITv
-                                    fiPhg0SJxW/zR5UBl7ZHlPFk
-3yb3OBX/E1BQ/wtQSwcIC1OjU8MFAABfOAAAUEsDBBQACAAIANB+fU
-                                    IAAAAAAAAAAAAAAAAmAAAA
-QUlTRGF0YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3R1kE9P
-                                    AyEQxc+a+B2avQtdN+oe
-6Da2jYnn1XNDYdLQLH+EwfjxBUpt1sQb7+U3b97A1t96WnyBD8qaVdOSZb
-                                    MAI6xU5rhqPt5f7/tm
-PdzdMuftCQTuIAivHCY6uTfMcA3Dy9u448hHwD2Cdvu2e1z23fPTQ992HaOF
-                                    ybCwWoPBgdHLK7s1
-ORRBZ+oQ1SRHByKrKrdplBtZnLo/pREuMHIEogJGqSyxkpOEOjXBJo+BvxZJc9
-                                    wfY24QqqZzg9G/
-u6pzKZMWY/RQ6bP4t4ewPhn283DmcpHCl9hr0O/x80/+AVBLBwjiqVBo4AAAAKMB
-                                    AABQSwECFAAU
-AAgACADQfn1CC1OjU8MFAABfOAAALQAAAAAAAAAAAAAAAAAAAAAAQUlTRGF0YVNldF
-                                    90ZW1wXzEz
-NTA4Mzc2MjgxMzNcUXVlcnlGaWxlLmlvYmV4UEsBAhQAFAAIAAgA0H59QuKpUGjgAAAA
-                                    owEAACYA
-AAAAAAAAAAAAAAAAHgYAAEFJU0RhdGFTZXRfdGVtcF8xMzUwODM3NjI4MTMzXC5wcm9qZW
-                                    N0UEsF
-BgAAAAACAAIArwAAAFIHAAAAAA==
+                                    NcUXVlcnlGaWxlLmlvYmV47Vv/U9s2FP99d/sfdOqtdHc0ximDLo3btRRKNkgYMLa73a4nbMVR
+a1tB
+                                    liH895Nky1/yxXEagte5PwCW9J7e572P9CTLovtm4nvgFrOQ0MCCZmsHAhzY1CGBa8E/Lo+e
+v4RvXn
+                                    //XdemfgvZPEIct0jII4fQFqFOy6cO9jq9XjCkg+tP2OZg4pNO2mFbdihMBGFH1FtwxPm4
+Yxh3d3ct
+                                    6rstylzjr9OeFik1kiobQsxIxIxEzBBihhJrYZsyDMFNhNm9Bf/sXR6DZ1cE3/WRj8EV
+YvYIsR/B0y
+                                    eTt6/Ur4vDk8ODS3BMMJONxEbeAfLs94ijI0Z9qdo6xSiMGD7Bt9gDby9Avrwd91Wq
+f4YYDniipYCI
+                                    TmYqq/Q01UdBu1TxhNqIC05iH5QhoV+oXdJDjFdrFL3I11ZxY7qXon45DMwE2UpR
+e5FVLdF9h8I0dP
+                                    q5ClwpKyu0nnxeYuqA+mNtShnQFRX0tCn9XEFFDOw0HEm5mtaZmLKZjihViYeU
+7jkTrSgeKxgTUuco
+                                    cHHPKcQkq67WxwH1KMtZVuWqoC8nvKCvy9sgzl4nIp+0YoDJ1JKwVN+ZwEcz
+EdGjtudk6eTofHAKnt
+                                    5ElL86i649YhsXMiHZiDmGzJLMVyqJvdAohUzoddzV3x2dwrbB1lb8o8xt
+mbLU3vpH4inrS0mDXr9/
+                                    eA7Ar4NefxWQueBkkLa0+7HxfHzAoB/De1Y5C1iF+KqZk2TphwWd0DqN
+uSLiXL7NAdZwIUARpx8Yjc
+                                    Zi/TwM0LWHHQtyFokFKbfImlAsqQCIRdWL/CBUhawIHGHx8n6MLdgL
+OHYxg8CmAUckwMyCBgSBNA/z
+                                    ixAEDgnHHro/wYHLRxZ8bgowrsuwK1ZJC/ZpICCMUNiPPE8jEsHH
+LmX3Z0hqGDDBIZB4wqnB8Ap5EQ
+                                    6NrNohwyGW6V7GI078aaNovlXyrwtIukZSm3ZilPXSDWnEbAzi
+PwKU8Uv8GKYPckfxGYul3S4sy3AG
+                                    CRgxPLRg2Vj5ob1TdR4+EVASgtIHASUXHSMGqNk0lrKbbEbm
+szuzO2gmxbNhqINnc3M8N57hurltr8
+                                    VtaYYu7K6byW4xBHXw+2LTOTq/i2kmyXPiUAfTu5tj+hvH
+tbP70wbncXp+0Exuc/7Xweze5pjVhzzN
+                                    5DX1vg5W99di9T0V0PBiUiWE5pKqvK+D1Jebm6r6fLSZ
+rKbe18HqzxubqvoEu7mk1jZVzfUOp5axei
+                                    XncVNJlc7Xwul6B1EVOD2zeaNplf7Xwux6x1DLmO05
+k+bSKp2vhdMNHj0Vv5w2mlsdg1oo3uCZU/77
+                                    dqMJjiNQC70bPHTKXz9oLr1pBGqhd72Tpypf55uV
+m82U2/XzcfH6xgY+v1f6dNcs/tr/Uf6mSmPEBE
+                                    kcs5TdrAY4eIgij6sIW3BwK/KC54FjjDw+goDh
+m4iw7FbOnGStfJW4f4+vkOohoW9gQZBaizUviD/2
+                                    8ENxXDQ/Q3JuMOQcXXUseCT4fEkr5elxK3X8
+EXJ0RmT+eWqkxOjTkTI1HGYrGKX8IJmRCZnnogpO54
+                                    Y596qM+TKz11IWCFYQKX4iLzVY+Ai3pLsy
+mdwHnwUS6aeDknZ1tLWgPT3PLGlfpi9PWcqb5dt6iYR8
+                                    8Stv1u8O5VLxDqVEJt3FlI+CxYZyy42R
+DOL8oI2rHOLjQN4hTJJKd0g8NVPiUjJxtYGkCJBHUGjBss
+                                    kHwcSC7R2xron5vrefy2TJmvHA0zyL
+glEOOltDFMTdnT0F0dzdWxPj9OL0BYg+mjEmhWh/3aBVBDRV
+                                    cuVV03f3egSM0C0JXF36REm2/VEF
+wIg74gu3bh4eLmjcyXkndksOkegLa1JWq7o5nIxZ+Zgr3PuKgc
+                                    VKU9dqC4l/xnbXWM3L9mN7Wbw4
+MtfN5LpzdUcLz+lad4E5l+zPbIl0A8DCMA7jS8id2UU90/ha9wVp
+                                    w6p7riwyK22kchZXi/4aQT9S
+Ob/msJuNC/vjXpFZEPZ2adi/OCzmGnHpR/41ZoNhftMc1hiiF1/nyG
+                                    w/AAWF94g6Odj9OjlIhvDK
+TJgpEyJ2v5HgQbLE7OnJ/2sF1IN15Wi3v0V7JtoL60PKuHodkDvKiv/A
+                                    LaT/BVBLBwjcz6hZHwYA
+ABY+AABQSwMEFAAIAAgAVK6CQgAAAAAAAAAAAAAAACYAAABBSVNEYXRhU2
+                                    V0X3RlbXBfMTM1MDgz
+NzYyODEzM1wucHJvamVjdHWQT08DIRDFz5r4HZq9C1036h7oNraNiefVc0Nh
+                                    0tAsf4TB+PEFSm3W
+xBvv5Tdv3sDW33pafIEPyppV05JlswAjrFTmuGo+3l/v+2Y93N0y5+0JBO4gCK
+                                    8cJjq5N8xwDcPL
+27jjyEfAPYJ2+7Z7XPbd89ND33Ydo4XJsLBag8GB0csruzU5FEFn6hDVJEcHIqsq
+                                    t2mUG1mcuj+l
+ES4wcgSiAkapLLGSk4Q6NcEmj4G/Fklz3B9jbhCqpnOD0b+7qnMpkxZj9FDps/i3h7
+                                    A+GfbzcOZy
+kcKX2GvQ7/HzT/4BUEsHCOKpUGjgAAAAowEAAFBLAQIUABQACAAIAFSugkLcz6hZHwYA
+                                    ABY+AAAt
+AAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBfMTM1MDgzNzYyODEzM1xRdWVyeU
+                                    ZpbGUu
+aW9iZXhQSwECFAAUAAgACABUroJC4qlQaOAAAACjAQAAJgAAAAAAAAAAAAAAAAB6BgAAQUlT
+                                    RGF0
+YVNldF90ZW1wXzEzNTA4Mzc2MjgxMzNcLnByb2plY3RQSwUGAAAAAAIAAgCvAAAArgcAAAAA
 
                                 </property>
                             </structure>
@@ -4731,7 +5280,15 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 </tabular-dimension>
                             </property>
                             <property name="measureGroups">
-                                <tabular-measure-group name="Summary Field" id="17"/>
+                                <tabular-measure-group name="Summary Field" id="17">
+                                    <property name="measures">
+                                        <tabular-measure name="CompIdx" id="22">
+                                            <expression name="measureExpression" type="javascript">dataSetRow["CompIdx"]</expression>
+                                            <property name="dataType">float</property>
+                                            <property name="alignment">left</property>
+                                        </tabular-measure>
+                                    </property>
+                                </tabular-measure-group>
                             </property>
                             <property name="dataSet">PressGaneyPerspective</property>
                         </tabular-cube>
@@ -4942,7 +5499,15 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Id</property>
+                    <property name="columnName">PeriodId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationId</property>
                     <property name="analysis">dimension</property>
                     <property name="onColumnLayout">true</property>
                     <property name="horizontalAlign">left</property>
@@ -5062,7 +5627,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     </structure>
                     <structure>
                         <property name="position">18</property>
-                        <property name="name">Id</property>
+                        <property name="name">MeasureId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">PeriodId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">LocationId</property>
                         <property name="dataType">integer</property>
                     </structure>
                 </list-property>
@@ -5157,7 +5732,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </structure>
                 <structure>
                     <property name="position">18</property>
-                    <property name="name">Id</property>
+                    <property name="name">MeasureId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">PeriodId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">LocationId</property>
                     <property name="dataType">integer</property>
                 </structure>
             </list-property>
@@ -5302,7 +5887,13 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Id</property>
+                    <property name="columnName">LocationId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodId</property>
                     <property name="analysis">dimension</property>
                     <property name="onColumnLayout">true</property>
                     <property name="horizontalAlign">left</property>
@@ -5420,7 +6011,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     </structure>
                     <structure>
                         <property name="position">18</property>
-                        <property name="name">Id</property>
+                        <property name="name">MeasureId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">LocationId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">PeriodId</property>
                         <property name="dataType">integer</property>
                     </structure>
                 </list-property>
@@ -5515,12 +6116,23 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </structure>
                 <structure>
                     <property name="position">18</property>
-                    <property name="name">Id</property>
+                    <property name="name">MeasureId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">LocationId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">PeriodId</property>
                     <property name="dataType">integer</property>
                 </structure>
             </list-property>
         </data-mart-data-set>
         <data-mart-data-set name="OverallHealthPerspective" id="35">
+            <property name="nullsOrdering">nulls lowest</property>
             <list-property name="columnHints">
                 <structure>
                     <property name="columnName">MeasureLevel</property>
@@ -5659,7 +6271,13 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Id</property>
+                    <property name="columnName">LocationId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodId</property>
                     <property name="analysis">dimension</property>
                     <property name="onColumnLayout">true</property>
                     <property name="horizontalAlign">left</property>
@@ -5784,7 +6402,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     </structure>
                     <structure>
                         <property name="position">18</property>
-                        <property name="name">Id</property>
+                        <property name="name">MeasureId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">LocationId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">PeriodId</property>
                         <property name="dataType">integer</property>
                     </structure>
                 </list-property>
@@ -5879,7 +6507,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </structure>
                 <structure>
                     <property name="position">18</property>
-                    <property name="name">Id</property>
+                    <property name="name">MeasureId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">LocationId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">PeriodId</property>
                     <property name="dataType">integer</property>
                 </structure>
             </list-property>
@@ -6024,7 +6662,13 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Id</property>
+                    <property name="columnName">LocationId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PeriodId</property>
                     <property name="analysis">dimension</property>
                     <property name="onColumnLayout">true</property>
                     <property name="horizontalAlign">left</property>
@@ -6142,7 +6786,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     </structure>
                     <structure>
                         <property name="position">18</property>
-                        <property name="name">Id</property>
+                        <property name="name">MeasureId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">LocationId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">PeriodId</property>
                         <property name="dataType">integer</property>
                     </structure>
                 </list-property>
@@ -6237,7 +6891,17 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </structure>
                 <structure>
                     <property name="position">18</property>
-                    <property name="name">Id</property>
+                    <property name="name">MeasureId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">LocationId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">PeriodId</property>
                     <property name="dataType">integer</property>
                 </structure>
             </list-property>
@@ -6331,14 +6995,6 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Id</property>
-                    <property name="analysis">dimension</property>
-                    <property name="onColumnLayout">true</property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">false</property>
-                    <property name="compressed">false</property>
-                </structure>
-                <structure>
                     <property name="columnName">CompName</property>
                     <property name="analysis">dimension</property>
                     <property name="onColumnLayout">true</property>
@@ -6360,6 +7016,22 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="onColumnLayout">true</property>
                     <property name="horizontalAlign">left</property>
                     <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">MeasureId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LocationId</property>
+                    <property name="analysis">dimension</property>
+                    <property name="onColumnLayout">true</property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
             </list-property>
@@ -6432,22 +7104,27 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     </structure>
                     <structure>
                         <property name="position">8</property>
-                        <property name="name">Id</property>
-                        <property name="dataType">integer</property>
-                    </structure>
-                    <structure>
-                        <property name="position">9</property>
                         <property name="name">CompName</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
-                        <property name="position">10</property>
+                        <property name="position">9</property>
                         <property name="name">MeasureLevel</property>
                         <property name="dataType">integer</property>
                     </structure>
                     <structure>
-                        <property name="position">11</property>
+                        <property name="position">10</property>
                         <property name="name">LocationLevel</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">MeasureId</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">LocationId</property>
                         <property name="dataType">integer</property>
                     </structure>
                 </list-property>
@@ -6492,22 +7169,27 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </structure>
                 <structure>
                     <property name="position">8</property>
-                    <property name="name">Id</property>
-                    <property name="dataType">integer</property>
-                </structure>
-                <structure>
-                    <property name="position">9</property>
                     <property name="name">CompName</property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="position">10</property>
+                    <property name="position">9</property>
                     <property name="name">MeasureLevel</property>
                     <property name="dataType">integer</property>
                 </structure>
                 <structure>
-                    <property name="position">11</property>
+                    <property name="position">10</property>
                     <property name="name">LocationLevel</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">MeasureId</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">LocationId</property>
                     <property name="dataType">integer</property>
                 </structure>
             </list-property>
@@ -6722,7 +7404,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] +  "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -6860,7 +7542,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -6998,7 +7680,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7171,7 +7853,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7309,7 +7991,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7447,7 +8129,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7613,7 +8295,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-173429263&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7751,7 +8433,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-173429263&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -7889,7 +8571,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-173429263&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"]+  "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -8056,7 +8738,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-800514884&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"]+  "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -8194,7 +8876,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-800514884&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -8332,7 +9014,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                            <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-800514884&amp;measureID=" + row["MeasureId"] +  "&amp;locationID=" + row["LocationId"]+ "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -8358,7 +9040,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="textAlign">center</property>
                     <extended-item extensionName="FlashGadgets" name="Press Ganey Gauge" id="7">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
- <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
+ <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" invokeScript="false" prefix="" script="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
   <gadgetPartsSupportingEffects _body="dial"/>
   <gadgetPartsSupportingEffects _body="gauge"/>
@@ -8387,21 +9069,20 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
   </linearGauge>
   <meter centerX="50" centerY="85" endAngle="-10" innerRadius="50" outerRadius="70" showDialValue="true" showValueAboveNeedle="true" startAngle="190">
    <needles baseWidth="7" invokeScript="false" rearExtension="10" script="" showValue="true" size="65" topWidth="0">
-    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;amp;measureID=&quot; + row[&quot;Id&quot;] + &quot;&amp;amp;s=ACTUATEONE&amp;amp;d=LogixDemo&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
+    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
    </needles>
    <needleBasePivot borderColor="000000" borderThickness="1" borderTransparency="80" fillColor="919191" showBorder="true" size="10" useGradient="true">
     <gradient angle="0" endColor="808080" pattern="0" startColor="c0c0c0"/>
    </needleBasePivot>
   </meter>
   <backgroundGradient angle="90" endColor="ececff" pattern="1" startColor="ffffff"/>
+  <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
  </Gadget>
 </ActuateChart>
 ]]></xml-property>
                         <list-property name="action">
                             <structure>
-                                <property name="targetWindow">_blank</property>
-                                <property name="linkType">hyperlink</property>
-                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                <property name="linkType">none</property>
                             </structure>
                         </list-property>
                         <property name="inheritColumns">false</property>
@@ -8522,9 +9203,21 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
                                 <property name="dataType">integer</property>
                             </structure>
                         </list-property>
@@ -8535,7 +9228,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="textAlign">center</property>
                     <extended-item extensionName="FlashGadgets" name="Core Measures Gauge" id="32">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
- <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
+ <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" invokeScript="false" prefix="" script="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
   <gadgetPartsSupportingEffects _body="dial"/>
   <gadgetPartsSupportingEffects _body="gauge"/>
@@ -8564,21 +9257,20 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
   </linearGauge>
   <meter centerX="50" centerY="85" endAngle="-10" innerRadius="50" outerRadius="70" showDialValue="true" showValueAboveNeedle="true" startAngle="190">
    <needles baseWidth="7" invokeScript="false" rearExtension="10" script="" showValue="true" size="65" topWidth="0">
-    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;amp;measureID=&quot; + row[&quot;Id&quot;] + &quot;&amp;amp;s=ACTUATEONE&amp;amp;d=LogixDemo&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
+    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
    </needles>
    <needleBasePivot borderColor="000000" borderThickness="1" borderTransparency="80" fillColor="919191" showBorder="true" size="10" useGradient="true">
     <gradient angle="0" endColor="808080" pattern="0" startColor="c0c0c0"/>
    </needleBasePivot>
   </meter>
   <backgroundGradient angle="90" endColor="ececff" pattern="1" startColor="ffffff"/>
+  <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
  </Gadget>
 </ActuateChart>
 ]]></xml-property>
                         <list-property name="action">
                             <structure>
-                                <property name="targetWindow">_blank</property>
-                                <property name="linkType">hyperlink</property>
-                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                <property name="linkType">none</property>
                             </structure>
                         </list-property>
                         <property name="inheritColumns">false</property>
@@ -8699,9 +9391,21 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
                                 <property name="dataType">integer</property>
                             </structure>
                         </list-property>
@@ -8712,7 +9416,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="textAlign">center</property>
                     <extended-item extensionName="FlashGadgets" name="HCAHPs Gauge" id="34">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
- <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
+ <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" invokeScript="false" prefix="" script="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
   <gadgetPartsSupportingEffects _body="dial"/>
   <gadgetPartsSupportingEffects _body="gauge"/>
@@ -8741,21 +9445,20 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
   </linearGauge>
   <meter centerX="50" centerY="85" endAngle="-10" innerRadius="50" outerRadius="70" showDialValue="true" showValueAboveNeedle="true" startAngle="190">
    <needles baseWidth="7" invokeScript="false" rearExtension="10" script="" showValue="true" size="65" topWidth="0">
-    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;amp;measureID=&quot; + row[&quot;Id&quot;] + &quot;&amp;amp;s=ACTUATEONE&amp;amp;d=LogixDemo&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
+    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
    </needles>
    <needleBasePivot borderColor="000000" borderThickness="1" borderTransparency="80" fillColor="919191" showBorder="true" size="10" useGradient="true">
     <gradient angle="0" endColor="808080" pattern="0" startColor="c0c0c0"/>
    </needleBasePivot>
   </meter>
   <backgroundGradient angle="90" endColor="ececff" pattern="1" startColor="ffffff"/>
+  <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
  </Gadget>
 </ActuateChart>
 ]]></xml-property>
                         <list-property name="action">
                             <structure>
-                                <property name="targetWindow">_blank</property>
-                                <property name="linkType">hyperlink</property>
-                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                <property name="linkType">none</property>
                             </structure>
                         </list-property>
                         <property name="inheritColumns">false</property>
@@ -8876,9 +9579,21 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
                                 <property name="dataType">integer</property>
                             </structure>
                         </list-property>
@@ -8889,7 +9604,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                     <property name="textAlign">center</property>
                     <extended-item extensionName="FlashGadgets" name="Overall Health Gauge" id="33">
                         <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="1.0">
- <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" prefix="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
+ <Gadget backgroundColor="c0c0c0" backgroundTransparency="255" borderColor="ececff" borderThickness="2" borderTransparency="255" colorScheme="1" invokeScript="false" prefix="" script="" showBorder="true" showGaugeLabels="false" showValueAboveNeedle="false" subType="" suffix="%" turnOffAnimation="false" turnOffDefaultAnimination="false" type="Meter" version="1.0.0">
   <gadgetPartsSupportingEffects _body="background"/>
   <gadgetPartsSupportingEffects _body="dial"/>
   <gadgetPartsSupportingEffects _body="gauge"/>
@@ -8918,24 +9633,24 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
   </linearGauge>
   <meter centerX="50" centerY="85" endAngle="-10" innerRadius="50" outerRadius="70" showDialValue="true" showValueAboveNeedle="true" startAngle="190">
    <needles baseWidth="7" invokeScript="false" rearExtension="10" script="" showValue="true" size="65" topWidth="0">
-    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;amp;measureID=&quot; + row[&quot;Id&quot;] + &quot;&amp;amp;s=ACTUATEONE&amp;amp;d=LogixDemo&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
+    <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
    </needles>
    <needleBasePivot borderColor="000000" borderThickness="1" borderTransparency="80" fillColor="919191" showBorder="true" size="10" useGradient="true">
     <gradient angle="0" endColor="808080" pattern="0" startColor="c0c0c0"/>
    </needleBasePivot>
   </meter>
   <backgroundGradient angle="90" endColor="ececff" pattern="1" startColor="ffffff"/>
+  <clickURL baseURL="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;none&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" parameterName=""/>
  </Gadget>
 </ActuateChart>
 ]]></xml-property>
                         <list-property name="action">
                             <structure>
-                                <property name="targetWindow">_blank</property>
-                                <property name="linkType">hyperlink</property>
-                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_view.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                <property name="linkType">none</property>
                             </structure>
                         </list-property>
                         <property name="inheritColumns">false</property>
+                        <structure name="toc"/>
                         <property name="dataSet">TopLevelPerspective</property>
                         <property name="height">1.7in</property>
                         <property name="width">3in</property>
@@ -8983,12 +9698,6 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
-                                <property name="dataType">integer</property>
-                            </structure>
-                            <structure>
                                 <property name="name">CompName</property>
                                 <text-property name="displayName">CompName</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["CompName"]</expression>
@@ -9004,6 +9713,18 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="name">LocationLevel</property>
                                 <text-property name="displayName">LocationLevel</text-property>
                                 <expression name="expression" type="javascript">dataSetRow["LocationLevel"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
                                 <property name="dataType">integer</property>
                             </structure>
                         </list-property>
@@ -9135,10 +9856,29 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
                                 <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                        </list-property>
+                        <list-property name="sort">
+                            <structure>
+                                <expression name="key" type="javascript">row["MeasureName"]</expression>
+                                <property name="direction">asc</property>
+                                <property name="strength">-1</property>
                             </structure>
                         </list-property>
                         <column id="192">
@@ -9189,7 +9929,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9223,7 +9963,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9257,7 +9997,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["ID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-1684818155&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9419,10 +10159,29 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
                                 <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                        </list-property>
+                        <list-property name="sort">
+                            <structure>
+                                <expression name="key" type="javascript">row["MeasureName"]</expression>
+                                <property name="direction">asc</property>
+                                <property name="strength">-1</property>
                             </structure>
                         </list-property>
                         <column id="249">
@@ -9473,7 +10232,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"]+ "&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9507,7 +10266,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9541,7 +10300,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-729470523&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9698,10 +10457,29 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
                                 <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                        </list-property>
+                        <list-property name="sort">
+                            <structure>
+                                <expression name="key" type="javascript">row["MeasureName"]</expression>
+                                <property name="direction">asc</property>
+                                <property name="strength">-1</property>
                             </structure>
                         </list-property>
                         <column id="269">
@@ -9752,7 +10530,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9786,7 +10564,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9820,7 +10598,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureId"] + "&amp;locationID=" + row["LocationId"] + "&amp;periodID=" + row["PeriodID"] + "&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -9977,10 +10755,29 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                 <property name="dataType">string</property>
                             </structure>
                             <structure>
-                                <property name="name">Id</property>
-                                <text-property name="displayName">Id</text-property>
-                                <expression name="expression" type="javascript">dataSetRow["Id"]</expression>
+                                <property name="name">MeasureId</property>
+                                <text-property name="displayName">MeasureId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
                                 <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">LocationId</property>
+                                <text-property name="displayName">LocationId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                            <structure>
+                                <property name="name">PeriodId</property>
+                                <text-property name="displayName">PeriodId</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["PeriodId"]</expression>
+                                <property name="dataType">integer</property>
+                            </structure>
+                        </list-property>
+                        <list-property name="sort">
+                            <structure>
+                                <expression name="key" type="javascript">row["MeasureName"]</expression>
+                                <property name="direction">asc</property>
+                                <property name="strength">-1</property>
                             </structure>
                         </list-property>
                         <column id="259">
@@ -10031,7 +10828,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="constant">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["MeasureId"]+ "&amp;locationID=" + row["LocationId"] +"&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -10065,7 +10862,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="constant">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["MeasureId"]+ "&amp;locationID=" + row["LocationId"] +"&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -10099,7 +10896,7 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                                         <list-property name="action">
                                             <structure>
                                                 <property name="linkType">hyperlink</property>
-                                                <expression name="uri" type="javascript">"http://actuateone/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["Id"] + "&amp;s=ACTUATEONE&amp;d=LogixDemo&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                                                <expression name="uri" type="constant">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=-328301506&amp;measureID=" + row["MeasureId"]+ "&amp;locationID=" + row["LocationId"] +"&amp;s=ACTUATEONE&amp;d=National Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
                                                 <property name="targetWindow">_blank</property>
                                             </structure>
                                         </list-property>
@@ -10135,6 +10932,258 @@ BgAAAAACAAIArwAAAFIHAAAAAA==
                 </cell>
             </row>
         </grid>
+        <table id="963">
+            <property name="dataSet">TopLevelPerspective</property>
+            <property name="theme">ThemesReportItems.default-table</property>
+            <list-property name="visibility">
+                <structure>
+                    <property name="format">all</property>
+                    <expression name="valueExpr" type="javascript">true</expression>
+                </structure>
+            </list-property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">MeasureName</property>
+                    <text-property name="displayName">MeasureName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationName</property>
+                    <text-property name="displayName">LocationName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">PeriodName</property>
+                    <text-property name="displayName">PeriodName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["PeriodName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdx</property>
+                    <text-property name="displayName">CompIdx</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdx"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdxRangeId</property>
+                    <text-property name="displayName">CompIdxRangeId</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdxRangeId"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompIdxColor</property>
+                    <text-property name="displayName">CompIdxColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompIdxColor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompTxtColor</property>
+                    <text-property name="displayName">CompTxtColor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompTxtColor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">CompName</property>
+                    <text-property name="displayName">CompName</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["CompName"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureLevel</property>
+                    <text-property name="displayName">MeasureLevel</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureLevel"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationLevel</property>
+                    <text-property name="displayName">LocationLevel</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationLevel"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">MeasureId</property>
+                    <text-property name="displayName">MeasureId</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["MeasureId"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">LocationId</property>
+                    <text-property name="displayName">LocationId</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["LocationId"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+            </list-property>
+            <column id="1027"/>
+            <column id="1028"/>
+            <column id="1029"/>
+            <column id="1030"/>
+            <column id="1031"/>
+            <column id="1032"/>
+            <column id="1033"/>
+            <column id="1034"/>
+            <column id="1035"/>
+            <column id="1036"/>
+            <column id="1037"/>
+            <column id="1038"/>
+            <header>
+                <row id="964">
+                    <cell id="965">
+                        <label id="966">
+                            <text-property name="text">MeasureName</text-property>
+                        </label>
+                    </cell>
+                    <cell id="967">
+                        <label id="968">
+                            <text-property name="text">LocationName</text-property>
+                        </label>
+                    </cell>
+                    <cell id="969">
+                        <label id="970">
+                            <text-property name="text">PeriodName</text-property>
+                        </label>
+                    </cell>
+                    <cell id="971">
+                        <label id="972">
+                            <text-property name="text">CompIdx</text-property>
+                        </label>
+                    </cell>
+                    <cell id="973">
+                        <label id="974">
+                            <text-property name="text">CompIdxRangeId</text-property>
+                        </label>
+                    </cell>
+                    <cell id="975">
+                        <label id="976">
+                            <text-property name="text">CompIdxColor</text-property>
+                        </label>
+                    </cell>
+                    <cell id="977">
+                        <label id="978">
+                            <text-property name="text">CompTxtColor</text-property>
+                        </label>
+                    </cell>
+                    <cell id="979">
+                        <label id="980">
+                            <text-property name="text">CompName</text-property>
+                        </label>
+                    </cell>
+                    <cell id="981">
+                        <label id="982">
+                            <text-property name="text">MeasureLevel</text-property>
+                        </label>
+                    </cell>
+                    <cell id="983">
+                        <label id="984">
+                            <text-property name="text">LocationLevel</text-property>
+                        </label>
+                    </cell>
+                    <cell id="985">
+                        <label id="986">
+                            <text-property name="text">MeasureId</text-property>
+                        </label>
+                    </cell>
+                    <cell id="987">
+                        <label id="988">
+                            <text-property name="text">LocationId</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="989">
+                    <cell id="990">
+                        <data id="991">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">MeasureName</property>
+                        </data>
+                    </cell>
+                    <cell id="992">
+                        <data id="993">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">LocationName</property>
+                        </data>
+                    </cell>
+                    <cell id="994">
+                        <data id="995">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">PeriodName</property>
+                        </data>
+                    </cell>
+                    <cell id="996">
+                        <data id="997">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">CompIdx</property>
+                        </data>
+                    </cell>
+                    <cell id="998">
+                        <data id="999">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">CompIdxRangeId</property>
+                        </data>
+                    </cell>
+                    <cell id="1000">
+                        <data id="1001">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">CompIdxColor</property>
+                        </data>
+                    </cell>
+                    <cell id="1002">
+                        <data id="1003">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">CompTxtColor</property>
+                        </data>
+                    </cell>
+                    <cell id="1004">
+                        <data id="1005">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">CompName</property>
+                        </data>
+                    </cell>
+                    <cell id="1006">
+                        <data id="1007">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">MeasureLevel</property>
+                        </data>
+                    </cell>
+                    <cell id="1008">
+                        <data id="1009">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">LocationLevel</property>
+                        </data>
+                    </cell>
+                    <cell id="1010">
+                        <data id="1011">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">MeasureId</property>
+                        </data>
+                    </cell>
+                    <cell id="1012">
+                        <data id="1013">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">LocationId</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="1014">
+                    <cell id="1015"/>
+                    <cell id="1016"/>
+                    <cell id="1017"/>
+                    <cell id="1018"/>
+                    <cell id="1019"/>
+                    <cell id="1020"/>
+                    <cell id="1021"/>
+                    <cell id="1022"/>
+                    <cell id="1023"/>
+                    <cell id="1024"/>
+                    <cell id="1025"/>
+                    <cell id="1026"/>
+                </row>
+            </footer>
+        </table>
     </body>
     <list-property name="images">
         <structure>
