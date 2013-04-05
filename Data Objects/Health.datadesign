@@ -1927,7 +1927,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                     <list-property name="action">
                                         <structure>
                                             <property name="linkType">hyperlink</property>
-                                            <expression name="uri" type="constant">http://win2k8svr01/qfrontend/client/main.aspx</expression>
+                                            <expression name="uri" type="constant">http://localhost/qfrontend/client/main.aspx</expression>
                                             <property name="targetWindow">_blank</property>
                                         </structure>
                                     </list-property>
@@ -1951,7 +1951,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="levels">
                                 <tabular-level name="Contact Date Year" id="122">
                                     <property name="dataType">integer</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="alignment">right</property>
+                                    <list-property name="action">
+                                        <structure>
+                                            <property name="linkType">none</property>
+                                        </structure>
+                                    </list-property>
                                     <property name="columnName">Contact Date Year</property>
                                 </tabular-level>
                                 <tabular-level name="Contact Date Quarter" id="123">
