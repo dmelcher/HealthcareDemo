@@ -16,7 +16,7 @@
     <property name="Data Cube.Data Set.x">135</property>
     <property name="Data Cube.Data Set.y">80</property>
     <data-sources>
-        <oda-data-source extensionID="com.actuate.ais.oda" name="Data Source" id="2">
+        <oda-data-source extensionID="com.actuate.ais.oda" name="Healthcare Scorecard" id="2">
             <list-property name="privateDriverProperties">
                 <ex-property>
                     <name>UsingLocalIOs</name>
@@ -210,7 +210,7 @@
                     </structure>
                 </list-property>
             </structure>
-            <property name="dataSource">Data Source</property>
+            <property name="dataSource">Healthcare Scorecard</property>
             <list-property name="resultSet">
                 <structure>
                     <property name="position">1</property>
@@ -317,7 +317,7 @@ CalcDataFromSection]]></xml-property>
             <structure name="designerState">
                 <property name="version">11.0.0.0</property>
                 <property name="stateContentAsBlob">
-                    UEsDBBQACAAIAJmFdkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzMDc0NjkwNTcw
+                    UEsDBBQACAAIAAuFgkIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzMDc0NjkwNTcw
 OD
                     lcUXVlcnlGaWxlLmlvYmV45Vltb9s2EP5eoP+BYLH6Syo26bp1adSudZPBQF6MOgsGDPvASGdZ
 rUS6
@@ -352,7 +352,7 @@ a4yPS5fLjF+lInGjLzJtcm6qMgFjLMZ5
                     v/GAwGKuQFfXIGtXLF6qjdW9VtE8qFNr+Z+vR70n/3AX
 0Dx4aM+t6vKghvNmfFjtq9usRxS9OtM9E9
                     my+5rv/i9rvlWvpTJlq9jN5J43+4j+DlBLBwh7zEop
-rwMAAC8gAABQSwMEFAAIAAgAmYV2QgAAAAAA
+rwMAAC8gAABQSwMEFAAIAAgAC4WCQgAAAAAA
                     AAAAAAAAACYAAABBSVNEYXRhU2V0X3RlbXBfMTMw
 NzQ2OTA1NzA4OVwucHJvamVjdHWQW2sCMRCFny
                     v0P8i+N1npRYW40iqCz9s+S0wGiWwuTSalP79J
@@ -363,10 +363,10 @@ Q/e677cceQ94QNDuMHts508vy/Z53i6WjBYmw8JqDQ
 6v6URrjAyBGIChilssRKThLq1ABveQz8rUia4/4Uc4NQ
                     NR0bjP7dVZ1rmbQYo4dKX8S/PYT1ybCf
 xwuXixS+xN6Cfo8ff/IPUEsHCC5yR9LgAAAAowEAAFBLAQ
-                    IUABQACAAIAJmFdkJ7zEoprwMAAC8g
+                    IUABQACAAIAAuFgkJ7zEoprwMAAC8g
 AAAtAAAAAAAAAAAAAAAAAAAAAABBSVNEYXRhU2V0X3RlbXBf
                     MTMwNzQ2OTA1NzA4OVxRdWVyeUZp
-bGUuaW9iZXhQSwECFAAUAAgACACZhXZCLnJH0uAAAACjAQAAJg
+bGUuaW9iZXhQSwECFAAUAAgACAALhYJCLnJH0uAAAACjAQAAJg
                     AAAAAAAAAAAAAAAAAKBAAAQUlT
 RGF0YVNldF90ZW1wXzEzMDc0NjkwNTcwODlcLnByb2plY3RQSwUG
                     AAAAAAIAAgCvAAAAPgUAAAAA
