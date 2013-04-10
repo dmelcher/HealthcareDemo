@@ -2,7 +2,7 @@
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
     <xml-property name="externalMetadata">
         <external-datamarts>
-            <datamart-node location="file:/C:/Actuate11/iServer/data/ActuateOneEncyc/file/163/063.dat">
+            <datamart-node location="file:/C:/Actuate11/iServer/data/ActuateOneEncyc/file/173/010.dat">
                 <reference-elements>NewDataMartDataSource1;</reference-elements>
                 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
                     <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
@@ -1927,7 +1927,15 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="levels">
                                                 <tabular-level name="Age Band" id="119">
                                                     <property name="dataType">string</property>
+                                                    <property name="levelType">dynamic</property>
                                                     <property name="alignment">left</property>
+                                                    <list-property name="action">
+                                                        <structure>
+                                                            <property name="linkType">hyperlink</property>
+                                                            <expression name="uri" type="constant">http://localhost/qfrontend/client/main.aspx</expression>
+                                                            <property name="targetWindow">_blank</property>
+                                                        </structure>
+                                                    </list-property>
                                                     <property name="columnName">Age Numeric</property>
                                                 </tabular-level>
                                                 <tabular-level name="Age" id="118">
@@ -1948,7 +1956,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="levels">
                                                 <tabular-level name="Contact Date Year" id="122">
                                                     <property name="dataType">integer</property>
+                                                    <property name="levelType">dynamic</property>
                                                     <property name="alignment">right</property>
+                                                    <list-property name="action">
+                                                        <structure>
+                                                            <property name="linkType">none</property>
+                                                        </structure>
+                                                    </list-property>
                                                     <property name="columnName">Contact Date Year</property>
                                                 </tabular-level>
                                                 <tabular-level name="Contact Date Quarter" id="123">
@@ -2162,14 +2176,14 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
         </structure>
     </list-property>
     <data-sources>
-        <data-mart-data-source name="NewDataMartDataSource1" id="6">
+        <data-mart-data-source name="NewDataMartDataSource1" id="10">
             <property name="datamartURL">Data Objects/Health</property>
             <property name="datamartVersion">-1</property>
             <property name="accessType">latest</property>
         </data-mart-data-source>
     </data-sources>
     <cubes>
-        <data-mart-cube name="NewDataMartDataSource1::Diagnostics Data Cube" id="7">
+        <data-mart-cube name="NewDataMartDataSource1::Diagnostics Data Cube" id="11">
             <property name="dataSource">NewDataMartDataSource1</property>
             <property name="dataObject">Diagnostics Data Cube</property>
         </data-mart-cube>
@@ -2205,7 +2219,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
         </style>
     </styles>
     <body>
-        <extended-item extensionName="Chart" name="Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee" id="160">
+        <extended-item extensionName="Chart" name="Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee" id="157">
             <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
             <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="2.5.3">
  <ChartWithAxes version="2.5.3" type="Line Chart" subType="standard" orientation="1">
@@ -2250,7 +2264,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
    </children>
-   <bounds _body="0.0,0.0,455.0,203.0"/>
+   <bounds _body="0.0,0.0,455.0,187.5"/>
    <outline>
     <color _nil="1"/>
    </outline>
@@ -2414,6 +2428,14 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
+                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
+                    <property name="operator">in</property>
+                    <simple-property-list name="value1">
+                        <value type="constant">90K plus</value>
+                    </simple-property-list>
+                    <property name="filterTarget">DataSet</property>
+                </filter-condition-element>
+                <filter-condition-element>
                     <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
@@ -2422,16 +2444,8 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
-                <filter-condition-element>
-                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
-                    <property name="operator">in</property>
-                    <simple-property-list name="value1">
-                        <value type="constant">10 - 20K</value>
-                    </simple-property-list>
-                    <property name="filterTarget">DataSet</property>
-                </filter-condition-element>
             </property>
-            <property name="height">203.25pt</property>
+            <property name="height">187.5pt</property>
             <property name="width">455.25pt</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -2515,7 +2529,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
             </list-property>
             <property name="theme">ThemesReportItems.DashForGoldTheme</property>
         </extended-item>
-        <extended-item extensionName="Chart" name="Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7" id="164">
+        <extended-item extensionName="Chart" name="Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7" id="162">
             <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
             <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="2.5.3">
  <ChartWithAxes version="2.5.3" type="Column Chart" subType="SideBySide" orientation="1">
@@ -2560,7 +2574,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
    </children>
-   <bounds _body="0.0,0.0,471.0,203.0"/>
+   <bounds _body="0.0,0.0,471.0,183.75"/>
    <outline>
     <color _nil="1"/>
    </outline>
@@ -2719,6 +2733,14 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
+                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
+                    <property name="operator">in</property>
+                    <simple-property-list name="value1">
+                        <value type="constant">90K plus</value>
+                    </simple-property-list>
+                    <property name="filterTarget">DataSet</property>
+                </filter-condition-element>
+                <filter-condition-element>
                     <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
@@ -2727,16 +2749,8 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
-                <filter-condition-element>
-                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
-                    <property name="operator">in</property>
-                    <simple-property-list name="value1">
-                        <value type="constant">10 - 20K</value>
-                    </simple-property-list>
-                    <property name="filterTarget">DataSet</property>
-                </filter-condition-element>
             </property>
-            <property name="height">203.25pt</property>
+            <property name="height">183.75pt</property>
             <property name="width">471pt</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -2821,376 +2835,419 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
             <property name="tabs">
                 <tab-element name="a121087c-032f-40de-9eb0-306c42ed5648" id="5">
                     <property name="title">Patient Costs</property>
-                    <property name="sections">
-                        <section id="149">
-                            <property name="width">13.621480026195155%</property>
-                            <property name="gadgets">
-                                <gadget name="bc814503-8457-4519-a7a0-c1f4cb484958" id="150">
-                                    <property name="height">150px</property>
-                                    <property name="zIndex">1</property>
-                                    <property name="isVisible">false</property>
-                                    <property name="content">
-                                        <current-selections id="151"/>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
-                                <gadget name="Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1" id="152">
-                                    <property name="height">152px</property>
-                                    <property name="title">Age Band</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">true</property>
-                                    <property name="zIndex">3</property>
-                                    <property name="content">
-                                        <list-data-selector id="153">
-                                            <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
-                                            <property name="operator">in</property>
-                                            <simple-property-list name="columnNames">
-                                                <value>Age Group/Age Band</value>
-                                                <value>Age Group/Age Band</value>
-                                            </simple-property-list>
-                                            <property name="allowMultiValue">true</property>
-                                            <property name="enableSearch">false</property>
-                                            <property name="listLimit">1000</property>
-                                        </list-data-selector>
-                                    </property>
-                                    <property name="observers">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
-                                <gadget name="Gadget_649d61c8-1caa-4735-a3e6-3b457b760009" id="154">
-                                    <property name="height">59px</property>
-                                    <property name="title">Year</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">true</property>
-                                    <property name="zIndex">5</property>
-                                    <property name="content">
-                                        <slider-data-selector id="155">
-                                            <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
-                                            <property name="operator">between</property>
-                                            <simple-property-list name="columnNames">
-                                                <value>Contact Date Group/Contact Date Year</value>
-                                                <value>Contact Date Group/Contact Date Year</value>
-                                            </simple-property-list>
-                                            <simple-property-list name="selectedValues">
-                                                <value>2008</value>
-                                                <value>2012</value>
-                                            </simple-property-list>
-                                            <property name="orientation">horizontal</property>
-                                            <property name="thumbType">dual</property>
-                                            <property name="autoAdjustTickMarks">true</property>
-                                            <property name="tickInterval">1</property>
-                                            <property name="autoRange">true</property>
-                                            <property name="minValue">0</property>
-                                            <property name="maxValue">100</property>
-                                            <property name="showTickMarks">true</property>
-                                        </slider-data-selector>
-                                    </property>
-                                    <property name="observers">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
-                                <gadget name="Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99" id="156">
-                                    <property name="height">61px</property>
-                                    <property name="title">Gender</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">true</property>
-                                    <property name="zIndex">6</property>
-                                    <property name="content">
-                                        <check-box-data-selector id="157">
-                                            <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
-                                            <property name="operator">in</property>
-                                            <simple-property-list name="columnNames">
-                                                <value>Gender Group/Gender</value>
-                                                <value>Gender Group/Gender</value>
-                                            </simple-property-list>
-                                            <simple-property-list name="selectedValues">
-                                                <value>F</value>
-                                                <value>M</value>
-                                            </simple-property-list>
-                                            <property name="orientation">horizontal</property>
-                                            <property name="autoAdjust">true</property>
-                                            <property name="autoAdjustNumber">3</property>
-                                            <property name="listLimit">1000</property>
-                                        </check-box-data-selector>
-                                    </property>
-                                    <property name="observers">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
-                                <gadget name="Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db" id="158">
-                                    <property name="height">207px</property>
-                                    <property name="title">Income Band</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">true</property>
-                                    <property name="zIndex">7</property>
-                                    <property name="content">
-                                        <list-data-selector id="159">
-                                            <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
-                                            <property name="operator">in</property>
-                                            <simple-property-list name="columnNames">
-                                                <value>Income Group/Income Band</value>
-                                                <value>Income Group/Income Band</value>
-                                            </simple-property-list>
-                                            <simple-property-list name="selectedValues">
-                                                <value>10 - 20K</value>
-                                            </simple-property-list>
-                                            <property name="allowMultiValue">true</property>
-                                            <property name="enableSearch">false</property>
-                                            <property name="listLimit">1000</property>
-                                        </list-data-selector>
-                                    </property>
-                                    <property name="observers">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
+                    <property name="freeFormGadgets">
+                        <gadget name="bc814503-8457-4519-a7a0-c1f4cb484958" id="6">
+                            <property name="x">10px</property>
+                            <property name="y">10px</property>
+                            <property name="height">150px</property>
+                            <property name="width">192px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="content">
+                                <current-selections id="7"/>
                             </property>
-                        </section>
-                        <section id="161">
-                            <property name="width">41.91224623444663%</property>
-                            <property name="gadgets">
-                                <gadget name="Gadget_b5df9108-e4c5-4625-8078-8f6188651c99" id="162">
-                                    <property name="height">306px</property>
-                                    <property name="title">Which diagnostic costs are trending upward?</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">false</property>
-                                    <property name="zIndex">2</property>
-                                    <property name="showScrollBar">false</property>
-                                    <property name="content">
-                                        <data-view id="163">
-                                            <property name="gadgetType">viewer</property>
-                                            <property name="internalReportLetRef">Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee</property>
-                                        </data-view>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
                                     </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
+                                </event-subscriber>
                             </property>
-                        </section>
-                        <section id="165">
-                            <property name="width">44.46627373935822%</property>
-                            <property name="gadgets">
-                                <gadget name="Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7" id="166">
-                                    <property name="height">306px</property>
-                                    <property name="title">Which age groups incur the most cost?</property>
-                                    <property name="showTitle">false</property>
-                                    <property name="showBorder">false</property>
-                                    <property name="zIndex">4</property>
-                                    <property name="showScrollBar">false</property>
-                                    <property name="content">
-                                        <data-view id="167">
-                                            <property name="gadgetType">viewer</property>
-                                            <property name="internalReportLetRef">Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7</property>
-                                        </data-view>
-                                    </property>
-                                    <property name="subscribeTo">
-                                        <event-subscriber>
-                                            <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
-                                            <property name="eventObjects">
-                                                <event-object>
-                                                    <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
-                                                </event-object>
-                                                <event-object>
-                                                    <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
-                                                </event-object>
-                                            </property>
-                                        </event-subscriber>
-                                    </property>
-                                </gadget>
+                        </gadget>
+                        <gadget name="Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1" id="8">
+                            <property name="x">10px</property>
+                            <property name="y">10px</property>
+                            <property name="height">152px</property>
+                            <property name="width">192px</property>
+                            <property name="title">Age Band</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">3</property>
+                            <property name="content">
+                                <list-data-selector id="9">
+                                    <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
+                                    <property name="operator">in</property>
+                                    <simple-property-list name="columnNames">
+                                        <value>Age Group/Age Band</value>
+                                        <value>Age Group/Age Band</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">true</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
                             </property>
-                        </section>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_649d61c8-1caa-4735-a3e6-3b457b760009" id="149">
+                            <property name="x">10px</property>
+                            <property name="y">210px</property>
+                            <property name="height">59px</property>
+                            <property name="width">192px</property>
+                            <property name="title">Year</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">5</property>
+                            <property name="content">
+                                <slider-data-selector id="150">
+                                    <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
+                                    <property name="operator">between</property>
+                                    <simple-property-list name="columnNames">
+                                        <value>Contact Date Group/Contact Date Year</value>
+                                        <value>Contact Date Group/Contact Date Year</value>
+                                    </simple-property-list>
+                                    <simple-property-list name="selectedValues">
+                                        <value>2008</value>
+                                        <value>2012</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="thumbType">dual</property>
+                                    <property name="autoAdjustTickMarks">true</property>
+                                    <property name="tickInterval">1</property>
+                                    <property name="autoRange">true</property>
+                                    <property name="minValue">0</property>
+                                    <property name="maxValue">100</property>
+                                    <property name="showTickMarks">true</property>
+                                </slider-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99" id="151">
+                            <property name="x">10px</property>
+                            <property name="y">317px</property>
+                            <property name="height">61px</property>
+                            <property name="width">192px</property>
+                            <property name="title">Gender</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">6</property>
+                            <property name="content">
+                                <check-box-data-selector id="152">
+                                    <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
+                                    <property name="operator">in</property>
+                                    <simple-property-list name="columnNames">
+                                        <value>Gender Group/Gender</value>
+                                        <value>Gender Group/Gender</value>
+                                    </simple-property-list>
+                                    <simple-property-list name="selectedValues">
+                                        <value>F</value>
+                                        <value>M</value>
+                                    </simple-property-list>
+                                    <property name="orientation">horizontal</property>
+                                    <property name="autoAdjust">true</property>
+                                    <property name="autoAdjustNumber">3</property>
+                                    <property name="listLimit">1000</property>
+                                </check-box-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db" id="153">
+                            <property name="x">10px</property>
+                            <property name="y">426px</property>
+                            <property name="height">207px</property>
+                            <property name="width">192px</property>
+                            <property name="title">Income Band</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">true</property>
+                            <property name="zIndex">7</property>
+                            <property name="content">
+                                <list-data-selector id="154">
+                                    <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
+                                    <property name="operator">in</property>
+                                    <simple-property-list name="columnNames">
+                                        <value>Income Group/Income Band</value>
+                                        <value>Income Group/Income Band</value>
+                                    </simple-property-list>
+                                    <simple-property-list name="selectedValues">
+                                        <value>90K plus</value>
+                                    </simple-property-list>
+                                    <property name="allowMultiValue">true</property>
+                                    <property name="enableSearch">false</property>
+                                    <property name="listLimit">1000</property>
+                                </list-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_b5df9108-e4c5-4625-8078-8f6188651c99" id="155">
+                            <property name="x">223px</property>
+                            <property name="y">10px</property>
+                            <property name="height">285px</property>
+                            <property name="width">624px</property>
+                            <property name="title">Which diagnostic costs are trending upward?</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="156">
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="internalReportLetRef">Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee</property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_42fbba92-9d15-44f7-b797-532a72c70564" id="158">
+                            <property name="x">223px</property>
+                            <property name="y">344px</property>
+                            <property name="height">500px</property>
+                            <property name="width">913px</property>
+                            <property name="title">Which areas have the most arthritis diagnoses?</property>
+                            <property name="externalGadgetURI">/Health/choropleth-health.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="159">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/Health/choropleth-health.rptdesign</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">extraResourceFolderURL</property>
+                                            <expression name="value">http://localhost:8700/iportal/choropleth-health</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">http://localhost:8700/iportal/choropleth-health</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7" id="160">
+                            <property name="x">868px</property>
+                            <property name="y">10px</property>
+                            <property name="height">280px</property>
+                            <property name="width">663px</property>
+                            <property name="title">Which age groups incur the most cost?</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="161">
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="internalReportLetRef">Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7</property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
                     </property>
                 </tab-element>
             </property>
