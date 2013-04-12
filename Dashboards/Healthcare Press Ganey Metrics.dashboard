@@ -40,23 +40,23 @@
     <property name="dashboardView">
         <dashboard id="4">
             <property name="tabs">
-                <tab-element name="ae22f504-c293-49f3-87de-a7fc0da0ec3b" id="5">
+                <tab-element name="94b2689c-75e0-43bf-8da5-a6c3101c293b" id="5">
                     <property name="title">Press Ganey Metrics</property>
                     <property name="sections">
                         <section id="6">
                             <property name="width">50%</property>
                             <property name="gadgets">
-                                <gadget name="Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5" id="7">
+                                <gadget name="Gadget_c647e654-c973-46fc-97a8-9267178225fe" id="7">
                                     <property name="height">100px</property>
                                     <property name="title">Select Hospital</property>
                                     <property name="showTitle">true</property>
                                     <property name="showBorder">true</property>
-                                    <property name="zIndex">2</property>
+                                    <property name="zIndex">1</property>
                                     <property name="content">
-                                        <list-data-selector id="8">
+                                        <radio-data-selector id="8">
                                             <property name="externalContentRef">
                                                 <external-element-ref>
-                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="sourceFile">/National Healthcare/Moving3Months_DataGauge.rptdesign</property>
                                                     <property name="targetBookmark">SelectMeasure/pLocationName</property>
                                                     <property name="isNoValueSupported">false</property>
                                                 </external-element-ref>
@@ -65,19 +65,20 @@
                                             <property name="controlType">list-box</property>
                                             <property name="dataType">string</property>
                                             <simple-property-list name="selectedValues">
-                                                <value>City Central</value>
+                                                <value>Mt. Mercer</value>
                                             </simple-property-list>
-                                            <property name="allowMultiValue">false</property>
-                                            <property name="enableSearch">false</property>
+                                            <property name="orientation">horizontal</property>
+                                            <property name="autoAdjust">true</property>
+                                            <property name="autoAdjustNumber">3</property>
                                             <property name="listLimit">1000</property>
-                                        </list-data-selector>
+                                        </radio-data-selector>
                                     </property>
                                     <property name="observers">
                                         <event-subscriber>
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                    <property name="gadget">3d37dc97-8d0c-466b-9423-0ee7ee6a2393</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -86,26 +87,26 @@
                                             <property name="eventObjects">
                                                 <event-object>
                                                     <property name="appliedTo">pLocationName</property>
-                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                    <property name="gadget">Gadget_dcd09408-31fd-4371-8e04-388747c315b0</property>
                                                 </event-object>
                                                 <event-object>
-                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                    <property name="gadget">Gadget_489ae021-5241-4c4e-8aa7-677ebc92fa17</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
                                     </property>
                                 </gadget>
-                                <gadget name="Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97" id="9">
+                                <gadget name="Gadget_489ae021-5241-4c4e-8aa7-677ebc92fa17" id="9">
                                     <property name="height">100px</property>
                                     <property name="title">Select Measure</property>
                                     <property name="showTitle">true</property>
                                     <property name="showBorder">true</property>
-                                    <property name="zIndex">2</property>
+                                    <property name="zIndex">1</property>
                                     <property name="content">
                                         <list-data-selector id="10">
                                             <property name="externalContentRef">
                                                 <external-element-ref>
-                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="sourceFile">/National Healthcare/Moving3Months_DataGauge.rptdesign</property>
                                                     <property name="targetBookmark">SelectMeasure/pMeasureName</property>
                                                     <property name="isNoValueSupported">false</property>
                                                 </external-element-ref>
@@ -114,7 +115,7 @@
                                             <property name="controlType">list-box</property>
                                             <property name="dataType">string</property>
                                             <simple-property-list name="selectedValues">
-                                                <value>Concern shown for comfort: Good to Very Good</value>
+                                                <value>Courtesy of person who admitted you: Fair</value>
                                             </simple-property-list>
                                             <property name="allowMultiValue">false</property>
                                             <property name="enableSearch">false</property>
@@ -126,7 +127,7 @@
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                    <property name="gadget">3d37dc97-8d0c-466b-9423-0ee7ee6a2393</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -135,10 +136,10 @@
                                             <property name="eventObjects">
                                                 <event-object>
                                                     <property name="appliedTo">pMeasureName</property>
-                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                    <property name="gadget">Gadget_dcd09408-31fd-4371-8e04-388747c315b0</property>
                                                 </event-object>
                                                 <event-object>
-                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                    <property name="gadget">Gadget_bb183e8f-6b70-4ae2-a0f9-0b75528220cf</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -148,27 +149,27 @@
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                    <property name="gadget">Gadget_c647e654-c973-46fc-97a8-9267178225fe</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
                                     </property>
                                 </gadget>
-                                <gadget name="Gadget_8a784185-f18d-4914-8013-20a5214398bc" id="11">
+                                <gadget name="Gadget_bb183e8f-6b70-4ae2-a0f9-0b75528220cf" id="11">
                                     <property name="height">100px</property>
-                                    <property name="title">Select Time Period</property>
+                                    <property name="title">Select Period</property>
                                     <property name="showTitle">true</property>
                                     <property name="showBorder">true</property>
-                                    <property name="zIndex">2</property>
+                                    <property name="zIndex">1</property>
                                     <property name="content">
                                         <list-data-selector id="12">
                                             <structure name="dateTimeFormat">
                                                 <property name="category">Custom</property>
-                                                <property name="pattern">YYYY/MM</property>
+                                                <property name="pattern">MM/YYYY</property>
                                             </structure>
                                             <property name="externalContentRef">
                                                 <external-element-ref>
-                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="sourceFile">/National Healthcare/Moving3Months_DataGauge.rptdesign</property>
                                                     <property name="targetBookmark">SelectMeasure/pPeriodName</property>
                                                     <property name="isNoValueSupported">false</property>
                                                 </external-element-ref>
@@ -177,7 +178,7 @@
                                             <property name="controlType">list-box</property>
                                             <property name="dataType">date</property>
                                             <simple-property-list name="selectedValues">
-                                                <value>12/1/2012</value>
+                                                <value>11/1/2012</value>
                                             </simple-property-list>
                                             <property name="allowMultiValue">false</property>
                                             <property name="enableSearch">false</property>
@@ -189,7 +190,7 @@
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">07c4228c-f96e-4906-93fc-4a075e8298cd</property>
+                                                    <property name="gadget">3d37dc97-8d0c-466b-9423-0ee7ee6a2393</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -198,7 +199,7 @@
                                             <property name="eventObjects">
                                                 <event-object>
                                                     <property name="appliedTo">pPeriodName</property>
-                                                    <property name="gadget">Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef</property>
+                                                    <property name="gadget">Gadget_dcd09408-31fd-4371-8e04-388747c315b0</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -208,13 +209,13 @@
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                    <property name="gadget">Gadget_489ae021-5241-4c4e-8aa7-677ebc92fa17</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
                                     </property>
                                 </gadget>
-                                <gadget name="07c4228c-f96e-4906-93fc-4a075e8298cd" id="13">
+                                <gadget name="3d37dc97-8d0c-466b-9423-0ee7ee6a2393" id="13">
                                     <property name="height">150px</property>
                                     <property name="zIndex">1</property>
                                     <property name="isVisible">false</property>
@@ -226,13 +227,13 @@
                                             <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                             <property name="eventObjects">
                                                 <event-object>
-                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                    <property name="gadget">Gadget_c647e654-c973-46fc-97a8-9267178225fe</property>
                                                 </event-object>
                                                 <event-object>
-                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                    <property name="gadget">Gadget_489ae021-5241-4c4e-8aa7-677ebc92fa17</property>
                                                 </event-object>
                                                 <event-object>
-                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                    <property name="gadget">Gadget_bb183e8f-6b70-4ae2-a0f9-0b75528220cf</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
@@ -243,9 +244,9 @@
                         <section id="15">
                             <property name="width">50%</property>
                             <property name="gadgets">
-                                <gadget name="Gadget_51a2c97f-0ed9-4254-85b9-8cb346c2b8ef" id="16">
-                                    <property name="title">Percent Actual to Target</property>
-                                    <property name="externalGadgetURI">/National Healthcare/DataGauge.rptdesign</property>
+                                <gadget name="Gadget_dcd09408-31fd-4371-8e04-388747c315b0" id="16">
+                                    <property name="title">3 Month Moving Average</property>
+                                    <property name="externalGadgetURI">/National Healthcare/Moving3Months_DataGauge.rptdesign</property>
                                     <property name="showTitle">true</property>
                                     <property name="showBorder">true</property>
                                     <property name="zIndex">2</property>
@@ -262,7 +263,7 @@
                                             <property name="gadgetType">viewer</property>
                                             <property name="externalContentRef">
                                                 <external-element-ref>
-                                                    <property name="sourceFile">/National Healthcare/DataGauge.rptdesign</property>
+                                                    <property name="sourceFile">/National Healthcare/Moving3Months_DataGauge.rptdesign</property>
                                                     <property name="targetBookmark">Data Gauge</property>
                                                 </external-element-ref>
                                             </property>
@@ -294,15 +295,15 @@
                                             <property name="eventObjects">
                                                 <event-object>
                                                     <property name="appliedTo">pLocationName</property>
-                                                    <property name="gadget">Gadget_e8d7d2e0-911e-48a5-a8cd-bb48b27401a5</property>
+                                                    <property name="gadget">Gadget_c647e654-c973-46fc-97a8-9267178225fe</property>
                                                 </event-object>
                                                 <event-object>
                                                     <property name="appliedTo">pMeasureName</property>
-                                                    <property name="gadget">Gadget_8e0e73f6-26ed-400e-addd-3292ec125d97</property>
+                                                    <property name="gadget">Gadget_489ae021-5241-4c4e-8aa7-677ebc92fa17</property>
                                                 </event-object>
                                                 <event-object>
                                                     <property name="appliedTo">pPeriodName</property>
-                                                    <property name="gadget">Gadget_8a784185-f18d-4914-8013-20a5214398bc</property>
+                                                    <property name="gadget">Gadget_bb183e8f-6b70-4ae2-a0f9-0b75528220cf</property>
                                                 </event-object>
                                             </property>
                                         </event-subscriber>
