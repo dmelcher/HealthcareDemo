@@ -392,13 +392,10 @@
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
-                    <property name="columnName">Prescription Code</property>
+                    <property name="columnName">Prescription Decode</property>
                     <property name="analysis">dimension</property>
-                    <text-property name="displayName">Prescription Code</text-property>
-                    <text-property name="heading">Prescription Code</text-property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">true</property>
-                    <property name="compressed">false</property>
+                    <text-property name="displayName">Prescription Decode</text-property>
+                    <text-property name="heading">Prescription Decode</text-property>
                 </structure>
                 <structure>
                     <property name="columnName">Diagnostic CIE</property>
@@ -479,6 +476,7 @@
                     <property name="compressed">false</property>
                 </structure>
             </list-property>
+            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -493,7 +491,7 @@
                     </structure>
                     <structure>
                         <property name="position">3</property>
-                        <property name="name">Prescription Code</property>
+                        <property name="name">Prescription Decode</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
@@ -561,8 +559,8 @@
                 </structure>
                 <structure>
                     <property name="position">3</property>
-                    <property name="name">Prescription Code</property>
-                    <property name="nativeName">Prescription Code</property>
+                    <property name="name">Prescription Decode</property>
+                    <property name="nativeName">Prescription Decode</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
@@ -633,7 +631,7 @@
             <xml-property name="queryText"><![CDATA[select 
 	 d.[Contact History Id]
 	,d.[Patient Id]
-	,d.[Prescription Code]
+	,d.[Prescription Decode]
 	,d.[Diagnostic CIE]
 	,d.[Unit Cost]
 	,d.[Quantity]
@@ -1800,117 +1798,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
   </design:ResultSets>
 </model:DesignValues>]]></xml-property>
         </oda-data-set>
-        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Prescription Data Set" id="142">
-            <property name="isVisible">false</property>
-            <list-property name="columnHints">
-                <structure>
-                    <property name="columnName">Prescription Code</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">Prescription Code</text-property>
-                    <text-property name="heading">Prescription Code</text-property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">true</property>
-                    <property name="compressed">false</property>
-                </structure>
-                <structure>
-                    <property name="columnName">Prescription Decode</property>
-                    <property name="analysis">dimension</property>
-                    <text-property name="displayName">Prescription Decode</text-property>
-                    <text-property name="heading">Prescription Decode</text-property>
-                    <property name="indexColumn">false</property>
-                    <property name="compressed">false</property>
-                </structure>
-            </list-property>
-            <structure name="cachedMetaData">
-                <list-property name="resultSet">
-                    <structure>
-                        <property name="position">1</property>
-                        <property name="name">Prescription Code</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">2</property>
-                        <property name="name">Prescription Decode</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                </list-property>
-            </structure>
-            <property name="dataSource">Data Source</property>
-            <list-property name="resultSet">
-                <structure>
-                    <property name="position">1</property>
-                    <property name="name">Prescription Code</property>
-                    <property name="nativeName">Prescription Code</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-                <structure>
-                    <property name="position">2</property>
-                    <property name="name">Prescription Decode</property>
-                    <property name="nativeName">Prescription Decode</property>
-                    <property name="dataType">string</property>
-                    <property name="nativeDataType">12</property>
-                </structure>
-            </list-property>
-            <xml-property name="queryText"><![CDATA[SELECT [Prescription Code]
-       ,[Prescription Decode]
-  FROM [Health].[dbo].[Diagnostics]
-  GROUP BY [Prescription Code],[Prescription Decode]
-  ORDER BY [Prescription Code]]]></xml-property>
-            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
-  <Version>2.0</Version>
-  <design:ResultSets derivedMetaData="true">
-    <design:resultSetDefinitions>
-      <design:resultSetColumns>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Prescription Code</design:name>
-              <design:position>1</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Prescription Code</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Prescription Code</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Prescription Decode</design:name>
-              <design:position>2</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Prescription Decode</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Prescription Decode</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-      </design:resultSetColumns>
-      <design:criteria/>
-    </design:resultSetDefinitions>
-  </design:ResultSets>
-</model:DesignValues>]]></xml-property>
-        </oda-data-set>
     </data-sets>
     <cubes>
         <tabular-cube name="Diagnostics Data Cube" id="110">
@@ -2052,20 +1939,17 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
-                <tabular-dimension name="Prescription Group" id="145">
+                <tabular-dimension name="Prescription Group" id="149">
                     <property name="defaultHierarchy">NewTabularHierarchy6</property>
                     <property name="hierarchies">
-                        <tabular-hierarchy name="NewTabularHierarchy6" id="146">
+                        <tabular-hierarchy name="NewTabularHierarchy6" id="150">
                             <property name="levels">
-                                <tabular-level name="Prescription" id="147">
+                                <tabular-level name="Prescription" id="151">
                                     <property name="dataType">string</property>
                                     <property name="levelType">dynamic</property>
-                                    <property name="alignment">left</property>
-                                    <property name="columnName">Prescription Code</property>
-                                    <expression name="displayColumnName" type="javascript">dataSetRow["Prescription Decode"]</expression>
+                                    <property name="columnName">Prescription Decode</property>
                                 </tabular-level>
                             </property>
-                            <property name="dataSet">Prescription Data Set</property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
@@ -2146,15 +2030,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         </structure>
                     </list-property>
                     <property name="hierarchy">NewTabularHierarchy5</property>
-                </structure>
-                <structure>
-                    <list-property name="joinConditions">
-                        <structure>
-                            <property name="cubeKey">Prescription Code</property>
-                            <property name="hierarchyKey">Prescription Code</property>
-                        </structure>
-                    </list-property>
-                    <property name="hierarchy">NewTabularHierarchy6</property>
                 </structure>
             </list-property>
         </tabular-cube>
