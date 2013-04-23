@@ -56,6 +56,11 @@
                     <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
+                <structure>
+                    <property name="columnName">Cost</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="heading">Cost</text-property>
+                </structure>
             </list-property>
             <list-property name="parameters"/>
             <structure name="cachedMetaData">
@@ -89,6 +94,11 @@
                         <property name="position">6</property>
                         <property name="name">Gender</property>
                         <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">Cost</property>
+                        <property name="dataType">float</property>
                     </structure>
                 </list-property>
             </structure>
@@ -136,8 +146,15 @@
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">Cost</property>
+                    <property name="nativeName">Cost</property>
+                    <property name="dataType">float</property>
+                    <property name="nativeDataType">8</property>
+                </structure>
             </list-property>
-            <xml-property name="queryText"><![CDATA[select "Patient ID", "Diagnosis", "Prescription", "Appt Date", "Would Recommend", "Gender" from "Healthcare_Data.csv" : {"Patient ID","Patient ID",INT;"Diagnosis","Diagnosis",STRING;"Prescription","Prescription",STRING;"Appt Date","Appt Date",DATE;"Would Recommend","Would Recommend",STRING;"Gender","Gender",STRING}]]></xml-property>
+            <xml-property name="queryText"><![CDATA[select "Patient ID", "Diagnosis", "Prescription", "Appt Date", "Would Recommend", "Gender", "Cost" from "Healthcare_Data.csv" : {"Patient ID","Patient ID",INT;"Diagnosis","Diagnosis",STRING;"Prescription","Prescription",STRING;"Appt Date","Appt Date",DATE;"Would Recommend","Would Recommend",STRING;"Gender","Gender",STRING;"Cost","Cost",DOUBLE}]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>

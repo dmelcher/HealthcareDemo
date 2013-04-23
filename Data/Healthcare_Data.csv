@@ -1,0 +1,2000 @@
+Patient ID,Diagnosis,Prescription,Appt Date,Would Recommend,Gender,Cost,Date2,Date3
+590001,Hyperlipidemia,Simvastatin,4/8/2011,No,M,22.98,4/10/2011,4/13/2011
+590004,Diabetes Mellitus,Metformin,10/9/2012,Yes,M,22.98,10/12/2012,10/16/2012
+590006,Arthritis,Adalimumab,1/3/2013,Yes,F,5.99,1/3/2013,1/6/2013
+590008,Arthritis,Golimumab,5/20/2012,No,F,7.99,5/23/2012,5/24/2012
+590011,Epilepsy,Lamotrigine,8/12/2012,No,F,54.99,8/15/2012,8/18/2012
+590014,Epilepsy,Lamotrigine,1/19/2011,Yes,F,54.99,1/22/2011,1/25/2011
+590015,Diabetes Mellitus,Glitazone,6/4/2011,No,F,22.98,6/6/2011,6/10/2011
+590016,Arthritis,Etanercept,10/29/2012,No,F,120,11/1/2012,11/2/2012
+590018,Diabetes Mellitus,Glitazone,6/23/2011,Yes,M,22.98,6/23/2011,6/26/2011
+590019,Epilepsy,Carbamazepine,11/9/2012,Yes,M,54.99,11/11/2012,11/14/2012
+590021,Hyperlipidemia,Atorvastatin,9/8/2011,Yes,F,4.99,9/10/2011,9/11/2011
+590023,Diabetes Mellitus,Glitazone,5/7/2012,Yes,M,22.98,5/8/2012,5/12/2012
+590024,Hyperlipidemia,Rosuvastatin,9/16/2011,No,F,67.98,9/17/2011,9/18/2011
+590027,Hyperlipidemia,Pravastatin,6/23/2011,Yes,F,120,6/25/2011,6/29/2011
+590029,Hyperlipidemia,Rosuvastatin,8/14/2012,No,F,67.98,8/17/2012,8/21/2012
+590032,Arthritis,Bertolizumab,1/11/2013,Yes,M,22.98,1/13/2013,1/17/2013
+590035,Diabetes Mellitus,Metformin,11/7/2012,Yes,F,22.98,11/8/2012,11/9/2012
+590036,Hyperlipidemia,Pravastatin,4/6/2011,No,F,120,4/8/2011,4/9/2011
+590038,Arthritis,Infliximab,12/21/2011,Yes,M,34.99,12/21/2011,12/23/2011
+590039,Diabetes Mellitus,Glitazone,11/9/2011,Yes,M,22.98,11/10/2011,11/13/2011
+590040,Epilepsy,Carbamazepine,7/20/2011,No,M,54.99,7/22/2011,7/25/2011
+590041,Epilepsy,Carbamazepine,5/16/2011,No,M,54.99,5/16/2011,5/18/2011
+590042,Arthritis,Tocilizumab,9/26/2012,No,F,5.99,9/29/2012,10/2/2012
+590043,Hyperlipidemia,Atorvastatin,9/25/2011,No,M,4.99,9/27/2011,9/29/2011
+590044,Hyperlipidemia,Atorvastatin,9/17/2011,No,F,4.99,9/20/2011,9/21/2011
+590046,Diabetes Mellitus,Metformin,2/6/2012,Yes,M,22.98,2/8/2012,2/9/2012
+590049,Hyperlipidemia,Rosuvastatin,9/19/2011,Yes,F,67.98,9/20/2011,9/23/2011
+590051,Epilepsy,Phenytoin,8/24/2012,No,F,34.99,8/25/2012,8/28/2012
+590054,Epilepsy,Phenytoin,6/7/2012,No,M,34.99,6/8/2012,6/12/2012
+590055,Hyperlipidemia,Lovastatin,5/23/2012,No,M,67.98,5/25/2012,5/29/2012
+590057,Arthritis,Tocilizumab,4/25/2012,No,M,5.99,4/26/2012,4/28/2012
+590059,Diabetes Mellitus,Glitazone,12/10/2011,No,M,22.98,12/12/2011,12/15/2011
+590060,Diabetes Mellitus,Metformin,8/20/2011,Yes,M,22.98,8/21/2011,8/25/2011
+590062,Hyperlipidemia,Lovastatin,2/20/2011,Yes,F,67.98,2/21/2011,2/25/2011
+590064,Hyperlipidemia,Simvastatin,6/14/2012,Yes,F,22.98,6/15/2012,6/19/2012
+590067,Epilepsy,Phenytoin,1/27/2011,Yes,F,34.99,1/29/2011,1/31/2011
+590069,Epilepsy,Carbamazepine,9/19/2012,Yes,F,54.99,9/19/2012,9/23/2012
+590070,Hyperlipidemia,Pravastatin,1/31/2012,No,F,120,2/3/2012,2/4/2012
+590072,Arthritis,Bertolizumab,3/21/2012,Yes,F,22.98,3/21/2012,3/23/2012
+590073,Arthritis,Golimumab,2/3/2012,Yes,M,7.99,2/3/2012,2/7/2012
+590075,Epilepsy,Lamotrigine,10/25/2012,No,F,54.99,10/25/2012,10/28/2012
+590077,Epilepsy,Lamotrigine,6/19/2012,No,M,54.99,6/19/2012,6/20/2012
+590079,Diabetes Mellitus,Metformin,1/9/2013,Yes,F,22.98,1/9/2013,1/13/2013
+590080,Diabetes Mellitus,Metformin,8/18/2011,Yes,M,22.98,8/18/2011,8/20/2011
+590082,Hyperlipidemia,Lovastatin,9/16/2011,Yes,M,67.98,9/17/2011,9/19/2011
+590083,Arthritis,Tocilizumab,6/12/2012,Yes,F,5.99,6/14/2012,6/15/2012
+590086,Arthritis,Etanercept,6/24/2012,Yes,M,120,6/27/2012,6/30/2012
+590089,Epilepsy,Phenytoin,2/10/2011,No,F,34.99,2/13/2011,2/16/2011
+590090,Hyperlipidemia,Atorvastatin,9/23/2012,No,M,4.99,9/23/2012,9/24/2012
+590092,Diabetes Mellitus,Metformin,5/12/2011,No,F,22.98,5/12/2011,5/15/2011
+590094,Arthritis,Adalimumab,2/18/2012,Yes,F,5.99,2/19/2012,2/23/2012
+590095,Diabetes Mellitus,Glitazone,1/26/2013,Yes,F,22.98,1/27/2013,1/31/2013
+590098,Epilepsy,Lamotrigine,3/14/2012,No,M,54.99,3/14/2012,3/16/2012
+590100,Epilepsy,Lamotrigine,10/13/2011,No,M,54.99,10/13/2011,10/15/2011
+590102,Epilepsy,Carbamazepine,9/3/2012,No,F,54.99,9/5/2012,9/9/2012
+590104,Epilepsy,Carbamazepine,7/21/2012,No,M,54.99,7/23/2012,7/24/2012
+590105,Arthritis,Adalimumab,2/28/2011,No,F,5.99,2/28/2011,3/1/2011
+590106,Epilepsy,Phenytoin,9/8/2011,Yes,M,34.99,9/9/2011,9/11/2011
+590109,Diabetes Mellitus,Metformin,2/16/2012,Yes,F,22.98,2/17/2012,2/18/2012
+590110,Arthritis,Tocilizumab,1/29/2012,Yes,F,5.99,2/1/2012,2/2/2012
+590113,Hyperlipidemia,Rosuvastatin,1/11/2011,No,F,67.98,1/11/2011,1/13/2011
+590114,Hyperlipidemia,Atorvastatin,6/13/2011,No,M,4.99,6/16/2011,6/17/2011
+590117,Diabetes Mellitus,Metformin,10/5/2011,No,M,22.98,10/8/2011,10/11/2011
+590120,Hyperlipidemia,Atorvastatin,7/15/2012,No,F,4.99,7/15/2012,7/16/2012
+590123,Diabetes Mellitus,Glitazone,6/7/2011,Yes,F,22.98,6/7/2011,6/10/2011
+590126,Diabetes Mellitus,Metformin,11/29/2012,Yes,F,22.98,12/1/2012,12/5/2012
+590128,Diabetes Mellitus,Metformin,8/14/2012,Yes,M,22.98,8/17/2012,8/21/2012
+590131,Hyperlipidemia,Pravastatin,4/19/2012,No,F,120,4/22/2012,4/24/2012
+590134,Arthritis,Golimumab,5/11/2011,Yes,M,7.99,5/11/2011,5/12/2011
+590136,Arthritis,Adalimumab,11/27/2011,Yes,M,5.99,11/30/2011,12/3/2011
+590137,Epilepsy,Carbamazepine,9/25/2012,Yes,F,54.99,9/27/2012,9/30/2012
+590140,Epilepsy,Carbamazepine,1/8/2011,No,F,54.99,1/9/2011,1/10/2011
+590142,Arthritis,Golimumab,4/16/2011,No,F,7.99,4/16/2011,4/17/2011
+590143,Epilepsy,Lamotrigine,12/10/2012,No,M,54.99,12/11/2012,12/12/2012
+590145,Epilepsy,Lamotrigine,7/11/2012,No,F,54.99,7/11/2012,7/12/2012
+590148,Hyperlipidemia,Fluvastatin,3/11/2012,No,M,9.99,3/12/2012,3/13/2012
+590149,Hyperlipidemia,Rosuvastatin,5/22/2012,No,M,67.98,5/24/2012,5/27/2012
+590152,Epilepsy,Phenytoin,12/6/2012,Yes,M,34.99,12/7/2012,12/8/2012
+590155,Diabetes Mellitus,Metformin,6/24/2012,Yes,M,22.98,6/24/2012,6/27/2012
+590158,Diabetes Mellitus,Glitazone,10/6/2012,Yes,F,22.98,10/7/2012,10/10/2012
+590161,Epilepsy,Phenytoin,7/22/2012,No,F,34.99,7/25/2012,7/27/2012
+590164,Epilepsy,Phenytoin,12/21/2012,No,F,34.99,12/22/2012,12/26/2012
+590166,Arthritis,Golimumab,1/12/2011,Yes,F,7.99,1/13/2011,1/17/2011
+590167,Diabetes Mellitus,Metformin,7/31/2012,No,M,22.98,8/1/2012,8/4/2012
+590169,Epilepsy,Lamotrigine,8/21/2011,No,M,54.99,8/23/2011,8/24/2011
+590170,Hyperlipidemia,Rosuvastatin,11/27/2012,No,F,67.98,11/30/2012,12/2/2012
+590172,Arthritis,Etanercept,4/21/2012,No,M,120,4/24/2012,4/26/2012
+590174,Hyperlipidemia,Lovastatin,10/14/2012,Yes,F,67.98,10/17/2012,10/20/2012
+590175,Diabetes Mellitus,Metformin,4/9/2011,No,M,22.98,4/10/2011,4/11/2011
+590178,Arthritis,Tocilizumab,5/21/2012,Yes,M,5.99,5/24/2012,5/26/2012
+590181,Hyperlipidemia,Pravastatin,4/12/2012,No,M,120,4/12/2012,4/13/2012
+590182,Diabetes Mellitus,Glitazone,1/4/2013,No,M,22.98,1/7/2013,1/10/2013
+590184,Hyperlipidemia,Rosuvastatin,10/6/2011,Yes,F,67.98,10/7/2011,10/11/2011
+590186,Epilepsy,Phenytoin,1/25/2011,No,M,34.99,1/27/2011,1/31/2011
+590187,Diabetes Mellitus,Glitazone,1/17/2012,No,F,22.98,1/17/2012,1/21/2012
+590188,Epilepsy,Carbamazepine,9/14/2012,No,M,54.99,9/15/2012,9/19/2012
+590190,Arthritis,Tocilizumab,7/5/2012,No,F,5.99,7/8/2012,7/12/2012
+590191,Hyperlipidemia,Rosuvastatin,9/28/2011,Yes,F,67.98,9/30/2011,10/4/2011
+590193,Diabetes Mellitus,Metformin,8/5/2012,No,M,22.98,8/6/2012,8/8/2012
+590195,Epilepsy,Phenytoin,7/29/2011,Yes,M,34.99,8/1/2011,8/5/2011
+590197,Diabetes Mellitus,Glitazone,7/20/2012,No,F,22.98,7/21/2012,7/24/2012
+590199,Hyperlipidemia,Fluvastatin,12/29/2011,No,M,9.99,1/1/2012,1/2/2012
+590200,Epilepsy,Carbamazepine,1/7/2012,Yes,M,54.99,1/8/2012,1/12/2012
+590202,Hyperlipidemia,Simvastatin,3/1/2012,Yes,F,22.98,3/1/2012,3/5/2012
+590203,Diabetes Mellitus,Glitazone,6/23/2011,No,M,22.98,6/26/2011,6/27/2011
+590205,Arthritis,Rituximab,3/29/2012,Yes,F,120,3/29/2012,4/1/2012
+590206,Epilepsy,Phenytoin,9/7/2012,No,M,34.99,9/8/2012,9/10/2012
+590208,Epilepsy,Carbamazepine,1/30/2011,Yes,F,54.99,1/30/2011,2/1/2011
+590211,Hyperlipidemia,Simvastatin,12/14/2012,Yes,M,22.98,12/14/2012,12/15/2012
+590212,Arthritis,Tocilizumab,8/27/2011,Yes,M,5.99,8/29/2011,8/31/2011
+590214,Hyperlipidemia,Atorvastatin,10/3/2012,No,F,4.99,10/4/2012,10/7/2012
+590217,Diabetes Mellitus,Glitazone,4/9/2012,Yes,F,22.98,4/12/2012,4/14/2012
+590218,Hyperlipidemia,Atorvastatin,1/12/2012,Yes,F,4.99,1/15/2012,1/19/2012
+590221,Arthritis,Adalimumab,12/17/2011,Yes,F,5.99,12/20/2011,12/23/2011
+590222,Hyperlipidemia,Fluvastatin,8/19/2012,No,F,9.99,8/21/2012,8/22/2012
+590223,Hyperlipidemia,Atorvastatin,3/6/2011,Yes,F,4.99,3/6/2011,3/9/2011
+590226,Epilepsy,Lamotrigine,12/2/2012,No,F,54.99,12/4/2012,12/7/2012
+590228,Epilepsy,Phenytoin,7/7/2011,Yes,M,34.99,7/10/2011,7/11/2011
+590231,Epilepsy,Lamotrigine,1/30/2011,No,M,54.99,2/1/2011,2/3/2011
+590232,Diabetes Mellitus,Metformin,7/9/2012,Yes,F,22.98,7/11/2012,7/15/2012
+590234,Hyperlipidemia,Simvastatin,11/20/2012,No,F,22.98,11/23/2012,11/26/2012
+590235,Epilepsy,Carbamazepine,3/2/2011,No,M,54.99,3/3/2011,3/5/2011
+590238,Epilepsy,Lamotrigine,7/15/2011,Yes,F,54.99,7/18/2011,7/19/2011
+590241,Arthritis,Adalimumab,11/28/2011,No,F,5.99,11/30/2011,12/4/2011
+590243,Diabetes Mellitus,Metformin,4/5/2011,No,M,22.98,4/5/2011,4/9/2011
+590244,Diabetes Mellitus,Glitazone,5/2/2011,No,F,22.98,5/4/2011,5/6/2011
+590245,Epilepsy,Lamotrigine,9/19/2011,Yes,F,54.99,9/19/2011,9/21/2011
+590247,Arthritis,Etanercept,10/14/2011,Yes,F,120,10/16/2011,10/19/2011
+590250,Diabetes Mellitus,Glitazone,12/7/2011,Yes,M,22.98,12/7/2011,12/10/2011
+590253,Hyperlipidemia,Simvastatin,5/31/2012,Yes,M,22.98,6/3/2012,6/5/2012
+590255,Arthritis,Bertolizumab,1/20/2013,Yes,F,22.98,1/23/2013,1/27/2013
+590257,Epilepsy,Lamotrigine,1/30/2013,Yes,M,54.99,1/30/2013,1/31/2013
+590258,Arthritis,Bertolizumab,11/30/2012,Yes,F,22.98,12/3/2012,12/5/2012
+590259,Epilepsy,Carbamazepine,12/12/2011,No,F,54.99,12/13/2011,12/14/2011
+590260,Hyperlipidemia,Rosuvastatin,11/21/2011,Yes,M,67.98,11/21/2011,11/25/2011
+590261,Arthritis,Tocilizumab,9/5/2011,No,F,5.99,9/8/2011,9/11/2011
+590262,Arthritis,Rituximab,1/7/2011,No,F,120,1/10/2011,1/13/2011
+590265,Arthritis,Etanercept,8/30/2012,Yes,M,120,8/30/2012,8/31/2012
+590266,Hyperlipidemia,Rosuvastatin,10/28/2012,Yes,M,67.98,10/29/2012,10/31/2012
+590269,Diabetes Mellitus,Metformin,11/12/2011,No,F,22.98,11/15/2011,11/16/2011
+590270,Hyperlipidemia,Rosuvastatin,8/11/2011,No,M,67.98,8/12/2011,8/15/2011
+590273,Hyperlipidemia,Atorvastatin,11/8/2012,No,M,4.99,11/9/2012,11/12/2012
+590276,Epilepsy,Carbamazepine,12/12/2012,No,M,54.99,12/15/2012,12/17/2012
+590279,Arthritis,Adalimumab,11/7/2012,Yes,F,5.99,11/9/2012,11/11/2012
+590281,Diabetes Mellitus,Metformin,1/31/2012,Yes,M,22.98,1/31/2012,2/3/2012
+590283,Arthritis,Adalimumab,7/5/2012,No,F,5.99,7/5/2012,7/8/2012
+590286,Arthritis,Etanercept,4/29/2012,No,F,120,5/2/2012,5/4/2012
+590289,Epilepsy,Lamotrigine,12/18/2012,Yes,M,54.99,12/19/2012,12/21/2012
+590291,Hyperlipidemia,Pravastatin,4/1/2012,No,F,120,4/4/2012,4/7/2012
+590294,Diabetes Mellitus,Metformin,9/11/2012,No,M,22.98,9/11/2012,9/15/2012
+590296,Diabetes Mellitus,Glitazone,10/8/2011,Yes,F,22.98,10/11/2011,10/12/2011
+590297,Diabetes Mellitus,Glitazone,9/5/2011,No,M,22.98,9/6/2011,9/8/2011
+590299,Epilepsy,Lamotrigine,5/7/2012,No,F,54.99,5/8/2012,5/10/2012
+590302,Arthritis,Rituximab,1/22/2011,No,M,120,1/23/2011,1/25/2011
+590304,Arthritis,Bertolizumab,4/2/2011,No,M,22.98,4/5/2011,4/7/2011
+590307,Hyperlipidemia,Atorvastatin,5/23/2011,Yes,F,4.99,5/24/2011,5/26/2011
+590309,Diabetes Mellitus,Metformin,10/27/2011,Yes,M,22.98,10/30/2011,11/2/2011
+590310,Epilepsy,Lamotrigine,8/10/2012,No,M,54.99,8/11/2012,8/12/2012
+590313,Diabetes Mellitus,Glitazone,4/12/2012,No,F,22.98,4/14/2012,4/18/2012
+590316,Arthritis,Etanercept,8/1/2012,No,F,120,8/3/2012,8/5/2012
+590317,Arthritis,Bertolizumab,7/10/2011,Yes,M,22.98,7/10/2011,7/12/2011
+590320,Epilepsy,Phenytoin,9/1/2011,No,F,34.99,9/3/2011,9/5/2011
+590323,Arthritis,Adalimumab,1/14/2013,No,M,5.99,1/16/2013,1/18/2013
+590325,Arthritis,Tocilizumab,8/1/2012,Yes,M,5.99,8/4/2012,8/7/2012
+590327,Hyperlipidemia,Simvastatin,10/27/2011,No,M,22.98,10/29/2011,11/2/2011
+590329,Hyperlipidemia,Pravastatin,2/11/2011,Yes,M,120,2/14/2011,2/18/2011
+590330,Arthritis,Bertolizumab,10/2/2011,Yes,M,22.98,10/3/2011,10/7/2011
+590332,Diabetes Mellitus,Metformin,6/21/2012,No,M,22.98,6/21/2012,6/22/2012
+590335,Hyperlipidemia,Lovastatin,5/29/2011,Yes,M,67.98,6/1/2011,6/3/2011
+590336,Arthritis,Tocilizumab,8/3/2011,Yes,M,5.99,8/4/2011,8/5/2011
+590338,Epilepsy,Carbamazepine,8/22/2011,No,M,54.99,8/24/2011,8/25/2011
+590341,Hyperlipidemia,Fluvastatin,4/4/2012,Yes,M,9.99,4/5/2012,4/6/2012
+590343,Hyperlipidemia,Atorvastatin,1/4/2013,No,F,4.99,1/6/2013,1/10/2013
+590344,Diabetes Mellitus,Metformin,9/10/2012,Yes,M,22.98,9/13/2012,9/15/2012
+590346,Diabetes Mellitus,Glitazone,1/17/2011,Yes,F,22.98,1/18/2011,1/20/2011
+590349,Arthritis,Rituximab,6/10/2012,Yes,M,120,6/12/2012,6/13/2012
+590350,Hyperlipidemia,Pravastatin,2/8/2011,No,F,120,2/8/2011,2/12/2011
+590351,Epilepsy,Lamotrigine,1/24/2011,Yes,M,54.99,1/26/2011,1/30/2011
+590354,Diabetes Mellitus,Metformin,2/27/2012,No,F,22.98,3/1/2012,3/5/2012
+590356,Arthritis,Etanercept,11/5/2011,Yes,M,120,11/6/2011,11/8/2011
+590359,Diabetes Mellitus,Metformin,2/13/2012,Yes,M,22.98,2/13/2012,2/15/2012
+590360,Arthritis,Golimumab,7/16/2011,No,F,7.99,7/19/2011,7/21/2011
+590361,Epilepsy,Phenytoin,8/20/2011,Yes,F,34.99,8/21/2011,8/25/2011
+590364,Diabetes Mellitus,Metformin,2/1/2011,Yes,M,22.98,2/4/2011,2/8/2011
+590365,Arthritis,Bertolizumab,6/21/2011,Yes,M,22.98,6/23/2011,6/26/2011
+590367,Diabetes Mellitus,Metformin,4/26/2012,Yes,M,22.98,4/28/2012,4/29/2012
+590370,Hyperlipidemia,Atorvastatin,5/2/2012,No,F,4.99,5/5/2012,5/7/2012
+590372,Arthritis,Golimumab,1/3/2013,Yes,M,7.99,1/4/2013,1/8/2013
+590375,Epilepsy,Lamotrigine,9/27/2012,No,M,54.99,9/28/2012,9/29/2012
+590377,Diabetes Mellitus,Metformin,1/19/2012,No,M,22.98,1/22/2012,1/25/2012
+590378,Epilepsy,Phenytoin,9/6/2011,No,M,34.99,9/7/2011,9/11/2011
+590380,Epilepsy,Phenytoin,11/10/2011,Yes,F,34.99,11/11/2011,11/15/2011
+590382,Hyperlipidemia,Simvastatin,8/16/2011,No,F,22.98,8/16/2011,8/18/2011
+590385,Arthritis,Bertolizumab,11/17/2011,No,F,22.98,11/19/2011,11/23/2011
+590386,Hyperlipidemia,Fluvastatin,11/29/2012,No,F,9.99,12/2/2012,12/4/2012
+590389,Arthritis,Rituximab,12/21/2012,No,M,120,12/21/2012,12/25/2012
+590392,Diabetes Mellitus,Glitazone,3/9/2011,No,F,22.98,3/12/2011,3/14/2011
+590394,Arthritis,Etanercept,3/23/2012,No,M,120,3/25/2012,3/28/2012
+590396,Diabetes Mellitus,Glitazone,2/6/2011,No,F,22.98,2/6/2011,2/7/2011
+590398,Epilepsy,Phenytoin,5/22/2012,No,M,34.99,5/24/2012,5/28/2012
+590401,Epilepsy,Carbamazepine,1/14/2013,Yes,M,54.99,1/14/2013,1/16/2013
+590404,Diabetes Mellitus,Metformin,12/29/2011,Yes,M,22.98,12/31/2011,1/4/2012
+590405,Arthritis,Adalimumab,6/24/2012,No,M,5.99,6/26/2012,6/29/2012
+590408,Hyperlipidemia,Rosuvastatin,1/3/2012,Yes,F,67.98,1/6/2012,1/10/2012
+590410,Diabetes Mellitus,Metformin,5/14/2011,Yes,M,22.98,5/14/2011,5/18/2011
+590413,Arthritis,Abatacept,2/17/2011,No,M,34.99,2/20/2011,2/21/2011
+590416,Diabetes Mellitus,Glitazone,5/4/2012,Yes,F,22.98,5/6/2012,5/9/2012
+590417,Epilepsy,Lamotrigine,11/12/2012,Yes,F,54.99,11/15/2012,11/17/2012
+590418,Hyperlipidemia,Atorvastatin,9/10/2011,No,F,4.99,9/13/2011,9/15/2011
+590420,Epilepsy,Phenytoin,3/29/2011,No,M,34.99,3/31/2011,4/3/2011
+590422,Diabetes Mellitus,Metformin,5/4/2012,No,F,22.98,5/7/2012,5/11/2012
+590425,Hyperlipidemia,Rosuvastatin,8/14/2012,No,M,67.98,8/15/2012,8/17/2012
+590427,Hyperlipidemia,Atorvastatin,2/3/2012,No,F,4.99,2/5/2012,2/9/2012
+590429,Arthritis,Golimumab,8/10/2011,No,M,7.99,8/12/2011,8/16/2011
+590431,Hyperlipidemia,Fluvastatin,1/28/2013,No,M,9.99,1/28/2013,2/1/2013
+590432,Arthritis,Adalimumab,1/29/2012,No,F,5.99,2/1/2012,2/3/2012
+590433,Diabetes Mellitus,Metformin,4/21/2011,No,F,22.98,4/23/2011,4/25/2011
+590434,Diabetes Mellitus,Metformin,7/25/2011,No,M,22.98,7/26/2011,7/30/2011
+590436,Hyperlipidemia,Rosuvastatin,1/6/2011,No,F,67.98,1/8/2011,1/10/2011
+590437,Diabetes Mellitus,Glitazone,2/16/2012,No,M,22.98,2/17/2012,2/19/2012
+590439,Epilepsy,Lamotrigine,7/1/2011,No,M,54.99,7/2/2011,7/5/2011
+590442,Epilepsy,Carbamazepine,5/10/2011,Yes,F,54.99,5/10/2011,5/13/2011
+590445,Epilepsy,Carbamazepine,7/24/2011,Yes,F,54.99,7/26/2011,7/27/2011
+590446,Hyperlipidemia,Fluvastatin,2/20/2011,Yes,M,9.99,2/20/2011,2/24/2011
+590448,Epilepsy,Phenytoin,4/25/2012,No,M,34.99,4/25/2012,4/29/2012
+590450,Arthritis,Golimumab,3/22/2011,No,F,7.99,3/24/2011,3/28/2011
+590453,Epilepsy,Phenytoin,5/20/2012,Yes,F,34.99,5/21/2012,5/25/2012
+590455,Diabetes Mellitus,Metformin,7/20/2012,No,F,22.98,7/22/2012,7/25/2012
+590457,Epilepsy,Carbamazepine,1/20/2012,Yes,F,54.99,1/21/2012,1/22/2012
+590458,Diabetes Mellitus,Glitazone,5/26/2011,Yes,F,22.98,5/26/2011,5/29/2011
+590459,Epilepsy,Lamotrigine,7/7/2012,Yes,F,54.99,7/10/2012,7/12/2012
+590461,Arthritis,Infliximab,1/4/2013,No,F,34.99,1/6/2013,1/10/2013
+590463,Diabetes Mellitus,Metformin,6/1/2011,No,F,22.98,6/1/2011,6/5/2011
+590464,Epilepsy,Lamotrigine,3/11/2011,Yes,M,54.99,3/12/2011,3/15/2011
+590467,Hyperlipidemia,Rosuvastatin,11/15/2012,No,F,67.98,11/15/2012,11/18/2012
+590469,Hyperlipidemia,Atorvastatin,5/11/2012,Yes,F,4.99,5/11/2012,5/14/2012
+590472,Diabetes Mellitus,Metformin,4/14/2011,No,M,22.98,4/15/2011,4/18/2011
+590474,Diabetes Mellitus,Metformin,12/25/2012,Yes,M,22.98,12/28/2012,12/31/2012
+590476,Arthritis,Tocilizumab,3/21/2011,No,F,5.99,3/23/2011,3/24/2011
+590478,Epilepsy,Phenytoin,7/11/2011,No,F,34.99,7/11/2011,7/12/2011
+590479,Epilepsy,Phenytoin,7/3/2011,No,F,34.99,7/6/2011,7/9/2011
+590481,Arthritis,Adalimumab,8/9/2012,No,F,5.99,8/10/2012,8/12/2012
+590483,Hyperlipidemia,Simvastatin,1/22/2013,No,F,22.98,1/22/2013,1/23/2013
+590486,Diabetes Mellitus,Glitazone,3/4/2011,No,F,22.98,3/7/2011,3/8/2011
+590487,Arthritis,Etanercept,5/25/2012,No,M,120,5/28/2012,5/30/2012
+590489,Epilepsy,Lamotrigine,6/30/2012,No,M,54.99,7/1/2012,7/4/2012
+590490,Epilepsy,Phenytoin,9/13/2011,Yes,M,34.99,9/16/2011,9/20/2011
+590493,Diabetes Mellitus,Glitazone,4/5/2012,Yes,M,22.98,4/7/2012,4/10/2012
+590494,Epilepsy,Phenytoin,10/19/2012,No,M,34.99,10/21/2012,10/23/2012
+590495,Diabetes Mellitus,Metformin,5/21/2012,Yes,F,22.98,5/22/2012,5/26/2012
+590497,Diabetes Mellitus,Metformin,4/9/2011,No,M,22.98,4/11/2011,4/15/2011
+590499,Diabetes Mellitus,Glitazone,6/20/2012,Yes,M,22.98,6/23/2012,6/26/2012
+590501,Epilepsy,Lamotrigine,4/26/2012,No,M,54.99,4/28/2012,5/2/2012
+590504,Epilepsy,Lamotrigine,1/18/2013,Yes,M,54.99,1/21/2013,1/25/2013
+590505,Epilepsy,Lamotrigine,12/23/2011,No,F,54.99,12/24/2011,12/28/2011
+590508,Hyperlipidemia,Lovastatin,10/11/2011,No,M,67.98,10/12/2011,10/16/2011
+590510,Hyperlipidemia,Rosuvastatin,3/23/2012,Yes,F,67.98,3/24/2012,3/25/2012
+590513,Epilepsy,Carbamazepine,2/21/2012,Yes,M,54.99,2/22/2012,2/26/2012
+590516,Arthritis,Etanercept,3/7/2011,Yes,F,120,3/9/2011,3/12/2011
+590518,Diabetes Mellitus,Glitazone,2/17/2011,Yes,M,22.98,2/18/2011,2/19/2011
+590519,Arthritis,Golimumab,12/2/2011,Yes,F,7.99,12/4/2011,12/6/2011
+590522,Hyperlipidemia,Rosuvastatin,2/28/2012,No,M,67.98,3/2/2012,3/4/2012
+590523,Diabetes Mellitus,Metformin,12/17/2011,Yes,M,22.98,12/20/2011,12/24/2011
+590524,Hyperlipidemia,Rosuvastatin,5/28/2012,Yes,F,67.98,5/29/2012,6/2/2012
+590526,Hyperlipidemia,Lovastatin,1/8/2013,No,M,67.98,1/8/2013,1/10/2013
+590527,Arthritis,Bertolizumab,6/24/2011,No,M,22.98,6/27/2011,7/1/2011
+590530,Diabetes Mellitus,Glitazone,2/13/2012,No,M,22.98,2/14/2012,2/17/2012
+590532,Arthritis,Infliximab,4/1/2011,No,F,34.99,4/4/2011,4/8/2011
+590533,Hyperlipidemia,Rosuvastatin,6/14/2011,No,F,67.98,6/16/2011,6/19/2011
+590535,Arthritis,Tocilizumab,7/20/2011,Yes,M,5.99,7/21/2011,7/22/2011
+590536,Hyperlipidemia,Lovastatin,1/4/2012,No,M,67.98,1/7/2012,1/11/2012
+590537,Hyperlipidemia,Lovastatin,3/5/2012,Yes,F,67.98,3/7/2012,3/9/2012
+590538,Epilepsy,Phenytoin,12/16/2011,No,M,34.99,12/17/2011,12/21/2011
+590541,Diabetes Mellitus,Metformin,5/22/2012,No,M,22.98,5/24/2012,5/26/2012
+590543,Hyperlipidemia,Lovastatin,8/20/2011,No,M,67.98,8/20/2011,8/23/2011
+590546,Diabetes Mellitus,Glitazone,6/21/2012,Yes,F,22.98,6/23/2012,6/24/2012
+590547,Arthritis,Etanercept,8/7/2011,No,M,120,8/10/2011,8/13/2011
+590549,Diabetes Mellitus,Metformin,11/1/2012,No,F,22.98,11/1/2012,11/2/2012
+590552,Hyperlipidemia,Rosuvastatin,11/14/2011,No,M,67.98,11/15/2011,11/17/2011
+590553,Arthritis,Etanercept,6/22/2012,No,M,120,6/23/2012,6/26/2012
+590556,Arthritis,Infliximab,4/14/2011,Yes,F,34.99,4/14/2011,4/16/2011
+590559,Diabetes Mellitus,Metformin,5/14/2011,Yes,F,22.98,5/16/2011,5/17/2011
+590561,Diabetes Mellitus,Metformin,5/19/2011,No,M,22.98,5/19/2011,5/22/2011
+590563,Hyperlipidemia,Fluvastatin,9/2/2012,No,F,9.99,9/3/2012,9/4/2012
+590564,Epilepsy,Lamotrigine,10/10/2011,No,F,54.99,10/13/2011,10/16/2011
+590566,Epilepsy,Phenytoin,10/25/2012,No,M,34.99,10/26/2012,10/27/2012
+590567,Arthritis,Bertolizumab,9/11/2012,Yes,M,22.98,9/13/2012,9/16/2012
+590569,Diabetes Mellitus,Glitazone,11/23/2012,Yes,F,22.98,11/25/2012,11/29/2012
+590572,Arthritis,Rituximab,7/19/2012,Yes,F,120,7/19/2012,7/20/2012
+590575,Epilepsy,Phenytoin,11/9/2012,Yes,F,34.99,11/10/2012,11/11/2012
+590578,Arthritis,Infliximab,7/30/2011,No,M,34.99,7/31/2011,8/3/2011
+590579,Diabetes Mellitus,Glitazone,2/24/2012,Yes,M,22.98,2/24/2012,2/28/2012
+590581,Epilepsy,Phenytoin,12/22/2011,No,F,34.99,12/22/2011,12/23/2011
+590583,Epilepsy,Lamotrigine,9/30/2012,No,F,54.99,10/2/2012,10/5/2012
+590584,Diabetes Mellitus,Metformin,10/16/2011,Yes,M,22.98,10/19/2011,10/23/2011
+590585,Epilepsy,Carbamazepine,5/2/2011,No,M,54.99,5/3/2011,5/6/2011
+590587,Hyperlipidemia,Lovastatin,1/2/2013,No,M,67.98,1/2/2013,1/3/2013
+590590,Diabetes Mellitus,Glitazone,2/25/2011,No,M,22.98,2/28/2011,3/2/2011
+590591,Hyperlipidemia,Lovastatin,10/25/2012,Yes,F,67.98,10/27/2012,10/30/2012
+590594,Diabetes Mellitus,Metformin,2/26/2011,No,F,22.98,3/1/2011,3/5/2011
+590597,Epilepsy,Lamotrigine,7/29/2012,No,M,54.99,8/1/2012,8/3/2012
+590600,Hyperlipidemia,Pravastatin,3/14/2012,Yes,F,120,3/17/2012,3/20/2012
+590603,Hyperlipidemia,Fluvastatin,6/4/2012,Yes,M,9.99,6/5/2012,6/9/2012
+590606,Hyperlipidemia,Lovastatin,7/4/2012,Yes,M,67.98,7/5/2012,7/8/2012
+590608,Arthritis,Rituximab,1/18/2012,Yes,F,120,1/18/2012,1/22/2012
+590611,Arthritis,Tocilizumab,9/7/2012,No,F,5.99,9/7/2012,9/9/2012
+590614,Arthritis,Abatacept,12/15/2012,Yes,M,34.99,12/16/2012,12/20/2012
+590616,Arthritis,Abatacept,6/1/2011,No,F,34.99,6/1/2011,6/2/2011
+590619,Arthritis,Rituximab,11/2/2012,No,M,120,11/3/2012,11/7/2012
+590622,Hyperlipidemia,Simvastatin,7/20/2011,No,M,22.98,7/20/2011,7/23/2011
+590625,Diabetes Mellitus,Metformin,7/16/2012,Yes,M,22.98,7/18/2012,7/21/2012
+590627,Diabetes Mellitus,Glitazone,1/21/2013,No,M,22.98,1/23/2013,1/26/2013
+590630,Arthritis,Golimumab,3/28/2012,Yes,M,7.99,3/28/2012,4/1/2012
+590633,Arthritis,Etanercept,10/3/2011,Yes,M,120,10/3/2011,10/6/2011
+590636,Diabetes Mellitus,Metformin,3/13/2011,No,M,22.98,3/16/2011,3/19/2011
+590637,Diabetes Mellitus,Glitazone,8/27/2012,No,M,22.98,8/29/2012,9/2/2012
+590639,Diabetes Mellitus,Metformin,6/23/2011,Yes,F,22.98,6/26/2011,6/30/2011
+590641,Epilepsy,Carbamazepine,8/15/2012,Yes,M,54.99,8/17/2012,8/21/2012
+590643,Epilepsy,Lamotrigine,11/7/2012,No,F,54.99,11/10/2012,11/13/2012
+590646,Diabetes Mellitus,Metformin,5/12/2011,Yes,M,22.98,5/15/2011,5/19/2011
+590649,Hyperlipidemia,Simvastatin,7/5/2011,Yes,M,22.98,7/5/2011,7/7/2011
+590650,Diabetes Mellitus,Glitazone,1/16/2013,Yes,F,22.98,1/17/2013,1/18/2013
+590651,Epilepsy,Lamotrigine,2/2/2012,No,F,54.99,2/5/2012,2/8/2012
+590652,Diabetes Mellitus,Glitazone,2/8/2012,Yes,M,22.98,2/9/2012,2/13/2012
+590654,Epilepsy,Carbamazepine,4/14/2012,Yes,M,54.99,4/14/2012,4/15/2012
+590655,Arthritis,Rituximab,1/6/2013,Yes,M,120,1/9/2013,1/13/2013
+590658,Epilepsy,Phenytoin,5/16/2011,No,F,34.99,5/16/2011,5/19/2011
+590659,Epilepsy,Lamotrigine,11/8/2011,Yes,M,54.99,11/11/2011,11/15/2011
+590661,Hyperlipidemia,Rosuvastatin,7/28/2012,No,F,67.98,7/29/2012,7/30/2012
+590662,Diabetes Mellitus,Metformin,1/20/2013,No,M,22.98,1/23/2013,1/25/2013
+590663,Arthritis,Etanercept,2/17/2012,No,F,120,2/17/2012,2/19/2012
+590664,Epilepsy,Carbamazepine,11/11/2012,No,F,54.99,11/12/2012,11/13/2012
+590667,Epilepsy,Carbamazepine,4/30/2011,No,F,54.99,5/3/2011,5/5/2011
+590669,Epilepsy,Carbamazepine,5/9/2012,No,M,54.99,5/11/2012,5/12/2012
+590672,Arthritis,Golimumab,5/21/2012,Yes,M,7.99,5/24/2012,5/28/2012
+590675,Arthritis,Infliximab,6/27/2011,Yes,F,34.99,6/27/2011,6/29/2011
+590678,Hyperlipidemia,Fluvastatin,12/15/2012,Yes,F,9.99,12/18/2012,12/19/2012
+590681,Arthritis,Adalimumab,3/13/2011,Yes,M,5.99,3/13/2011,3/14/2011
+590682,Diabetes Mellitus,Metformin,12/3/2011,No,F,22.98,12/4/2011,12/8/2011
+590684,Diabetes Mellitus,Glitazone,10/9/2011,No,F,22.98,10/12/2011,10/15/2011
+590686,Hyperlipidemia,Lovastatin,2/27/2011,Yes,M,67.98,2/27/2011,3/1/2011
+590688,Diabetes Mellitus,Metformin,2/15/2012,No,M,22.98,2/16/2012,2/17/2012
+590691,Diabetes Mellitus,Metformin,5/3/2011,Yes,M,22.98,5/4/2011,5/7/2011
+590692,Diabetes Mellitus,Glitazone,12/20/2011,Yes,F,22.98,12/22/2011,12/26/2011
+590693,Hyperlipidemia,Lovastatin,4/3/2011,No,F,67.98,4/4/2011,4/6/2011
+590696,Epilepsy,Carbamazepine,4/28/2012,No,F,54.99,4/28/2012,5/2/2012
+590697,Epilepsy,Lamotrigine,7/11/2012,No,F,54.99,7/12/2012,7/13/2012
+590698,Hyperlipidemia,Fluvastatin,8/12/2012,Yes,F,9.99,8/13/2012,8/16/2012
+590700,Diabetes Mellitus,Metformin,11/25/2012,No,M,22.98,11/28/2012,12/1/2012
+590702,Hyperlipidemia,Rosuvastatin,10/10/2012,No,F,67.98,10/10/2012,10/14/2012
+590704,Arthritis,Adalimumab,7/15/2012,No,F,5.99,7/17/2012,7/18/2012
+590706,Epilepsy,Lamotrigine,8/8/2012,Yes,M,54.99,8/8/2012,8/12/2012
+590709,Epilepsy,Lamotrigine,4/28/2011,No,M,54.99,4/30/2011,5/4/2011
+590712,Hyperlipidemia,Lovastatin,2/23/2012,Yes,M,67.98,2/24/2012,2/27/2012
+590715,Epilepsy,Lamotrigine,11/18/2012,Yes,F,54.99,11/18/2012,11/21/2012
+590717,Arthritis,Rituximab,11/8/2012,No,M,120,11/8/2012,11/10/2012
+590719,Epilepsy,Lamotrigine,10/28/2012,Yes,F,54.99,10/29/2012,11/1/2012
+590721,Epilepsy,Phenytoin,12/6/2011,Yes,M,34.99,12/7/2011,12/8/2011
+590723,Epilepsy,Lamotrigine,4/12/2012,No,M,54.99,4/15/2012,4/16/2012
+590725,Epilepsy,Carbamazepine,11/1/2012,No,F,54.99,11/1/2012,11/5/2012
+590727,Diabetes Mellitus,Glitazone,5/30/2012,No,M,22.98,5/30/2012,5/31/2012
+590728,Diabetes Mellitus,Glitazone,9/4/2011,Yes,F,22.98,9/4/2011,9/6/2011
+590731,Diabetes Mellitus,Metformin,9/4/2012,No,M,22.98,9/6/2012,9/10/2012
+590733,Diabetes Mellitus,Metformin,1/1/2012,No,F,22.98,1/4/2012,1/8/2012
+590735,Diabetes Mellitus,Glitazone,10/27/2012,No,F,22.98,10/27/2012,10/29/2012
+590737,Hyperlipidemia,Simvastatin,9/4/2011,Yes,M,22.98,9/5/2011,9/6/2011
+590738,Arthritis,Adalimumab,8/19/2011,No,M,5.99,8/20/2011,8/22/2011
+590741,Hyperlipidemia,Atorvastatin,2/1/2012,Yes,M,4.99,2/4/2012,2/5/2012
+590744,Arthritis,Adalimumab,6/21/2012,Yes,M,5.99,6/22/2012,6/25/2012
+590747,Hyperlipidemia,Rosuvastatin,10/26/2011,Yes,M,67.98,10/26/2011,10/29/2011
+590748,Diabetes Mellitus,Glitazone,11/7/2012,Yes,F,22.98,11/10/2012,11/13/2012
+590750,Diabetes Mellitus,Glitazone,5/31/2012,Yes,M,22.98,6/2/2012,6/6/2012
+590752,Arthritis,Infliximab,1/2/2012,Yes,M,34.99,1/5/2012,1/9/2012
+590753,Arthritis,Infliximab,12/15/2011,Yes,M,34.99,12/16/2011,12/19/2011
+590754,Diabetes Mellitus,Glitazone,11/6/2011,No,F,22.98,11/7/2011,11/10/2011
+590757,Hyperlipidemia,Fluvastatin,5/5/2012,Yes,M,9.99,5/5/2012,5/9/2012
+590760,Epilepsy,Carbamazepine,2/14/2012,Yes,F,54.99,2/16/2012,2/17/2012
+590761,Diabetes Mellitus,Glitazone,7/26/2012,Yes,F,22.98,7/28/2012,8/1/2012
+590764,Epilepsy,Lamotrigine,4/7/2012,No,M,54.99,4/8/2012,4/10/2012
+590766,Arthritis,Tocilizumab,8/2/2012,Yes,M,5.99,8/4/2012,8/6/2012
+590769,Hyperlipidemia,Lovastatin,6/25/2012,Yes,F,67.98,6/27/2012,6/29/2012
+590770,Arthritis,Tocilizumab,1/27/2011,No,F,5.99,1/28/2011,2/1/2011
+590772,Diabetes Mellitus,Glitazone,5/22/2012,Yes,F,22.98,5/22/2012,5/25/2012
+590774,Diabetes Mellitus,Glitazone,4/15/2012,Yes,M,22.98,4/17/2012,4/21/2012
+590775,Arthritis,Bertolizumab,2/4/2012,No,F,22.98,2/4/2012,2/7/2012
+590777,Arthritis,Bertolizumab,4/20/2012,No,F,22.98,4/23/2012,4/25/2012
+590779,Arthritis,Rituximab,4/2/2012,No,F,120,4/4/2012,4/5/2012
+590781,Hyperlipidemia,Rosuvastatin,1/7/2012,No,F,67.98,1/8/2012,1/9/2012
+590782,Diabetes Mellitus,Metformin,10/15/2011,Yes,F,22.98,10/15/2011,10/18/2011
+590784,Hyperlipidemia,Rosuvastatin,7/28/2011,No,F,67.98,7/29/2011,7/30/2011
+590786,Epilepsy,Lamotrigine,7/22/2012,Yes,M,54.99,7/24/2012,7/25/2012
+590789,Hyperlipidemia,Simvastatin,7/25/2012,No,F,22.98,7/28/2012,7/30/2012
+590790,Hyperlipidemia,Atorvastatin,10/25/2011,Yes,F,4.99,10/27/2011,10/31/2011
+590791,Epilepsy,Lamotrigine,9/2/2011,Yes,M,54.99,9/4/2011,9/8/2011
+590793,Epilepsy,Lamotrigine,7/28/2011,No,F,54.99,7/29/2011,7/30/2011
+590796,Epilepsy,Carbamazepine,7/31/2012,No,F,54.99,8/2/2012,8/3/2012
+590798,Diabetes Mellitus,Metformin,11/25/2011,Yes,F,22.98,11/26/2011,11/27/2011
+590801,Hyperlipidemia,Atorvastatin,5/23/2012,Yes,M,4.99,5/23/2012,5/27/2012
+590804,Epilepsy,Lamotrigine,9/16/2012,Yes,M,54.99,9/19/2012,9/20/2012
+590805,Epilepsy,Phenytoin,3/8/2012,Yes,F,34.99,3/10/2012,3/14/2012
+590807,Diabetes Mellitus,Glitazone,7/21/2012,No,F,22.98,7/22/2012,7/23/2012
+590808,Arthritis,Etanercept,12/21/2011,No,F,120,12/22/2011,12/25/2011
+590811,Hyperlipidemia,Lovastatin,10/9/2011,Yes,M,67.98,10/12/2011,10/14/2011
+590814,Diabetes Mellitus,Glitazone,9/9/2012,Yes,F,22.98,9/12/2012,9/14/2012
+590815,Hyperlipidemia,Rosuvastatin,6/24/2012,Yes,M,67.98,6/27/2012,7/1/2012
+590816,Arthritis,Rituximab,1/10/2011,No,M,120,1/10/2011,1/14/2011
+590817,Epilepsy,Lamotrigine,11/29/2011,No,F,54.99,11/29/2011,11/30/2011
+590819,Diabetes Mellitus,Metformin,5/7/2012,Yes,M,22.98,5/8/2012,5/9/2012
+590821,Hyperlipidemia,Fluvastatin,6/1/2011,Yes,M,9.99,6/1/2011,6/5/2011
+590822,Arthritis,Bertolizumab,12/10/2012,No,F,22.98,12/12/2012,12/14/2012
+590824,Epilepsy,Carbamazepine,4/6/2012,No,M,54.99,4/6/2012,4/7/2012
+590825,Diabetes Mellitus,Metformin,3/15/2012,Yes,M,22.98,3/16/2012,3/18/2012
+590828,Diabetes Mellitus,Glitazone,8/17/2011,Yes,M,22.98,8/19/2011,8/20/2011
+590831,Epilepsy,Lamotrigine,2/7/2011,No,F,54.99,2/7/2011,2/8/2011
+590832,Arthritis,Bertolizumab,9/5/2011,Yes,F,22.98,9/6/2011,9/8/2011
+590835,Arthritis,Tocilizumab,5/22/2011,Yes,F,5.99,5/22/2011,5/26/2011
+590836,Hyperlipidemia,Rosuvastatin,2/12/2011,Yes,M,67.98,2/15/2011,2/17/2011
+590839,Diabetes Mellitus,Metformin,2/11/2012,Yes,M,22.98,2/13/2012,2/15/2012
+590842,Arthritis,Abatacept,11/2/2011,No,F,34.99,11/3/2011,11/7/2011
+590844,Hyperlipidemia,Fluvastatin,11/5/2012,Yes,M,9.99,11/8/2012,11/12/2012
+590847,Hyperlipidemia,Pravastatin,6/9/2011,Yes,M,120,6/9/2011,6/10/2011
+590850,Hyperlipidemia,Lovastatin,4/30/2012,Yes,F,67.98,5/1/2012,5/3/2012
+590851,Arthritis,Rituximab,5/5/2011,No,F,120,5/8/2011,5/11/2011
+590853,Hyperlipidemia,Lovastatin,10/5/2012,Yes,M,67.98,10/5/2012,10/7/2012
+590855,Epilepsy,Lamotrigine,3/13/2012,No,F,54.99,3/13/2012,3/16/2012
+590857,Diabetes Mellitus,Glitazone,11/29/2011,Yes,F,22.98,12/1/2011,12/2/2011
+590859,Arthritis,Golimumab,7/9/2012,No,M,7.99,7/10/2012,7/14/2012
+590861,Arthritis,Tocilizumab,5/27/2012,Yes,F,5.99,5/30/2012,6/2/2012
+590862,Epilepsy,Lamotrigine,4/24/2011,Yes,M,54.99,4/27/2011,4/28/2011
+590865,Hyperlipidemia,Rosuvastatin,11/5/2011,Yes,M,67.98,11/7/2011,11/8/2011
+590867,Diabetes Mellitus,Metformin,6/24/2012,No,F,22.98,6/26/2012,6/30/2012
+590869,Hyperlipidemia,Rosuvastatin,1/20/2011,No,M,67.98,1/22/2011,1/23/2011
+590870,Hyperlipidemia,Pravastatin,9/10/2012,No,M,120,9/10/2012,9/12/2012
+590872,Epilepsy,Phenytoin,9/30/2012,Yes,F,34.99,10/2/2012,10/3/2012
+590874,Epilepsy,Carbamazepine,8/20/2011,Yes,M,54.99,8/20/2011,8/21/2011
+590877,Epilepsy,Carbamazepine,3/31/2011,Yes,F,54.99,4/2/2011,4/5/2011
+590878,Arthritis,Tocilizumab,1/29/2012,No,M,5.99,2/1/2012,2/2/2012
+590881,Arthritis,Rituximab,4/25/2011,No,F,120,4/28/2011,4/29/2011
+590884,Hyperlipidemia,Atorvastatin,1/15/2013,No,M,4.99,1/15/2013,1/19/2013
+590887,Arthritis,Infliximab,11/13/2012,Yes,F,34.99,11/15/2012,11/18/2012
+590889,Diabetes Mellitus,Glitazone,1/22/2013,Yes,F,22.98,1/22/2013,1/24/2013
+590892,Diabetes Mellitus,Metformin,10/27/2011,Yes,M,22.98,10/28/2011,10/29/2011
+590895,Epilepsy,Carbamazepine,1/10/2013,Yes,F,54.99,1/11/2013,1/14/2013
+590897,Hyperlipidemia,Lovastatin,12/3/2012,No,F,67.98,12/3/2012,12/6/2012
+590898,Hyperlipidemia,Pravastatin,12/25/2011,No,M,120,12/28/2011,1/1/2012
+590899,Diabetes Mellitus,Metformin,1/27/2013,Yes,F,22.98,1/30/2013,2/1/2013
+590900,Epilepsy,Phenytoin,3/19/2012,No,F,34.99,3/21/2012,3/22/2012
+590902,Arthritis,Golimumab,1/11/2013,Yes,M,7.99,1/11/2013,1/14/2013
+590905,Epilepsy,Phenytoin,12/10/2012,No,F,34.99,12/12/2012,12/14/2012
+590908,Hyperlipidemia,Pravastatin,1/25/2011,No,M,120,1/25/2011,1/28/2011
+590910,Arthritis,Adalimumab,9/4/2011,Yes,F,5.99,9/5/2011,9/7/2011
+590913,Diabetes Mellitus,Glitazone,7/1/2012,No,M,22.98,7/4/2012,7/8/2012
+590914,Hyperlipidemia,Atorvastatin,1/17/2011,Yes,F,4.99,1/19/2011,1/23/2011
+590915,Epilepsy,Carbamazepine,1/18/2011,No,M,54.99,1/18/2011,1/21/2011
+590916,Hyperlipidemia,Lovastatin,5/13/2011,No,M,67.98,5/15/2011,5/16/2011
+590919,Hyperlipidemia,Rosuvastatin,6/9/2011,Yes,F,67.98,6/9/2011,6/11/2011
+590921,Epilepsy,Phenytoin,2/4/2011,No,M,34.99,2/7/2011,2/11/2011
+590924,Diabetes Mellitus,Glitazone,1/14/2013,No,M,22.98,1/17/2013,1/20/2013
+590927,Arthritis,Adalimumab,12/7/2011,No,M,5.99,12/9/2011,12/10/2011
+590928,Hyperlipidemia,Fluvastatin,7/21/2012,Yes,M,9.99,7/24/2012,7/26/2012
+590929,Diabetes Mellitus,Metformin,3/7/2011,No,F,22.98,3/10/2011,3/14/2011
+590932,Hyperlipidemia,Pravastatin,10/11/2012,Yes,F,120,10/12/2012,10/13/2012
+590934,Epilepsy,Phenytoin,10/5/2012,Yes,M,34.99,10/6/2012,10/9/2012
+590936,Diabetes Mellitus,Glitazone,11/17/2012,Yes,M,22.98,11/17/2012,11/19/2012
+590937,Hyperlipidemia,Fluvastatin,4/25/2011,Yes,M,9.99,4/26/2011,4/30/2011
+590940,Arthritis,Rituximab,11/23/2011,Yes,F,120,11/23/2011,11/25/2011
+590941,Epilepsy,Lamotrigine,1/23/2012,No,M,54.99,1/24/2012,1/27/2012
+590943,Diabetes Mellitus,Glitazone,1/12/2012,Yes,M,22.98,1/14/2012,1/15/2012
+590944,Diabetes Mellitus,Glitazone,2/1/2011,No,F,22.98,2/4/2011,2/5/2011
+590945,Diabetes Mellitus,Metformin,12/1/2012,No,F,22.98,12/4/2012,12/6/2012
+590947,Arthritis,Abatacept,3/5/2012,Yes,F,34.99,3/6/2012,3/10/2012
+590950,Epilepsy,Lamotrigine,10/4/2011,Yes,F,54.99,10/5/2011,10/6/2011
+590953,Hyperlipidemia,Atorvastatin,8/29/2012,Yes,M,4.99,8/29/2012,8/30/2012
+590956,Epilepsy,Lamotrigine,2/5/2011,No,F,54.99,2/5/2011,2/9/2011
+590957,Hyperlipidemia,Rosuvastatin,2/11/2011,Yes,M,67.98,2/14/2011,2/18/2011
+590958,Diabetes Mellitus,Metformin,12/17/2011,No,F,22.98,12/18/2011,12/19/2011
+590960,Hyperlipidemia,Pravastatin,5/20/2012,Yes,F,120,5/20/2012,5/22/2012
+590963,Diabetes Mellitus,Metformin,1/3/2011,No,M,22.98,1/6/2011,1/7/2011
+590964,Epilepsy,Carbamazepine,2/15/2011,Yes,M,54.99,2/17/2011,2/20/2011
+590965,Arthritis,Tocilizumab,3/27/2011,No,F,5.99,3/27/2011,3/31/2011
+590966,Epilepsy,Phenytoin,12/24/2011,No,F,34.99,12/25/2011,12/27/2011
+590967,Arthritis,Infliximab,12/8/2011,No,M,34.99,12/10/2011,12/11/2011
+590968,Epilepsy,Phenytoin,8/7/2011,No,M,34.99,8/9/2011,8/12/2011
+590969,Epilepsy,Carbamazepine,8/3/2012,Yes,F,54.99,8/6/2012,8/10/2012
+590970,Diabetes Mellitus,Glitazone,2/13/2012,Yes,M,22.98,2/15/2012,2/17/2012
+590972,Epilepsy,Lamotrigine,6/29/2012,Yes,F,54.99,6/29/2012,7/1/2012
+590974,Arthritis,Rituximab,1/3/2012,No,F,120,1/5/2012,1/6/2012
+590975,Hyperlipidemia,Pravastatin,12/31/2012,Yes,M,120,12/31/2012,1/3/2013
+590978,Hyperlipidemia,Pravastatin,6/25/2011,No,F,120,6/26/2011,6/29/2011
+590981,Arthritis,Infliximab,5/28/2011,Yes,M,34.99,5/30/2011,5/31/2011
+590982,Hyperlipidemia,Simvastatin,4/19/2011,No,M,22.98,4/22/2011,4/25/2011
+590985,Hyperlipidemia,Simvastatin,5/16/2012,Yes,M,22.98,5/19/2012,5/22/2012
+590987,Arthritis,Bertolizumab,3/4/2012,Yes,M,22.98,3/5/2012,3/9/2012
+590990,Diabetes Mellitus,Glitazone,3/15/2012,No,F,22.98,3/16/2012,3/18/2012
+590992,Epilepsy,Lamotrigine,4/6/2012,No,M,54.99,4/6/2012,4/10/2012
+590994,Diabetes Mellitus,Glitazone,11/8/2012,No,M,22.98,11/9/2012,11/13/2012
+590995,Diabetes Mellitus,Metformin,5/13/2011,No,F,22.98,5/16/2011,5/17/2011
+590996,Epilepsy,Carbamazepine,5/22/2011,Yes,F,54.99,5/22/2011,5/26/2011
+590999,Diabetes Mellitus,Metformin,9/13/2011,No,F,22.98,9/16/2011,9/19/2011
+591001,Epilepsy,Phenytoin,4/6/2012,Yes,F,34.99,4/7/2012,4/8/2012
+591004,Diabetes Mellitus,Metformin,2/23/2012,No,M,22.98,2/24/2012,2/25/2012
+591007,Arthritis,Tocilizumab,9/21/2012,No,F,5.99,9/23/2012,9/26/2012
+591009,Diabetes Mellitus,Glitazone,1/17/2011,No,M,22.98,1/19/2011,1/23/2011
+591012,Diabetes Mellitus,Glitazone,4/29/2011,Yes,F,22.98,5/1/2011,5/2/2011
+591014,Hyperlipidemia,Pravastatin,1/26/2013,Yes,F,120,1/28/2013,2/1/2013
+591017,Diabetes Mellitus,Glitazone,10/30/2011,No,M,22.98,10/30/2011,11/1/2011
+591018,Epilepsy,Phenytoin,6/7/2011,No,F,34.99,6/8/2011,6/12/2011
+591019,Hyperlipidemia,Simvastatin,4/27/2012,No,F,22.98,4/29/2012,5/3/2012
+591021,Hyperlipidemia,Lovastatin,2/5/2011,No,F,67.98,2/7/2011,2/10/2011
+591023,Diabetes Mellitus,Glitazone,12/17/2012,No,F,22.98,12/17/2012,12/21/2012
+591024,Diabetes Mellitus,Metformin,9/28/2011,No,F,22.98,10/1/2011,10/3/2011
+591027,Arthritis,Infliximab,12/10/2011,Yes,M,34.99,12/13/2011,12/16/2011
+591028,Diabetes Mellitus,Metformin,7/16/2012,No,M,22.98,7/19/2012,7/23/2012
+591029,Epilepsy,Carbamazepine,7/22/2011,Yes,M,54.99,7/23/2011,7/25/2011
+591032,Arthritis,Tocilizumab,3/16/2011,No,F,5.99,3/16/2011,3/20/2011
+591034,Arthritis,Golimumab,3/11/2012,Yes,F,7.99,3/12/2012,3/15/2012
+591036,Diabetes Mellitus,Metformin,11/13/2011,No,M,22.98,11/16/2011,11/19/2011
+591038,Hyperlipidemia,Simvastatin,5/6/2011,No,M,22.98,5/8/2011,5/9/2011
+591039,Diabetes Mellitus,Metformin,7/15/2012,No,M,22.98,7/15/2012,7/17/2012
+591042,Arthritis,Infliximab,1/12/2013,Yes,F,34.99,1/15/2013,1/17/2013
+591045,Epilepsy,Lamotrigine,7/5/2012,No,M,54.99,7/8/2012,7/10/2012
+591047,Arthritis,Adalimumab,7/22/2012,Yes,M,5.99,7/23/2012,7/26/2012
+591049,Hyperlipidemia,Atorvastatin,3/30/2011,No,F,4.99,4/2/2011,4/5/2011
+591052,Diabetes Mellitus,Glitazone,8/4/2011,No,F,22.98,8/5/2011,8/7/2011
+591053,Hyperlipidemia,Rosuvastatin,1/18/2013,No,M,67.98,1/18/2013,1/20/2013
+591056,Epilepsy,Phenytoin,2/20/2012,No,M,34.99,2/20/2012,2/24/2012
+591058,Hyperlipidemia,Pravastatin,1/22/2012,No,F,120,1/23/2012,1/25/2012
+591059,Arthritis,Rituximab,4/28/2012,Yes,F,120,4/28/2012,5/1/2012
+591061,Hyperlipidemia,Pravastatin,1/20/2013,No,M,120,1/21/2013,1/22/2013
+591063,Epilepsy,Carbamazepine,12/5/2011,No,M,54.99,12/7/2011,12/9/2011
+591066,Arthritis,Rituximab,7/29/2011,No,M,120,7/29/2011,8/2/2011
+591069,Arthritis,Abatacept,3/18/2011,Yes,F,34.99,3/18/2011,3/21/2011
+591072,Hyperlipidemia,Atorvastatin,1/22/2011,No,F,4.99,1/25/2011,1/28/2011
+591074,Hyperlipidemia,Atorvastatin,2/25/2011,Yes,M,4.99,2/26/2011,2/27/2011
+591077,Hyperlipidemia,Fluvastatin,1/9/2012,No,M,9.99,1/11/2012,1/13/2012
+591078,Epilepsy,Phenytoin,12/8/2012,No,F,34.99,12/8/2012,12/12/2012
+591079,Arthritis,Rituximab,1/18/2012,No,F,120,1/21/2012,1/25/2012
+591080,Diabetes Mellitus,Metformin,2/28/2012,No,M,22.98,2/29/2012,3/2/2012
+591081,Hyperlipidemia,Rosuvastatin,9/22/2011,No,F,67.98,9/23/2011,9/27/2011
+591082,Diabetes Mellitus,Metformin,1/15/2013,No,M,22.98,1/17/2013,1/21/2013
+591083,Arthritis,Bertolizumab,7/10/2012,Yes,F,22.98,7/12/2012,7/16/2012
+591086,Diabetes Mellitus,Glitazone,12/16/2011,Yes,M,22.98,12/17/2011,12/19/2011
+591089,Hyperlipidemia,Simvastatin,12/7/2011,Yes,F,22.98,12/10/2011,12/11/2011
+591092,Hyperlipidemia,Pravastatin,3/25/2011,Yes,F,120,3/28/2011,4/1/2011
+591093,Arthritis,Abatacept,12/8/2011,Yes,F,34.99,12/9/2011,12/10/2011
+591094,Hyperlipidemia,Rosuvastatin,1/4/2013,No,M,67.98,1/4/2013,1/6/2013
+591097,Hyperlipidemia,Atorvastatin,7/4/2011,No,M,4.99,7/7/2011,7/11/2011
+591100,Diabetes Mellitus,Glitazone,9/28/2012,Yes,M,22.98,9/30/2012,10/3/2012
+591102,Epilepsy,Carbamazepine,2/23/2012,Yes,M,54.99,2/24/2012,2/26/2012
+591103,Epilepsy,Carbamazepine,1/18/2011,No,F,54.99,1/19/2011,1/22/2011
+591105,Hyperlipidemia,Atorvastatin,12/5/2011,No,F,4.99,12/5/2011,12/8/2011
+591107,Diabetes Mellitus,Glitazone,3/15/2012,Yes,F,22.98,3/15/2012,3/16/2012
+591109,Arthritis,Abatacept,4/24/2011,Yes,F,34.99,4/24/2011,4/26/2011
+591110,Arthritis,Bertolizumab,2/4/2012,Yes,M,22.98,2/4/2012,2/5/2012
+591113,Arthritis,Etanercept,4/17/2012,No,M,120,4/20/2012,4/24/2012
+591114,Hyperlipidemia,Fluvastatin,5/24/2011,No,F,9.99,5/24/2011,5/28/2011
+591115,Epilepsy,Phenytoin,1/14/2011,No,F,34.99,1/15/2011,1/18/2011
+591118,Diabetes Mellitus,Metformin,12/21/2012,Yes,F,22.98,12/21/2012,12/23/2012
+591120,Diabetes Mellitus,Metformin,6/12/2011,Yes,F,22.98,6/14/2011,6/15/2011
+591123,Epilepsy,Phenytoin,2/18/2012,No,F,34.99,2/19/2012,2/23/2012
+591125,Arthritis,Abatacept,10/13/2011,No,F,34.99,10/15/2011,10/17/2011
+591126,Hyperlipidemia,Lovastatin,9/4/2012,Yes,F,67.98,9/4/2012,9/5/2012
+591127,Epilepsy,Carbamazepine,5/10/2012,Yes,F,54.99,5/12/2012,5/16/2012
+591130,Epilepsy,Carbamazepine,8/30/2011,No,F,54.99,8/30/2011,8/31/2011
+591132,Arthritis,Rituximab,1/25/2011,Yes,F,120,1/28/2011,1/31/2011
+591133,Arthritis,Tocilizumab,4/13/2011,Yes,M,5.99,4/14/2011,4/18/2011
+591134,Diabetes Mellitus,Metformin,2/28/2011,Yes,M,22.98,3/1/2011,3/2/2011
+591135,Hyperlipidemia,Atorvastatin,2/8/2011,No,M,4.99,2/9/2011,2/12/2011
+591138,Hyperlipidemia,Simvastatin,5/15/2012,No,F,22.98,5/16/2012,5/18/2012
+591141,Hyperlipidemia,Fluvastatin,4/19/2012,Yes,F,9.99,4/19/2012,4/23/2012
+591144,Hyperlipidemia,Fluvastatin,6/3/2011,Yes,F,9.99,6/6/2011,6/10/2011
+591145,Arthritis,Tocilizumab,1/23/2012,No,F,5.99,1/25/2012,1/26/2012
+591146,Arthritis,Infliximab,1/7/2012,Yes,F,34.99,1/10/2012,1/12/2012
+591147,Epilepsy,Lamotrigine,3/8/2011,No,M,54.99,3/8/2011,3/11/2011
+591148,Diabetes Mellitus,Glitazone,9/19/2012,No,F,22.98,9/20/2012,9/22/2012
+591149,Diabetes Mellitus,Glitazone,2/2/2011,Yes,M,22.98,2/4/2011,2/5/2011
+591152,Epilepsy,Phenytoin,2/6/2012,No,M,34.99,2/6/2012,2/9/2012
+591154,Epilepsy,Carbamazepine,1/12/2011,No,F,54.99,1/12/2011,1/15/2011
+591157,Arthritis,Etanercept,6/14/2011,Yes,M,120,6/16/2011,6/17/2011
+591159,Diabetes Mellitus,Metformin,6/3/2011,Yes,M,22.98,6/4/2011,6/5/2011
+591162,Epilepsy,Lamotrigine,5/3/2011,Yes,F,54.99,5/3/2011,5/7/2011
+591165,Hyperlipidemia,Rosuvastatin,10/18/2011,Yes,M,67.98,10/21/2011,10/22/2011
+591166,Hyperlipidemia,Simvastatin,10/31/2012,Yes,F,22.98,11/3/2012,11/6/2012
+591167,Hyperlipidemia,Rosuvastatin,9/24/2011,Yes,F,67.98,9/27/2011,10/1/2011
+591170,Diabetes Mellitus,Metformin,2/27/2012,Yes,F,22.98,2/27/2012,2/28/2012
+591172,Epilepsy,Phenytoin,1/19/2011,Yes,F,34.99,1/22/2011,1/23/2011
+591175,Diabetes Mellitus,Glitazone,3/7/2011,No,F,22.98,3/7/2011,3/9/2011
+591178,Hyperlipidemia,Rosuvastatin,1/28/2012,No,M,67.98,1/28/2012,1/29/2012
+591179,Arthritis,Tocilizumab,6/24/2012,Yes,M,5.99,6/27/2012,6/30/2012
+591180,Diabetes Mellitus,Metformin,7/11/2012,Yes,F,22.98,7/13/2012,7/14/2012
+591181,Diabetes Mellitus,Glitazone,4/9/2011,No,F,22.98,4/12/2011,4/16/2011
+591184,Epilepsy,Lamotrigine,2/7/2012,Yes,M,54.99,2/10/2012,2/14/2012
+591187,Epilepsy,Phenytoin,6/30/2012,Yes,M,34.99,7/1/2012,7/4/2012
+591190,Hyperlipidemia,Rosuvastatin,6/10/2011,No,F,67.98,6/13/2011,6/14/2011
+591191,Epilepsy,Carbamazepine,9/24/2011,Yes,M,54.99,9/25/2011,9/26/2011
+591192,Arthritis,Rituximab,1/19/2011,No,F,120,1/22/2011,1/25/2011
+591195,Hyperlipidemia,Lovastatin,9/3/2011,Yes,F,67.98,9/5/2011,9/6/2011
+591198,Diabetes Mellitus,Metformin,5/23/2012,Yes,F,22.98,5/24/2012,5/25/2012
+591200,Arthritis,Abatacept,5/23/2012,No,M,34.99,5/23/2012,5/25/2012
+591203,Epilepsy,Phenytoin,1/11/2013,No,M,34.99,1/13/2013,1/16/2013
+591206,Diabetes Mellitus,Glitazone,11/20/2011,Yes,M,22.98,11/22/2011,11/24/2011
+591207,Hyperlipidemia,Fluvastatin,4/13/2012,Yes,F,9.99,4/15/2012,4/19/2012
+591208,Arthritis,Tocilizumab,11/14/2011,No,M,5.99,11/14/2011,11/18/2011
+591210,Diabetes Mellitus,Metformin,3/20/2012,Yes,F,22.98,3/20/2012,3/22/2012
+591211,Diabetes Mellitus,Metformin,1/13/2012,No,F,22.98,1/16/2012,1/19/2012
+591213,Hyperlipidemia,Fluvastatin,9/18/2011,No,F,9.99,9/19/2011,9/21/2011
+591214,Hyperlipidemia,Simvastatin,9/5/2012,Yes,M,22.98,9/5/2012,9/6/2012
+591215,Hyperlipidemia,Simvastatin,12/11/2012,No,M,22.98,12/12/2012,12/16/2012
+591216,Epilepsy,Lamotrigine,8/26/2012,No,F,54.99,8/28/2012,8/29/2012
+591218,Arthritis,Infliximab,1/14/2012,Yes,M,34.99,1/16/2012,1/19/2012
+591221,Hyperlipidemia,Fluvastatin,11/26/2012,Yes,M,9.99,11/27/2012,12/1/2012
+591223,Epilepsy,Lamotrigine,2/26/2011,No,F,54.99,2/28/2011,3/2/2011
+591225,Diabetes Mellitus,Metformin,1/25/2012,Yes,M,22.98,1/28/2012,2/1/2012
+591226,Diabetes Mellitus,Glitazone,4/28/2011,Yes,F,22.98,4/29/2011,5/1/2011
+591227,Epilepsy,Phenytoin,8/2/2012,Yes,F,34.99,8/3/2012,8/6/2012
+591229,Hyperlipidemia,Pravastatin,9/9/2012,Yes,F,120,9/9/2012,9/11/2012
+591230,Arthritis,Abatacept,2/14/2012,No,F,34.99,2/16/2012,2/20/2012
+591232,Diabetes Mellitus,Metformin,9/7/2011,No,M,22.98,9/9/2011,9/10/2011
+591234,Epilepsy,Carbamazepine,11/26/2011,No,M,54.99,11/27/2011,11/29/2011
+591235,Diabetes Mellitus,Glitazone,5/13/2011,No,F,22.98,5/14/2011,5/17/2011
+591236,Arthritis,Abatacept,2/4/2011,Yes,M,34.99,2/7/2011,2/8/2011
+591238,Hyperlipidemia,Simvastatin,10/21/2011,No,F,22.98,10/23/2011,10/26/2011
+591241,Diabetes Mellitus,Glitazone,5/2/2012,Yes,M,22.98,5/2/2012,5/3/2012
+591243,Hyperlipidemia,Fluvastatin,11/4/2012,No,M,9.99,11/7/2012,11/9/2012
+591245,Hyperlipidemia,Lovastatin,4/27/2011,Yes,F,67.98,4/27/2011,4/29/2011
+591246,Diabetes Mellitus,Metformin,3/20/2012,Yes,F,22.98,3/20/2012,3/21/2012
+591247,Arthritis,Bertolizumab,11/28/2012,No,F,22.98,11/28/2012,12/1/2012
+591250,Arthritis,Infliximab,7/28/2011,Yes,M,34.99,7/31/2011,8/2/2011
+591252,Arthritis,Abatacept,12/8/2012,Yes,F,34.99,12/10/2012,12/11/2012
+591253,Arthritis,Abatacept,12/21/2011,Yes,F,34.99,12/21/2011,12/23/2011
+591256,Hyperlipidemia,Rosuvastatin,5/25/2012,Yes,F,67.98,5/28/2012,5/31/2012
+591257,Diabetes Mellitus,Metformin,9/14/2012,No,M,22.98,9/14/2012,9/16/2012
+591260,Diabetes Mellitus,Glitazone,2/19/2011,No,F,22.98,2/22/2011,2/25/2011
+591263,Hyperlipidemia,Simvastatin,12/13/2012,Yes,M,22.98,12/16/2012,12/20/2012
+591266,Diabetes Mellitus,Glitazone,6/27/2011,Yes,F,22.98,6/28/2011,6/30/2011
+591269,Diabetes Mellitus,Metformin,11/9/2011,No,F,22.98,11/12/2011,11/14/2011
+591270,Arthritis,Rituximab,7/21/2011,Yes,F,120,7/24/2011,7/28/2011
+591272,Arthritis,Etanercept,10/21/2011,Yes,M,120,10/22/2011,10/26/2011
+591274,Epilepsy,Carbamazepine,4/10/2011,No,M,54.99,4/12/2011,4/14/2011
+591276,Arthritis,Tocilizumab,12/29/2011,No,F,5.99,12/29/2011,12/30/2011
+591278,Arthritis,Golimumab,4/27/2012,Yes,M,7.99,4/29/2012,4/30/2012
+591280,Hyperlipidemia,Lovastatin,5/14/2011,Yes,F,67.98,5/14/2011,5/18/2011
+591282,Hyperlipidemia,Pravastatin,5/24/2012,Yes,F,120,5/26/2012,5/29/2012
+591285,Hyperlipidemia,Lovastatin,10/31/2011,No,F,67.98,11/1/2011,11/2/2011
+591288,Hyperlipidemia,Rosuvastatin,4/19/2011,No,F,67.98,4/19/2011,4/22/2011
+591290,Arthritis,Bertolizumab,8/10/2012,Yes,M,22.98,8/12/2012,8/13/2012
+591293,Diabetes Mellitus,Glitazone,6/18/2012,Yes,F,22.98,6/21/2012,6/25/2012
+591296,Epilepsy,Lamotrigine,1/30/2013,No,M,54.99,1/30/2013,2/3/2013
+591297,Hyperlipidemia,Rosuvastatin,5/19/2012,No,M,67.98,5/21/2012,5/22/2012
+591298,Diabetes Mellitus,Metformin,1/20/2011,No,F,22.98,1/23/2011,1/26/2011
+591299,Diabetes Mellitus,Glitazone,6/22/2012,Yes,F,22.98,6/24/2012,6/25/2012
+591300,Hyperlipidemia,Lovastatin,11/3/2011,No,F,67.98,11/4/2011,11/5/2011
+591302,Hyperlipidemia,Lovastatin,9/30/2012,Yes,M,67.98,10/1/2012,10/4/2012
+591305,Arthritis,Etanercept,10/31/2012,No,M,120,11/2/2012,11/4/2012
+591307,Arthritis,Bertolizumab,5/19/2011,No,F,22.98,5/21/2011,5/22/2011
+591309,Epilepsy,Lamotrigine,8/26/2012,Yes,M,54.99,8/26/2012,8/29/2012
+591310,Epilepsy,Phenytoin,12/30/2012,Yes,M,34.99,1/1/2013,1/2/2013
+591312,Diabetes Mellitus,Glitazone,5/3/2012,Yes,M,22.98,5/6/2012,5/8/2012
+591314,Epilepsy,Lamotrigine,4/8/2012,Yes,M,54.99,4/11/2012,4/15/2012
+591316,Diabetes Mellitus,Glitazone,11/12/2011,Yes,F,22.98,11/14/2011,11/15/2011
+591317,Arthritis,Abatacept,7/22/2011,Yes,M,34.99,7/24/2011,7/28/2011
+591320,Epilepsy,Phenytoin,10/6/2011,Yes,F,34.99,10/9/2011,10/12/2011
+591322,Arthritis,Bertolizumab,11/22/2012,No,M,22.98,11/22/2012,11/26/2012
+591324,Hyperlipidemia,Pravastatin,12/3/2011,No,M,120,12/3/2011,12/4/2011
+591325,Arthritis,Abatacept,10/31/2011,Yes,M,34.99,11/1/2011,11/4/2011
+591326,Arthritis,Golimumab,12/17/2011,Yes,M,7.99,12/19/2011,12/20/2011
+591327,Arthritis,Abatacept,3/25/2012,Yes,M,34.99,3/27/2012,3/28/2012
+591330,Arthritis,Golimumab,11/15/2012,Yes,F,7.99,11/16/2012,11/18/2012
+591333,Hyperlipidemia,Fluvastatin,6/28/2011,No,M,9.99,7/1/2011,7/3/2011
+591334,Arthritis,Rituximab,1/17/2012,Yes,M,120,1/19/2012,1/22/2012
+591336,Hyperlipidemia,Lovastatin,6/17/2011,No,M,67.98,6/17/2011,6/18/2011
+591338,Arthritis,Infliximab,8/18/2012,Yes,F,34.99,8/20/2012,8/24/2012
+591339,Diabetes Mellitus,Metformin,11/30/2011,Yes,F,22.98,11/30/2011,12/2/2011
+591341,Arthritis,Rituximab,3/15/2012,No,M,120,3/17/2012,3/19/2012
+591343,Arthritis,Infliximab,10/11/2011,No,M,34.99,10/14/2011,10/16/2011
+591346,Arthritis,Adalimumab,9/22/2011,Yes,M,5.99,9/22/2011,9/24/2011
+591348,Epilepsy,Phenytoin,1/27/2011,No,M,34.99,1/27/2011,1/31/2011
+591349,Hyperlipidemia,Rosuvastatin,7/3/2012,No,F,67.98,7/5/2012,7/6/2012
+591351,Hyperlipidemia,Atorvastatin,6/18/2011,Yes,F,4.99,6/18/2011,6/19/2011
+591354,Hyperlipidemia,Lovastatin,3/15/2012,No,M,67.98,3/15/2012,3/16/2012
+591356,Arthritis,Golimumab,10/25/2011,No,M,7.99,10/26/2011,10/30/2011
+591359,Diabetes Mellitus,Glitazone,10/22/2012,No,F,22.98,10/22/2012,10/26/2012
+591361,Arthritis,Adalimumab,7/22/2012,Yes,M,5.99,7/24/2012,7/27/2012
+591362,Hyperlipidemia,Fluvastatin,4/24/2011,Yes,M,9.99,4/26/2011,4/29/2011
+591364,Hyperlipidemia,Pravastatin,12/14/2011,Yes,M,120,12/14/2011,12/16/2011
+591367,Arthritis,Golimumab,1/30/2011,Yes,M,7.99,2/2/2011,2/3/2011
+591368,Epilepsy,Phenytoin,7/7/2012,No,F,34.99,7/9/2012,7/12/2012
+591371,Arthritis,Bertolizumab,9/16/2011,No,M,22.98,9/17/2011,9/19/2011
+591372,Diabetes Mellitus,Metformin,3/24/2012,Yes,M,22.98,3/24/2012,3/25/2012
+591374,Hyperlipidemia,Atorvastatin,12/2/2011,No,F,4.99,12/5/2011,12/6/2011
+591376,Hyperlipidemia,Fluvastatin,9/28/2012,Yes,F,9.99,9/29/2012,10/3/2012
+591379,Epilepsy,Carbamazepine,7/29/2012,Yes,F,54.99,7/31/2012,8/4/2012
+591380,Hyperlipidemia,Rosuvastatin,1/18/2013,Yes,F,67.98,1/18/2013,1/19/2013
+591382,Diabetes Mellitus,Metformin,5/28/2011,No,M,22.98,5/30/2011,6/3/2011
+591383,Epilepsy,Carbamazepine,11/3/2011,No,M,54.99,11/3/2011,11/6/2011
+591384,Arthritis,Adalimumab,10/17/2012,No,M,5.99,10/18/2012,10/22/2012
+591385,Diabetes Mellitus,Glitazone,4/11/2011,No,M,22.98,4/12/2011,4/13/2011
+591386,Arthritis,Abatacept,3/28/2011,No,M,34.99,3/28/2011,3/29/2011
+591389,Hyperlipidemia,Lovastatin,1/23/2011,Yes,M,67.98,1/24/2011,1/27/2011
+591392,Arthritis,Abatacept,10/21/2011,Yes,M,34.99,10/21/2011,10/25/2011
+591394,Epilepsy,Phenytoin,9/14/2011,Yes,M,34.99,9/14/2011,9/17/2011
+591396,Arthritis,Abatacept,1/23/2012,Yes,M,34.99,1/23/2012,1/26/2012
+591398,Diabetes Mellitus,Glitazone,6/1/2011,No,F,22.98,6/3/2011,6/4/2011
+591400,Arthritis,Bertolizumab,1/20/2012,Yes,F,22.98,1/22/2012,1/23/2012
+591402,Diabetes Mellitus,Metformin,3/21/2011,Yes,F,22.98,3/22/2011,3/23/2011
+591403,Hyperlipidemia,Fluvastatin,5/27/2012,No,F,9.99,5/27/2012,5/28/2012
+591406,Epilepsy,Lamotrigine,1/3/2012,Yes,F,54.99,1/6/2012,1/8/2012
+591408,Diabetes Mellitus,Glitazone,8/8/2011,Yes,F,22.98,8/9/2011,8/12/2011
+591411,Epilepsy,Phenytoin,1/3/2013,No,F,34.99,1/6/2013,1/10/2013
+591414,Epilepsy,Phenytoin,11/27/2012,No,M,34.99,11/29/2012,11/30/2012
+591417,Diabetes Mellitus,Glitazone,5/9/2011,No,M,22.98,5/12/2011,5/14/2011
+591420,Diabetes Mellitus,Glitazone,1/10/2011,No,F,22.98,1/13/2011,1/15/2011
+591423,Hyperlipidemia,Fluvastatin,10/9/2011,Yes,M,9.99,10/11/2011,10/13/2011
+591425,Hyperlipidemia,Pravastatin,2/20/2012,Yes,F,120,2/23/2012,2/26/2012
+591426,Diabetes Mellitus,Glitazone,9/30/2011,Yes,F,22.98,10/1/2011,10/4/2011
+591427,Epilepsy,Carbamazepine,8/24/2012,Yes,M,54.99,8/25/2012,8/27/2012
+591429,Epilepsy,Phenytoin,3/23/2011,No,F,34.99,3/24/2011,3/28/2011
+591430,Hyperlipidemia,Fluvastatin,5/14/2011,Yes,F,9.99,5/16/2011,5/18/2011
+591431,Arthritis,Golimumab,3/17/2012,Yes,M,7.99,3/19/2012,3/20/2012
+591432,Arthritis,Golimumab,2/11/2011,Yes,M,7.99,2/13/2011,2/14/2011
+591435,Epilepsy,Carbamazepine,1/21/2011,Yes,F,54.99,1/24/2011,1/25/2011
+591438,Arthritis,Abatacept,3/6/2012,Yes,M,34.99,3/7/2012,3/9/2012
+591440,Epilepsy,Lamotrigine,11/30/2012,No,F,54.99,11/30/2012,12/1/2012
+591441,Arthritis,Adalimumab,1/1/2012,Yes,F,5.99,1/1/2012,1/5/2012
+591444,Diabetes Mellitus,Metformin,5/9/2011,No,F,22.98,5/12/2011,5/16/2011
+591445,Arthritis,Etanercept,2/20/2012,Yes,M,120,2/22/2012,2/26/2012
+591447,Diabetes Mellitus,Glitazone,10/31/2012,No,F,22.98,11/3/2012,11/6/2012
+591450,Diabetes Mellitus,Metformin,2/15/2012,No,F,22.98,2/16/2012,2/19/2012
+591451,Arthritis,Golimumab,12/26/2011,No,F,7.99,12/26/2011,12/27/2011
+591454,Diabetes Mellitus,Metformin,12/28/2012,No,M,22.98,12/31/2012,1/2/2013
+591457,Hyperlipidemia,Simvastatin,9/30/2011,Yes,F,22.98,10/1/2011,10/2/2011
+591458,Arthritis,Rituximab,3/24/2012,No,M,120,3/24/2012,3/28/2012
+591459,Diabetes Mellitus,Metformin,7/28/2011,No,F,22.98,7/29/2011,8/2/2011
+591460,Diabetes Mellitus,Glitazone,5/17/2011,Yes,F,22.98,5/18/2011,5/22/2011
+591462,Epilepsy,Phenytoin,8/30/2012,Yes,F,34.99,8/31/2012,9/4/2012
+591465,Hyperlipidemia,Fluvastatin,7/27/2012,No,F,9.99,7/29/2012,7/30/2012
+591466,Epilepsy,Carbamazepine,10/8/2011,No,M,54.99,10/10/2011,10/11/2011
+591467,Arthritis,Tocilizumab,1/30/2013,Yes,F,5.99,1/31/2013,2/3/2013
+591468,Hyperlipidemia,Simvastatin,2/26/2012,Yes,F,22.98,2/28/2012,3/3/2012
+591470,Epilepsy,Lamotrigine,5/8/2011,No,F,54.99,5/8/2011,5/10/2011
+591471,Hyperlipidemia,Pravastatin,2/5/2012,No,M,120,2/8/2012,2/10/2012
+591472,Hyperlipidemia,Lovastatin,7/23/2012,Yes,M,67.98,7/23/2012,7/27/2012
+591475,Arthritis,Adalimumab,9/9/2011,Yes,M,5.99,9/12/2011,9/13/2011
+591477,Epilepsy,Carbamazepine,1/14/2011,No,F,54.99,1/17/2011,1/21/2011
+591478,Hyperlipidemia,Simvastatin,12/4/2012,No,F,22.98,12/6/2012,12/8/2012
+591481,Epilepsy,Carbamazepine,10/2/2012,Yes,F,54.99,10/3/2012,10/6/2012
+591482,Hyperlipidemia,Pravastatin,4/25/2012,Yes,F,120,4/28/2012,4/30/2012
+591485,Hyperlipidemia,Fluvastatin,7/3/2012,No,M,9.99,7/4/2012,7/8/2012
+591487,Hyperlipidemia,Simvastatin,2/1/2011,No,F,22.98,2/3/2011,2/6/2011
+591490,Diabetes Mellitus,Metformin,1/2/2012,Yes,F,22.98,1/3/2012,1/4/2012
+591493,Arthritis,Etanercept,9/11/2011,Yes,M,120,9/13/2011,9/17/2011
+591494,Epilepsy,Carbamazepine,2/9/2011,Yes,F,54.99,2/10/2011,2/13/2011
+591497,Hypertension,Meteoprolol,3/17/2011,No,M,13.5,3/18/2011,3/22/2011
+591500,Hypertension,Atenolol,2/15/2011,No,F,43.98,2/16/2011,2/20/2011
+591503,Epilepsy,Carbamazepine,3/30/2011,Yes,M,54.99,4/2/2011,4/6/2011
+591504,Diabetes Mellitus,Glitazone,9/25/2011,No,F,22.98,9/27/2011,9/28/2011
+591505,Arthritis,Rituximab,8/31/2011,No,M,120,8/31/2011,9/4/2011
+591507,Epilepsy,Carbamazepine,6/3/2012,No,M,54.99,6/3/2012,6/6/2012
+591510,Tobacco Usage,Anti Tobacco,2/24/2011,No,M,34.99,2/25/2011,2/28/2011
+591513,Hyperlipidemia,Fluvastatin,6/22/2011,No,F,9.99,6/22/2011,6/23/2011
+591516,Arthritis,Infliximab,5/3/2012,No,M,34.99,5/3/2012,5/7/2012
+591519,Arthritis,Bertolizumab,1/20/2013,No,M,22.98,1/21/2013,1/22/2013
+591521,Arthritis,Adalimumab,7/25/2012,No,M,5.99,7/26/2012,7/29/2012
+591522,Tobacco Usage,Anti Tobacco,7/15/2012,No,M,34.99,7/17/2012,7/21/2012
+591523,Diabetes Mellitus,Glitazone,6/27/2011,No,M,22.98,6/30/2011,7/4/2011
+591526,Arthritis,Infliximab,12/4/2012,Yes,M,34.99,12/6/2012,12/8/2012
+591529,Epilepsy,Lamotrigine,6/24/2012,No,M,54.99,6/27/2012,6/29/2012
+591532,Epilepsy,Lamotrigine,9/14/2012,Yes,F,54.99,9/15/2012,9/16/2012
+591535,Arthritis,Etanercept,7/28/2012,Yes,F,120,7/28/2012,7/31/2012
+591536,Epilepsy,Phenytoin,8/1/2012,No,F,34.99,8/2/2012,8/4/2012
+591537,Tobacco Usage,Anti Tobacco,5/7/2012,No,F,34.99,5/10/2012,5/13/2012
+591540,Tobacco Usage,Anti Tobacco,2/4/2011,No,F,34.99,2/4/2011,2/8/2011
+591542,Diabetes Mellitus,Glitazone,8/8/2011,No,F,22.98,8/9/2011,8/12/2011
+591543,Diabetes Mellitus,Metformin,7/13/2011,Yes,F,22.98,7/16/2011,7/20/2011
+591546,Diabetes Mellitus,Metformin,7/26/2011,Yes,F,22.98,7/27/2011,7/31/2011
+591549,Hypertension,Atenolol,4/2/2012,No,M,43.98,4/5/2012,4/7/2012
+591550,Hyperlipidemia,Rosuvastatin,4/24/2012,Yes,M,67.98,4/27/2012,5/1/2012
+591552,Epilepsy,Phenytoin,11/5/2012,No,M,34.99,11/7/2012,11/8/2012
+591553,Diabetes Mellitus,Glitazone,3/27/2012,Yes,M,22.98,3/29/2012,3/30/2012
+591554,Tobacco Usage,Anti Tobacco,2/20/2011,No,F,34.99,2/23/2011,2/27/2011
+591556,Diabetes Mellitus,Metformin,6/8/2011,Yes,M,22.98,6/10/2011,6/13/2011
+591557,Tobacco Usage,Anti Tobacco,1/3/2012,No,M,34.99,1/3/2012,1/7/2012
+591559,Diabetes Mellitus,Glitazone,11/11/2012,Yes,F,22.98,11/13/2012,11/16/2012
+591562,Hyperlipidemia,Pravastatin,9/7/2012,Yes,M,120,9/9/2012,9/12/2012
+591565,Hypertension,Meteoprolol,9/12/2011,Yes,F,13.5,9/13/2011,9/15/2011
+591566,Arthritis,Golimumab,12/31/2011,Yes,F,7.99,1/3/2012,1/5/2012
+591567,Hyperlipidemia,Atorvastatin,7/3/2011,Yes,F,4.99,7/5/2011,7/6/2011
+591569,Hypertension,Hidroclorotia,5/4/2012,No,F,13.5,5/6/2012,5/9/2012
+591570,Tobacco Usage,Anti Tobacco,1/12/2011,No,M,34.99,1/15/2011,1/19/2011
+591571,Diabetes Mellitus,Metformin,1/6/2012,No,M,22.98,1/7/2012,1/10/2012
+591572,Hypertension,Meteoprolol,10/7/2012,Yes,M,13.5,10/9/2012,10/12/2012
+591573,Diabetes Mellitus,Glitazone,4/19/2011,No,F,22.98,4/20/2011,4/23/2011
+591574,Epilepsy,Phenytoin,12/13/2012,Yes,M,34.99,12/15/2012,12/18/2012
+591577,Diabetes Mellitus,Glitazone,11/19/2011,No,M,22.98,11/20/2011,11/21/2011
+591578,Hyperlipidemia,Rosuvastatin,2/1/2011,No,F,67.98,2/4/2011,2/8/2011
+591580,Epilepsy,Lamotrigine,12/27/2011,No,F,54.99,12/28/2011,1/1/2012
+591582,Epilepsy,Lamotrigine,11/19/2012,No,F,54.99,11/20/2012,11/24/2012
+591585,Tobacco Usage,Anti Tobacco,11/9/2011,No,F,34.99,11/9/2011,11/10/2011
+591588,Hypertension,Furosemide,2/24/2011,Yes,M,67.98,2/25/2011,2/26/2011
+591590,Epilepsy,Carbamazepine,11/20/2012,Yes,M,54.99,11/20/2012,11/21/2012
+591593,Tobacco Usage,Anti Tobacco,6/14/2011,Yes,M,34.99,6/17/2011,6/18/2011
+591596,Epilepsy,Carbamazepine,3/9/2011,Yes,M,54.99,3/10/2011,3/12/2011
+591599,Hyperlipidemia,Atorvastatin,5/30/2011,Yes,M,4.99,6/2/2011,6/5/2011
+591601,Tobacco Usage,Anti Tobacco,1/8/2012,Yes,F,34.99,1/10/2012,1/13/2012
+591603,Diabetes Mellitus,Metformin,3/21/2012,Yes,M,22.98,3/23/2012,3/26/2012
+591605,Diabetes Mellitus,Metformin,5/13/2011,No,M,22.98,5/13/2011,5/16/2011
+591606,Epilepsy,Carbamazepine,9/11/2011,No,F,54.99,9/11/2011,9/12/2011
+591609,Epilepsy,Carbamazepine,10/27/2011,Yes,F,54.99,10/28/2011,10/29/2011
+591610,Diabetes Mellitus,Metformin,7/25/2012,No,F,22.98,7/27/2012,7/29/2012
+591612,Hypertension,Meteoprolol,3/20/2012,Yes,M,13.5,3/20/2012,3/22/2012
+591615,Arthritis,Golimumab,2/22/2011,No,F,7.99,2/25/2011,2/26/2011
+591618,Epilepsy,Lamotrigine,1/7/2013,Yes,F,54.99,1/10/2013,1/13/2013
+591620,Hypertension,Meteoprolol,10/6/2012,Yes,F,13.5,10/9/2012,10/13/2012
+591622,Arthritis,Etanercept,3/24/2012,Yes,F,120,3/27/2012,3/28/2012
+591625,Diabetes Mellitus,Metformin,5/22/2012,No,M,22.98,5/22/2012,5/26/2012
+591628,Hyperlipidemia,Lovastatin,1/10/2012,No,M,67.98,1/11/2012,1/13/2012
+591630,Hypertension,Atenolol,9/11/2011,No,F,43.98,9/11/2011,9/14/2011
+591631,Arthritis,Tocilizumab,1/30/2012,Yes,F,5.99,1/31/2012,2/2/2012
+591633,Hypertension,Meteoprolol,11/1/2011,No,F,13.5,11/4/2011,11/7/2011
+591634,Tobacco Usage,Anti Tobacco,7/18/2012,Yes,M,34.99,7/20/2012,7/23/2012
+591637,Arthritis,Etanercept,9/11/2011,No,M,120,9/12/2011,9/15/2011
+591638,Epilepsy,Phenytoin,5/29/2011,Yes,F,34.99,6/1/2011,6/4/2011
+591640,Tobacco Usage,Anti Tobacco,5/12/2012,Yes,F,34.99,5/13/2012,5/15/2012
+591641,Hypertension,Bisoprolol,4/8/2011,Yes,M,13.5,4/10/2011,4/14/2011
+591644,Hypertension,Meteoprolol,4/24/2012,No,M,13.5,4/27/2012,4/28/2012
+591645,Hyperlipidemia,Simvastatin,1/29/2011,No,M,22.98,2/1/2011,2/2/2011
+591648,Diabetes Mellitus,Glitazone,3/3/2012,Yes,F,22.98,3/6/2012,3/9/2012
+591649,Diabetes Mellitus,Glitazone,1/10/2013,Yes,F,22.98,1/12/2013,1/15/2013
+591651,Hypertension,Hidroclorotia,11/15/2012,No,F,13.5,11/17/2012,11/20/2012
+591654,Arthritis,Rituximab,1/28/2011,Yes,F,120,1/30/2011,2/3/2011
+591657,Arthritis,Abatacept,2/8/2011,No,F,34.99,2/8/2011,2/12/2011
+591659,Diabetes Mellitus,Glitazone,2/26/2011,No,F,22.98,2/26/2011,2/28/2011
+591660,Diabetes Mellitus,Metformin,9/25/2011,Yes,M,22.98,9/25/2011,9/28/2011
+591661,Arthritis,Abatacept,3/16/2011,Yes,M,34.99,3/16/2011,3/18/2011
+591663,Diabetes Mellitus,Glitazone,7/30/2011,Yes,M,22.98,8/1/2011,8/3/2011
+591664,Arthritis,Infliximab,9/23/2012,No,F,34.99,9/23/2012,9/24/2012
+591666,Epilepsy,Carbamazepine,10/22/2012,No,M,54.99,10/25/2012,10/28/2012
+591668,Hypertension,Atenolol,9/2/2011,No,M,43.98,9/3/2011,9/7/2011
+591669,Epilepsy,Carbamazepine,8/20/2011,No,M,54.99,8/20/2011,8/23/2011
+591672,Hypertension,Bisoprolol,6/17/2011,Yes,F,13.5,6/17/2011,6/18/2011
+591673,Hyperlipidemia,Lovastatin,8/19/2011,Yes,M,67.98,8/19/2011,8/20/2011
+591676,Arthritis,Abatacept,8/28/2011,Yes,M,34.99,8/31/2011,9/2/2011
+591679,Diabetes Mellitus,Glitazone,4/26/2012,Yes,M,22.98,4/27/2012,5/1/2012
+591681,Epilepsy,Lamotrigine,9/5/2011,No,M,54.99,9/7/2011,9/9/2011
+591683,Hyperlipidemia,Rosuvastatin,2/21/2012,No,M,67.98,2/21/2012,2/22/2012
+591684,Hyperlipidemia,Lovastatin,10/24/2012,Yes,M,67.98,10/25/2012,10/29/2012
+591687,Arthritis,Tocilizumab,5/16/2012,Yes,M,5.99,5/19/2012,5/20/2012
+591688,Diabetes Mellitus,Glitazone,10/26/2011,No,M,22.98,10/28/2011,10/29/2011
+591691,Diabetes Mellitus,Metformin,8/8/2011,Yes,F,22.98,8/10/2011,8/13/2011
+591693,Diabetes Mellitus,Glitazone,2/5/2011,Yes,M,22.98,2/8/2011,2/9/2011
+591694,Diabetes Mellitus,Glitazone,11/11/2012,No,F,22.98,11/12/2012,11/16/2012
+591696,Hypertension,Meteoprolol,2/9/2012,No,M,13.5,2/12/2012,2/15/2012
+591699,Arthritis,Tocilizumab,4/9/2012,No,F,5.99,4/9/2012,4/12/2012
+591701,Hyperlipidemia,Lovastatin,1/29/2011,No,M,67.98,2/1/2011,2/3/2011
+591704,Tobacco Usage,Anti Tobacco,4/1/2012,No,M,34.99,4/3/2012,4/6/2012
+591706,Arthritis,Tocilizumab,3/20/2012,No,M,5.99,3/21/2012,3/23/2012
+591709,Diabetes Mellitus,Metformin,2/7/2011,Yes,M,22.98,2/9/2011,2/12/2011
+591712,Hypertension,Bisoprolol,7/18/2011,Yes,M,13.5,7/21/2011,7/24/2011
+591715,Diabetes Mellitus,Metformin,2/29/2012,No,F,22.98,3/2/2012,3/4/2012
+591717,Arthritis,Infliximab,1/21/2011,No,F,34.99,1/23/2011,1/27/2011
+591718,Diabetes Mellitus,Metformin,8/21/2011,No,F,22.98,8/21/2011,8/23/2011
+591721,Epilepsy,Lamotrigine,10/4/2012,No,F,54.99,10/6/2012,10/10/2012
+591723,Hyperlipidemia,Lovastatin,11/29/2012,No,M,67.98,12/2/2012,12/5/2012
+591724,Hypertension,Meteoprolol,2/21/2011,No,F,13.5,2/23/2011,2/27/2011
+591726,Hyperlipidemia,Simvastatin,11/9/2012,No,F,22.98,11/10/2012,11/11/2012
+591727,Hyperlipidemia,Simvastatin,1/27/2012,No,F,22.98,1/29/2012,1/31/2012
+591729,Tobacco Usage,Anti Tobacco,6/17/2012,No,F,34.99,6/19/2012,6/22/2012
+591730,Arthritis,Rituximab,5/21/2011,Yes,M,120,5/22/2011,5/26/2011
+591731,Tobacco Usage,Anti Tobacco,1/21/2011,No,F,34.99,1/21/2011,1/25/2011
+591733,Epilepsy,Carbamazepine,1/2/2012,No,F,54.99,1/3/2012,1/4/2012
+591734,Hyperlipidemia,Lovastatin,6/4/2012,No,M,67.98,6/6/2012,6/7/2012
+591735,Tobacco Usage,Anti Tobacco,9/6/2011,Yes,F,34.99,9/6/2011,9/7/2011
+591736,Epilepsy,Lamotrigine,3/22/2012,Yes,M,54.99,3/25/2012,3/28/2012
+591737,Diabetes Mellitus,Metformin,5/16/2011,Yes,F,22.98,5/16/2011,5/20/2011
+591738,Hyperlipidemia,Rosuvastatin,5/19/2011,No,M,67.98,5/22/2011,5/23/2011
+591739,Tobacco Usage,Anti Tobacco,6/15/2012,Yes,M,34.99,6/15/2012,6/18/2012
+591742,Diabetes Mellitus,Glitazone,12/28/2011,No,F,22.98,12/30/2011,1/1/2012
+591745,Hyperlipidemia,Pravastatin,3/12/2012,No,M,120,3/14/2012,3/16/2012
+591748,Arthritis,Golimumab,6/20/2012,No,F,7.99,6/23/2012,6/25/2012
+591749,Arthritis,Abatacept,10/14/2011,Yes,M,34.99,10/17/2011,10/18/2011
+591750,Hypertension,Bisoprolol,4/3/2011,No,F,13.5,4/6/2011,4/10/2011
+591752,Arthritis,Rituximab,8/17/2012,No,F,120,8/18/2012,8/20/2012
+591753,Hypertension,Furosemide,12/5/2011,No,F,67.98,12/8/2011,12/9/2011
+591755,Arthritis,Golimumab,2/8/2012,No,F,7.99,2/9/2012,2/11/2012
+591756,Tobacco Usage,Anti Tobacco,9/5/2011,No,M,34.99,9/7/2011,9/8/2011
+591757,Tobacco Usage,Anti Tobacco,3/6/2012,No,F,34.99,3/9/2012,3/12/2012
+591760,Diabetes Mellitus,Metformin,7/5/2011,No,M,22.98,7/8/2011,7/9/2011
+591762,Hyperlipidemia,Simvastatin,2/27/2011,No,F,22.98,2/27/2011,3/3/2011
+591763,Epilepsy,Carbamazepine,2/5/2012,No,F,54.99,2/7/2012,2/8/2012
+591764,Hypertension,Bisoprolol,2/19/2011,No,F,13.5,2/22/2011,2/23/2011
+591765,Diabetes Mellitus,Metformin,12/13/2011,Yes,F,22.98,12/16/2011,12/17/2011
+591766,Tobacco Usage,Anti Tobacco,12/29/2012,Yes,F,34.99,12/29/2012,12/30/2012
+591768,Hyperlipidemia,Simvastatin,9/26/2011,Yes,F,22.98,9/27/2011,9/30/2011
+591770,Arthritis,Adalimumab,7/16/2012,Yes,M,5.99,7/16/2012,7/18/2012
+591772,Tobacco Usage,Anti Tobacco,7/8/2012,Yes,F,34.99,7/9/2012,7/12/2012
+591774,Tobacco Usage,Anti Tobacco,10/10/2011,No,F,34.99,10/13/2011,10/14/2011
+591775,Tobacco Usage,Anti Tobacco,11/2/2012,Yes,M,34.99,11/2/2012,11/6/2012
+591778,Arthritis,Abatacept,4/13/2012,Yes,F,34.99,4/14/2012,4/16/2012
+591779,Tobacco Usage,Anti Tobacco,1/9/2012,Yes,F,34.99,1/9/2012,1/12/2012
+591782,Hypertension,Meteoprolol,7/5/2012,Yes,M,13.5,7/8/2012,7/9/2012
+591784,Hyperlipidemia,Rosuvastatin,4/21/2012,No,M,67.98,4/23/2012,4/24/2012
+591786,Diabetes Mellitus,Metformin,9/13/2012,No,M,22.98,9/16/2012,9/20/2012
+591787,Epilepsy,Lamotrigine,12/25/2011,Yes,F,54.99,12/27/2011,12/30/2011
+591790,Hyperlipidemia,Pravastatin,3/4/2012,No,M,120,3/7/2012,3/10/2012
+591793,Hypertension,Atenolol,9/28/2012,Yes,F,43.98,9/29/2012,10/2/2012
+591794,Epilepsy,Carbamazepine,3/26/2012,Yes,M,54.99,3/28/2012,3/31/2012
+591795,Arthritis,Tocilizumab,8/14/2011,No,M,5.99,8/14/2011,8/16/2011
+591796,Hyperlipidemia,Pravastatin,7/30/2012,Yes,M,120,7/30/2012,7/31/2012
+591798,Hyperlipidemia,Fluvastatin,6/2/2012,No,F,9.99,6/4/2012,6/6/2012
+591799,Hyperlipidemia,Atorvastatin,1/27/2012,Yes,M,4.99,1/28/2012,1/29/2012
+591802,Hypertension,Bisoprolol,8/2/2011,Yes,M,13.5,8/2/2011,8/6/2011
+591805,Epilepsy,Phenytoin,12/21/2012,Yes,M,34.99,12/23/2012,12/27/2012
+591806,Tobacco Usage,Anti Tobacco,8/25/2011,Yes,M,34.99,8/25/2011,8/28/2011
+591807,Arthritis,Abatacept,2/12/2011,Yes,M,34.99,2/14/2011,2/16/2011
+591808,Arthritis,Abatacept,8/24/2011,Yes,M,34.99,8/26/2011,8/30/2011
+591810,Epilepsy,Lamotrigine,11/12/2012,Yes,F,54.99,11/15/2012,11/19/2012
+591812,Diabetes Mellitus,Glitazone,10/13/2011,No,F,22.98,10/15/2011,10/18/2011
+591815,Hypertension,Atenolol,9/17/2012,No,F,43.98,9/19/2012,9/21/2012
+591817,Arthritis,Tocilizumab,3/21/2011,No,F,5.99,3/21/2011,3/25/2011
+591819,Epilepsy,Carbamazepine,4/2/2012,No,F,54.99,4/2/2012,4/4/2012
+591822,Tobacco Usage,Anti Tobacco,8/6/2012,Yes,M,34.99,8/6/2012,8/7/2012
+591824,Tobacco Usage,Anti Tobacco,11/10/2012,No,M,34.99,11/12/2012,11/14/2012
+591827,Hypertension,Atenolol,7/9/2012,No,F,43.98,7/10/2012,7/14/2012
+591829,Arthritis,Abatacept,1/17/2011,No,M,34.99,1/17/2011,1/18/2011
+591832,Arthritis,Golimumab,11/18/2012,No,M,7.99,11/18/2012,11/21/2012
+591835,Hypertension,Furosemide,9/24/2011,No,M,67.98,9/26/2011,9/29/2011
+591837,Hypertension,Bisoprolol,10/1/2011,No,F,13.5,10/4/2011,10/5/2011
+591840,Hyperlipidemia,Fluvastatin,8/31/2012,No,F,9.99,9/2/2012,9/6/2012
+591842,Tobacco Usage,Anti Tobacco,6/8/2011,No,M,34.99,6/10/2011,6/13/2011
+591844,Arthritis,Rituximab,2/12/2011,Yes,F,120,2/14/2011,2/16/2011
+591847,Tobacco Usage,Anti Tobacco,11/28/2012,No,F,34.99,11/28/2012,12/2/2012
+591848,Hypertension,Atenolol,5/21/2012,No,M,43.98,5/23/2012,5/26/2012
+591851,Diabetes Mellitus,Glitazone,2/21/2012,Yes,F,22.98,2/21/2012,2/23/2012
+591852,Tobacco Usage,Anti Tobacco,5/12/2012,No,F,34.99,5/12/2012,5/15/2012
+591853,Epilepsy,Lamotrigine,1/11/2011,Yes,F,54.99,1/14/2011,1/16/2011
+591854,Hypertension,Meteoprolol,5/3/2011,No,F,13.5,5/6/2011,5/8/2011
+591855,Hypertension,Meteoprolol,11/12/2012,No,F,13.5,11/14/2012,11/17/2012
+591857,Hypertension,Atenolol,3/8/2011,Yes,M,43.98,3/10/2011,3/14/2011
+591859,Tobacco Usage,Anti Tobacco,10/4/2011,No,M,34.99,10/6/2011,10/10/2011
+591861,Hypertension,Bisoprolol,11/23/2011,Yes,M,13.5,11/23/2011,11/26/2011
+591863,Arthritis,Adalimumab,4/20/2011,No,M,5.99,4/20/2011,4/24/2011
+591864,Tobacco Usage,Anti Tobacco,8/5/2011,No,M,34.99,8/8/2011,8/9/2011
+591867,Hypertension,Bisoprolol,6/30/2011,No,M,13.5,6/30/2011,7/2/2011
+591868,Hypertension,Meteoprolol,3/4/2011,No,M,13.5,3/4/2011,3/6/2011
+591869,Hyperlipidemia,Simvastatin,2/25/2011,No,M,22.98,2/28/2011,3/4/2011
+591871,Arthritis,Etanercept,10/2/2012,No,M,120,10/3/2012,10/6/2012
+591872,Arthritis,Bertolizumab,12/8/2012,No,M,22.98,12/8/2012,12/12/2012
+591875,Tobacco Usage,Anti Tobacco,1/19/2013,No,F,34.99,1/21/2013,1/23/2013
+591878,Epilepsy,Carbamazepine,8/3/2012,Yes,F,54.99,8/6/2012,8/10/2012
+591880,Tobacco Usage,Anti Tobacco,7/28/2012,No,F,34.99,7/28/2012,7/29/2012
+591883,Hyperlipidemia,Pravastatin,8/24/2012,Yes,M,120,8/26/2012,8/29/2012
+591884,Epilepsy,Phenytoin,5/3/2011,Yes,M,34.99,5/4/2011,5/8/2011
+591886,Epilepsy,Phenytoin,2/13/2012,Yes,F,34.99,2/13/2012,2/14/2012
+591889,Epilepsy,Carbamazepine,6/27/2012,Yes,M,54.99,6/28/2012,6/29/2012
+591890,Hyperlipidemia,Lovastatin,12/14/2012,No,F,67.98,12/17/2012,12/18/2012
+591893,Tobacco Usage,Anti Tobacco,12/21/2012,No,M,34.99,12/21/2012,12/24/2012
+591895,Diabetes Mellitus,Metformin,7/17/2012,Yes,M,22.98,7/18/2012,7/22/2012
+591897,Hypertension,Hidroclorotia,10/13/2012,No,M,13.5,10/14/2012,10/18/2012
+591900,Diabetes Mellitus,Metformin,12/19/2011,No,M,22.98,12/21/2011,12/25/2011
+591902,Hyperlipidemia,Rosuvastatin,1/19/2013,No,M,67.98,1/22/2013,1/23/2013
+591903,Tobacco Usage,Anti Tobacco,2/23/2011,Yes,F,34.99,2/23/2011,2/27/2011
+591906,Hyperlipidemia,Fluvastatin,8/12/2011,No,F,9.99,8/15/2011,8/17/2011
+591907,Hyperlipidemia,Fluvastatin,7/16/2011,Yes,F,9.99,7/16/2011,7/18/2011
+591908,Hyperlipidemia,Pravastatin,10/27/2012,No,F,120,10/28/2012,10/30/2012
+591909,Epilepsy,Carbamazepine,10/27/2011,No,F,54.99,10/27/2011,10/29/2011
+591911,Tobacco Usage,Anti Tobacco,8/6/2012,No,F,34.99,8/8/2012,8/12/2012
+591912,Diabetes Mellitus,Glitazone,1/8/2013,Yes,M,22.98,1/8/2013,1/10/2013
+591915,Epilepsy,Phenytoin,11/9/2012,Yes,F,34.99,11/11/2012,11/13/2012
+591918,Hypertension,Meteoprolol,3/10/2012,Yes,M,13.5,3/13/2012,3/16/2012
+591921,Hypertension,Atenolol,10/20/2011,Yes,M,43.98,10/22/2011,10/25/2011
+591924,Hypertension,Atenolol,1/17/2013,No,F,43.98,1/19/2013,1/21/2013
+591927,Arthritis,Infliximab,5/14/2012,Yes,M,34.99,5/14/2012,5/17/2012
+591928,Diabetes Mellitus,Glitazone,9/15/2012,Yes,F,22.98,9/18/2012,9/21/2012
+591930,Tobacco Usage,Anti Tobacco,12/25/2012,Yes,M,34.99,12/27/2012,12/31/2012
+591931,Hyperlipidemia,Fluvastatin,4/16/2012,No,M,9.99,4/19/2012,4/22/2012
+591933,Diabetes Mellitus,Glitazone,12/25/2012,No,F,22.98,12/26/2012,12/29/2012
+591936,Tobacco Usage,Anti Tobacco,1/10/2011,No,F,34.99,1/13/2011,1/15/2011
+591937,Diabetes Mellitus,Glitazone,5/6/2012,No,F,22.98,5/6/2012,5/8/2012
+591938,Tobacco Usage,Anti Tobacco,6/7/2011,Yes,M,34.99,6/8/2011,6/9/2011
+591941,Hyperlipidemia,Pravastatin,5/23/2011,No,F,120,5/26/2011,5/27/2011
+591944,Epilepsy,Carbamazepine,9/22/2011,Yes,M,54.99,9/25/2011,9/29/2011
+591947,Diabetes Mellitus,Metformin,12/12/2011,No,M,22.98,12/15/2011,12/18/2011
+591948,Tobacco Usage,Anti Tobacco,4/22/2012,No,M,34.99,4/23/2012,4/27/2012
+591951,Tobacco Usage,Anti Tobacco,9/19/2012,Yes,M,34.99,9/21/2012,9/24/2012
+591953,Arthritis,Bertolizumab,6/1/2012,Yes,M,22.98,6/3/2012,6/6/2012
+591954,Diabetes Mellitus,Glitazone,1/31/2013,No,M,22.98,2/1/2013,2/5/2013
+591955,Hypertension,Hidroclorotia,10/16/2011,Yes,F,13.5,10/16/2011,10/17/2011
+591958,Arthritis,Abatacept,10/21/2012,No,M,34.99,10/22/2012,10/25/2012
+591959,Tobacco Usage,Anti Tobacco,4/3/2011,No,M,34.99,4/4/2011,4/8/2011
+591961,Arthritis,Abatacept,3/5/2012,No,M,34.99,3/6/2012,3/9/2012
+591964,Hyperlipidemia,Lovastatin,7/17/2011,Yes,F,67.98,7/18/2011,7/22/2011
+591965,Epilepsy,Lamotrigine,11/14/2012,No,F,54.99,11/16/2012,11/18/2012
+591968,Diabetes Mellitus,Glitazone,1/29/2011,No,F,22.98,1/29/2011,1/31/2011
+591970,Diabetes Mellitus,Glitazone,6/28/2011,No,F,22.98,6/30/2011,7/1/2011
+591971,Hyperlipidemia,Lovastatin,11/6/2012,Yes,F,67.98,11/7/2012,11/9/2012
+591974,Hyperlipidemia,Atorvastatin,2/11/2012,Yes,M,4.99,2/14/2012,2/16/2012
+591975,Epilepsy,Lamotrigine,3/3/2011,Yes,M,54.99,3/5/2011,3/7/2011
+591977,Arthritis,Abatacept,4/25/2011,Yes,M,34.99,4/28/2011,4/29/2011
+591978,Epilepsy,Phenytoin,7/22/2011,No,M,34.99,7/23/2011,7/24/2011
+591981,Arthritis,Abatacept,10/8/2011,Yes,M,34.99,10/9/2011,10/12/2011
+591984,Hypertension,Furosemide,10/24/2011,No,M,67.98,10/26/2011,10/30/2011
+591987,Epilepsy,Phenytoin,8/27/2012,No,M,34.99,8/28/2012,9/1/2012
+591990,Arthritis,Etanercept,10/16/2012,Yes,F,120,10/17/2012,10/20/2012
+591992,Hypertension,Furosemide,5/29/2012,No,F,67.98,6/1/2012,6/4/2012
+591993,Hyperlipidemia,Pravastatin,9/3/2011,Yes,M,120,9/5/2011,9/7/2011
+591994,Hypertension,Atenolol,1/13/2013,No,F,43.98,1/15/2013,1/16/2013
+591997,Hyperlipidemia,Rosuvastatin,7/19/2012,No,M,67.98,7/20/2012,7/23/2012
+591998,Epilepsy,Lamotrigine,3/22/2012,No,F,54.99,3/25/2012,3/28/2012
+592001,Epilepsy,Lamotrigine,3/8/2011,Yes,F,54.99,3/8/2011,3/10/2011
+592003,Diabetes Mellitus,Metformin,12/14/2012,No,M,22.98,12/14/2012,12/16/2012
+592005,Hyperlipidemia,Lovastatin,9/8/2012,Yes,F,67.98,9/11/2012,9/12/2012
+592007,Epilepsy,Lamotrigine,3/30/2012,No,F,54.99,4/1/2012,4/2/2012
+592010,Epilepsy,Phenytoin,10/29/2012,No,F,34.99,10/30/2012,11/3/2012
+592013,Epilepsy,Carbamazepine,5/17/2011,Yes,F,54.99,5/17/2011,5/21/2011
+592014,Epilepsy,Carbamazepine,5/23/2012,Yes,M,54.99,5/23/2012,5/25/2012
+592015,Epilepsy,Carbamazepine,8/2/2011,No,F,54.99,8/2/2011,8/4/2011
+592017,Arthritis,Infliximab,7/30/2012,Yes,F,34.99,7/30/2012,8/2/2012
+592018,Epilepsy,Lamotrigine,1/18/2013,No,F,54.99,1/21/2013,1/23/2013
+592019,Arthritis,Adalimumab,4/15/2012,Yes,M,5.99,4/15/2012,4/18/2012
+592021,Arthritis,Abatacept,2/7/2012,No,M,34.99,2/7/2012,2/11/2012
+592022,Epilepsy,Carbamazepine,1/19/2011,No,F,54.99,1/20/2011,1/21/2011
+592024,Arthritis,Etanercept,5/5/2011,No,M,120,5/6/2011,5/9/2011
+592025,Epilepsy,Carbamazepine,12/9/2011,No,F,54.99,12/9/2011,12/11/2011
+592028,Arthritis,Rituximab,9/21/2011,Yes,M,120,9/21/2011,9/24/2011
+592031,Epilepsy,Carbamazepine,3/20/2012,Yes,M,54.99,3/22/2012,3/26/2012
+592032,Arthritis,Infliximab,2/2/2012,Yes,M,34.99,2/4/2012,2/6/2012
+592034,Epilepsy,Carbamazepine,9/4/2012,Yes,F,54.99,9/7/2012,9/10/2012
+592036,Epilepsy,Phenytoin,10/14/2011,Yes,F,34.99,10/14/2011,10/15/2011
+592037,Arthritis,Tocilizumab,1/31/2012,Yes,M,5.99,2/2/2012,2/5/2012
+592039,Arthritis,Bertolizumab,3/25/2011,Yes,M,22.98,3/26/2011,3/29/2011
+592042,Arthritis,Golimumab,1/6/2012,Yes,F,7.99,1/7/2012,1/8/2012
+592045,Epilepsy,Lamotrigine,1/1/2013,Yes,M,54.99,1/1/2013,1/3/2013
+592047,Epilepsy,Lamotrigine,10/25/2011,No,M,54.99,10/28/2011,10/29/2011
+592050,Arthritis,Infliximab,4/17/2011,No,M,34.99,4/19/2011,4/22/2011
+592052,Arthritis,Adalimumab,9/19/2012,Yes,F,5.99,9/22/2012,9/26/2012
+592053,Arthritis,Infliximab,5/8/2011,No,F,34.99,5/9/2011,5/11/2011
+592054,Arthritis,Etanercept,7/29/2011,No,M,120,7/30/2011,8/2/2011
+592056,Epilepsy,Phenytoin,6/10/2011,No,F,34.99,6/12/2011,6/15/2011
+592057,Arthritis,Bertolizumab,8/23/2012,Yes,F,22.98,8/24/2012,8/28/2012
+592060,Arthritis,Infliximab,2/17/2012,Yes,F,34.99,2/20/2012,2/23/2012
+592062,Arthritis,Golimumab,3/11/2012,No,F,7.99,3/13/2012,3/14/2012
+592064,Epilepsy,Phenytoin,3/29/2012,No,F,34.99,3/31/2012,4/3/2012
+592067,Epilepsy,Carbamazepine,3/7/2011,No,F,54.99,3/8/2011,3/11/2011
+592069,Arthritis,Abatacept,9/17/2012,No,M,34.99,9/17/2012,9/20/2012
+592072,Epilepsy,Carbamazepine,1/3/2011,No,F,54.99,1/4/2011,1/5/2011
+592075,Epilepsy,Carbamazepine,2/17/2012,Yes,M,54.99,2/17/2012,2/20/2012
+592077,Arthritis,Adalimumab,6/9/2011,No,M,5.99,6/9/2011,6/11/2011
+592078,Epilepsy,Carbamazepine,4/23/2012,Yes,M,54.99,4/24/2012,4/25/2012
+592080,Arthritis,Rituximab,8/6/2011,Yes,F,120,8/8/2011,8/12/2011
+592081,Arthritis,Adalimumab,3/29/2012,No,M,5.99,3/31/2012,4/3/2012
+592084,Arthritis,Infliximab,12/30/2011,No,F,34.99,1/1/2012,1/2/2012
+592087,Epilepsy,Lamotrigine,8/1/2011,Yes,M,54.99,8/3/2011,8/5/2011
+592090,Arthritis,Etanercept,10/2/2011,Yes,M,120,10/2/2011,10/5/2011
+592093,Arthritis,Infliximab,5/1/2011,Yes,F,34.99,5/4/2011,5/6/2011
+592094,Arthritis,Adalimumab,9/10/2012,Yes,M,5.99,9/12/2012,9/14/2012
+592096,Epilepsy,Phenytoin,2/26/2012,No,F,34.99,2/27/2012,2/29/2012
+592097,Epilepsy,Lamotrigine,12/18/2012,No,F,54.99,12/21/2012,12/24/2012
+592099,Arthritis,Tocilizumab,2/27/2011,Yes,M,5.99,3/2/2011,3/4/2011
+592102,Epilepsy,Phenytoin,6/15/2011,No,M,34.99,6/17/2011,6/20/2011
+592104,Arthritis,Adalimumab,11/17/2011,Yes,M,5.99,11/19/2011,11/23/2011
+592106,Epilepsy,Carbamazepine,6/28/2011,Yes,M,54.99,6/29/2011,7/3/2011
+592109,Arthritis,Abatacept,5/5/2012,Yes,M,34.99,5/7/2012,5/10/2012
+592111,Arthritis,Adalimumab,10/14/2011,No,M,5.99,10/16/2011,10/19/2011
+592112,Epilepsy,Carbamazepine,12/26/2011,No,M,54.99,12/29/2011,12/30/2011
+592115,Arthritis,Tocilizumab,3/24/2011,No,F,5.99,3/24/2011,3/26/2011
+592118,Epilepsy,Lamotrigine,4/12/2011,No,M,54.99,4/15/2011,4/19/2011
+592121,Arthritis,Rituximab,4/4/2011,No,M,120,4/5/2011,4/6/2011
+592122,Arthritis,Bertolizumab,8/31/2012,Yes,M,22.98,9/2/2012,9/4/2012
+592125,Arthritis,Etanercept,2/16/2012,No,M,120,2/18/2012,2/22/2012
+592126,Arthritis,Bertolizumab,7/19/2012,No,M,22.98,7/22/2012,7/23/2012
+592128,Arthritis,Etanercept,8/25/2012,No,F,120,8/25/2012,8/28/2012
+592131,Epilepsy,Carbamazepine,5/29/2012,Yes,M,54.99,5/29/2012,5/30/2012
+592133,Epilepsy,Phenytoin,7/21/2011,No,M,34.99,7/23/2011,7/26/2011
+592134,Arthritis,Tocilizumab,7/16/2012,Yes,M,5.99,7/16/2012,7/20/2012
+592137,Epilepsy,Carbamazepine,6/8/2012,Yes,F,54.99,6/11/2012,6/12/2012
+592140,Epilepsy,Phenytoin,10/19/2012,No,M,34.99,10/19/2012,10/23/2012
+592143,Arthritis,Golimumab,9/4/2011,No,F,7.99,9/4/2011,9/6/2011
+592144,Epilepsy,Phenytoin,12/3/2012,Yes,F,34.99,12/6/2012,12/8/2012
+592147,Epilepsy,Phenytoin,10/10/2012,No,M,34.99,10/11/2012,10/12/2012
+592150,Epilepsy,Phenytoin,1/5/2011,Yes,F,34.99,1/7/2011,1/8/2011
+592151,Epilepsy,Phenytoin,4/19/2012,No,M,34.99,4/22/2012,4/25/2012
+592154,Epilepsy,Carbamazepine,5/8/2011,No,M,54.99,5/9/2011,5/10/2011
+592156,Arthritis,Etanercept,8/23/2011,No,M,120,8/23/2011,8/25/2011
+592157,Arthritis,Adalimumab,5/31/2011,No,F,5.99,6/1/2011,6/2/2011
+592159,Epilepsy,Phenytoin,9/18/2012,Yes,F,34.99,9/21/2012,9/25/2012
+592161,Arthritis,Adalimumab,2/20/2012,No,F,5.99,2/22/2012,2/23/2012
+592163,Arthritis,Tocilizumab,1/26/2012,No,M,5.99,1/27/2012,1/31/2012
+592166,Epilepsy,Carbamazepine,12/31/2012,Yes,F,54.99,1/2/2013,1/5/2013
+592168,Arthritis,Adalimumab,12/22/2011,No,M,5.99,12/24/2011,12/27/2011
+592170,Arthritis,Abatacept,11/21/2012,Yes,M,34.99,11/23/2012,11/24/2012
+592173,Arthritis,Tocilizumab,7/18/2012,Yes,M,5.99,7/21/2012,7/23/2012
+592174,Epilepsy,Lamotrigine,1/1/2012,No,M,54.99,1/2/2012,1/5/2012
+592175,Epilepsy,Carbamazepine,5/25/2012,No,F,54.99,5/26/2012,5/27/2012
+592178,Epilepsy,Carbamazepine,9/4/2012,Yes,F,54.99,9/5/2012,9/8/2012
+592181,Arthritis,Infliximab,11/25/2011,Yes,M,34.99,11/28/2011,12/1/2011
+592183,Arthritis,Abatacept,5/25/2011,Yes,M,34.99,5/27/2011,5/31/2011
+592186,Epilepsy,Lamotrigine,7/18/2011,No,F,54.99,7/18/2011,7/21/2011
+592188,Arthritis,Etanercept,9/3/2012,No,M,120,9/4/2012,9/7/2012
+592189,Arthritis,Etanercept,5/13/2011,Yes,F,120,5/16/2011,5/17/2011
+592190,Epilepsy,Carbamazepine,12/29/2011,Yes,F,54.99,12/30/2011,12/31/2011
+592191,Arthritis,Bertolizumab,11/19/2011,Yes,F,22.98,11/20/2011,11/22/2011
+592193,Epilepsy,Carbamazepine,1/4/2011,No,F,54.99,1/7/2011,1/11/2011
+592194,Epilepsy,Carbamazepine,9/30/2011,No,M,54.99,10/1/2011,10/5/2011
+592197,Arthritis,Adalimumab,12/27/2012,No,M,5.99,12/27/2012,12/28/2012
+592200,Epilepsy,Carbamazepine,3/26/2011,No,M,54.99,3/29/2011,3/31/2011
+592203,Epilepsy,Carbamazepine,6/29/2012,Yes,M,54.99,7/1/2012,7/4/2012
+592205,Arthritis,Rituximab,8/30/2011,No,M,120,8/30/2011,9/3/2011
+592206,Arthritis,Etanercept,9/14/2012,Yes,M,120,9/16/2012,9/20/2012
+592207,Epilepsy,Phenytoin,2/6/2011,No,F,34.99,2/6/2011,2/10/2011
+592208,Epilepsy,Lamotrigine,9/27/2011,Yes,M,54.99,9/30/2011,10/2/2011
+592211,Arthritis,Golimumab,12/15/2011,No,M,7.99,12/16/2011,12/18/2011
+592214,Arthritis,Rituximab,3/22/2011,No,M,120,3/25/2011,3/26/2011
+592215,Epilepsy,Phenytoin,4/11/2012,Yes,M,34.99,4/12/2012,4/13/2012
+592216,Epilepsy,Carbamazepine,11/6/2011,No,M,54.99,11/7/2011,11/8/2011
+592218,Arthritis,Etanercept,5/13/2011,No,M,120,5/14/2011,5/18/2011
+592221,Arthritis,Adalimumab,4/28/2011,No,M,5.99,4/30/2011,5/4/2011
+592223,Arthritis,Rituximab,8/11/2012,No,F,120,8/11/2012,8/14/2012
+592225,Arthritis,Golimumab,5/10/2012,No,F,7.99,5/13/2012,5/17/2012
+592226,Arthritis,Golimumab,4/2/2011,Yes,F,7.99,4/3/2011,4/7/2011
+592229,Arthritis,Tocilizumab,1/14/2012,No,F,5.99,1/14/2012,1/17/2012
+592230,Epilepsy,Lamotrigine,12/13/2012,Yes,M,54.99,12/13/2012,12/16/2012
+592232,Epilepsy,Lamotrigine,7/28/2011,No,F,54.99,7/31/2011,8/3/2011
+592233,Epilepsy,Lamotrigine,5/14/2012,No,F,54.99,5/14/2012,5/16/2012
+592234,Epilepsy,Phenytoin,6/4/2011,Yes,M,34.99,6/7/2011,6/9/2011
+592236,Arthritis,Golimumab,8/3/2011,No,M,7.99,8/6/2011,8/9/2011
+592237,Epilepsy,Phenytoin,5/12/2011,Yes,M,34.99,5/12/2011,5/13/2011
+592239,Epilepsy,Lamotrigine,1/20/2012,Yes,F,54.99,1/22/2012,1/25/2012
+592242,Arthritis,Rituximab,3/26/2012,Yes,M,120,3/29/2012,3/30/2012
+592245,Epilepsy,Lamotrigine,2/18/2012,Yes,F,54.99,2/18/2012,2/20/2012
+592248,Epilepsy,Carbamazepine,12/20/2011,Yes,F,54.99,12/21/2011,12/23/2011
+592251,Epilepsy,Carbamazepine,9/27/2012,No,M,54.99,9/30/2012,10/2/2012
+592253,Arthritis,Golimumab,12/7/2011,No,M,7.99,12/9/2011,12/13/2011
+592256,Arthritis,Rituximab,11/24/2012,Yes,M,120,11/24/2012,11/25/2012
+592258,Epilepsy,Lamotrigine,9/8/2012,Yes,F,54.99,9/11/2012,9/13/2012
+592261,Epilepsy,Lamotrigine,6/26/2012,No,F,54.99,6/26/2012,6/27/2012
+592263,Arthritis,Golimumab,10/3/2011,No,M,7.99,10/6/2011,10/8/2011
+592265,Epilepsy,Phenytoin,1/13/2012,No,F,34.99,1/16/2012,1/18/2012
+592267,Epilepsy,Carbamazepine,6/28/2012,No,M,54.99,6/29/2012,6/30/2012
+592269,Epilepsy,Phenytoin,9/2/2012,Yes,M,34.99,9/3/2012,9/7/2012
+592272,Arthritis,Bertolizumab,3/18/2012,Yes,F,22.98,3/18/2012,3/22/2012
+592273,Epilepsy,Carbamazepine,12/13/2012,Yes,M,54.99,12/15/2012,12/17/2012
+592274,Epilepsy,Carbamazepine,4/18/2012,Yes,F,54.99,4/20/2012,4/23/2012
+592276,Epilepsy,Lamotrigine,4/7/2012,No,M,54.99,4/8/2012,4/10/2012
+592279,Epilepsy,Lamotrigine,11/14/2011,No,M,54.99,11/14/2011,11/18/2011
+592282,Epilepsy,Phenytoin,2/17/2012,No,F,34.99,2/18/2012,2/22/2012
+592284,Arthritis,Abatacept,4/10/2012,No,F,34.99,4/11/2012,4/14/2012
+592287,Epilepsy,Phenytoin,4/25/2012,Yes,F,34.99,4/28/2012,5/2/2012
+592289,Arthritis,Etanercept,6/8/2011,Yes,M,120,6/9/2011,6/13/2011
+592292,Epilepsy,Lamotrigine,10/7/2011,Yes,F,54.99,10/10/2011,10/12/2011
+592295,Epilepsy,Lamotrigine,5/25/2012,Yes,M,54.99,5/27/2012,5/29/2012
+592297,Arthritis,Golimumab,8/19/2011,No,F,7.99,8/20/2011,8/23/2011
+592300,Arthritis,Etanercept,1/2/2011,No,M,120,1/5/2011,1/9/2011
+592301,Arthritis,Etanercept,1/5/2012,No,M,120,1/6/2012,1/8/2012
+592304,Arthritis,Golimumab,5/24/2011,No,F,7.99,5/26/2011,5/30/2011
+592307,Epilepsy,Lamotrigine,7/21/2012,No,F,54.99,7/24/2012,7/27/2012
+592310,Arthritis,Rituximab,1/31/2013,Yes,F,120,1/31/2013,2/3/2013
+592311,Arthritis,Rituximab,12/23/2012,No,F,120,12/26/2012,12/27/2012
+592313,Arthritis,Adalimumab,9/25/2012,Yes,M,5.99,9/26/2012,9/27/2012
+592316,Arthritis,Bertolizumab,7/4/2012,No,M,22.98,7/6/2012,7/9/2012
+592319,Epilepsy,Phenytoin,12/24/2011,No,M,34.99,12/25/2011,12/29/2011
+592321,Epilepsy,Phenytoin,8/8/2012,Yes,F,34.99,8/9/2012,8/10/2012
+592323,Epilepsy,Phenytoin,5/17/2012,Yes,M,34.99,5/18/2012,5/22/2012
+592324,Epilepsy,Carbamazepine,4/28/2012,Yes,F,54.99,5/1/2012,5/5/2012
+592327,Epilepsy,Lamotrigine,12/3/2012,No,M,54.99,12/6/2012,12/10/2012
+592330,Arthritis,Bertolizumab,12/21/2011,Yes,M,22.98,12/23/2011,12/27/2011
+592333,Epilepsy,Phenytoin,12/23/2011,Yes,M,34.99,12/25/2011,12/26/2011
+592336,Epilepsy,Phenytoin,2/25/2011,No,F,34.99,2/28/2011,3/1/2011
+592337,Arthritis,Abatacept,6/22/2011,No,F,34.99,6/23/2011,6/26/2011
+592340,Epilepsy,Phenytoin,2/23/2012,No,F,34.99,2/23/2012,2/24/2012
+592343,Arthritis,Bertolizumab,7/26/2011,Yes,F,22.98,7/26/2011,7/28/2011
+592344,Arthritis,Rituximab,11/21/2012,Yes,F,120,11/24/2012,11/26/2012
+592346,Arthritis,Infliximab,8/5/2012,No,F,34.99,8/7/2012,8/10/2012
+592347,Epilepsy,Carbamazepine,9/3/2012,No,M,54.99,9/3/2012,9/4/2012
+592349,Arthritis,Infliximab,8/1/2012,No,F,34.99,8/3/2012,8/6/2012
+592352,Epilepsy,Phenytoin,3/12/2012,No,F,34.99,3/15/2012,3/18/2012
+592353,Epilepsy,Lamotrigine,4/2/2012,Yes,M,54.99,4/2/2012,4/4/2012
+592356,Arthritis,Rituximab,9/13/2011,Yes,F,120,9/13/2011,9/14/2011
+592358,Arthritis,Rituximab,9/16/2012,Yes,F,120,9/17/2012,9/19/2012
+592359,Epilepsy,Lamotrigine,12/16/2011,No,F,54.99,12/16/2011,12/17/2011
+592362,Arthritis,Abatacept,12/19/2012,No,M,34.99,12/19/2012,12/20/2012
+592364,Arthritis,Infliximab,6/30/2012,No,F,34.99,7/1/2012,7/2/2012
+592365,Epilepsy,Carbamazepine,8/1/2011,No,F,54.99,8/3/2011,8/6/2011
+592368,Epilepsy,Carbamazepine,1/18/2012,Yes,F,54.99,1/18/2012,1/21/2012
+592370,Arthritis,Bertolizumab,11/22/2012,Yes,F,22.98,11/25/2012,11/29/2012
+592372,Arthritis,Rituximab,2/20/2011,Yes,M,120,2/22/2011,2/26/2011
+592375,Arthritis,Rituximab,12/6/2011,Yes,F,120,12/9/2011,12/12/2011
+592377,Arthritis,Etanercept,12/9/2011,No,M,120,12/12/2011,12/13/2011
+592379,Arthritis,Rituximab,4/22/2011,No,F,120,4/22/2011,4/24/2011
+592380,Epilepsy,Carbamazepine,11/20/2012,Yes,M,54.99,11/23/2012,11/24/2012
+592381,Arthritis,Infliximab,10/24/2011,No,F,34.99,10/26/2011,10/27/2011
+592384,Epilepsy,Lamotrigine,10/4/2011,No,F,54.99,10/4/2011,10/6/2011
+592387,Arthritis,Rituximab,6/18/2012,Yes,F,120,6/19/2012,6/20/2012
+592388,Epilepsy,Phenytoin,5/2/2012,No,F,34.99,5/5/2012,5/7/2012
+592390,Arthritis,Adalimumab,1/31/2013,No,F,5.99,2/2/2013,2/6/2013
+592391,Epilepsy,Carbamazepine,8/31/2011,Yes,M,54.99,9/1/2011,9/4/2011
+592394,Epilepsy,Carbamazepine,3/25/2011,No,F,54.99,3/26/2011,3/30/2011
+592396,Epilepsy,Lamotrigine,3/20/2011,No,M,54.99,3/22/2011,3/25/2011
+592398,Arthritis,Golimumab,12/6/2011,Yes,F,7.99,12/6/2011,12/8/2011
+592399,Arthritis,Tocilizumab,4/1/2011,No,F,5.99,4/4/2011,4/8/2011
+592402,Arthritis,Abatacept,8/18/2011,Yes,M,34.99,8/19/2011,8/21/2011
+592404,Arthritis,Tocilizumab,4/27/2011,No,M,5.99,4/30/2011,5/3/2011
+592407,Arthritis,Infliximab,7/6/2012,Yes,M,34.99,7/9/2012,7/13/2012
+592410,Arthritis,Rituximab,3/24/2011,Yes,M,120,3/27/2011,3/28/2011
+592412,Epilepsy,Carbamazepine,11/29/2012,Yes,F,54.99,12/1/2012,12/3/2012
+592415,Arthritis,Infliximab,11/22/2012,No,F,34.99,11/23/2012,11/26/2012
+592417,Epilepsy,Carbamazepine,6/23/2011,Yes,F,54.99,6/26/2011,6/30/2011
+592418,Epilepsy,Phenytoin,3/1/2011,Yes,F,34.99,3/4/2011,3/5/2011
+592419,Arthritis,Bertolizumab,2/6/2012,No,M,22.98,2/6/2012,2/10/2012
+592420,Epilepsy,Carbamazepine,3/22/2012,Yes,M,54.99,3/23/2012,3/25/2012
+592421,Arthritis,Rituximab,1/18/2012,Yes,M,120,1/18/2012,1/20/2012
+592423,Epilepsy,Lamotrigine,11/24/2012,Yes,M,54.99,11/27/2012,11/29/2012
+592426,Arthritis,Adalimumab,3/20/2012,No,M,5.99,3/21/2012,3/23/2012
+592428,Epilepsy,Lamotrigine,3/28/2011,Yes,F,54.99,3/28/2011,3/31/2011
+592429,Epilepsy,Carbamazepine,1/30/2013,Yes,M,54.99,2/2/2013,2/6/2013
+592431,Arthritis,Infliximab,8/12/2012,Yes,F,34.99,8/12/2012,8/14/2012
+592433,Epilepsy,Lamotrigine,9/16/2012,No,F,54.99,9/16/2012,9/18/2012
+592435,Epilepsy,Carbamazepine,4/16/2011,No,M,54.99,4/17/2011,4/18/2011
+592437,Arthritis,Abatacept,9/26/2012,Yes,M,34.99,9/27/2012,9/28/2012
+592440,Arthritis,Infliximab,11/16/2011,Yes,F,34.99,11/17/2011,11/21/2011
+592442,Epilepsy,Phenytoin,7/25/2011,Yes,F,34.99,7/27/2011,7/30/2011
+592444,Epilepsy,Carbamazepine,4/2/2012,No,M,54.99,4/2/2012,4/4/2012
+592445,Epilepsy,Carbamazepine,6/18/2011,No,F,54.99,6/18/2011,6/22/2011
+592446,Epilepsy,Phenytoin,2/12/2011,No,F,34.99,2/14/2011,2/17/2011
+592448,Arthritis,Rituximab,9/5/2012,Yes,M,120,9/8/2012,9/11/2012
+592449,Arthritis,Tocilizumab,1/5/2013,No,F,5.99,1/8/2013,1/10/2013
+592451,Arthritis,Bertolizumab,2/23/2011,Yes,M,22.98,2/26/2011,3/2/2011
+592452,Arthritis,Bertolizumab,8/9/2011,Yes,M,22.98,8/11/2011,8/14/2011
+592454,Arthritis,Abatacept,11/20/2012,Yes,M,34.99,11/22/2012,11/25/2012
+592456,Epilepsy,Phenytoin,6/12/2012,Yes,F,34.99,6/14/2012,6/16/2012
+592457,Arthritis,Infliximab,4/21/2011,Yes,F,34.99,4/24/2011,4/26/2011
+592459,Epilepsy,Carbamazepine,6/2/2011,Yes,F,54.99,6/2/2011,6/4/2011
+592460,Epilepsy,Phenytoin,2/14/2012,No,M,34.99,2/16/2012,2/17/2012
+592461,Epilepsy,Carbamazepine,4/21/2011,No,M,54.99,4/21/2011,4/24/2011
+592463,Epilepsy,Phenytoin,12/21/2011,Yes,F,34.99,12/21/2011,12/25/2011
+592466,Arthritis,Infliximab,2/19/2012,Yes,F,34.99,2/21/2012,2/22/2012
+592469,Epilepsy,Carbamazepine,6/1/2011,No,M,54.99,6/2/2011,6/4/2011
+592470,Epilepsy,Carbamazepine,5/17/2011,No,F,54.99,5/18/2011,5/22/2011
+592472,Arthritis,Abatacept,2/26/2012,Yes,M,34.99,2/29/2012,3/2/2012
+592475,Epilepsy,Carbamazepine,11/1/2012,Yes,F,54.99,11/1/2012,11/4/2012
+592478,Arthritis,Bertolizumab,6/25/2012,Yes,F,22.98,6/28/2012,6/29/2012
+592480,Arthritis,Adalimumab,6/22/2011,Yes,F,5.99,6/23/2011,6/25/2011
+592482,Epilepsy,Carbamazepine,6/26/2011,Yes,M,54.99,6/27/2011,7/1/2011
+592485,Arthritis,Infliximab,1/2/2013,No,F,34.99,1/2/2013,1/3/2013
+592486,Epilepsy,Phenytoin,6/15/2011,Yes,F,34.99,6/15/2011,6/16/2011
+592487,Arthritis,Adalimumab,11/3/2012,Yes,F,5.99,11/3/2012,11/6/2012
+592489,Epilepsy,Carbamazepine,12/14/2012,Yes,M,54.99,12/16/2012,12/20/2012
+592492,Epilepsy,Carbamazepine,3/3/2011,Yes,M,54.99,3/5/2011,3/6/2011
+592493,Arthritis,Bertolizumab,3/10/2011,Yes,F,22.98,3/10/2011,3/13/2011
+592494,Arthritis,Abatacept,4/20/2011,Yes,M,34.99,4/23/2011,4/25/2011
+592496,Epilepsy,Carbamazepine,1/6/2012,No,M,54.99,1/9/2012,1/12/2012
+592497,Arthritis,Rituximab,6/18/2011,No,F,120,6/18/2011,6/21/2011
+592499,Epilepsy,Lamotrigine,2/11/2011,Yes,M,54.99,2/14/2011,2/17/2011
+592500,Epilepsy,Carbamazepine,11/11/2011,No,M,54.99,11/11/2011,11/14/2011
+592501,Epilepsy,Carbamazepine,6/8/2011,Yes,F,54.99,6/11/2011,6/14/2011
+592504,Arthritis,Infliximab,9/7/2011,No,F,34.99,9/9/2011,9/13/2011
+592507,Epilepsy,Lamotrigine,9/7/2011,Yes,M,54.99,9/9/2011,9/12/2011
+592510,Arthritis,Golimumab,4/29/2012,No,M,7.99,4/30/2012,5/3/2012
+592512,Arthritis,Etanercept,8/8/2011,No,F,120,8/9/2011,8/10/2011
+592513,Arthritis,Etanercept,5/19/2011,Yes,F,120,5/22/2011,5/26/2011
+592516,Arthritis,Adalimumab,7/13/2012,No,M,5.99,7/15/2012,7/17/2012
+592519,Epilepsy,Lamotrigine,3/7/2011,Yes,F,54.99,3/8/2011,3/10/2011
+592521,Arthritis,Tocilizumab,8/13/2011,Yes,M,5.99,8/15/2011,8/16/2011
+592524,Epilepsy,Phenytoin,8/26/2012,No,M,34.99,8/28/2012,9/1/2012
+592526,Epilepsy,Lamotrigine,1/18/2012,Yes,F,54.99,1/21/2012,1/25/2012
+592527,Epilepsy,Phenytoin,11/29/2012,Yes,M,34.99,11/30/2012,12/2/2012
+592529,Arthritis,Adalimumab,7/23/2012,No,M,5.99,7/26/2012,7/30/2012
+592532,Epilepsy,Lamotrigine,7/17/2011,No,F,54.99,7/19/2011,7/23/2011
+592533,Epilepsy,Lamotrigine,3/23/2011,Yes,F,54.99,3/23/2011,3/25/2011
+592535,Arthritis,Tocilizumab,8/11/2012,No,F,5.99,8/12/2012,8/16/2012
+592537,Arthritis,Golimumab,1/31/2011,No,F,7.99,2/2/2011,2/5/2011
+592538,Epilepsy,Carbamazepine,1/6/2011,No,M,54.99,1/7/2011,1/10/2011
+592539,Arthritis,Etanercept,7/24/2011,No,M,120,7/25/2011,7/29/2011
+592542,Arthritis,Infliximab,7/11/2011,Yes,F,34.99,7/13/2011,7/16/2011
+592545,Epilepsy,Carbamazepine,11/7/2011,No,F,54.99,11/9/2011,11/10/2011
+592548,Epilepsy,Phenytoin,6/29/2012,Yes,F,34.99,6/30/2012,7/4/2012
+592550,Epilepsy,Lamotrigine,10/15/2011,No,F,54.99,10/15/2011,10/16/2011
+592552,Epilepsy,Phenytoin,1/5/2012,No,M,34.99,1/6/2012,1/7/2012
+592554,Epilepsy,Phenytoin,8/11/2012,Yes,F,34.99,8/14/2012,8/17/2012
+592556,Arthritis,Infliximab,9/17/2012,Yes,M,34.99,9/18/2012,9/21/2012
+592558,Epilepsy,Carbamazepine,4/21/2011,Yes,F,54.99,4/22/2011,4/23/2011
+592559,Arthritis,Abatacept,12/22/2012,No,M,34.99,12/22/2012,12/23/2012
+592560,Epilepsy,Carbamazepine,12/6/2011,No,M,54.99,12/7/2011,12/11/2011
+592563,Arthritis,Golimumab,10/22/2012,Yes,F,7.99,10/23/2012,10/25/2012
+592566,Epilepsy,Lamotrigine,2/15/2011,No,F,54.99,2/17/2011,2/21/2011
+592567,Epilepsy,Carbamazepine,7/29/2012,Yes,M,54.99,8/1/2012,8/5/2012
+592568,Epilepsy,Lamotrigine,4/18/2011,Yes,F,54.99,4/20/2011,4/22/2011
+592569,Epilepsy,Phenytoin,3/16/2012,No,M,34.99,3/19/2012,3/21/2012
+592572,Epilepsy,Phenytoin,7/30/2012,Yes,M,34.99,7/31/2012,8/1/2012
+592575,Arthritis,Infliximab,8/31/2012,No,F,34.99,9/3/2012,9/4/2012
+592576,Epilepsy,Phenytoin,9/6/2011,Yes,F,34.99,9/7/2011,9/11/2011
+592579,Epilepsy,Carbamazepine,5/24/2012,Yes,M,54.99,5/24/2012,5/27/2012
+592580,Epilepsy,Phenytoin,8/8/2011,Yes,F,34.99,8/11/2011,8/12/2011
+592581,Epilepsy,Phenytoin,12/11/2012,Yes,F,34.99,12/12/2012,12/13/2012
+592582,Epilepsy,Phenytoin,3/22/2011,Yes,F,34.99,3/22/2011,3/26/2011
+592584,Arthritis,Golimumab,12/11/2011,Yes,M,7.99,12/14/2011,12/18/2011
+592585,Epilepsy,Lamotrigine,1/30/2011,Yes,F,54.99,2/2/2011,2/5/2011
+592587,Epilepsy,Phenytoin,7/27/2011,No,M,34.99,7/29/2011,8/2/2011
+592589,Arthritis,Bertolizumab,12/1/2012,Yes,F,22.98,12/1/2012,12/3/2012
+592591,Arthritis,Adalimumab,11/8/2011,No,F,5.99,11/8/2011,11/10/2011
+592592,Epilepsy,Lamotrigine,6/29/2012,Yes,F,54.99,6/29/2012,7/1/2012
+592594,Epilepsy,Phenytoin,1/14/2012,Yes,M,34.99,1/17/2012,1/21/2012
+592595,Arthritis,Adalimumab,6/21/2011,Yes,F,5.99,6/23/2011,6/25/2011
+592596,Arthritis,Rituximab,7/31/2012,Yes,M,120,8/1/2012,8/2/2012
+592597,Epilepsy,Phenytoin,2/13/2012,No,M,34.99,2/13/2012,2/14/2012
+592598,Arthritis,Golimumab,1/30/2013,No,F,7.99,2/2/2013,2/4/2013
+592601,Arthritis,Infliximab,9/26/2011,Yes,M,34.99,9/26/2011,9/29/2011
+592602,Arthritis,Adalimumab,4/19/2012,Yes,M,5.99,4/20/2012,4/24/2012
+592603,Arthritis,Adalimumab,9/12/2011,No,M,5.99,9/12/2011,9/13/2011
+592606,Arthritis,Bertolizumab,5/16/2011,No,F,22.98,5/19/2011,5/23/2011
+592609,Arthritis,Etanercept,11/15/2012,No,F,120,11/16/2012,11/18/2012
+592612,Arthritis,Bertolizumab,4/18/2012,Yes,F,22.98,4/18/2012,4/20/2012
+592614,Epilepsy,Carbamazepine,7/25/2012,No,M,54.99,7/27/2012,7/30/2012
+592617,Epilepsy,Lamotrigine,1/29/2012,Yes,M,54.99,1/29/2012,2/2/2012
+592620,Arthritis,Etanercept,6/28/2011,Yes,F,120,6/28/2011,6/30/2011
+592623,Arthritis,Rituximab,2/9/2011,No,M,120,2/10/2011,2/12/2011
+592626,Epilepsy,Lamotrigine,3/21/2011,No,F,54.99,3/21/2011,3/22/2011
+592627,Arthritis,Infliximab,1/29/2011,No,F,34.99,1/30/2011,2/1/2011
+592628,Arthritis,Etanercept,6/21/2012,Yes,F,120,6/24/2012,6/27/2012
+592629,Arthritis,Etanercept,7/22/2011,Yes,M,120,7/25/2011,7/28/2011
+592632,Epilepsy,Carbamazepine,11/28/2011,No,F,54.99,12/1/2011,12/4/2011
+592633,Arthritis,Infliximab,2/6/2011,Yes,F,34.99,2/8/2011,2/9/2011
+592636,Arthritis,Bertolizumab,4/7/2011,No,F,22.98,4/8/2011,4/10/2011
+592639,Epilepsy,Phenytoin,1/25/2013,Yes,M,34.99,1/28/2013,1/29/2013
+592641,Arthritis,Tocilizumab,4/29/2011,Yes,M,5.99,5/2/2011,5/5/2011
+592642,Epilepsy,Carbamazepine,9/3/2011,No,M,54.99,9/5/2011,9/9/2011
+592643,Arthritis,Abatacept,9/5/2012,Yes,M,34.99,9/8/2012,9/11/2012
+592644,Arthritis,Infliximab,1/14/2013,No,F,34.99,1/14/2013,1/16/2013
+592647,Epilepsy,Phenytoin,8/4/2012,No,F,34.99,8/6/2012,8/8/2012
+592649,Epilepsy,Phenytoin,4/28/2011,No,M,34.99,4/30/2011,5/2/2011
+592651,Epilepsy,Phenytoin,2/19/2012,No,M,34.99,2/22/2012,2/26/2012
+592653,Arthritis,Bertolizumab,1/27/2013,No,F,22.98,1/28/2013,1/29/2013
+592655,Arthritis,Infliximab,6/1/2012,Yes,F,34.99,6/3/2012,6/7/2012
+592657,Arthritis,Abatacept,8/7/2012,No,M,34.99,8/10/2012,8/12/2012
+592659,Epilepsy,Carbamazepine,4/7/2011,Yes,F,54.99,4/7/2011,4/9/2011
+592661,Arthritis,Adalimumab,9/10/2011,Yes,M,5.99,9/12/2011,9/13/2011
+592664,Epilepsy,Phenytoin,12/29/2012,No,M,34.99,12/31/2012,1/2/2013
+592665,Arthritis,Tocilizumab,7/15/2012,No,M,5.99,7/15/2012,7/18/2012
+592667,Arthritis,Etanercept,2/1/2011,No,F,120,2/4/2011,2/6/2011
+592670,Arthritis,Tocilizumab,1/19/2011,No,F,5.99,1/22/2011,1/23/2011
+592672,Arthritis,Rituximab,1/4/2011,No,M,120,1/6/2011,1/8/2011
+592673,Epilepsy,Lamotrigine,2/13/2011,No,M,54.99,2/14/2011,2/15/2011
+592676,Arthritis,Bertolizumab,2/1/2012,No,F,22.98,2/4/2012,2/5/2012
+592679,Arthritis,Tocilizumab,9/5/2011,No,F,5.99,9/8/2011,9/12/2011
+592682,Epilepsy,Carbamazepine,11/16/2012,No,F,54.99,11/16/2012,11/18/2012
+592685,Arthritis,Abatacept,8/22/2011,Yes,M,34.99,8/22/2011,8/25/2011
+592687,Epilepsy,Phenytoin,1/9/2013,No,F,34.99,1/10/2013,1/13/2013
+592688,Epilepsy,Carbamazepine,11/30/2012,Yes,F,54.99,12/2/2012,12/6/2012
+592691,Epilepsy,Lamotrigine,6/24/2011,Yes,F,54.99,6/26/2011,6/27/2011
+592694,Arthritis,Etanercept,3/6/2012,No,F,120,3/9/2012,3/12/2012
+592696,Arthritis,Rituximab,3/9/2011,No,M,120,3/11/2011,3/13/2011
+592699,Arthritis,Adalimumab,8/4/2011,No,F,5.99,8/5/2011,8/9/2011
+592701,Arthritis,Golimumab,8/26/2012,Yes,F,7.99,8/29/2012,9/1/2012
+592704,Epilepsy,Carbamazepine,9/10/2012,No,F,54.99,9/11/2012,9/12/2012
+592707,Arthritis,Infliximab,3/6/2011,Yes,F,34.99,3/9/2011,3/10/2011
+592708,Epilepsy,Phenytoin,11/15/2011,Yes,F,34.99,11/15/2011,11/18/2011
+592711,Arthritis,Golimumab,11/12/2011,Yes,F,7.99,11/12/2011,11/14/2011
+592713,Arthritis,Abatacept,5/26/2011,No,F,34.99,5/28/2011,5/30/2011
+592716,Epilepsy,Phenytoin,11/26/2011,Yes,M,34.99,11/29/2011,12/3/2011
+592717,Epilepsy,Lamotrigine,12/28/2012,Yes,M,54.99,12/28/2012,12/30/2012
+592720,Arthritis,Etanercept,2/14/2012,Yes,M,120,2/14/2012,2/17/2012
+592723,Epilepsy,Carbamazepine,6/15/2012,No,F,54.99,6/16/2012,6/20/2012
+592726,Epilepsy,Carbamazepine,10/1/2012,Yes,M,54.99,10/3/2012,10/7/2012
+592728,Arthritis,Infliximab,1/7/2012,No,M,34.99,1/8/2012,1/11/2012
+592729,Epilepsy,Phenytoin,8/14/2011,No,F,34.99,8/16/2011,8/19/2011
+592732,Epilepsy,Phenytoin,6/21/2012,No,F,34.99,6/23/2012,6/25/2012
+592735,Arthritis,Abatacept,12/20/2011,Yes,F,34.99,12/23/2011,12/26/2011
+592736,Epilepsy,Carbamazepine,7/9/2012,Yes,F,54.99,7/11/2012,7/14/2012
+592737,Arthritis,Etanercept,3/12/2012,Yes,F,120,3/15/2012,3/18/2012
+592738,Epilepsy,Carbamazepine,9/7/2012,No,F,54.99,9/9/2012,9/10/2012
+592739,Epilepsy,Lamotrigine,2/4/2011,No,M,54.99,2/7/2011,2/10/2011
+592740,Arthritis,Golimumab,12/23/2012,No,F,7.99,12/23/2012,12/27/2012
+592743,Arthritis,Infliximab,12/24/2012,No,M,34.99,12/27/2012,12/28/2012
+592744,Arthritis,Infliximab,3/3/2011,Yes,M,34.99,3/4/2011,3/7/2011
+592747,Arthritis,Abatacept,12/24/2011,No,F,34.99,12/24/2011,12/27/2011
+592749,Arthritis,Infliximab,10/14/2011,No,F,34.99,10/17/2011,10/18/2011
+592750,Arthritis,Rituximab,7/22/2012,No,M,120,7/25/2012,7/26/2012
+592751,Epilepsy,Phenytoin,5/30/2012,Yes,M,34.99,5/30/2012,6/3/2012
+592752,Epilepsy,Carbamazepine,2/14/2011,Yes,M,54.99,2/16/2011,2/18/2011
+592754,Epilepsy,Carbamazepine,11/21/2012,No,F,54.99,11/23/2012,11/25/2012
+592756,Epilepsy,Phenytoin,8/4/2012,No,F,34.99,8/7/2012,8/11/2012
+592758,Arthritis,Rituximab,10/21/2011,Yes,F,120,10/22/2011,10/23/2011
+592760,Arthritis,Infliximab,12/18/2012,Yes,M,34.99,12/21/2012,12/24/2012
+592763,Epilepsy,Lamotrigine,9/9/2012,Yes,M,54.99,9/12/2012,9/13/2012
+592765,Epilepsy,Lamotrigine,10/19/2011,No,F,54.99,10/22/2011,10/24/2011
+592768,Arthritis,Rituximab,3/31/2012,Yes,F,120,3/31/2012,4/4/2012
+592770,Epilepsy,Phenytoin,8/2/2012,No,M,34.99,8/4/2012,8/5/2012
+592773,Epilepsy,Carbamazepine,11/27/2012,No,F,54.99,11/28/2012,12/2/2012
+592776,Epilepsy,Phenytoin,3/7/2012,Yes,M,34.99,3/9/2012,3/11/2012
+592779,Epilepsy,Carbamazepine,2/28/2012,No,M,54.99,2/29/2012,3/3/2012
+592780,Epilepsy,Carbamazepine,10/23/2012,Yes,M,54.99,10/25/2012,10/26/2012
+592782,Arthritis,Bertolizumab,4/22/2012,Yes,F,22.98,4/22/2012,4/24/2012
+592783,Epilepsy,Carbamazepine,1/19/2011,No,F,54.99,1/22/2011,1/24/2011
+592784,Arthritis,Adalimumab,1/9/2013,No,M,5.99,1/12/2013,1/15/2013
+592786,Arthritis,Infliximab,5/25/2012,Yes,M,34.99,5/25/2012,5/29/2012
+592789,Epilepsy,Phenytoin,5/12/2011,No,F,34.99,5/14/2011,5/18/2011
+592791,Epilepsy,Carbamazepine,3/21/2012,No,M,54.99,3/24/2012,3/27/2012
+592793,Epilepsy,Lamotrigine,12/26/2011,Yes,M,54.99,12/27/2011,12/29/2011
+592794,Arthritis,Adalimumab,9/12/2012,No,F,5.99,9/12/2012,9/16/2012
+592795,Arthritis,Etanercept,10/3/2012,Yes,F,120,10/4/2012,10/6/2012
+592797,Arthritis,Tocilizumab,8/5/2011,No,F,5.99,8/7/2011,8/11/2011
+592800,Epilepsy,Phenytoin,7/1/2011,Yes,F,34.99,7/2/2011,7/3/2011
+592801,Arthritis,Infliximab,9/19/2012,No,M,34.99,9/21/2012,9/23/2012
+592803,Arthritis,Infliximab,11/18/2011,No,F,34.99,11/21/2011,11/25/2011
+592806,Arthritis,Abatacept,6/7/2011,Yes,F,34.99,6/10/2011,6/11/2011
+592808,Epilepsy,Carbamazepine,1/11/2013,No,M,54.99,1/14/2013,1/18/2013
+592809,Epilepsy,Phenytoin,2/28/2012,Yes,M,34.99,2/29/2012,3/2/2012
+592810,Epilepsy,Carbamazepine,2/9/2011,Yes,M,54.99,2/10/2011,2/13/2011
+592813,Arthritis,Adalimumab,8/2/2012,Yes,M,5.99,8/2/2012,8/3/2012
+592815,Epilepsy,Lamotrigine,5/31/2011,Yes,F,54.99,6/3/2011,6/7/2011
+592818,Arthritis,Bertolizumab,10/1/2012,No,M,22.98,10/1/2012,10/5/2012
+592820,Arthritis,Rituximab,6/5/2011,Yes,M,120,6/5/2011,6/9/2011
+592822,Arthritis,Abatacept,1/1/2013,No,M,34.99,1/1/2013,1/5/2013
+592825,Epilepsy,Phenytoin,10/13/2011,No,F,34.99,10/14/2011,10/17/2011
+592826,Arthritis,Rituximab,4/6/2011,Yes,F,120,4/8/2011,4/9/2011
+592828,Epilepsy,Carbamazepine,7/25/2011,Yes,F,54.99,7/28/2011,8/1/2011
+592829,Arthritis,Abatacept,1/17/2013,No,F,34.99,1/17/2013,1/19/2013
+592831,Arthritis,Golimumab,10/19/2011,Yes,F,7.99,10/21/2011,10/22/2011
+592834,Arthritis,Abatacept,5/4/2012,No,F,34.99,5/5/2012,5/6/2012
+592836,Epilepsy,Phenytoin,10/29/2012,Yes,F,34.99,10/29/2012,10/30/2012
+592839,Epilepsy,Phenytoin,10/3/2012,No,F,34.99,10/5/2012,10/7/2012
+592840,Arthritis,Adalimumab,9/7/2012,Yes,M,5.99,9/9/2012,9/12/2012
+592842,Epilepsy,Carbamazepine,7/6/2011,Yes,F,54.99,7/8/2011,7/9/2011
+592845,Epilepsy,Carbamazepine,7/26/2011,Yes,F,54.99,7/26/2011,7/29/2011
+592847,Epilepsy,Phenytoin,11/15/2011,No,F,34.99,11/17/2011,11/19/2011
+592848,Arthritis,Rituximab,1/4/2012,No,F,120,1/5/2012,1/9/2012
+592850,Epilepsy,Lamotrigine,8/28/2011,No,F,54.99,8/29/2011,8/31/2011
+592852,Arthritis,Golimumab,10/7/2011,Yes,F,7.99,10/9/2011,10/12/2011
+592855,Epilepsy,Lamotrigine,1/16/2013,No,M,54.99,1/16/2013,1/19/2013
+592858,Epilepsy,Phenytoin,4/18/2012,No,M,34.99,4/21/2012,4/23/2012
+592860,Epilepsy,Carbamazepine,6/13/2012,No,F,54.99,6/16/2012,6/19/2012
+592863,Arthritis,Abatacept,9/15/2012,Yes,F,34.99,9/18/2012,9/22/2012
+592864,Arthritis,Rituximab,5/3/2012,No,F,120,5/5/2012,5/6/2012
+592866,Arthritis,Tocilizumab,5/30/2012,No,F,5.99,5/30/2012,5/31/2012
+592867,Arthritis,Etanercept,5/2/2012,No,F,120,5/5/2012,5/8/2012
+592869,Epilepsy,Phenytoin,10/16/2011,No,F,34.99,10/17/2011,10/19/2011
+592872,Epilepsy,Lamotrigine,4/13/2011,Yes,F,54.99,4/14/2011,4/15/2011
+592873,Epilepsy,Lamotrigine,3/13/2011,Yes,M,54.99,3/14/2011,3/17/2011
+592874,Arthritis,Golimumab,9/12/2012,Yes,F,7.99,9/14/2012,9/16/2012
+592877,Arthritis,Adalimumab,11/5/2012,Yes,F,5.99,11/5/2012,11/8/2012
+592878,Epilepsy,Carbamazepine,12/6/2012,No,M,54.99,12/7/2012,12/10/2012
+592880,Epilepsy,Carbamazepine,1/18/2012,Yes,M,54.99,1/19/2012,1/23/2012
+592882,Epilepsy,Carbamazepine,10/26/2011,Yes,F,54.99,10/27/2011,10/30/2011
+592885,Epilepsy,Lamotrigine,1/21/2013,No,M,54.99,1/24/2013,1/25/2013
+592887,Epilepsy,Lamotrigine,2/13/2012,Yes,F,54.99,2/16/2012,2/19/2012
+592888,Epilepsy,Phenytoin,1/15/2012,Yes,M,34.99,1/15/2012,1/17/2012
+592889,Epilepsy,Phenytoin,8/8/2011,No,M,34.99,8/11/2011,8/15/2011
+592891,Arthritis,Abatacept,11/27/2012,No,F,34.99,11/28/2012,12/2/2012
+592892,Arthritis,Abatacept,10/10/2012,No,F,34.99,10/11/2012,10/12/2012
+592894,Arthritis,Bertolizumab,3/16/2011,Yes,F,22.98,3/16/2011,3/18/2011
+592895,Epilepsy,Carbamazepine,9/28/2011,No,F,54.99,9/29/2011,10/2/2011
+592897,Arthritis,Abatacept,12/17/2012,No,F,34.99,12/18/2012,12/19/2012
+592898,Epilepsy,Phenytoin,2/8/2011,No,F,34.99,2/8/2011,2/12/2011
+592900,Epilepsy,Lamotrigine,3/19/2012,No,M,54.99,3/21/2012,3/24/2012
+592903,Arthritis,Adalimumab,10/6/2011,Yes,M,5.99,10/9/2011,10/13/2011
+592904,Epilepsy,Lamotrigine,11/9/2011,Yes,M,54.99,11/10/2011,11/11/2011
+592906,Epilepsy,Phenytoin,7/12/2011,No,M,34.99,7/14/2011,7/15/2011
+592909,Epilepsy,Carbamazepine,5/8/2011,Yes,M,54.99,5/9/2011,5/11/2011
+592912,Epilepsy,Carbamazepine,4/18/2012,No,F,54.99,4/20/2012,4/21/2012
+592914,Arthritis,Tocilizumab,6/20/2012,Yes,M,5.99,6/21/2012,6/25/2012
+592916,Epilepsy,Carbamazepine,5/22/2012,Yes,F,54.99,5/24/2012,5/28/2012
+592919,Epilepsy,Carbamazepine,1/31/2011,Yes,M,54.99,1/31/2011,2/3/2011
+592921,Epilepsy,Carbamazepine,9/23/2012,No,F,54.99,9/26/2012,9/29/2012
+592922,Arthritis,Tocilizumab,9/17/2012,Yes,M,5.99,9/19/2012,9/22/2012
+592923,Epilepsy,Lamotrigine,1/11/2011,No,F,54.99,1/14/2011,1/16/2011
+592926,Epilepsy,Lamotrigine,11/2/2012,No,F,54.99,11/4/2012,11/6/2012
+592929,Arthritis,Tocilizumab,11/6/2012,No,M,5.99,11/6/2012,11/7/2012
+592931,Epilepsy,Lamotrigine,12/27/2011,No,M,54.99,12/28/2011,12/30/2011
+592933,Arthritis,Adalimumab,12/8/2012,No,M,5.99,12/8/2012,12/11/2012
+592936,Epilepsy,Phenytoin,4/12/2012,No,F,34.99,4/14/2012,4/15/2012
+592939,Epilepsy,Lamotrigine,3/4/2011,No,F,54.99,3/7/2011,3/9/2011
+592941,Arthritis,Tocilizumab,10/17/2012,No,M,5.99,10/17/2012,10/18/2012
+592942,Epilepsy,Carbamazepine,12/26/2012,No,F,54.99,12/28/2012,1/1/2013
+592945,Epilepsy,Phenytoin,1/30/2012,Yes,M,34.99,1/31/2012,2/3/2012
+592947,Epilepsy,Phenytoin,4/29/2012,No,F,34.99,5/1/2012,5/5/2012
+592949,Epilepsy,Lamotrigine,11/12/2011,No,M,54.99,11/12/2011,11/15/2011
+592951,Arthritis,Infliximab,7/6/2011,No,M,34.99,7/9/2011,7/10/2011
+592953,Epilepsy,Phenytoin,4/25/2012,Yes,M,34.99,4/27/2012,4/28/2012
+592955,Epilepsy,Carbamazepine,8/17/2012,Yes,F,54.99,8/19/2012,8/22/2012
+592958,Arthritis,Bertolizumab,9/18/2011,Yes,M,22.98,9/18/2011,9/19/2011
+592959,Arthritis,Adalimumab,1/28/2013,No,F,5.99,1/30/2013,2/1/2013
+592961,Arthritis,Bertolizumab,5/31/2011,No,F,22.98,6/3/2011,6/7/2011
+592964,Arthritis,Rituximab,9/18/2012,Yes,F,120,9/20/2012,9/23/2012
+592967,Arthritis,Bertolizumab,1/12/2012,Yes,M,22.98,1/14/2012,1/18/2012
+592970,Epilepsy,Lamotrigine,1/21/2011,Yes,F,54.99,1/21/2011,1/24/2011
+592973,Epilepsy,Lamotrigine,7/6/2012,No,M,54.99,7/6/2012,7/7/2012
+592975,Epilepsy,Phenytoin,1/13/2013,Yes,M,34.99,1/13/2013,1/14/2013
+592978,Arthritis,Adalimumab,2/4/2012,Yes,F,5.99,2/7/2012,2/11/2012
+592979,Epilepsy,Lamotrigine,6/22/2012,Yes,F,54.99,6/23/2012,6/25/2012
+592980,Epilepsy,Lamotrigine,4/7/2011,Yes,M,54.99,4/10/2011,4/11/2011
+592981,Epilepsy,Carbamazepine,4/11/2011,Yes,F,54.99,4/11/2011,4/13/2011
+592984,Epilepsy,Phenytoin,8/3/2012,No,F,34.99,8/3/2012,8/7/2012
+592985,Epilepsy,Carbamazepine,2/1/2012,No,F,54.99,2/1/2012,2/4/2012
+592987,Epilepsy,Phenytoin,8/21/2012,Yes,M,34.99,8/21/2012,8/23/2012
+592989,Epilepsy,Phenytoin,9/20/2011,Yes,F,34.99,9/20/2011,9/22/2011
+592992,Arthritis,Etanercept,4/10/2012,Yes,M,120,4/13/2012,4/15/2012
+592995,Epilepsy,Lamotrigine,11/24/2012,No,F,54.99,11/27/2012,11/29/2012
+592996,Epilepsy,Lamotrigine,8/8/2011,No,F,54.99,8/9/2011,8/12/2011
+592997,Arthritis,Infliximab,11/19/2011,Yes,F,34.99,11/22/2011,11/25/2011
+592999,Arthritis,Golimumab,12/14/2012,Yes,F,7.99,12/15/2012,12/17/2012
+593001,Epilepsy,Phenytoin,8/25/2011,No,F,34.99,8/28/2011,9/1/2011
+593004,Epilepsy,Phenytoin,6/7/2011,Yes,F,34.99,6/7/2011,6/10/2011
+593005,Arthritis,Etanercept,5/10/2011,No,F,120,5/13/2011,5/14/2011
+593008,Epilepsy,Carbamazepine,10/4/2012,Yes,M,54.99,10/7/2012,10/10/2012
+593010,Arthritis,Abatacept,10/13/2011,No,F,34.99,10/15/2011,10/18/2011
+593012,Epilepsy,Phenytoin,5/2/2012,Yes,M,34.99,5/3/2012,5/4/2012
+593014,Epilepsy,Carbamazepine,9/7/2011,No,M,54.99,9/10/2011,9/14/2011
+593015,Arthritis,Bertolizumab,3/28/2012,No,F,22.98,3/31/2012,4/2/2012
+593016,Epilepsy,Phenytoin,10/26/2012,Yes,M,34.99,10/26/2012,10/27/2012
+593017,Arthritis,Abatacept,10/12/2011,No,F,34.99,10/14/2011,10/15/2011
+593018,Epilepsy,Carbamazepine,5/6/2012,No,F,54.99,5/8/2012,5/9/2012
+593021,Epilepsy,Phenytoin,10/17/2012,No,F,34.99,10/20/2012,10/24/2012
+593024,Epilepsy,Carbamazepine,1/4/2011,No,F,54.99,1/6/2011,1/9/2011
+593025,Epilepsy,Carbamazepine,9/23/2011,Yes,M,54.99,9/26/2011,9/28/2011
+593026,Arthritis,Bertolizumab,12/25/2011,Yes,F,22.98,12/26/2011,12/28/2011
+593028,Arthritis,Bertolizumab,8/25/2011,No,M,22.98,8/25/2011,8/26/2011
+593029,Epilepsy,Lamotrigine,8/27/2012,Yes,M,54.99,8/30/2012,9/2/2012
+593032,Arthritis,Bertolizumab,3/7/2011,Yes,M,22.98,3/9/2011,3/12/2011
+593035,Arthritis,Golimumab,9/28/2011,No,F,7.99,10/1/2011,10/4/2011
+593036,Arthritis,Infliximab,11/27/2011,Yes,M,34.99,11/28/2011,11/30/2011
+593039,Arthritis,Rituximab,11/27/2012,No,F,120,11/27/2012,11/29/2012
+593042,Epilepsy,Lamotrigine,11/18/2012,Yes,M,54.99,11/18/2012,11/20/2012
+593044,Arthritis,Infliximab,7/31/2012,Yes,F,34.99,8/1/2012,8/5/2012
+593047,Epilepsy,Lamotrigine,1/20/2013,No,F,54.99,1/20/2013,1/21/2013
+593048,Epilepsy,Phenytoin,7/29/2012,No,M,34.99,7/30/2012,8/2/2012
+593051,Epilepsy,Carbamazepine,9/8/2011,Yes,F,54.99,9/8/2011,9/12/2011
+593053,Epilepsy,Carbamazepine,4/6/2012,No,F,54.99,4/6/2012,4/8/2012
+593056,Arthritis,Abatacept,6/11/2012,No,F,34.99,6/13/2012,6/16/2012
+593058,Arthritis,Bertolizumab,8/6/2012,Yes,F,22.98,8/9/2012,8/11/2012
+593059,Epilepsy,Lamotrigine,9/17/2011,No,M,54.99,9/20/2011,9/24/2011
+593060,Epilepsy,Lamotrigine,1/15/2011,Yes,M,54.99,1/17/2011,1/21/2011
+593063,Epilepsy,Carbamazepine,2/21/2011,No,M,54.99,2/22/2011,2/26/2011
+593065,Epilepsy,Lamotrigine,5/19/2012,No,F,54.99,5/21/2012,5/24/2012
+593068,Arthritis,Bertolizumab,6/1/2011,Yes,M,22.98,6/3/2011,6/5/2011
+593069,Arthritis,Etanercept,10/21/2012,Yes,M,120,10/24/2012,10/27/2012
+593071,Arthritis,Infliximab,4/2/2012,No,F,34.99,4/5/2012,4/8/2012
+593072,Arthritis,Golimumab,3/12/2012,No,F,7.99,3/15/2012,3/16/2012
+593074,Arthritis,Rituximab,5/7/2012,Yes,F,120,5/7/2012,5/10/2012
+593077,Arthritis,Abatacept,1/13/2011,No,M,34.99,1/15/2011,1/17/2011
+593078,Arthritis,Adalimumab,11/1/2011,No,F,5.99,11/1/2011,11/5/2011
+593080,Arthritis,Rituximab,5/29/2012,No,F,120,5/29/2012,5/31/2012
+593082,Arthritis,Tocilizumab,6/7/2012,No,M,5.99,6/8/2012,6/12/2012
+593084,Arthritis,Adalimumab,6/12/2011,No,M,5.99,6/15/2011,6/16/2011
+593086,Arthritis,Infliximab,4/2/2011,No,M,34.99,4/4/2011,4/5/2011
+593089,Arthritis,Etanercept,5/28/2011,No,F,120,5/31/2011,6/2/2011
+593090,Epilepsy,Phenytoin,6/24/2012,Yes,M,34.99,6/25/2012,6/27/2012
+593092,Epilepsy,Phenytoin,10/25/2011,No,F,34.99,10/26/2011,10/27/2011
+593094,Epilepsy,Lamotrigine,2/16/2011,No,M,54.99,2/16/2011,2/19/2011
+593097,Epilepsy,Phenytoin,6/29/2012,Yes,M,34.99,7/1/2012,7/5/2012
+593100,Epilepsy,Lamotrigine,6/19/2011,Yes,M,54.99,6/21/2011,6/22/2011
+593103,Arthritis,Bertolizumab,5/2/2012,No,F,22.98,5/4/2012,5/8/2012
+593104,Arthritis,Bertolizumab,1/29/2013,No,F,22.98,1/29/2013,1/30/2013
+593107,Epilepsy,Carbamazepine,8/18/2012,Yes,F,54.99,8/18/2012,8/22/2012
+593109,Arthritis,Bertolizumab,7/4/2012,No,M,22.98,7/4/2012,7/8/2012
+593112,Epilepsy,Phenytoin,1/9/2012,Yes,F,34.99,1/11/2012,1/13/2012
+593113,Arthritis,Etanercept,7/16/2012,Yes,M,120,7/17/2012,7/18/2012
+593114,Epilepsy,Carbamazepine,3/6/2011,Yes,F,54.99,3/6/2011,3/8/2011
+593117,Arthritis,Etanercept,1/16/2011,No,F,120,1/17/2011,1/21/2011
+593119,Arthritis,Golimumab,9/9/2012,Yes,F,7.99,9/10/2012,9/11/2012
+593122,Arthritis,Tocilizumab,3/25/2011,No,F,5.99,3/25/2011,3/28/2011
+593125,Epilepsy,Phenytoin,7/12/2011,No,M,34.99,7/13/2011,7/14/2011
+593126,Arthritis,Adalimumab,5/28/2011,No,M,5.99,5/28/2011,5/31/2011
+593128,Epilepsy,Carbamazepine,3/31/2012,No,F,54.99,3/31/2012,4/2/2012
+593129,Arthritis,Rituximab,2/28/2012,Yes,M,120,3/2/2012,3/3/2012
+593131,Arthritis,Golimumab,9/7/2011,No,M,7.99,9/8/2011,9/11/2011
+593133,Arthritis,Golimumab,6/4/2011,Yes,M,7.99,6/4/2011,6/5/2011
+593134,Arthritis,Infliximab,5/23/2011,Yes,F,34.99,5/24/2011,5/25/2011
+593136,Arthritis,Bertolizumab,11/1/2012,No,M,22.98,11/4/2012,11/5/2012
+593138,Arthritis,Rituximab,1/4/2011,Yes,M,120,1/4/2011,1/7/2011
+593141,Epilepsy,Phenytoin,4/8/2012,No,F,34.99,4/8/2012,4/9/2012
+593143,Epilepsy,Carbamazepine,9/6/2011,No,F,54.99,9/9/2011,9/13/2011
+593146,Arthritis,Adalimumab,6/10/2012,No,M,5.99,6/11/2012,6/13/2012
+593148,Epilepsy,Carbamazepine,5/18/2011,Yes,M,54.99,5/19/2011,5/20/2011
+593150,Epilepsy,Lamotrigine,7/14/2011,Yes,F,54.99,7/15/2011,7/16/2011
+593151,Arthritis,Bertolizumab,4/21/2011,No,M,22.98,4/23/2011,4/25/2011
+593152,Arthritis,Infliximab,7/15/2011,Yes,F,34.99,7/18/2011,7/19/2011
+593153,Epilepsy,Lamotrigine,5/29/2012,Yes,M,54.99,5/30/2012,6/2/2012
+593156,Arthritis,Abatacept,10/17/2011,No,F,34.99,10/18/2011,10/21/2011
+593159,Arthritis,Adalimumab,4/10/2011,Yes,M,5.99,4/13/2011,4/14/2011
+593162,Arthritis,Tocilizumab,4/11/2011,No,F,5.99,4/11/2011,4/13/2011
+593164,Epilepsy,Lamotrigine,1/22/2012,No,M,54.99,1/22/2012,1/24/2012
+593167,Arthritis,Abatacept,5/22/2012,No,M,34.99,5/24/2012,5/27/2012
+593169,Epilepsy,Carbamazepine,2/28/2012,No,F,54.99,2/28/2012,3/1/2012
+593172,Epilepsy,Carbamazepine,10/5/2012,Yes,F,54.99,10/5/2012,10/9/2012
+593175,Arthritis,Tocilizumab,1/14/2012,No,M,5.99,1/15/2012,1/18/2012
+593176,Arthritis,Golimumab,6/30/2012,No,M,7.99,7/1/2012,7/2/2012
+593177,Arthritis,Etanercept,6/13/2011,Yes,F,120,6/16/2011,6/19/2011
+593180,Arthritis,Rituximab,7/31/2012,No,M,120,8/1/2012,8/2/2012
+593181,Epilepsy,Phenytoin,7/13/2012,No,M,34.99,7/15/2012,7/19/2012
+593182,Epilepsy,Phenytoin,1/28/2012,No,F,34.99,1/31/2012,2/4/2012
+593184,Arthritis,Golimumab,9/3/2011,Yes,F,7.99,9/5/2011,9/9/2011
+593185,Epilepsy,Lamotrigine,5/2/2012,No,F,54.99,5/3/2012,5/7/2012
+593188,Arthritis,Bertolizumab,11/18/2012,No,F,22.98,11/18/2012,11/22/2012
+593189,Arthritis,Tocilizumab,8/13/2011,No,F,5.99,8/16/2011,8/17/2011
+593190,Epilepsy,Carbamazepine,10/9/2012,No,M,54.99,10/10/2012,10/12/2012
+593193,Epilepsy,Phenytoin,1/25/2011,No,M,34.99,1/28/2011,1/29/2011
+593196,Epilepsy,Lamotrigine,3/17/2012,Yes,M,54.99,3/19/2012,3/21/2012
+593197,Epilepsy,Phenytoin,6/16/2012,Yes,F,34.99,6/18/2012,6/20/2012
+593199,Arthritis,Etanercept,8/14/2011,Yes,F,120,8/15/2011,8/16/2011
+593201,Arthritis,Tocilizumab,7/12/2011,Yes,F,5.99,7/12/2011,7/16/2011
+593203,Epilepsy,Phenytoin,9/7/2011,No,F,34.99,9/7/2011,9/10/2011
+593205,Epilepsy,Carbamazepine,8/4/2012,No,M,54.99,8/4/2012,8/5/2012
+593207,Arthritis,Bertolizumab,3/28/2012,No,F,22.98,3/29/2012,3/30/2012
+593209,Arthritis,Adalimumab,8/8/2011,Yes,M,5.99,8/11/2011,8/13/2011
+593212,Epilepsy,Lamotrigine,8/31/2012,Yes,F,54.99,9/2/2012,9/3/2012
+593214,Epilepsy,Phenytoin,7/19/2012,Yes,M,34.99,7/21/2012,7/22/2012
+593217,Epilepsy,Carbamazepine,2/10/2012,Yes,F,54.99,2/12/2012,2/16/2012
+593220,Arthritis,Abatacept,9/10/2012,Yes,F,34.99,9/10/2012,9/11/2012
+593223,Epilepsy,Lamotrigine,6/29/2012,Yes,F,54.99,6/29/2012,7/1/2012
+593226,Arthritis,Abatacept,8/25/2012,No,F,34.99,8/27/2012,8/28/2012
+593228,Epilepsy,Lamotrigine,6/24/2011,Yes,F,54.99,6/26/2011,6/30/2011
+593230,Epilepsy,Carbamazepine,1/31/2012,No,M,54.99,1/31/2012,2/1/2012
+593232,Arthritis,Golimumab,8/21/2012,No,M,7.99,8/22/2012,8/25/2012
+593235,Epilepsy,Lamotrigine,3/12/2012,Yes,M,54.99,3/14/2012,3/18/2012
+593236,Epilepsy,Carbamazepine,11/15/2012,No,F,54.99,11/15/2012,11/19/2012
+593237,Epilepsy,Phenytoin,3/28/2012,Yes,M,34.99,3/30/2012,4/1/2012
+593238,Arthritis,Adalimumab,8/6/2012,No,F,5.99,8/7/2012,8/8/2012
+593241,Epilepsy,Lamotrigine,10/21/2012,No,F,54.99,10/23/2012,10/27/2012
+593244,Epilepsy,Lamotrigine,4/29/2011,No,M,54.99,5/1/2011,5/4/2011
+593247,Arthritis,Golimumab,9/13/2011,Yes,F,7.99,9/15/2011,9/18/2011
+593250,Arthritis,Adalimumab,3/24/2011,Yes,F,5.99,3/26/2011,3/27/2011
+593251,Epilepsy,Lamotrigine,11/25/2011,No,M,54.99,11/27/2011,11/28/2011
+593253,Epilepsy,Lamotrigine,5/5/2012,No,F,54.99,5/6/2012,5/10/2012
+593254,Epilepsy,Phenytoin,7/16/2011,No,F,34.99,7/19/2011,7/20/2011
+593255,Epilepsy,Carbamazepine,6/22/2011,No,M,54.99,6/22/2011,6/26/2011
+593258,Epilepsy,Lamotrigine,7/7/2012,No,M,54.99,7/7/2012,7/8/2012
+593259,Epilepsy,Lamotrigine,7/16/2012,No,M,54.99,7/16/2012,7/19/2012
+593261,Epilepsy,Carbamazepine,8/14/2012,No,M,54.99,8/17/2012,8/21/2012
+593263,Arthritis,Infliximab,9/22/2012,Yes,F,34.99,9/25/2012,9/28/2012
+593265,Arthritis,Abatacept,7/21/2011,No,M,34.99,7/21/2011,7/25/2011
+593268,Epilepsy,Phenytoin,1/17/2012,Yes,F,34.99,1/18/2012,1/21/2012
+593269,Arthritis,Adalimumab,5/14/2012,No,M,5.99,5/17/2012,5/21/2012
+593272,Arthritis,Tocilizumab,4/23/2012,Yes,M,5.99,4/26/2012,4/28/2012
+593274,Epilepsy,Carbamazepine,1/18/2012,No,M,54.99,1/19/2012,1/22/2012
+593276,Epilepsy,Lamotrigine,8/19/2011,Yes,F,54.99,8/20/2011,8/23/2011
+593279,Arthritis,Tocilizumab,11/16/2011,Yes,M,5.99,11/17/2011,11/21/2011
+593281,Arthritis,Infliximab,6/26/2011,No,M,34.99,6/26/2011,6/29/2011
+593283,Epilepsy,Phenytoin,1/8/2013,Yes,M,34.99,1/9/2013,1/12/2013
+593284,Epilepsy,Carbamazepine,3/18/2011,No,F,54.99,3/18/2011,3/19/2011
+593287,Arthritis,Rituximab,8/15/2012,No,F,120,8/15/2012,8/17/2012
+593289,Epilepsy,Lamotrigine,5/16/2011,Yes,F,54.99,5/19/2011,5/21/2011
+593291,Epilepsy,Phenytoin,5/21/2012,Yes,F,34.99,5/24/2012,5/25/2012
+593293,Arthritis,Etanercept,3/3/2011,No,M,120,3/6/2011,3/8/2011
+593296,Arthritis,Abatacept,11/21/2011,No,F,34.99,11/21/2011,11/22/2011
+593298,Arthritis,Abatacept,4/17/2012,No,M,34.99,4/19/2012,4/22/2012
+593299,Epilepsy,Lamotrigine,5/30/2012,No,M,54.99,5/30/2012,6/1/2012
+593301,Epilepsy,Lamotrigine,7/27/2011,Yes,M,54.99,7/28/2011,7/30/2011
+593303,Arthritis,Tocilizumab,4/5/2011,No,F,5.99,4/7/2011,4/11/2011
+593305,Epilepsy,Carbamazepine,3/18/2012,Yes,M,54.99,3/21/2012,3/25/2012
+593307,Epilepsy,Carbamazepine,1/19/2013,No,M,54.99,1/21/2013,1/25/2013
+593310,Arthritis,Etanercept,8/16/2012,Yes,F,120,8/18/2012,8/19/2012
+593313,Arthritis,Etanercept,7/1/2011,Yes,F,120,7/3/2011,7/4/2011
+593316,Epilepsy,Carbamazepine,4/19/2011,No,M,54.99,4/21/2011,4/25/2011
+593319,Arthritis,Etanercept,8/16/2011,Yes,M,120,8/16/2011,8/19/2011
+593320,Epilepsy,Lamotrigine,9/16/2011,Yes,F,54.99,9/16/2011,9/19/2011
+593322,Epilepsy,Phenytoin,9/3/2012,No,M,34.99,9/5/2012,9/9/2012
+593324,Arthritis,Abatacept,10/20/2012,Yes,M,34.99,10/20/2012,10/21/2012
+593327,Epilepsy,Phenytoin,1/3/2011,No,F,34.99,1/4/2011,1/6/2011
+593328,Epilepsy,Lamotrigine,5/26/2011,No,F,54.99,5/28/2011,5/31/2011
+593331,Epilepsy,Phenytoin,8/2/2012,No,M,34.99,8/3/2012,8/4/2012
+593333,Epilepsy,Lamotrigine,8/24/2012,No,M,54.99,8/24/2012,8/25/2012
+593335,Arthritis,Etanercept,8/24/2011,No,F,120,8/27/2011,8/31/2011
+593336,Arthritis,Rituximab,4/12/2011,No,M,120,4/13/2011,4/17/2011
+593339,Arthritis,Bertolizumab,7/16/2012,No,M,22.98,7/19/2012,7/21/2012
+593342,Epilepsy,Lamotrigine,7/10/2011,No,F,54.99,7/11/2011,7/14/2011
+593345,Epilepsy,Lamotrigine,7/28/2012,No,F,54.99,7/28/2012,7/30/2012
+593346,Epilepsy,Phenytoin,8/3/2012,Yes,F,34.99,8/4/2012,8/5/2012
+593349,Epilepsy,Carbamazepine,9/26/2012,Yes,F,54.99,9/29/2012,9/30/2012
+593352,Arthritis,Adalimumab,4/22/2011,Yes,F,5.99,4/24/2011,4/25/2011
+593354,Epilepsy,Carbamazepine,1/19/2012,Yes,F,54.99,1/19/2012,1/21/2012
+593355,Epilepsy,Carbamazepine,7/30/2011,No,F,54.99,8/2/2011,8/6/2011
+593357,Arthritis,Tocilizumab,6/6/2012,No,M,5.99,6/9/2012,6/12/2012
+593360,Epilepsy,Carbamazepine,10/3/2011,Yes,M,54.99,10/4/2011,10/7/2011
+593363,Arthritis,Rituximab,5/15/2012,Yes,F,120,5/17/2012,5/18/2012
+593364,Epilepsy,Carbamazepine,11/18/2012,No,F,54.99,11/18/2012,11/22/2012
+593367,Arthritis,Adalimumab,3/28/2011,No,M,5.99,3/29/2011,4/1/2011
+593370,Arthritis,Bertolizumab,5/13/2011,No,F,22.98,5/14/2011,5/17/2011
+593372,Arthritis,Adalimumab,6/9/2011,No,F,5.99,6/9/2011,6/11/2011
+593375,Epilepsy,Phenytoin,8/11/2011,No,F,34.99,8/12/2011,8/16/2011
+593378,Epilepsy,Lamotrigine,5/29/2012,Yes,F,54.99,5/29/2012,6/2/2012
+593380,Arthritis,Adalimumab,6/20/2011,Yes,M,5.99,6/22/2011,6/24/2011
+593382,Epilepsy,Phenytoin,8/14/2011,Yes,M,34.99,8/16/2011,8/18/2011
+593383,Epilepsy,Phenytoin,12/19/2011,No,M,34.99,12/22/2011,12/26/2011
+593386,Arthritis,Adalimumab,4/22/2011,No,F,5.99,4/24/2011,4/26/2011
+593387,Arthritis,Bertolizumab,5/8/2012,Yes,F,22.98,5/10/2012,5/13/2012
+593390,Arthritis,Bertolizumab,11/12/2012,No,M,22.98,11/15/2012,11/17/2012
+593391,Arthritis,Rituximab,12/24/2011,Yes,F,120,12/24/2011,12/25/2011
+593392,Epilepsy,Lamotrigine,7/18/2011,Yes,M,54.99,7/18/2011,7/21/2011
+593395,Epilepsy,Phenytoin,3/17/2011,Yes,M,34.99,3/18/2011,3/19/2011
+593396,Epilepsy,Carbamazepine,11/5/2011,Yes,M,54.99,11/7/2011,11/8/2011
+593397,Epilepsy,Phenytoin,1/31/2011,No,M,34.99,2/3/2011,2/5/2011
+593399,Epilepsy,Lamotrigine,4/6/2012,Yes,M,54.99,4/8/2012,4/9/2012
+593402,Arthritis,Golimumab,4/27/2012,Yes,F,7.99,4/28/2012,5/2/2012
+593405,Epilepsy,Carbamazepine,3/23/2011,No,M,54.99,3/23/2011,3/27/2011
+593406,Arthritis,Adalimumab,7/20/2011,Yes,F,5.99,7/22/2011,7/23/2011
+593408,Epilepsy,Lamotrigine,4/27/2011,No,F,54.99,4/27/2011,4/29/2011
+593409,Arthritis,Abatacept,11/9/2012,Yes,M,34.99,11/11/2012,11/14/2012
+593412,Arthritis,Adalimumab,5/30/2011,Yes,M,5.99,5/31/2011,6/1/2011
+593413,Epilepsy,Lamotrigine,5/9/2011,Yes,M,54.99,5/12/2011,5/15/2011
+593416,Epilepsy,Phenytoin,3/3/2011,Yes,M,34.99,3/5/2011,3/9/2011
+593417,Epilepsy,Lamotrigine,12/25/2012,No,M,54.99,12/28/2012,12/31/2012
+593419,Epilepsy,Lamotrigine,8/25/2011,No,M,54.99,8/28/2011,8/29/2011
+593422,Epilepsy,Carbamazepine,6/27/2011,No,M,54.99,6/28/2011,6/29/2011
+593423,Arthritis,Abatacept,6/23/2011,Yes,M,34.99,6/25/2011,6/28/2011
+593424,Arthritis,Abatacept,11/27/2011,Yes,M,34.99,11/27/2011,11/28/2011
+593427,Arthritis,Rituximab,3/11/2011,No,F,120,3/14/2011,3/15/2011
+593429,Epilepsy,Lamotrigine,8/21/2012,Yes,F,54.99,8/23/2012,8/26/2012
+593430,Epilepsy,Carbamazepine,1/15/2013,Yes,M,54.99,1/17/2013,1/19/2013
+593433,Arthritis,Tocilizumab,5/21/2012,No,M,5.99,5/23/2012,5/24/2012
+593434,Epilepsy,Carbamazepine,2/19/2011,No,F,54.99,2/22/2011,2/25/2011
+593435,Epilepsy,Carbamazepine,8/20/2011,No,F,54.99,8/21/2011,8/24/2011
+593437,Epilepsy,Lamotrigine,12/23/2012,No,M,54.99,12/23/2012,12/25/2012
+593440,Epilepsy,Carbamazepine,8/26/2011,Yes,F,54.99,8/29/2011,8/31/2011
+593441,Epilepsy,Phenytoin,2/16/2012,Yes,M,34.99,2/19/2012,2/20/2012
+593444,Arthritis,Bertolizumab,2/2/2012,No,F,22.98,2/5/2012,2/6/2012
+593446,Arthritis,Golimumab,5/1/2012,No,F,7.99,5/4/2012,5/5/2012
+593449,Arthritis,Adalimumab,7/20/2011,No,M,5.99,7/22/2011,7/23/2011
+593451,Epilepsy,Phenytoin,3/6/2011,No,M,34.99,3/9/2011,3/12/2011
+593453,Arthritis,Rituximab,7/1/2012,Yes,F,120,7/1/2012,7/4/2012
+593455,Arthritis,Bertolizumab,9/17/2011,Yes,F,22.98,9/19/2011,9/22/2011
+593456,Epilepsy,Phenytoin,10/30/2011,No,F,34.99,11/1/2011,11/4/2011
+593458,Epilepsy,Phenytoin,6/8/2012,Yes,M,34.99,6/9/2012,6/10/2012
+593460,Epilepsy,Phenytoin,4/26/2011,Yes,M,34.99,4/29/2011,5/2/2011
+593461,Arthritis,Etanercept,3/30/2011,No,F,120,4/1/2011,4/5/2011
+593463,Epilepsy,Phenytoin,12/15/2011,No,M,34.99,12/17/2011,12/19/2011
+593466,Arthritis,Infliximab,4/17/2012,No,F,34.99,4/19/2012,4/23/2012
+593468,Arthritis,Bertolizumab,3/4/2012,No,F,22.98,3/4/2012,3/7/2012
+593469,Epilepsy,Carbamazepine,11/13/2011,No,M,54.99,11/15/2011,11/16/2011
+593470,Arthritis,Adalimumab,9/29/2011,No,F,5.99,10/2/2011,10/6/2011
+593471,Epilepsy,Carbamazepine,11/4/2012,Yes,M,54.99,11/5/2012,11/7/2012
+593474,Epilepsy,Carbamazepine,10/28/2012,No,F,54.99,10/28/2012,11/1/2012
+593476,Epilepsy,Phenytoin,8/4/2012,Yes,F,34.99,8/5/2012,8/7/2012
+593477,Epilepsy,Carbamazepine,7/14/2011,No,F,54.99,7/16/2011,7/20/2011
+593479,Epilepsy,Phenytoin,1/26/2012,No,F,34.99,1/29/2012,2/1/2012
+593482,Arthritis,Tocilizumab,10/13/2012,Yes,M,5.99,10/14/2012,10/18/2012
+593485,Arthritis,Bertolizumab,10/15/2011,Yes,F,22.98,10/18/2011,10/20/2011
+593486,Arthritis,Adalimumab,8/18/2012,Yes,M,5.99,8/19/2012,8/23/2012
+593488,Arthritis,Bertolizumab,10/9/2011,No,M,22.98,10/11/2011,10/12/2011
+593489,Epilepsy,Carbamazepine,8/31/2011,Yes,F,54.99,9/2/2011,9/5/2011
+593490,Epilepsy,Carbamazepine,12/30/2012,Yes,M,54.99,12/31/2012,1/2/2013
+593492,Arthritis,Bertolizumab,7/6/2012,No,M,22.98,7/9/2012,7/13/2012
+593493,Epilepsy,Phenytoin,6/26/2011,No,F,34.99,6/26/2011,6/27/2011
+593494,Arthritis,Golimumab,10/10/2012,Yes,F,7.99,10/10/2012,10/14/2012
+593495,Epilepsy,Lamotrigine,1/26/2011,No,M,54.99,1/26/2011,1/28/2011
+593498,Arthritis,Rituximab,7/12/2012,No,M,120,7/13/2012,7/17/2012
+593500,Epilepsy,Phenytoin,3/1/2012,No,M,34.99,3/2/2012,3/6/2012
+593502,Epilepsy,Phenytoin,1/5/2011,No,F,34.99,1/8/2011,1/12/2011
+593503,Epilepsy,Carbamazepine,11/5/2012,No,F,54.99,11/7/2012,11/10/2012
+593504,Arthritis,Golimumab,7/31/2012,No,F,7.99,8/3/2012,8/7/2012
+593506,Arthritis,Golimumab,1/16/2011,Yes,F,7.99,1/16/2011,1/20/2011
+593508,Arthritis,Abatacept,5/28/2011,Yes,F,34.99,5/29/2011,6/2/2011
+593511,Epilepsy,Carbamazepine,7/2/2012,No,F,54.99,7/2/2012,7/6/2012
+593513,Epilepsy,Phenytoin,2/29/2012,No,M,34.99,2/29/2012,3/1/2012
+593515,Epilepsy,Lamotrigine,7/18/2012,Yes,M,54.99,7/19/2012,7/21/2012
+593516,Arthritis,Golimumab,8/22/2012,No,F,7.99,8/22/2012,8/24/2012
+593517,Arthritis,Etanercept,6/3/2012,No,M,120,6/3/2012,6/4/2012
+593518,Epilepsy,Phenytoin,6/1/2011,Yes,F,34.99,6/4/2011,6/7/2011
+593521,Epilepsy,Carbamazepine,11/16/2012,No,F,54.99,11/18/2012,11/19/2012
+593523,Arthritis,Rituximab,10/31/2012,Yes,F,120,11/2/2012,11/3/2012
+593525,Epilepsy,Lamotrigine,1/11/2011,No,F,54.99,1/11/2011,1/13/2011
+593526,Epilepsy,Carbamazepine,1/26/2011,No,M,54.99,1/29/2011,1/30/2011
+593528,Arthritis,Abatacept,4/15/2011,No,F,34.99,4/15/2011,4/17/2011
+593530,Arthritis,Rituximab,8/8/2012,Yes,M,120,8/9/2012,8/11/2012
+593531,Arthritis,Infliximab,6/9/2011,Yes,F,34.99,6/12/2011,6/13/2011
+593533,Arthritis,Adalimumab,7/11/2011,No,M,5.99,7/12/2011,7/14/2011
+593534,Epilepsy,Lamotrigine,4/1/2011,Yes,M,54.99,4/2/2011,4/4/2011
+593535,Epilepsy,Lamotrigine,6/10/2011,No,M,54.99,6/13/2011,6/17/2011
+593537,Epilepsy,Lamotrigine,1/30/2012,No,M,54.99,2/1/2012,2/3/2012
+593539,Epilepsy,Phenytoin,4/3/2011,Yes,F,34.99,4/5/2011,4/8/2011
+593542,Arthritis,Rituximab,6/10/2011,No,F,120,6/13/2011,6/14/2011
+593544,Arthritis,Rituximab,2/5/2012,No,F,120,2/5/2012,2/9/2012
+593545,Epilepsy,Phenytoin,4/17/2011,Yes,M,34.99,4/20/2011,4/21/2011
+593548,Epilepsy,Lamotrigine,6/23/2012,No,F,54.99,6/24/2012,6/25/2012
+593550,Epilepsy,Phenytoin,8/19/2012,Yes,F,34.99,8/20/2012,8/22/2012
+593551,Arthritis,Etanercept,1/15/2013,No,M,120,1/17/2013,1/21/2013
+593553,Epilepsy,Lamotrigine,7/22/2012,Yes,F,54.99,7/23/2012,7/26/2012
+593556,Epilepsy,Carbamazepine,12/14/2011,Yes,M,54.99,12/16/2011,12/19/2011
+593557,Arthritis,Bertolizumab,9/8/2012,No,M,22.98,9/11/2012,9/12/2012
+593560,Arthritis,Infliximab,7/13/2011,No,M,34.99,7/16/2011,7/17/2011
+593563,Arthritis,Adalimumab,8/3/2011,No,F,5.99,8/3/2011,8/5/2011
+593564,Epilepsy,Lamotrigine,5/9/2011,No,M,54.99,5/9/2011,5/10/2011
+593566,Arthritis,Golimumab,5/6/2011,Yes,F,7.99,5/8/2011,5/10/2011
+593569,Epilepsy,Carbamazepine,12/31/2011,Yes,M,54.99,1/1/2012,1/2/2012
+593570,Epilepsy,Phenytoin,5/13/2012,No,F,34.99,5/15/2012,5/19/2012
+593571,Arthritis,Etanercept,3/31/2012,Yes,M,120,4/2/2012,4/4/2012
+593574,Arthritis,Bertolizumab,11/22/2011,Yes,M,22.98,11/22/2011,11/23/2011
+593577,Arthritis,Tocilizumab,6/9/2011,No,M,5.99,6/9/2011,6/11/2011
+593579,Epilepsy,Lamotrigine,10/7/2011,Yes,F,54.99,10/8/2011,10/9/2011
+593580,Epilepsy,Carbamazepine,7/15/2012,No,M,54.99,7/16/2012,7/19/2012
+593581,Epilepsy,Lamotrigine,7/19/2012,Yes,M,54.99,7/22/2012,7/26/2012
+593582,Arthritis,Tocilizumab,10/10/2012,No,M,5.99,10/11/2012,10/15/2012
+593584,Epilepsy,Phenytoin,7/17/2012,Yes,F,34.99,7/19/2012,7/21/2012
+593587,Epilepsy,Phenytoin,4/25/2012,No,M,34.99,4/26/2012,4/29/2012
+593588,Arthritis,Adalimumab,8/19/2011,No,F,5.99,8/22/2011,8/23/2011
+593589,Epilepsy,Phenytoin,7/31/2011,No,F,34.99,8/3/2011,8/6/2011
+593590,Arthritis,Infliximab,6/21/2011,Yes,M,34.99,6/23/2011,6/24/2011
+593591,Arthritis,Rituximab,6/16/2011,Yes,F,120,6/19/2011,6/22/2011
+593593,Arthritis,Tocilizumab,9/28/2011,Yes,M,5.99,9/28/2011,10/1/2011
+593594,Arthritis,Rituximab,2/3/2012,No,F,120,2/3/2012,2/4/2012
+593595,Arthritis,Etanercept,2/23/2011,No,M,120,2/23/2011,2/25/2011
+593596,Arthritis,Infliximab,8/18/2012,No,M,34.99,8/21/2012,8/24/2012
+593599,Arthritis,Etanercept,5/31/2012,No,F,120,6/2/2012,6/5/2012
+593601,Arthritis,Etanercept,12/29/2012,Yes,F,120,1/1/2013,1/3/2013
+593603,Epilepsy,Lamotrigine,8/29/2011,Yes,F,54.99,9/1/2011,9/3/2011
+593605,Epilepsy,Lamotrigine,2/25/2012,No,M,54.99,2/28/2012,2/29/2012
+593607,Arthritis,Bertolizumab,1/26/2013,Yes,M,22.98,1/28/2013,1/31/2013
+593609,Arthritis,Adalimumab,9/3/2012,Yes,F,5.99,9/5/2012,9/6/2012
+593611,Arthritis,Rituximab,2/25/2012,No,M,120,2/28/2012,3/1/2012
+593613,Arthritis,Abatacept,3/28/2011,Yes,M,34.99,3/30/2011,3/31/2011
+593614,Arthritis,Tocilizumab,6/2/2012,Yes,F,5.99,6/2/2012,6/3/2012
+593616,Arthritis,Bertolizumab,3/4/2011,Yes,M,22.98,3/6/2011,3/8/2011
+593618,Epilepsy,Lamotrigine,4/8/2011,Yes,F,54.99,4/9/2011,4/13/2011
+593620,Arthritis,Abatacept,3/23/2011,No,M,34.99,3/23/2011,3/27/2011
+593622,Arthritis,Tocilizumab,12/2/2012,No,F,5.99,12/3/2012,12/5/2012
+593624,Epilepsy,Phenytoin,7/4/2011,Yes,M,34.99,7/7/2011,7/8/2011
+593626,Arthritis,Adalimumab,1/18/2013,No,F,5.99,1/18/2013,1/22/2013
+593629,Epilepsy,Carbamazepine,8/21/2012,Yes,M,54.99,8/22/2012,8/25/2012
+593631,Arthritis,Abatacept,8/21/2012,Yes,M,34.99,8/22/2012,8/25/2012
+593633,Arthritis,Adalimumab,4/4/2012,No,F,5.99,4/6/2012,4/9/2012
+593635,Epilepsy,Carbamazepine,8/7/2012,No,M,54.99,8/10/2012,8/13/2012
+593637,Arthritis,Golimumab,7/11/2012,No,M,7.99,7/14/2012,7/17/2012
+593638,Epilepsy,Phenytoin,4/13/2011,No,M,34.99,4/14/2011,4/15/2011
+593640,Epilepsy,Phenytoin,12/17/2011,No,F,34.99,12/17/2011,12/21/2011
+593642,Arthritis,Rituximab,1/16/2013,No,M,120,1/18/2013,1/22/2013
+593645,Epilepsy,Carbamazepine,8/15/2012,No,M,54.99,8/18/2012,8/21/2012
+593646,Epilepsy,Phenytoin,7/20/2011,No,M,34.99,7/20/2011,7/21/2011
+593647,Epilepsy,Phenytoin,2/14/2012,Yes,F,34.99,2/17/2012,2/20/2012
+593650,Arthritis,Adalimumab,1/24/2013,No,M,5.99,1/26/2013,1/30/2013
+593651,Arthritis,Etanercept,1/15/2011,No,M,120,1/17/2011,1/20/2011
+593652,Arthritis,Infliximab,4/11/2012,Yes,M,34.99,4/12/2012,4/13/2012
+593653,Epilepsy,Phenytoin,1/2/2011,No,F,34.99,1/4/2011,1/8/2011
+593656,Epilepsy,Phenytoin,5/8/2012,Yes,M,34.99,5/8/2012,5/11/2012
+593657,Arthritis,Etanercept,11/19/2012,Yes,M,120,11/22/2012,11/24/2012
+593659,Epilepsy,Lamotrigine,11/22/2012,Yes,F,54.99,11/23/2012,11/24/2012
+593660,Epilepsy,Lamotrigine,3/4/2011,No,M,54.99,3/5/2011,3/7/2011
+593663,Epilepsy,Carbamazepine,5/19/2012,No,M,54.99,5/19/2012,5/21/2012
+593664,Epilepsy,Phenytoin,2/16/2012,Yes,M,34.99,2/18/2012,2/21/2012
+593666,Epilepsy,Lamotrigine,2/7/2012,Yes,F,54.99,2/9/2012,2/10/2012
+593667,Arthritis,Abatacept,7/16/2011,Yes,M,34.99,7/19/2011,7/23/2011
+593669,Epilepsy,Phenytoin,5/6/2011,No,M,34.99,5/7/2011,5/9/2011
+593672,Arthritis,Bertolizumab,6/10/2011,Yes,M,22.98,6/11/2011,6/15/2011
+593673,Epilepsy,Carbamazepine,6/23/2012,No,F,54.99,6/26/2012,6/27/2012
+593676,Arthritis,Tocilizumab,5/3/2011,No,F,5.99,5/5/2011,5/8/2011
+593679,Epilepsy,Lamotrigine,1/23/2013,No,M,54.99,1/24/2013,1/28/2013
+593682,Epilepsy,Phenytoin,5/14/2012,No,M,34.99,5/17/2012,5/20/2012
+593683,Epilepsy,Carbamazepine,5/30/2012,No,F,54.99,5/30/2012,6/3/2012
+593686,Epilepsy,Lamotrigine,11/9/2011,Yes,F,54.99,11/12/2011,11/13/2011
+593687,Arthritis,Abatacept,9/24/2012,No,M,34.99,9/26/2012,9/28/2012
+593688,Arthritis,Infliximab,4/2/2011,No,F,34.99,4/4/2011,4/6/2011
+593690,Arthritis,Rituximab,8/26/2011,No,M,120,8/29/2011,8/30/2011
+593692,Arthritis,Golimumab,4/1/2012,Yes,F,7.99,4/2/2012,4/6/2012
+593693,Arthritis,Golimumab,3/7/2012,Yes,F,7.99,3/7/2012,3/9/2012
+593694,Epilepsy,Carbamazepine,11/16/2012,No,M,54.99,11/16/2012,11/17/2012
+593696,Epilepsy,Lamotrigine,4/17/2011,No,M,54.99,4/20/2011,4/22/2011
+593699,Epilepsy,Carbamazepine,4/30/2011,Yes,F,54.99,5/2/2011,5/5/2011
+593702,Epilepsy,Carbamazepine,1/6/2012,Yes,F,54.99,1/9/2012,1/10/2012
+593703,Epilepsy,Lamotrigine,8/31/2012,No,F,54.99,9/2/2012,9/3/2012
+593705,Arthritis,Infliximab,8/18/2012,No,M,34.99,8/21/2012,8/24/2012
+593708,Arthritis,Etanercept,1/7/2011,Yes,F,120,1/9/2011,1/13/2011
+593711,Arthritis,Abatacept,6/27/2012,No,F,34.99,6/30/2012,7/3/2012
+593713,Arthritis,Tocilizumab,7/17/2012,No,F,5.99,7/19/2012,7/21/2012
+593715,Arthritis,Rituximab,2/1/2011,Yes,M,120,2/1/2011,2/3/2011
+593718,Epilepsy,Phenytoin,8/30/2012,Yes,F,34.99,9/2/2012,9/3/2012
+593720,Epilepsy,Phenytoin,10/29/2012,No,F,34.99,10/29/2012,10/30/2012
+593723,Epilepsy,Phenytoin,9/28/2011,Yes,M,34.99,10/1/2011,10/2/2011
+593724,Epilepsy,Carbamazepine,7/20/2011,No,F,54.99,7/20/2011,7/22/2011
+593727,Epilepsy,Phenytoin,11/25/2012,No,M,34.99,11/28/2012,11/29/2012
+593729,Epilepsy,Lamotrigine,3/28/2012,No,M,54.99,3/30/2012,3/31/2012
+593730,Epilepsy,Lamotrigine,9/5/2012,Yes,M,54.99,9/6/2012,9/10/2012
+593733,Epilepsy,Phenytoin,12/14/2012,Yes,F,34.99,12/15/2012,12/17/2012
+593735,Epilepsy,Carbamazepine,1/14/2012,No,M,54.99,1/17/2012,1/20/2012
+593737,Epilepsy,Carbamazepine,5/22/2011,No,M,54.99,5/25/2011,5/27/2011
+593740,Arthritis,Etanercept,12/8/2011,Yes,F,120,12/8/2011,12/10/2011
+593743,Arthritis,Rituximab,3/20/2011,Yes,M,120,3/22/2011,3/25/2011
+593744,Epilepsy,Phenytoin,12/25/2012,Yes,M,34.99,12/28/2012,12/29/2012
+593747,Epilepsy,Lamotrigine,8/10/2011,No,F,54.99,8/12/2011,8/15/2011
+593748,Arthritis,Bertolizumab,9/9/2011,No,F,22.98,9/11/2011,9/15/2011
+593749,Arthritis,Infliximab,2/26/2012,Yes,F,34.99,2/27/2012,3/1/2012
+593752,Epilepsy,Carbamazepine,9/24/2012,Yes,M,54.99,9/24/2012,9/27/2012
+593755,Epilepsy,Carbamazepine,3/5/2012,Yes,F,54.99,3/5/2012,3/8/2012
+593756,Epilepsy,Phenytoin,9/24/2012,Yes,F,34.99,9/26/2012,9/30/2012
+593759,Arthritis,Abatacept,4/14/2011,No,F,34.99,4/14/2011,4/16/2011
+593762,Arthritis,Bertolizumab,6/9/2012,Yes,F,22.98,6/10/2012,6/13/2012
+593764,Arthritis,Infliximab,2/20/2012,Yes,M,34.99,2/23/2012,2/24/2012
+593765,Epilepsy,Phenytoin,12/20/2012,No,F,34.99,12/20/2012,12/23/2012
+593767,Epilepsy,Lamotrigine,12/18/2012,No,F,54.99,12/21/2012,12/22/2012
+593770,Arthritis,Rituximab,8/13/2012,No,F,120,8/16/2012,8/17/2012
+593771,Arthritis,Golimumab,6/4/2011,Yes,M,7.99,6/4/2011,6/7/2011
+593774,Arthritis,Adalimumab,5/14/2012,No,M,5.99,5/17/2012,5/21/2012
+593775,Epilepsy,Lamotrigine,10/22/2011,No,M,54.99,10/22/2011,10/26/2011
+593777,Arthritis,Tocilizumab,12/4/2011,No,F,5.99,12/7/2011,12/10/2011
+593779,Epilepsy,Lamotrigine,5/6/2011,No,F,54.99,5/7/2011,5/10/2011
+593780,Arthritis,Infliximab,1/29/2013,Yes,F,34.99,1/29/2013,2/2/2013
+593782,Epilepsy,Lamotrigine,1/29/2011,Yes,M,54.99,2/1/2011,2/5/2011
+593785,Epilepsy,Phenytoin,6/21/2011,No,M,34.99,6/23/2011,6/27/2011
+593788,Arthritis,Etanercept,4/11/2011,Yes,M,120,4/12/2011,4/15/2011
+593791,Epilepsy,Lamotrigine,2/15/2011,Yes,M,54.99,2/16/2011,2/17/2011
+593794,Arthritis,Abatacept,6/16/2012,Yes,F,34.99,6/18/2012,6/19/2012
+593795,Epilepsy,Phenytoin,12/24/2011,No,F,34.99,12/24/2011,12/26/2011
+593797,Arthritis,Infliximab,5/1/2011,No,F,34.99,5/1/2011,5/3/2011
+593798,Arthritis,Rituximab,10/29/2012,Yes,F,120,10/30/2012,11/2/2012
+593801,Arthritis,Etanercept,7/29/2011,No,F,120,8/1/2011,8/2/2011
+593803,Arthritis,Adalimumab,1/28/2011,Yes,F,5.99,1/29/2011,2/1/2011
+593806,Arthritis,Rituximab,5/15/2011,No,M,120,5/17/2011,5/21/2011
+593808,Epilepsy,Carbamazepine,3/22/2012,No,M,54.99,3/25/2012,3/26/2012
+593810,Arthritis,Abatacept,10/10/2011,No,F,34.99,10/10/2011,10/13/2011
+593811,Arthritis,Adalimumab,6/7/2011,No,F,5.99,6/10/2011,6/14/2011
+593812,Arthritis,Tocilizumab,2/28/2012,Yes,M,5.99,2/29/2012,3/2/2012
+593814,Epilepsy,Carbamazepine,6/2/2012,Yes,F,54.99,6/5/2012,6/6/2012
+593817,Epilepsy,Phenytoin,4/21/2011,Yes,M,34.99,4/23/2011,4/25/2011
+593819,Arthritis,Adalimumab,1/4/2012,No,F,5.99,1/5/2012,1/6/2012
+593822,Epilepsy,Carbamazepine,3/10/2012,No,M,54.99,3/10/2012,3/14/2012
+593823,Arthritis,Adalimumab,7/17/2011,Yes,F,5.99,7/18/2011,7/20/2011
+593824,Epilepsy,Carbamazepine,2/24/2012,Yes,M,54.99,2/26/2012,2/27/2012
+593825,Epilepsy,Phenytoin,5/19/2011,Yes,M,34.99,5/20/2011,5/21/2011
+593828,Epilepsy,Lamotrigine,10/23/2011,Yes,F,54.99,10/25/2011,10/29/2011
+593831,Epilepsy,Phenytoin,6/27/2012,No,F,34.99,6/28/2012,7/2/2012
+593832,Epilepsy,Phenytoin,5/17/2012,No,M,34.99,5/18/2012,5/21/2012
+593834,Epilepsy,Phenytoin,9/25/2011,Yes,M,34.99,9/26/2011,9/28/2011
+593836,Arthritis,Infliximab,1/19/2011,No,M,34.99,1/22/2011,1/23/2011
+593839,Epilepsy,Carbamazepine,8/29/2011,Yes,F,54.99,8/30/2011,9/1/2011
+593841,Epilepsy,Carbamazepine,4/5/2012,No,F,54.99,4/6/2012,4/10/2012
+593843,Arthritis,Rituximab,8/14/2012,No,M,120,8/17/2012,8/19/2012
+593844,Arthritis,Abatacept,4/10/2012,Yes,M,34.99,4/13/2012,4/14/2012
+593846,Epilepsy,Carbamazepine,1/23/2013,Yes,F,54.99,1/26/2013,1/30/2013
+593847,Arthritis,Adalimumab,2/29/2012,Yes,M,5.99,2/29/2012,3/2/2012
+593848,Epilepsy,Phenytoin,6/18/2012,Yes,F,34.99,6/19/2012,6/21/2012
+593851,Epilepsy,Lamotrigine,2/27/2011,No,M,54.99,2/28/2011,3/2/2011
+593852,Epilepsy,Phenytoin,4/11/2012,Yes,M,34.99,4/14/2012,4/15/2012
+593853,Epilepsy,Carbamazepine,11/20/2012,No,M,54.99,11/21/2012,11/25/2012
+593854,Arthritis,Etanercept,9/6/2012,Yes,M,120,9/8/2012,9/12/2012
+593855,Arthritis,Tocilizumab,2/5/2012,No,F,5.99,2/8/2012,2/12/2012
+593857,Epilepsy,Carbamazepine,1/22/2011,No,M,54.99,1/23/2011,1/24/2011
+593859,Epilepsy,Lamotrigine,2/20/2012,No,F,54.99,2/21/2012,2/22/2012
+593860,Epilepsy,Phenytoin,10/15/2012,No,M,34.99,10/16/2012,10/20/2012
+593861,Arthritis,Etanercept,8/11/2012,Yes,F,120,8/14/2012,8/15/2012
+593863,Epilepsy,Phenytoin,3/29/2012,No,M,34.99,4/1/2012,4/3/2012
+593866,Arthritis,Adalimumab,5/3/2011,No,F,5.99,5/5/2011,5/9/2011
+593867,Arthritis,Golimumab,6/15/2011,No,M,7.99,6/17/2011,6/18/2011
+593868,Arthritis,Tocilizumab,9/14/2012,No,M,5.99,9/16/2012,9/18/2012
+593870,Epilepsy,Carbamazepine,7/1/2012,Yes,F,54.99,7/3/2012,7/6/2012
+593873,Epilepsy,Phenytoin,8/8/2012,Yes,F,34.99,8/9/2012,8/12/2012
+593874,Arthritis,Adalimumab,7/17/2012,Yes,F,5.99,7/19/2012,7/22/2012
+593875,Epilepsy,Phenytoin,10/5/2011,No,M,34.99,10/6/2011,10/9/2011
+593878,Epilepsy,Lamotrigine,9/13/2011,Yes,M,54.99,9/14/2011,9/16/2011
+593881,Arthritis,Bertolizumab,3/31/2012,No,F,22.98,3/31/2012,4/4/2012
+593884,Arthritis,Etanercept,4/21/2011,No,F,120,4/24/2011,4/27/2011
+593885,Epilepsy,Phenytoin,11/28/2011,No,M,34.99,11/29/2011,12/3/2011
+593888,Epilepsy,Lamotrigine,9/20/2011,No,M,54.99,9/23/2011,9/27/2011
+593891,Arthritis,Rituximab,2/28/2011,No,F,120,3/3/2011,3/7/2011
+593892,Epilepsy,Carbamazepine,7/31/2012,Yes,M,54.99,8/3/2012,8/6/2012
+593893,Arthritis,Golimumab,3/26/2012,Yes,F,7.99,3/28/2012,3/31/2012
+593896,Arthritis,Infliximab,3/22/2011,Yes,F,34.99,3/23/2011,3/27/2011
+593897,Arthritis,Bertolizumab,1/9/2011,No,M,22.98,1/10/2011,1/11/2011
+593898,Epilepsy,Lamotrigine,7/16/2012,Yes,M,54.99,7/19/2012,7/22/2012
+593899,Epilepsy,Carbamazepine,1/5/2013,No,M,54.99,1/8/2013,1/11/2013
+593900,Epilepsy,Lamotrigine,1/8/2013,Yes,M,54.99,1/8/2013,1/9/2013
+593902,Epilepsy,Phenytoin,5/1/2012,No,F,34.99,5/4/2012,5/8/2012
+593904,Arthritis,Rituximab,5/31/2012,No,M,120,6/3/2012,6/6/2012
+593907,Arthritis,Adalimumab,4/13/2012,Yes,M,5.99,4/13/2012,4/16/2012
+593910,Epilepsy,Carbamazepine,9/19/2011,Yes,M,54.99,9/21/2011,9/24/2011
+593913,Arthritis,Bertolizumab,2/28/2011,Yes,F,22.98,3/3/2011,3/7/2011
+593916,Epilepsy,Carbamazepine,9/19/2012,No,F,54.99,9/21/2012,9/25/2012
+593917,Arthritis,Etanercept,12/31/2011,No,F,120,12/31/2011,1/4/2012
+593918,Epilepsy,Lamotrigine,11/29/2011,Yes,F,54.99,11/29/2011,11/30/2011
+593920,Arthritis,Adalimumab,7/25/2011,No,F,5.99,7/27/2011,7/31/2011
+593921,Epilepsy,Carbamazepine,3/9/2012,Yes,M,54.99,3/12/2012,3/15/2012
+593922,Epilepsy,Carbamazepine,1/20/2011,No,M,54.99,1/20/2011,1/22/2011
+593924,Arthritis,Etanercept,4/3/2012,No,M,120,4/4/2012,4/8/2012
+593925,Epilepsy,Lamotrigine,12/18/2011,No,F,54.99,12/20/2011,12/23/2011
+593928,Epilepsy,Lamotrigine,8/14/2012,No,F,54.99,8/15/2012,8/18/2012
+593929,Epilepsy,Carbamazepine,7/5/2012,No,M,54.99,7/5/2012,7/6/2012
+593932,Epilepsy,Carbamazepine,11/12/2011,No,F,54.99,11/13/2011,11/17/2011
+593935,Epilepsy,Lamotrigine,11/28/2012,No,M,54.99,11/30/2012,12/4/2012
+593937,Arthritis,Bertolizumab,12/24/2012,Yes,F,22.98,12/25/2012,12/27/2012
+593939,Epilepsy,Lamotrigine,12/3/2012,Yes,M,54.99,12/4/2012,12/5/2012
+593940,Epilepsy,Phenytoin,8/6/2011,No,M,34.99,8/8/2011,8/12/2011
+593943,Arthritis,Adalimumab,4/21/2012,No,F,5.99,4/23/2012,4/25/2012
+593946,Epilepsy,Lamotrigine,8/23/2012,Yes,M,54.99,8/24/2012,8/26/2012
+593947,Arthritis,Rituximab,5/9/2011,Yes,F,120,5/9/2011,5/12/2011
+593950,Epilepsy,Lamotrigine,4/11/2012,Yes,F,54.99,4/13/2012,4/17/2012
+593951,Arthritis,Golimumab,11/13/2012,Yes,F,7.99,11/16/2012,11/18/2012
+593954,Arthritis,Etanercept,4/7/2012,Yes,M,120,4/7/2012,4/11/2012
+593955,Arthritis,Infliximab,7/24/2012,No,F,34.99,7/25/2012,7/26/2012
+593956,Epilepsy,Phenytoin,11/9/2011,No,F,34.99,11/12/2011,11/13/2011
+593959,Arthritis,Tocilizumab,4/1/2011,Yes,F,5.99,4/1/2011,4/4/2011
+593961,Arthritis,Infliximab,10/5/2011,No,M,34.99,10/7/2011,10/8/2011
+593963,Epilepsy,Carbamazepine,11/24/2011,Yes,M,54.99,11/24/2011,11/25/2011
+593965,Epilepsy,Carbamazepine,6/25/2011,No,F,54.99,6/26/2011,6/29/2011
+593968,Arthritis,Etanercept,9/22/2011,Yes,F,120,9/24/2011,9/27/2011
+593970,Arthritis,Adalimumab,6/25/2011,No,F,5.99,6/25/2011,6/28/2011
+593972,Epilepsy,Carbamazepine,2/27/2011,Yes,F,54.99,2/27/2011,3/1/2011
+593973,Diabetes Mellitus,Glitazone,1/9/2013,No,M,22.98,1/10/2013,1/12/2013
+593976,Hypertension,Meteoprolol,5/17/2012,No,M,13.5,5/20/2012,5/21/2012
+593979,Hyperlipidemia,Lovastatin,1/23/2011,No,F,67.98,1/25/2011,1/29/2011
+593981,Diabetes Mellitus,Glitazone,2/24/2011,Yes,M,22.98,2/24/2011,2/25/2011
+593984,Hypertension,Furosemide,8/25/2012,Yes,M,67.98,8/27/2012,8/29/2012
+593986,Hypertension,Meteoprolol,2/21/2012,No,M,13.5,2/22/2012,2/23/2012
+593987,Arthritis,Infliximab,4/26/2011,No,M,34.99,4/27/2011,4/28/2011
+593988,Hyperlipidemia,Lovastatin,1/11/2011,Yes,F,67.98,1/11/2011,1/13/2011

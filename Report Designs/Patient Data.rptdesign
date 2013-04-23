@@ -62,6 +62,11 @@
                                     <property name="indexColumn">false</property>
                                     <property name="compressed">false</property>
                                 </structure>
+                                <structure>
+                                    <property name="columnName">Cost</property>
+                                    <property name="analysis">measure</property>
+                                    <text-property name="heading">Cost</text-property>
+                                </structure>
                             </list-property>
                             <list-property name="parameters"/>
                             <structure name="cachedMetaData">
@@ -95,6 +100,11 @@
                                         <property name="position">6</property>
                                         <property name="name">Gender</property>
                                         <property name="dataType">string</property>
+                                    </structure>
+                                    <structure>
+                                        <property name="position">7</property>
+                                        <property name="name">Cost</property>
+                                        <property name="dataType">float</property>
                                     </structure>
                                 </list-property>
                             </structure>
@@ -142,8 +152,15 @@
                                     <property name="dataType">string</property>
                                     <property name="nativeDataType">12</property>
                                 </structure>
+                                <structure>
+                                    <property name="position">7</property>
+                                    <property name="name">Cost</property>
+                                    <property name="nativeName">Cost</property>
+                                    <property name="dataType">float</property>
+                                    <property name="nativeDataType">8</property>
+                                </structure>
                             </list-property>
-                            <xml-property name="queryText"><![CDATA[select "Patient ID", "Diagnosis", "Prescription", "Appt Date", "Would Recommend", "Gender" from "Healthcare_Data.csv" : {"Patient ID","Patient ID",INT;"Diagnosis","Diagnosis",STRING;"Prescription","Prescription",STRING;"Appt Date","Appt Date",DATE;"Would Recommend","Would Recommend",STRING;"Gender","Gender",STRING}]]></xml-property>
+                            <xml-property name="queryText"><![CDATA[select "Patient ID", "Diagnosis", "Prescription", "Appt Date", "Would Recommend", "Gender", "Cost" from "Healthcare_Data.csv" : {"Patient ID","Patient ID",INT;"Diagnosis","Diagnosis",STRING;"Prescription","Prescription",STRING;"Appt Date","Appt Date",DATE;"Would Recommend","Would Recommend",STRING;"Gender","Gender",STRING;"Cost","Cost",DOUBLE}]]></xml-property>
                             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -419,6 +436,11 @@
                     <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
+                <structure>
+                    <property name="columnName">Cost</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="heading">Cost</text-property>
+                </structure>
             </list-property>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
@@ -451,6 +473,11 @@
                         <property name="position">6</property>
                         <property name="name">Gender</property>
                         <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">Cost</property>
+                        <property name="dataType">float</property>
                     </structure>
                 </list-property>
             </structure>
@@ -486,6 +513,11 @@
                     <property name="position">6</property>
                     <property name="name">Gender</property>
                     <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">Cost</property>
+                    <property name="dataType">float</property>
                 </structure>
             </list-property>
         </data-mart-data-set>
@@ -549,7 +581,7 @@
         </simple-master-page>
     </page-setup>
     <body>
-        <table id="223">
+        <table id="267">
             <property name="dataSet">Patient Data</property>
             <property name="theme">ThemesReportItems.default-table</property>
             <list-property name="boundDataColumns">
@@ -589,96 +621,121 @@
                     <expression name="expression" type="javascript">dataSetRow["Gender"]</expression>
                     <property name="dataType">string</property>
                 </structure>
+                <structure>
+                    <property name="name">Cost</property>
+                    <text-property name="displayName">Cost</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Cost"]</expression>
+                    <property name="dataType">float</property>
+                </structure>
             </list-property>
-            <column id="257"/>
-            <column id="266"/>
-            <column id="258"/>
-            <column id="259"/>
-            <column id="260"/>
-            <column id="261"/>
+            <column id="306"/>
+            <column id="307"/>
+            <column id="308"/>
+            <column id="309"/>
+            <column id="310"/>
+            <column id="311"/>
+            <column id="312"/>
             <header>
-                <row id="224">
-                    <cell id="225">
-                        <label id="226">
+                <row id="268">
+                    <cell id="269">
+                        <label id="270">
                             <text-property name="text">Patient ID</text-property>
                         </label>
                     </cell>
-                    <cell id="263">
-                        <label id="232">
-                            <text-property name="text">Appt Date</text-property>
-                        </label>
-                    </cell>
-                    <cell id="227">
-                        <label id="236">
-                            <text-property name="text">Gender</text-property>
-                        </label>
-                    </cell>
-                    <cell id="229">
-                        <label id="228">
+                    <cell id="271">
+                        <label id="272">
                             <text-property name="text">Diagnosis</text-property>
                         </label>
                     </cell>
-                    <cell id="231">
-                        <label id="230">
+                    <cell id="273">
+                        <label id="274">
                             <text-property name="text">Prescription</text-property>
                         </label>
                     </cell>
-                    <cell id="233">
-                        <label id="234">
+                    <cell id="275">
+                        <label id="276">
+                            <text-property name="text">Appt Date</text-property>
+                        </label>
+                    </cell>
+                    <cell id="277">
+                        <label id="278">
                             <text-property name="text">Would Recommend</text-property>
+                        </label>
+                    </cell>
+                    <cell id="279">
+                        <label id="280">
+                            <text-property name="text">Gender</text-property>
+                        </label>
+                    </cell>
+                    <cell id="281">
+                        <label id="282">
+                            <text-property name="text">Cost</text-property>
                         </label>
                     </cell>
                 </row>
             </header>
             <detail>
-                <row id="237">
-                    <cell id="238">
-                        <data id="239">
+                <row id="283">
+                    <cell id="284">
+                        <data id="285">
                             <property name="textAlign">center</property>
                             <property name="resultSetColumn">Patient ID</property>
                         </data>
                     </cell>
-                    <cell id="264">
-                        <data id="245">
+                    <cell id="286">
+                        <data id="287">
+                            <property name="resultSetColumn">Diagnosis</property>
+                        </data>
+                    </cell>
+                    <cell id="288">
+                        <data id="289">
+                            <property name="resultSetColumn">Prescription</property>
+                        </data>
+                    </cell>
+                    <cell id="290">
+                        <data id="291">
+                            <property name="marginRight">3pt</property>
                             <structure name="dateTimeFormat">
                                 <property name="category">Medium Date</property>
                                 <property name="pattern">Medium Date</property>
                             </structure>
+                            <property name="textAlign">right</property>
                             <property name="resultSetColumn">Appt Date</property>
                         </data>
                     </cell>
-                    <cell id="240">
-                        <data id="249">
+                    <cell id="292">
+                        <data id="293">
+                            <property name="textAlign">center</property>
+                            <property name="resultSetColumn">Would Recommend</property>
+                        </data>
+                    </cell>
+                    <cell id="294">
+                        <data id="295">
                             <property name="textAlign">center</property>
                             <property name="resultSetColumn">Gender</property>
                         </data>
                     </cell>
-                    <cell id="242">
-                        <data id="241">
-                            <property name="resultSetColumn">Diagnosis</property>
-                        </data>
-                    </cell>
-                    <cell id="244">
-                        <data id="243">
-                            <property name="resultSetColumn">Prescription</property>
-                        </data>
-                    </cell>
-                    <cell id="246">
-                        <data id="247">
-                            <property name="textAlign">center</property>
-                            <property name="resultSetColumn">Would Recommend</property>
+                    <cell id="296">
+                        <data id="297">
+                            <structure name="numberFormat">
+                                <property name="category">Currency</property>
+                                <property name="pattern">###0.00{RoundingMode=HALF_UP}</property>
+                            </structure>
+                            <property name="textAlign">right</property>
+                            <property name="resultSetColumn">Cost</property>
                         </data>
                     </cell>
                 </row>
             </detail>
             <footer>
-                <row id="250">
-                    <cell id="251"/>
-                    <cell id="265"/>
-                    <cell id="252"/>
-                    <cell id="253"/>
-                    <cell id="254"/>
-                    <cell id="255"/>
+                <row id="298">
+                    <cell id="299"/>
+                    <cell id="300"/>
+                    <cell id="301"/>
+                    <cell id="302"/>
+                    <cell id="303"/>
+                    <cell id="304"/>
+                    <cell id="305"/>
                 </row>
             </footer>
         </table>
