@@ -2,7 +2,7 @@
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
     <xml-property name="externalMetadata">
         <external-datamarts>
-            <datamart-node location="file:/C:/Actuate11/iServer/data/ActuateOneEncyc/file/173/010.dat">
+            <datamart-node location="file:/C:/Actuate11/iServer/data/ActuateOneEncyc/file/185/014.dat">
                 <reference-elements>NewDataMartDataSource1;</reference-elements>
                 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
                     <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
@@ -183,26 +183,6 @@
                             <property name="isVisible">false</property>
                         </structure>
                         <structure>
-                            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.x</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.y</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.width</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.height</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
                             <property name="name">Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.width</property>
                             <property name="type">integer</property>
                             <property name="isVisible">false</property>
@@ -272,26 +252,6 @@
                             <property name="type">integer</property>
                             <property name="isVisible">false</property>
                         </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.x</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.y</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.width</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
-                        <structure>
-                            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.height</property>
-                            <property name="type">integer</property>
-                            <property name="isVisible">false</property>
-                        </structure>
                     </list-property>
                     <property name="Data Cube.Diagnostics Data Set.x">295</property>
                     <property name="Data Cube.Diagnostics Data Set.y">104</property>
@@ -318,8 +278,8 @@
                     <property name="Diagnostic Cube.Contact History Group.NewTabularHierarchy1.height">200</property>
                     <property name="Diagnostic Cube.Patient Group.NewTabularHierarchy6.width">150</property>
                     <property name="Diagnostic Cube.Patient Group.NewTabularHierarchy6.height">200</property>
-                    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.x">514</property>
-                    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.y">224</property>
+                    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.x">510</property>
+                    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.y">110</property>
                     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.x">834</property>
                     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.y">436</property>
                     <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.width">150</property>
@@ -328,10 +288,6 @@
                     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.y">12</property>
                     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.width">150</property>
                     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.height">93</property>
-                    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.x">273</property>
-                    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.y">16</property>
-                    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.width">150</property>
-                    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.height">94</property>
                     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.width">150</property>
                     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.height">130</property>
                     <property name="Diagnostics Data Cube.Gender Group.NewTabularHierarchy3.x">41</property>
@@ -346,10 +302,6 @@
                     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.y">306</property>
                     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.width">150</property>
                     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.height">78</property>
-                    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.x">836</property>
-                    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.y">26</property>
-                    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.width">150</property>
-                    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.height">94</property>
                     <data-sources>
                         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="105">
                             <list-property name="privateDriverProperties">
@@ -397,22 +349,16 @@
                                     <property name="compressed">false</property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Prescription Code</property>
+                                    <property name="columnName">Prescription Decode</property>
                                     <property name="analysis">dimension</property>
-                                    <text-property name="displayName">Prescription Code</text-property>
-                                    <text-property name="heading">Prescription Code</text-property>
-                                    <property name="horizontalAlign">left</property>
-                                    <property name="indexColumn">true</property>
-                                    <property name="compressed">false</property>
+                                    <text-property name="displayName">Prescription Decode</text-property>
+                                    <text-property name="heading">Prescription Decode</text-property>
                                 </structure>
                                 <structure>
-                                    <property name="columnName">Diagnostic CIE</property>
+                                    <property name="columnName">Diagnostic CIE Decode</property>
                                     <property name="analysis">dimension</property>
-                                    <text-property name="displayName">Diagnostic CIE</text-property>
-                                    <text-property name="heading">Diagnostic CIE</text-property>
-                                    <property name="horizontalAlign">left</property>
-                                    <property name="indexColumn">true</property>
-                                    <property name="compressed">false</property>
+                                    <text-property name="displayName">Diagnostic CIE Decode</text-property>
+                                    <text-property name="heading">Diagnostic CIE Decode</text-property>
                                 </structure>
                                 <structure>
                                     <property name="columnName">Unit Cost</property>
@@ -484,6 +430,7 @@
                                     <property name="compressed">false</property>
                                 </structure>
                             </list-property>
+                            <list-property name="parameters"/>
                             <structure name="cachedMetaData">
                                 <list-property name="resultSet">
                                     <structure>
@@ -498,12 +445,12 @@
                                     </structure>
                                     <structure>
                                         <property name="position">3</property>
-                                        <property name="name">Prescription Code</property>
+                                        <property name="name">Prescription Decode</property>
                                         <property name="dataType">string</property>
                                     </structure>
                                     <structure>
                                         <property name="position">4</property>
-                                        <property name="name">Diagnostic CIE</property>
+                                        <property name="name">Diagnostic CIE Decode</property>
                                         <property name="dataType">string</property>
                                     </structure>
                                     <structure>
@@ -566,15 +513,15 @@
                                 </structure>
                                 <structure>
                                     <property name="position">3</property>
-                                    <property name="name">Prescription Code</property>
-                                    <property name="nativeName">Prescription Code</property>
+                                    <property name="name">Prescription Decode</property>
+                                    <property name="nativeName">Prescription Decode</property>
                                     <property name="dataType">string</property>
                                     <property name="nativeDataType">12</property>
                                 </structure>
                                 <structure>
                                     <property name="position">4</property>
-                                    <property name="name">Diagnostic CIE</property>
-                                    <property name="nativeName">Diagnostic CIE</property>
+                                    <property name="name">Diagnostic CIE Decode</property>
+                                    <property name="nativeName">Diagnostic CIE Decode</property>
                                     <property name="dataType">string</property>
                                     <property name="nativeDataType">12</property>
                                 </structure>
@@ -638,8 +585,8 @@
                             <xml-property name="queryText"><![CDATA[select 
 	 d.[Contact History Id]
 	,d.[Patient Id]
-	,d.[Prescription Code]
-	,d.[Diagnostic CIE]
+	,d.[Prescription Decode]
+	,d.[Diagnostic CIE Decode]
 	,d.[Unit Cost]
 	,d.[Quantity]
 	,d.[Diagnostic Cost]
@@ -1805,117 +1752,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
   </design:ResultSets>
 </model:DesignValues>]]></xml-property>
                         </oda-data-set>
-                        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Prescription Data Set" id="142">
-                            <property name="isVisible">false</property>
-                            <list-property name="columnHints">
-                                <structure>
-                                    <property name="columnName">Prescription Code</property>
-                                    <property name="analysis">dimension</property>
-                                    <text-property name="displayName">Prescription Code</text-property>
-                                    <text-property name="heading">Prescription Code</text-property>
-                                    <property name="horizontalAlign">left</property>
-                                    <property name="indexColumn">true</property>
-                                    <property name="compressed">false</property>
-                                </structure>
-                                <structure>
-                                    <property name="columnName">Prescription Decode</property>
-                                    <property name="analysis">dimension</property>
-                                    <text-property name="displayName">Prescription Decode</text-property>
-                                    <text-property name="heading">Prescription Decode</text-property>
-                                    <property name="indexColumn">false</property>
-                                    <property name="compressed">false</property>
-                                </structure>
-                            </list-property>
-                            <structure name="cachedMetaData">
-                                <list-property name="resultSet">
-                                    <structure>
-                                        <property name="position">1</property>
-                                        <property name="name">Prescription Code</property>
-                                        <property name="dataType">string</property>
-                                    </structure>
-                                    <structure>
-                                        <property name="position">2</property>
-                                        <property name="name">Prescription Decode</property>
-                                        <property name="dataType">string</property>
-                                    </structure>
-                                </list-property>
-                            </structure>
-                            <property name="dataSource">Data Source</property>
-                            <list-property name="resultSet">
-                                <structure>
-                                    <property name="position">1</property>
-                                    <property name="name">Prescription Code</property>
-                                    <property name="nativeName">Prescription Code</property>
-                                    <property name="dataType">string</property>
-                                    <property name="nativeDataType">12</property>
-                                </structure>
-                                <structure>
-                                    <property name="position">2</property>
-                                    <property name="name">Prescription Decode</property>
-                                    <property name="nativeName">Prescription Decode</property>
-                                    <property name="dataType">string</property>
-                                    <property name="nativeDataType">12</property>
-                                </structure>
-                            </list-property>
-                            <xml-property name="queryText"><![CDATA[SELECT [Prescription Code]
-       ,[Prescription Decode]
-  FROM [Health].[dbo].[Diagnostics]
-  GROUP BY [Prescription Code],[Prescription Decode]
-  ORDER BY [Prescription Code]]]></xml-property>
-                            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
-  <Version>2.0</Version>
-  <design:ResultSets derivedMetaData="true">
-    <design:resultSetDefinitions>
-      <design:resultSetColumns>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Prescription Code</design:name>
-              <design:position>1</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Prescription Code</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Prescription Code</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-        <design:resultColumnDefinitions>
-          <design:attributes>
-            <design:identifier>
-              <design:name>Prescription Decode</design:name>
-              <design:position>2</design:position>
-            </design:identifier>
-            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
-            <design:precision>50</design:precision>
-            <design:scale>0</design:scale>
-            <design:nullability>Nullable</design:nullability>
-            <design:uiHints>
-              <design:displayName>Prescription Decode</design:displayName>
-            </design:uiHints>
-          </design:attributes>
-          <design:usageHints>
-            <design:label>Prescription Decode</design:label>
-            <design:formattingHints>
-              <design:displaySize>50</design:displaySize>
-            </design:formattingHints>
-          </design:usageHints>
-        </design:resultColumnDefinitions>
-      </design:resultSetColumns>
-      <design:criteria/>
-    </design:resultSetDefinitions>
-  </design:ResultSets>
-</model:DesignValues>]]></xml-property>
-                        </oda-data-set>
                     </data-sets>
                     <cubes>
                         <tabular-cube name="Diagnostics Data Cube" id="110">
@@ -1982,22 +1818,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         </tabular-hierarchy>
                                     </property>
                                 </tabular-dimension>
-                                <tabular-dimension name="Diagnostic Group" id="127">
-                                    <property name="defaultHierarchy">NewTabularHierarchy2</property>
-                                    <property name="hierarchies">
-                                        <tabular-hierarchy name="NewTabularHierarchy2" id="128">
-                                            <property name="levels">
-                                                <tabular-level name="Diagnostic CIE" id="129">
-                                                    <property name="dataType">string</property>
-                                                    <property name="levelType">dynamic</property>
-                                                    <property name="columnName">Diagnostic CIE</property>
-                                                    <expression name="displayColumnName" type="javascript">dataSetRow["Diagnostic CIE Decode"]</expression>
-                                                </tabular-level>
-                                            </property>
-                                            <property name="dataSet">Diagnostic Data Set</property>
-                                        </tabular-hierarchy>
-                                    </property>
-                                </tabular-dimension>
                                 <tabular-dimension name="Gender Group" id="131">
                                     <property name="defaultHierarchy">NewTabularHierarchy3</property>
                                     <property name="hierarchies">
@@ -2057,20 +1877,23 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         </tabular-hierarchy>
                                     </property>
                                 </tabular-dimension>
-                                <tabular-dimension name="Prescription Group" id="145">
-                                    <property name="defaultHierarchy">NewTabularHierarchy6</property>
+                                <tabular-dimension name="Diagnostic Group" id="152">
+                                    <property name="defaultHierarchy">NewTabularHierarchy7</property>
                                     <property name="hierarchies">
-                                        <tabular-hierarchy name="NewTabularHierarchy6" id="146">
+                                        <tabular-hierarchy name="NewTabularHierarchy7" id="153">
                                             <property name="levels">
-                                                <tabular-level name="Prescription" id="147">
+                                                <tabular-level name="Diagnostic" id="154">
                                                     <property name="dataType">string</property>
                                                     <property name="levelType">dynamic</property>
                                                     <property name="alignment">left</property>
-                                                    <property name="columnName">Prescription Code</property>
-                                                    <expression name="displayColumnName" type="javascript">dataSetRow["Prescription Decode"]</expression>
+                                                    <property name="columnName">Diagnostic CIE Decode</property>
+                                                </tabular-level>
+                                                <tabular-level name="Prescription" id="155">
+                                                    <property name="dataType">string</property>
+                                                    <property name="levelType">dynamic</property>
+                                                    <property name="columnName">Prescription Decode</property>
                                                 </tabular-level>
                                             </property>
-                                            <property name="dataSet">Prescription Data Set</property>
                                         </tabular-hierarchy>
                                     </property>
                                 </tabular-dimension>
@@ -2119,15 +1942,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 <structure>
                                     <list-property name="joinConditions">
                                         <structure>
-                                            <property name="cubeKey">Diagnostic CIE</property>
-                                            <property name="hierarchyKey">Diagnostic CIE</property>
-                                        </structure>
-                                    </list-property>
-                                    <property name="hierarchy">NewTabularHierarchy2</property>
-                                </structure>
-                                <structure>
-                                    <list-property name="joinConditions">
-                                        <structure>
                                             <property name="cubeKey">Gender</property>
                                             <property name="hierarchyKey">Gender</property>
                                         </structure>
@@ -2151,15 +1965,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         </structure>
                                     </list-property>
                                     <property name="hierarchy">NewTabularHierarchy5</property>
-                                </structure>
-                                <structure>
-                                    <list-property name="joinConditions">
-                                        <structure>
-                                            <property name="cubeKey">Prescription Code</property>
-                                            <property name="hierarchyKey">Prescription Code</property>
-                                        </structure>
-                                    </list-property>
-                                    <property name="hierarchy">NewTabularHierarchy6</property>
                                 </structure>
                             </list-property>
                         </tabular-cube>
@@ -2219,7 +2024,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
         </style>
     </styles>
     <body>
-        <extended-item extensionName="Chart" name="Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee" id="157">
+        <extended-item extensionName="Chart" name="Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee" id="164">
             <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
             <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="2.5.3">
  <ChartWithAxes version="2.5.3" type="Line Chart" subType="standard" orientation="1">
@@ -2264,7 +2069,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
    </children>
-   <bounds _body="0.0,0.0,455.0,187.5"/>
+   <bounds _body="0.0,0.0,455.0,187.0"/>
    <outline>
     <color _nil="1"/>
    </outline>
@@ -2279,6 +2084,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
    <baseSampleData dataSetRepresentation="5"/>
    <orthogonalSampleData dataSetRepresentation="2.3" seriesDefinitionIndex="0"/>
   </sampleData>
+  <interactivity enable="true"/>
   <emptyMessage visible="true">
    <caption value="This chart contains no data."/>
    <background _body=",64,127,127,127"/>
@@ -2303,7 +2109,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
     <seriesDefinitions sorting="0">
-     <query definition="data[&quot;Diagnostic Group/Diagnostic CIE&quot;]"/>
+     <query definition="data[&quot;Diagnostic Group/Diagnostic&quot;]"/>
      <series _type="LineSeries" seriesIdentifier="Summary Field/Diagnostic Cost" paletteLineColor="true">
       <label>
        <background _nil="1"/>
@@ -2428,19 +2234,19 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
-                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
+                    <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
-                        <value type="constant">90K plus</value>
+                        <value type="constant">M</value>
+                        <value type="constant">F</value>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
-                    <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
+                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
-                        <value type="constant">F</value>
-                        <value type="constant">M</value>
+                        <value type="constant">90K plus</value>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
@@ -2479,11 +2285,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Diagnostic Group/Diagnostic CIE</property>
-                    <expression name="expression">dimension["Diagnostic Group"]["Diagnostic CIE"]["DisplayName"]</expression>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
                     <property name="name">Gender Group/Gender</property>
                     <expression name="expression">dimension["Gender Group"]["Gender"]["DisplayName"]</expression>
                     <property name="dataType">string</property>
@@ -2504,8 +2305,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Prescription Group/Prescription</property>
-                    <expression name="expression">dimension["Prescription Group"]["Prescription"]["DisplayName"]</expression>
+                    <property name="name">Diagnostic Group/Diagnostic</property>
+                    <expression name="expression">dimension["Diagnostic Group"]["Diagnostic"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Diagnostic Group/Prescription</property>
+                    <expression name="expression">dimension["Diagnostic Group"]["Prescription"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
@@ -2528,8 +2334,15 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                 </structure>
             </list-property>
             <property name="theme">ThemesReportItems.DashForGoldTheme</property>
+            <list-property name="userProperties">
+                <structure>
+                    <property name="name">copyHyperlink</property>
+                    <property name="type">string</property>
+                </structure>
+            </list-property>
+            <property name="copyHyperlink">true</property>
         </extended-item>
-        <extended-item extensionName="Chart" name="Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7" id="162">
+        <extended-item extensionName="Chart" name="Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7" id="169">
             <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
             <xml-property name="xmlRepresentation"><![CDATA[<ActuateChart version="2.5.3">
  <ChartWithAxes version="2.5.3" type="Column Chart" subType="SideBySide" orientation="1">
@@ -2574,7 +2387,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
    </children>
-   <bounds _body="0.0,0.0,471.0,183.75"/>
+   <bounds _body="0.0,0.0,471.0,183.0"/>
    <outline>
     <color _nil="1"/>
    </outline>
@@ -2590,6 +2403,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
    <baseSampleData dataSetRepresentation="QWER"/>
    <orthogonalSampleData dataSetRepresentation="2.3" seriesDefinitionIndex="0"/>
   </sampleData>
+  <interactivity enable="true"/>
   <emptyMessage visible="true">
    <caption value="This chart contains no data."/>
    <background _body=",64,127,127,127"/>
@@ -2733,19 +2547,19 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
-                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
+                    <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
-                        <value type="constant">90K plus</value>
+                        <value type="constant">M</value>
+                        <value type="constant">F</value>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
                 <filter-condition-element>
-                    <expression name="expr">dimension["Gender Group"]["Gender"]</expression>
+                    <expression name="expr">dimension["Income Group"]["Income Band"]</expression>
                     <property name="operator">in</property>
                     <simple-property-list name="value1">
-                        <value type="constant">F</value>
-                        <value type="constant">M</value>
+                        <value type="constant">90K plus</value>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
                 </filter-condition-element>
@@ -2784,19 +2598,19 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Diagnostic Group/Diagnostic CIE</property>
-                    <expression name="expression">dimension["Diagnostic Group"]["Diagnostic CIE"]["DisplayName"]</expression>
-                    <property name="dataType">string</property>
-                </structure>
-                <structure>
                     <property name="name">Gender Group/Gender</property>
                     <expression name="expression">dimension["Gender Group"]["Gender"]["DisplayName"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Income Group/Income</property>
-                    <expression name="expression">dimension["Income Group"]["Income"]["DisplayName"]</expression>
+                    <property name="name">Income Group/Income Band</property>
+                    <expression name="expression">dimension["Income Group"]["Income Band"]</expression>
                     <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Income Group/Income</property>
+                    <expression name="expression">dimension["Income Group"]["Income"]</expression>
+                    <property name="dataType">float</property>
                 </structure>
                 <structure>
                     <property name="name">Occupation Group/Occupation</property>
@@ -2804,8 +2618,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">Prescription Group/Prescription Code</property>
-                    <expression name="expression">dimension["Prescription Group"]["Prescription Code"]["DisplayName"]</expression>
+                    <property name="name">Diagnostic Group/Diagnostic</property>
+                    <expression name="expression">dimension["Diagnostic Group"]["Diagnostic"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Diagnostic Group/Prescription</property>
+                    <expression name="expression">dimension["Diagnostic Group"]["Prescription"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
@@ -2828,6 +2647,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                 </structure>
             </list-property>
             <property name="theme">ThemesReportItems.DashForGoldTheme</property>
+            <list-property name="userProperties">
+                <structure>
+                    <property name="name">copyHyperlink</property>
+                    <property name="type">string</property>
+                </structure>
+            </list-property>
+            <property name="copyHyperlink">true</property>
         </extended-item>
     </body>
     <property name="dashboardView">
@@ -2896,9 +2722,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="gadget">bc814503-8457-4519-a7a0-c1f4cb484958</property>
                                         </event-object>
                                         <event-object>
-                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                        </event-object>
-                                        <event-object>
                                             <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
                                         </event-object>
                                         <event-object>
@@ -2909,6 +2732,9 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         </event-object>
                                         <event-object>
                                             <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -2930,7 +2756,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_649d61c8-1caa-4735-a3e6-3b457b760009" id="149">
+                        <gadget name="Gadget_649d61c8-1caa-4735-a3e6-3b457b760009" id="156">
                             <property name="x">10px</property>
                             <property name="y">210px</property>
                             <property name="height">59px</property>
@@ -2940,7 +2766,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="showBorder">true</property>
                             <property name="zIndex">5</property>
                             <property name="content">
-                                <slider-data-selector id="150">
+                                <slider-data-selector id="157">
                                     <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
                                     <property name="operator">between</property>
                                     <simple-property-list name="columnNames">
@@ -2972,9 +2798,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="gadget">Gadget_9dcc1141-2f24-49e6-9198-20aa9829b2a1</property>
                                         </event-object>
                                         <event-object>
-                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                        </event-object>
-                                        <event-object>
                                             <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
                                         </event-object>
                                         <event-object>
@@ -2982,6 +2805,9 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         </event-object>
                                         <event-object>
                                             <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -3003,7 +2829,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99" id="151">
+                        <gadget name="Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99" id="158">
                             <property name="x">10px</property>
                             <property name="y">317px</property>
                             <property name="height">61px</property>
@@ -3013,7 +2839,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="showBorder">true</property>
                             <property name="zIndex">6</property>
                             <property name="content">
-                                <check-box-data-selector id="152">
+                                <check-box-data-selector id="159">
                                     <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
                                     <property name="operator">in</property>
                                     <simple-property-list name="columnNames">
@@ -3021,8 +2847,8 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                         <value>Gender Group/Gender</value>
                                     </simple-property-list>
                                     <simple-property-list name="selectedValues">
-                                        <value>F</value>
                                         <value>M</value>
+                                        <value>F</value>
                                     </simple-property-list>
                                     <property name="orientation">horizontal</property>
                                     <property name="autoAdjust">true</property>
@@ -3044,13 +2870,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="gadget">Gadget_649d61c8-1caa-4735-a3e6-3b457b760009</property>
                                         </event-object>
                                         <event-object>
-                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
-                                        </event-object>
-                                        <event-object>
                                             <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
                                         </event-object>
                                         <event-object>
                                             <property name="gadget">Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -3072,7 +2898,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db" id="153">
+                        <gadget name="Gadget_93a86d8f-1c6f-4076-a702-90a1b11209db" id="160">
                             <property name="x">10px</property>
                             <property name="y">426px</property>
                             <property name="height">207px</property>
@@ -3082,7 +2908,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="showBorder">true</property>
                             <property name="zIndex">7</property>
                             <property name="content">
-                                <list-data-selector id="154">
+                                <list-data-selector id="161">
                                     <property name="cube">NewDataMartDataSource1::Diagnostics Data Cube</property>
                                     <property name="operator">in</property>
                                     <simple-property-list name="columnNames">
@@ -3114,10 +2940,10 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                             <property name="gadget">Gadget_8b37d697-8e8e-41c8-b8a2-a33f2a5b6d99</property>
                                         </event-object>
                                         <event-object>
-                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
+                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
                                         </event-object>
                                         <event-object>
-                                            <property name="gadget">Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7</property>
+                                            <property name="gadget">Gadget_b5df9108-e4c5-4625-8078-8f6188651c99</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -3139,7 +2965,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_b5df9108-e4c5-4625-8078-8f6188651c99" id="155">
+                        <gadget name="Gadget_b5df9108-e4c5-4625-8078-8f6188651c99" id="162">
                             <property name="x">223px</property>
                             <property name="y">10px</property>
                             <property name="height">285px</property>
@@ -3150,7 +2976,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="zIndex">2</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
-                                <data-view id="156">
+                                <data-view id="163">
                                     <property name="gadgetType">viewer</property>
                                     <property name="internalReportLetRef">Line Chart - Diagnostics Data Cube_668ea93a-4d45-43bf-849e-854ed44741ee</property>
                                 </data-view>
@@ -3175,7 +3001,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_42fbba92-9d15-44f7-b797-532a72c70564" id="158">
+                        <gadget name="Gadget_42fbba92-9d15-44f7-b797-532a72c70564" id="165">
                             <property name="x">223px</property>
                             <property name="y">344px</property>
                             <property name="height">500px</property>
@@ -3187,7 +3013,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="zIndex">8</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
-                                <data-view id="159">
+                                <data-view id="166">
                                     <list-property name="userProperties">
                                         <structure>
                                             <property name="name">showViewerToolbar</property>
@@ -3212,7 +3038,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7" id="160">
+                        <gadget name="Gadget_97d6c0ce-37e8-45bc-be95-9358758b98f7" id="167">
                             <property name="x">868px</property>
                             <property name="y">10px</property>
                             <property name="height">280px</property>
@@ -3223,7 +3049,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="zIndex">4</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
-                                <data-view id="161">
+                                <data-view id="168">
                                     <property name="gadgetType">viewer</property>
                                     <property name="internalReportLetRef">Which diagnostics are trending upward?_54850488-020c-41f5-bab2-bf38f763dfd7</property>
                                 </data-view>

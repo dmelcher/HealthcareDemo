@@ -178,26 +178,6 @@
             <property name="isVisible">false</property>
         </structure>
         <structure>
-            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.x</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.y</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.width</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.height</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
             <property name="name">Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.width</property>
             <property name="type">integer</property>
             <property name="isVisible">false</property>
@@ -267,26 +247,6 @@
             <property name="type">integer</property>
             <property name="isVisible">false</property>
         </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.x</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.y</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.width</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
-        <structure>
-            <property name="name">Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.height</property>
-            <property name="type">integer</property>
-            <property name="isVisible">false</property>
-        </structure>
     </list-property>
     <property name="Data Cube.Diagnostics Data Set.x">295</property>
     <property name="Data Cube.Diagnostics Data Set.y">104</property>
@@ -313,8 +273,8 @@
     <property name="Diagnostic Cube.Contact History Group.NewTabularHierarchy1.height">200</property>
     <property name="Diagnostic Cube.Patient Group.NewTabularHierarchy6.width">150</property>
     <property name="Diagnostic Cube.Patient Group.NewTabularHierarchy6.height">200</property>
-    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.x">514</property>
-    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.y">224</property>
+    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.x">510</property>
+    <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.y">110</property>
     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.x">834</property>
     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.y">436</property>
     <property name="Diagnostics Data Cube.Diagnostics Fact Data Set.width">150</property>
@@ -323,10 +283,6 @@
     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.y">12</property>
     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.width">150</property>
     <property name="Diagnostics Data Cube.Age Group.NewTabularHierarchy.height">93</property>
-    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.x">273</property>
-    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.y">16</property>
-    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.width">150</property>
-    <property name="Diagnostics Data Cube.Diagnostic Group.NewTabularHierarchy2.height">94</property>
     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.width">150</property>
     <property name="Diagnostics Data Cube.Contact Date Group.NewTabularHierarchy1.height">130</property>
     <property name="Diagnostics Data Cube.Gender Group.NewTabularHierarchy3.x">41</property>
@@ -341,10 +297,6 @@
     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.y">306</property>
     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.width">150</property>
     <property name="Diagnostics Data Cube.Occupation Group.NewTabularHierarchy5.height">78</property>
-    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.x">836</property>
-    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.y">26</property>
-    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.width">150</property>
-    <property name="Diagnostics Data Cube.Prescription Group.NewTabularHierarchy6.height">94</property>
     <data-sources>
         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="105">
             <list-property name="privateDriverProperties">
@@ -398,13 +350,10 @@
                     <text-property name="heading">Prescription Decode</text-property>
                 </structure>
                 <structure>
-                    <property name="columnName">Diagnostic CIE</property>
+                    <property name="columnName">Diagnostic CIE Decode</property>
                     <property name="analysis">dimension</property>
-                    <text-property name="displayName">Diagnostic CIE</text-property>
-                    <text-property name="heading">Diagnostic CIE</text-property>
-                    <property name="horizontalAlign">left</property>
-                    <property name="indexColumn">true</property>
-                    <property name="compressed">false</property>
+                    <text-property name="displayName">Diagnostic CIE Decode</text-property>
+                    <text-property name="heading">Diagnostic CIE Decode</text-property>
                 </structure>
                 <structure>
                     <property name="columnName">Unit Cost</property>
@@ -496,7 +445,7 @@
                     </structure>
                     <structure>
                         <property name="position">4</property>
-                        <property name="name">Diagnostic CIE</property>
+                        <property name="name">Diagnostic CIE Decode</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
@@ -566,8 +515,8 @@
                 </structure>
                 <structure>
                     <property name="position">4</property>
-                    <property name="name">Diagnostic CIE</property>
-                    <property name="nativeName">Diagnostic CIE</property>
+                    <property name="name">Diagnostic CIE Decode</property>
+                    <property name="nativeName">Diagnostic CIE Decode</property>
                     <property name="dataType">string</property>
                     <property name="nativeDataType">12</property>
                 </structure>
@@ -632,7 +581,7 @@
 	 d.[Contact History Id]
 	,d.[Patient Id]
 	,d.[Prescription Decode]
-	,d.[Diagnostic CIE]
+	,d.[Diagnostic CIE Decode]
 	,d.[Unit Cost]
 	,d.[Quantity]
 	,d.[Diagnostic Cost]
@@ -1864,22 +1813,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
-                <tabular-dimension name="Diagnostic Group" id="127">
-                    <property name="defaultHierarchy">NewTabularHierarchy2</property>
-                    <property name="hierarchies">
-                        <tabular-hierarchy name="NewTabularHierarchy2" id="128">
-                            <property name="levels">
-                                <tabular-level name="Diagnostic CIE" id="129">
-                                    <property name="dataType">string</property>
-                                    <property name="levelType">dynamic</property>
-                                    <property name="columnName">Diagnostic CIE</property>
-                                    <expression name="displayColumnName" type="javascript">dataSetRow["Diagnostic CIE Decode"]</expression>
-                                </tabular-level>
-                            </property>
-                            <property name="dataSet">Diagnostic Data Set</property>
-                        </tabular-hierarchy>
-                    </property>
-                </tabular-dimension>
                 <tabular-dimension name="Gender Group" id="131">
                     <property name="defaultHierarchy">NewTabularHierarchy3</property>
                     <property name="hierarchies">
@@ -1939,12 +1872,18 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
-                <tabular-dimension name="Prescription Group" id="149">
-                    <property name="defaultHierarchy">NewTabularHierarchy6</property>
+                <tabular-dimension name="Diagnostic Group" id="152">
+                    <property name="defaultHierarchy">NewTabularHierarchy7</property>
                     <property name="hierarchies">
-                        <tabular-hierarchy name="NewTabularHierarchy6" id="150">
+                        <tabular-hierarchy name="NewTabularHierarchy7" id="153">
                             <property name="levels">
-                                <tabular-level name="Prescription" id="151">
+                                <tabular-level name="Diagnostic" id="154">
+                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="alignment">left</property>
+                                    <property name="columnName">Diagnostic CIE Decode</property>
+                                </tabular-level>
+                                <tabular-level name="Prescription" id="155">
                                     <property name="dataType">string</property>
                                     <property name="levelType">dynamic</property>
                                     <property name="columnName">Prescription Decode</property>
@@ -1994,15 +1933,6 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         </structure>
                     </list-property>
                     <property name="hierarchy">NewTabularHierarchy1</property>
-                </structure>
-                <structure>
-                    <list-property name="joinConditions">
-                        <structure>
-                            <property name="cubeKey">Diagnostic CIE</property>
-                            <property name="hierarchyKey">Diagnostic CIE</property>
-                        </structure>
-                    </list-property>
-                    <property name="hierarchy">NewTabularHierarchy2</property>
                 </structure>
                 <structure>
                     <list-property name="joinConditions">
