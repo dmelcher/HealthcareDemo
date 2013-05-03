@@ -1,0 +1,3185 @@
+id	stateid	county	state	rate
+1001	1	Autauga	Alabama	0.097
+1003	1	Baldwin	Alabama	0.091
+1005	1	Barbour	Alabama	0.134
+1007	1	Bibb	Alabama	0.121
+1009	1	Blount	Alabama	0.099
+1011	1	Bullock	Alabama	0.164
+1013	1	Butler	Alabama	0.167
+1015	1	Calhoun	Alabama	0.108
+1017	1	Chambers	Alabama	0.186
+1019	1	Cherokee	Alabama	0.118
+1021	1	Chilton	Alabama	0.099
+1023	1	Choctaw	Alabama	0.127
+1025	1	Clarke	Alabama	0.17
+1027	1	Clay	Alabama	0.159
+1029	1	Cleburne	Alabama	0.104
+1031	1	Coffee	Alabama	0.085
+1033	1	Colbert	Alabama	0.114
+1035	1	Conecuh	Alabama	0.195
+1037	1	Coosa	Alabama	0.14
+1039	1	Covington	Alabama	0.101
+1041	1	Crenshaw	Alabama	0.097
+1043	1	Cullman	Alabama	0.096
+1045	1	Dale	Alabama	0.093
+1047	1	Dallas	Alabama	0.211
+1049	1	DeKalb	Alabama	0.143
+1051	1	Elmore	Alabama	0.09
+1053	1	Escambia	Alabama	0.129
+1055	1	Etowah	Alabama	0.107
+1057	1	Fayette	Alabama	0.128
+1059	1	Franklin	Alabama	0.123
+1061	1	Geneva	Alabama	0.1
+1063	1	Greene	Alabama	0.147
+1065	1	Hale	Alabama	0.127
+1067	1	Henry	Alabama	0.099
+1069	1	Houston	Alabama	0.089
+1071	1	Jackson	Alabama	0.118
+1073	1	Jefferson	Alabama	0.107
+1075	1	Lamar	Alabama	0.148
+1077	1	Lauderdale	Alabama	0.105
+1079	1	Lawrence	Alabama	0.136
+1081	1	Lee	Alabama	0.086
+1083	1	Limestone	Alabama	0.093
+1085	1	Lowndes	Alabama	0.185
+1087	1	Macon	Alabama	0.114
+1089	1	Madison	Alabama	0.075
+1091	1	Marengo	Alabama	0.148
+1093	1	Marion	Alabama	0.152
+1095	1	Marshall	Alabama	0.092
+1097	1	Mobile	Alabama	0.111
+1099	1	Monroe	Alabama	0.187
+1101	1	Montgomery	Alabama	0.102
+1103	1	Morgan	Alabama	0.104
+1105	1	Perry	Alabama	0.198
+1107	1	Pickens	Alabama	0.13
+1109	1	Pike	Alabama	0.087
+1111	1	Randolph	Alabama	0.151
+1113	1	Russell	Alabama	0.126
+1115	1	St. Clair	Alabama	0.107
+1117	1	Shelby	Alabama	0.076
+1119	1	Sumter	Alabama	0.139
+1121	1	Talladega	Alabama	0.136
+1123	1	Tallapoosa	Alabama	0.137
+1125	1	Tuscaloosa	Alabama	0.09
+1127	1	Walker	Alabama	0.119
+1129	1	Washington	Alabama	0.151
+1131	1	Wilcox	Alabama	0.256
+1133	1	Winston	Alabama	0.175
+2013	2	Aleutians East	Alaska	0.101
+2016	2	Aleutians West	Alaska	0.084
+2020	2	Anchorage	Alaska	0.07
+2050	2	Bethel	Alaska	0.148
+2060	2	Bristol Bay	Alaska	0.036
+2068	2	Denali	Alaska	0.034
+2070	2	Dillingham	Alaska	0.084
+2090	2	Fairbanks North Star	Alaska	0.069
+2100	2	Haines	Alaska	0.062
+2110	2	Juneau	Alaska	0.057
+2122	2	Kenai Peninsula	Alaska	0.097
+2130	2	Ketchikan Gateway	Alaska	0.061
+2150	2	Kodiak Island	Alaska	0.066
+2164	2	Lake and Peninsula	Alaska	0.059
+2170	2	Matanuska-Susitna	Alaska	0.088
+2180	2	Nome	Alaska	0.121
+2185	2	North Slope	Alaska	0.057
+2188	2	Northwest Arctic	Alaska	0.132
+2201	2	Prince of Wales-Outer Ketchikan	Alaska	0.136
+2220	2	Sitka	Alaska	0.059
+2232	2	Skagway-Hoonah-Angoon	Alaska	0.073
+2240	2	Southeast Fairbanks	Alaska	0.081
+2261	2	Valdez-Cordova	Alaska	0.064
+2270	2	Wade Hampton	Alaska	0.204
+2280	2	Wrangell-Petersburg	Alaska	0.098
+2282	2	Yakutat	Alaska	0.063
+2290	2	Yukon-Koyukuk	Alaska	0.136
+4001	4	Apache	Arizona	0.148
+4003	4	Cochise	Arizona	0.074
+4005	4	Coconino	Arizona	0.077
+4007	4	Gila	Arizona	0.109
+4009	4	Graham	Arizona	0.144
+4011	4	Greenlee	Arizona	0.215
+4012	4	La Paz	Arizona	0.089
+4013	4	Maricopa	Arizona	0.085
+4015	4	Mohave	Arizona	0.102
+4017	4	Navajo	Arizona	0.142
+4019	4	Pima	Arizona	0.084
+4021	4	Pinal	Arizona	0.118
+4023	4	Santa Cruz	Arizona	0.172
+4025	4	Yavapai	Arizona	0.095
+4027	4	Yuma	Arizona	0.242
+5001	5	Arkansas	Arkansas	0.143
+5003	5	Ashley	Arkansas	0.091
+5005	5	Baxter	Arkansas	0.082
+5007	5	Benton	Arkansas	0.053
+5009	5	Boone	Arkansas	0.064
+5011	5	Bradley	Arkansas	0.078
+5013	5	Calhoun	Arkansas	0.062
+5015	5	Carroll	Arkansas	0.043
+5017	5	Chicot	Arkansas	0.096
+5019	5	Clark	Arkansas	0.063
+5021	5	Clay	Arkansas	0.104
+5023	5	Cleburne	Arkansas	0.059
+5025	5	Cleveland	Arkansas	0.06
+5027	5	Columbia	Arkansas	0.081
+5029	5	Conway	Arkansas	0.065
+5031	5	Craighead	Arkansas	0.059
+5033	5	Crawford	Arkansas	0.066
+5035	5	Crittenden	Arkansas	0.099
+5037	5	Cross	Arkansas	0.071
+5039	5	Dallas	Arkansas	0.076
+5041	5	Desha	Arkansas	0.099
+5043	5	Drew	Arkansas	0.091
+5045	5	Faulkner	Arkansas	0.06
+5047	5	Franklin	Arkansas	0.059
+5049	5	Fulton	Arkansas	0.061
+5051	5	Garland	Arkansas	0.066
+5053	5	Grant	Arkansas	0.057
+5055	5	Greene	Arkansas	0.082
+5057	5	Hempstead	Arkansas	0.086
+5059	5	Hot Spring	Arkansas	0.073
+5061	5	Howard	Arkansas	0.072
+5063	5	Independence	Arkansas	0.078
+5065	5	Izard	Arkansas	0.077
+5067	5	Jackson	Arkansas	0.092
+5069	5	Jefferson	Arkansas	0.092
+5071	5	Johnson	Arkansas	0.061
+5073	5	Lafayette	Arkansas	0.086
+5075	5	Lawrence	Arkansas	0.079
+5077	5	Lee	Arkansas	0.082
+5079	5	Lincoln	Arkansas	0.082
+5081	5	Little River	Arkansas	0.056
+5083	5	Logan	Arkansas	0.077
+5085	5	Lonoke	Arkansas	0.052
+5087	5	Madison	Arkansas	0.053
+5089	5	Marion	Arkansas	0.112
+5091	5	Miller	Arkansas	0.045
+5093	5	Mississippi	Arkansas	0.113
+5095	5	Monroe	Arkansas	0.074
+5097	5	Montgomery	Arkansas	0.058
+5099	5	Nevada	Arkansas	0.087
+5101	5	Newton	Arkansas	0.062
+5103	5	Ouachita	Arkansas	0.071
+5105	5	Perry	Arkansas	0.056
+5107	5	Phillips	Arkansas	0.088
+5109	5	Pike	Arkansas	0.063
+5111	5	Poinsett	Arkansas	0.075
+5113	5	Polk	Arkansas	0.064
+5115	5	Pope	Arkansas	0.062
+5117	5	Prairie	Arkansas	0.067
+5119	5	Pulaski	Arkansas	0.06
+5121	5	Randolph	Arkansas	0.073
+5123	5	St. Francis	Arkansas	0.094
+5125	5	Saline	Arkansas	0.058
+5127	5	Scott	Arkansas	0.063
+5129	5	Searcy	Arkansas	0.059
+5131	5	Sebastian	Arkansas	0.062
+5133	5	Sevier	Arkansas	0.051
+5135	5	Sharp	Arkansas	0.078
+5137	5	Stone	Arkansas	0.066
+5139	5	Union	Arkansas	0.095
+5141	5	Van Buren	Arkansas	0.091
+5143	5	Washington	Arkansas	0.05
+5145	5	White	Arkansas	0.067
+5147	5	Woodruff	Arkansas	0.091
+5149	5	Yell	Arkansas	0.064
+6001	6	Alameda	California	0.113
+6003	6	Alpine	California	0.152
+6005	6	Amador	California	0.121
+6007	6	Butte	California	0.122
+6009	6	Calaveras	California	0.143
+6011	6	Colusa	California	0.145
+6013	6	Contra Costa	California	0.112
+6015	6	Del Norte	California	0.119
+6017	6	El Dorado	California	0.112
+6019	6	Fresno	California	0.141
+6021	6	Glenn	California	0.138
+6023	6	Humboldt	California	0.103
+6025	6	Imperial	California	0.301
+6027	6	Inyo	California	0.095
+6029	6	Kern	California	0.139
+6031	6	Kings	California	0.139
+6033	6	Lake	California	0.147
+6035	6	Lassen	California	0.118
+6037	6	Los Angeles	California	0.127
+6039	6	Madera	California	0.123
+6041	6	Marin	California	0.08
+6043	6	Mariposa	California	0.088
+6045	6	Mendocino	California	0.101
+6047	6	Merced	California	0.157
+6049	6	Modoc	California	0.111
+6051	6	Mono	California	0.103
+6053	6	Monterey	California	0.1
+6055	6	Napa	California	0.087
+6057	6	Nevada	California	0.109
+6059	6	Orange	California	0.094
+6061	6	Placer	California	0.113
+6063	6	Plumas	California	0.139
+6065	6	Riverside	California	0.147
+6067	6	Sacramento	California	0.122
+6069	6	San Benito	California	0.125
+6071	6	San Bernardino	California	0.136
+6073	6	San Diego	California	0.102
+6075	6	San Francisco	California	0.097
+6077	6	San Joaquin	California	0.155
+6079	6	San Luis Obispo	California	0.09
+6081	6	San Mateo	California	0.09
+6083	6	Santa Barbara	California	0.085
+6085	6	Santa Clara	California	0.118
+6087	6	Santa Cruz	California	0.102
+6089	6	Shasta	California	0.147
+6091	6	Sierra	California	0.137
+6093	6	Siskiyou	California	0.135
+6095	6	Solano	California	0.115
+6097	6	Sonoma	California	0.099
+6099	6	Stanislaus	California	0.153
+6101	6	Sutter	California	0.151
+6103	6	Tehama	California	0.137
+6105	6	Trinity	California	0.159
+6107	6	Tulare	California	0.149
+6109	6	Tuolumne	California	0.127
+6111	6	Ventura	California	0.11
+6113	6	Yolo	California	0.109
+6115	6	Yuba	California	0.178
+8001	8	Adams	Colorado	0.081
+8003	8	Alamosa	Colorado	0.055
+8005	8	Arapahoe	Colorado	0.069
+8007	8	Archuleta	Colorado	0.062
+8009	8	Baca	Colorado	0.034
+8011	8	Bent	Colorado	0.05
+8013	8	Boulder	Colorado	0.055
+8015	8	Chaffee	Colorado	0.051
+8017	8	Cheyenne	Colorado	0.02
+8019	8	Clear Creek	Colorado	0.07
+8021	8	Conejos	Colorado	0.051
+8023	8	Costilla	Colorado	0.084
+8025	8	Crowley	Colorado	0.076
+8027	8	Custer	Colorado	0.052
+8029	8	Delta	Colorado	0.066
+8031	8	Denver	Colorado	0.077
+8033	8	Dolores	Colorado	0.132
+8035	8	Douglas	Colorado	0.059
+8037	8	Eagle	Colorado	0.062
+8039	8	Elbert	Colorado	0.06
+8041	8	El Paso	Colorado	0.072
+8043	8	Fremont	Colorado	0.077
+8045	8	Garfield	Colorado	0.058
+8047	8	Gilpin	Colorado	0.06
+8049	8	Grand	Colorado	0.058
+8051	8	Gunnison	Colorado	0.044
+8053	8	Hinsdale	Colorado	0.022
+8055	8	Huerfano	Colorado	0.072
+8057	8	Jackson	Colorado	0.033
+8059	8	Jefferson	Colorado	0.067
+8061	8	Kiowa	Colorado	0.028
+8063	8	Kit Carson	Colorado	0.029
+8065	8	Lake	Colorado	0.071
+8067	8	La Plata	Colorado	0.047
+8069	8	Larimer	Colorado	0.056
+8071	8	Las Animas	Colorado	0.07
+8073	8	Lincoln	Colorado	0.037
+8075	8	Logan	Colorado	0.046
+8077	8	Mesa	Colorado	0.082
+8079	8	Mineral	Colorado	0.053
+8081	8	Moffat	Colorado	0.056
+8083	8	Montezuma	Colorado	0.063
+8085	8	Montrose	Colorado	0.069
+8087	8	Morgan	Colorado	0.049
+8089	8	Otero	Colorado	0.058
+8091	8	Ouray	Colorado	0.041
+8093	8	Park	Colorado	0.061
+8095	8	Phillips	Colorado	0.026
+8097	8	Pitkin	Colorado	0.05
+8099	8	Prowers	Colorado	0.05
+8101	8	Pueblo	Colorado	0.075
+8103	8	Rio Blanco	Colorado	0.039
+8105	8	Rio Grande	Colorado	0.048
+8107	8	Routt	Colorado	0.06
+8109	8	Saguache	Colorado	0.078
+8111	8	San Juan	Colorado	0.053
+8113	8	San Miguel	Colorado	0.042
+8115	8	Sedgwick	Colorado	0.033
+8117	8	Summit	Colorado	0.058
+8119	8	Teller	Colorado	0.067
+8121	8	Washington	Colorado	0.032
+8123	8	Weld	Colorado	0.075
+8125	8	Yuma	Colorado	0.026
+9001	9	Fairfield	Connecticut	0.078
+9003	9	Hartford	Connecticut	0.088
+9005	9	Litchfield	Connecticut	0.079
+9007	9	Middlesex	Connecticut	0.067
+9009	9	New Haven	Connecticut	0.089
+9011	9	New London	Connecticut	0.076
+9013	9	Tolland	Connecticut	0.067
+9015	9	Windham	Connecticut	0.09
+10001	10	Kent	Delaware	0.079
+10003	10	New Castle	Delaware	0.086
+10005	10	Sussex	Delaware	0.073
+11001	11	District of Columbia	District of Columbia	0.117
+12001	12	Alachua	Florida	0.071
+12003	12	Baker	Florida	0.114
+12005	12	Bay	Florida	0.089
+12007	12	Bradford	Florida	0.083
+12009	12	Brevard	Florida	0.111
+12011	12	Broward	Florida	0.098
+12013	12	Calhoun	Florida	0.082
+12015	12	Charlotte	Florida	0.127
+12017	12	Citrus	Florida	0.121
+12019	12	Clay	Florida	0.098
+12021	12	Collier	Florida	0.131
+12023	12	Columbia	Florida	0.09
+12027	12	DeSoto	Florida	0.117
+12029	12	Dixie	Florida	0.123
+12031	12	Duval	Florida	0.112
+12033	12	Escambia	Florida	0.098
+12035	12	Flagler	Florida	0.162
+12037	12	Franklin	Florida	0.071
+12039	12	Gadsden	Florida	0.096
+12041	12	Gilchrist	Florida	0.1
+12043	12	Glades	Florida	0.1
+12045	12	Gulf	Florida	0.098
+12047	12	Hamilton	Florida	0.113
+12049	12	Hardee	Florida	0.126
+12051	12	Hendry	Florida	0.168
+12053	12	Hernando	Florida	0.138
+12055	12	Highlands	Florida	0.116
+12057	12	Hillsborough	Florida	0.115
+12059	12	Holmes	Florida	0.072
+12061	12	Indian River	Florida	0.152
+12063	12	Jackson	Florida	0.072
+12065	12	Jefferson	Florida	0.085
+12067	12	Lafayette	Florida	0.072
+12069	12	Lake	Florida	0.123
+12071	12	Lee	Florida	0.139
+12073	12	Leon	Florida	0.072
+12075	12	Levy	Florida	0.121
+12077	12	Liberty	Florida	0.053
+12079	12	Madison	Florida	0.117
+12081	12	Manatee	Florida	0.127
+12083	12	Marion	Florida	0.133
+12085	12	Martin	Florida	0.119
+12086	12	Miami-Dade	Florida	0.113
+12087	12	Monroe	Florida	0.07
+12089	12	Nassau	Florida	0.107
+12091	12	Okaloosa	Florida	0.072
+12093	12	Okeechobee	Florida	0.133
+12095	12	Orange	Florida	0.114
+12097	12	Osceola	Florida	0.128
+12099	12	Palm Beach	Florida	0.117
+12101	12	Pasco	Florida	0.125
+12103	12	Pinellas	Florida	0.112
+12105	12	Polk	Florida	0.127
+12107	12	Putnam	Florida	0.122
+12109	12	St. Johns	Florida	0.09
+12111	12	St. Lucie	Florida	0.153
+12113	12	Santa Rosa	Florida	0.094
+12115	12	Sarasota	Florida	0.123
+12117	12	Seminole	Florida	0.106
+12119	12	Sumter	Florida	0.09
+12121	12	Suwannee	Florida	0.098
+12123	12	Taylor	Florida	0.104
+12125	12	Union	Florida	0.084
+12127	12	Volusia	Florida	0.117
+12129	12	Wakulla	Florida	0.072
+12131	12	Walton	Florida	0.068
+12133	12	Washington	Florida	0.096
+13001	13	Appling	Georgia	0.097
+13003	13	Atkinson	Georgia	0.126
+13005	13	Bacon	Georgia	0.085
+13007	13	Baker	Georgia	0.091
+13009	13	Baldwin	Georgia	0.116
+13011	13	Banks	Georgia	0.067
+13013	13	Barrow	Georgia	0.111
+13015	13	Bartow	Georgia	0.133
+13017	13	Ben Hill	Georgia	0.153
+13019	13	Berrien	Georgia	0.124
+13021	13	Bibb	Georgia	0.1
+13023	13	Bleckley	Georgia	0.097
+13025	13	Brantley	Georgia	0.116
+13027	13	Brooks	Georgia	0.087
+13029	13	Bryan	Georgia	0.081
+13031	13	Bulloch	Georgia	0.09
+13033	13	Burke	Georgia	0.122
+13035	13	Butts	Georgia	0.127
+13037	13	Calhoun	Georgia	0.111
+13039	13	Camden	Georgia	0.091
+13043	13	Candler	Georgia	0.093
+13045	13	Carroll	Georgia	0.108
+13047	13	Catoosa	Georgia	0.08
+13049	13	Charlton	Georgia	0.106
+13051	13	Chatham	Georgia	0.085
+13053	13	Chattahoochee	Georgia	0.146
+13055	13	Chattooga	Georgia	0.114
+13057	13	Cherokee	Georgia	0.095
+13059	13	Clarke	Georgia	0.07
+13061	13	Clay	Georgia	0.082
+13063	13	Clayton	Georgia	0.123
+13065	13	Clinch	Georgia	0.11
+13067	13	Cobb	Georgia	0.096
+13069	13	Coffee	Georgia	0.168
+13071	13	Colquitt	Georgia	0.09
+13073	13	Columbia	Georgia	0.07
+13075	13	Cook	Georgia	0.119
+13077	13	Coweta	Georgia	0.1
+13079	13	Crawford	Georgia	0.095
+13081	13	Crisp	Georgia	0.121
+13083	13	Dade	Georgia	0.09
+13085	13	Dawson	Georgia	0.101
+13087	13	Decatur	Georgia	0.127
+13089	13	DeKalb	Georgia	0.107
+13091	13	Dodge	Georgia	0.112
+13093	13	Dooly	Georgia	0.101
+13095	13	Dougherty	Georgia	0.111
+13097	13	Douglas	Georgia	0.114
+13099	13	Early	Georgia	0.105
+13101	13	Echols	Georgia	0.067
+13103	13	Effingham	Georgia	0.079
+13105	13	Elbert	Georgia	0.122
+13107	13	Emanuel	Georgia	0.103
+13109	13	Evans	Georgia	0.089
+13111	13	Fannin	Georgia	0.1
+13113	13	Fayette	Georgia	0.084
+13115	13	Floyd	Georgia	0.111
+13117	13	Forsyth	Georgia	0.086
+13119	13	Franklin	Georgia	0.118
+13121	13	Fulton	Georgia	0.107
+13123	13	Gilmer	Georgia	0.098
+13125	13	Glascock	Georgia	0.111
+13127	13	Glynn	Georgia	0.082
+13129	13	Gordon	Georgia	0.131
+13131	13	Grady	Georgia	0.098
+13133	13	Greene	Georgia	0.111
+13135	13	Gwinnett	Georgia	0.094
+13137	13	Habersham	Georgia	0.094
+13139	13	Hall	Georgia	0.091
+13141	13	Hancock	Georgia	0.177
+13143	13	Haralson	Georgia	0.113
+13145	13	Harris	Georgia	0.072
+13147	13	Hart	Georgia	0.138
+13149	13	Heard	Georgia	0.124
+13151	13	Henry	Georgia	0.104
+13153	13	Houston	Georgia	0.073
+13155	13	Irwin	Georgia	0.145
+13157	13	Jackson	Georgia	0.109
+13159	13	Jasper	Georgia	0.127
+13161	13	Jeff Davis	Georgia	0.135
+13163	13	Jefferson	Georgia	0.149
+13165	13	Jenkins	Georgia	0.196
+13167	13	Johnson	Georgia	0.119
+13169	13	Jones	Georgia	0.086
+13171	13	Lamar	Georgia	0.153
+13173	13	Lanier	Georgia	0.084
+13175	13	Laurens	Georgia	0.108
+13177	13	Lee	Georgia	0.079
+13179	13	Liberty	Georgia	0.085
+13181	13	Lincoln	Georgia	0.103
+13183	13	Long	Georgia	0.059
+13185	13	Lowndes	Georgia	0.082
+13187	13	Lumpkin	Georgia	0.111
+13189	13	McDuffie	Georgia	0.121
+13191	13	McIntosh	Georgia	0.096
+13193	13	Macon	Georgia	0.13
+13195	13	Madison	Georgia	0.083
+13197	13	Marion	Georgia	0.099
+13199	13	Meriwether	Georgia	0.132
+13201	13	Miller	Georgia	0.087
+13205	13	Mitchell	Georgia	0.104
+13207	13	Monroe	Georgia	0.102
+13209	13	Montgomery	Georgia	0.085
+13211	13	Morgan	Georgia	0.098
+13213	13	Murray	Georgia	0.123
+13215	13	Muscogee	Georgia	0.092
+13217	13	Newton	Georgia	0.126
+13219	13	Oconee	Georgia	0.062
+13221	13	Oglethorpe	Georgia	0.082
+13223	13	Paulding	Georgia	0.107
+13225	13	Peach	Georgia	0.102
+13227	13	Pickens	Georgia	0.108
+13229	13	Pierce	Georgia	0.093
+13231	13	Pike	Georgia	0.118
+13233	13	Polk	Georgia	0.108
+13235	13	Pulaski	Georgia	0.071
+13237	13	Putnam	Georgia	0.104
+13239	13	Quitman	Georgia	0.118
+13241	13	Rabun	Georgia	0.104
+13243	13	Randolph	Georgia	0.13
+13245	13	Richmond	Georgia	0.103
+13247	13	Rockdale	Georgia	0.12
+13249	13	Schley	Georgia	0.138
+13251	13	Screven	Georgia	0.137
+13253	13	Seminole	Georgia	0.107
+13255	13	Spalding	Georgia	0.154
+13257	13	Stephens	Georgia	0.107
+13259	13	Stewart	Georgia	0.107
+13261	13	Sumter	Georgia	0.129
+13263	13	Talbot	Georgia	0.098
+13265	13	Taliaferro	Georgia	0.124
+13267	13	Tattnall	Georgia	0.087
+13269	13	Taylor	Georgia	0.13
+13271	13	Telfair	Georgia	0.162
+13273	13	Terrell	Georgia	0.116
+13275	13	Thomas	Georgia	0.093
+13277	13	Tift	Georgia	0.106
+13279	13	Toombs	Georgia	0.098
+13281	13	Towns	Georgia	0.078
+13283	13	Treutlen	Georgia	0.119
+13285	13	Troup	Georgia	0.129
+13287	13	Turner	Georgia	0.13
+13289	13	Twiggs	Georgia	0.114
+13291	13	Union	Georgia	0.09
+13293	13	Upson	Georgia	0.133
+13295	13	Walker	Georgia	0.096
+13297	13	Walton	Georgia	0.11
+13299	13	Ware	Georgia	0.107
+13301	13	Warren	Georgia	0.188
+13303	13	Washington	Georgia	0.14
+13305	13	Wayne	Georgia	0.117
+13307	13	Webster	Georgia	0.091
+13309	13	Wheeler	Georgia	0.091
+13311	13	White	Georgia	0.095
+13313	13	Whitfield	Georgia	0.125
+13315	13	Wilcox	Georgia	0.116
+13317	13	Wilkes	Georgia	0.117
+13319	13	Wilkinson	Georgia	0.107
+13321	13	Worth	Georgia	0.108
+15001	15	Hawaii	Hawaii	0.108
+15003	15	Honolulu	Hawaii	0.063
+15009	15	Maui	Hawaii	0.097
+16001	16	Ada	Idaho	0.091
+16003	16	Adams	Idaho	0.121
+16005	16	Bannock	Idaho	0.084
+16007	16	Bear Lake	Idaho	0.052
+16009	16	Benewah	Idaho	0.121
+16011	16	Bingham	Idaho	0.059
+16013	16	Blaine	Idaho	0.077
+16015	16	Boise	Idaho	0.071
+16017	16	Bonner	Idaho	0.095
+16019	16	Bonneville	Idaho	0.059
+16021	16	Boundary	Idaho	0.12
+16023	16	Butte	Idaho	0.045
+16025	16	Camas	Idaho	0.11
+16027	16	Canyon	Idaho	0.106
+16029	16	Caribou	Idaho	0.06
+16031	16	Cassia	Idaho	0.059
+16033	16	Clark	Idaho	0.041
+16035	16	Clearwater	Idaho	0.118
+16037	16	Custer	Idaho	0.039
+16039	16	Elmore	Idaho	0.077
+16041	16	Franklin	Idaho	0.04
+16043	16	Fremont	Idaho	0.066
+16045	16	Gem	Idaho	0.104
+16047	16	Gooding	Idaho	0.055
+16049	16	Idaho	Idaho	0.083
+16051	16	Jefferson	Idaho	0.068
+16053	16	Jerome	Idaho	0.059
+16055	16	Kootenai	Idaho	0.087
+16057	16	Latah	Idaho	0.059
+16059	16	Lemhi	Idaho	0.065
+16061	16	Lewis	Idaho	0.052
+16063	16	Lincoln	Idaho	0.097
+16065	16	Madison	Idaho	0.055
+16067	16	Minidoka	Idaho	0.06
+16069	16	Nez Perce	Idaho	0.055
+16071	16	Oneida	Idaho	0.05
+16073	16	Owyhee	Idaho	0.041
+16075	16	Payette	Idaho	0.077
+16077	16	Power	Idaho	0.067
+16079	16	Shoshone	Idaho	0.119
+16081	16	Teton	Idaho	0.051
+16083	16	Twin Falls	Idaho	0.068
+16085	16	Valley	Idaho	0.114
+16087	16	Washington	Idaho	0.084
+17001	17	Adams	Illinois	0.079
+17003	17	Alexander	Illinois	0.112
+17005	17	Bond	Illinois	0.093
+17007	17	Boone	Illinois	0.138
+17009	17	Brown	Illinois	0.045
+17011	17	Bureau	Illinois	0.109
+17013	17	Calhoun	Illinois	0.095
+17015	17	Carroll	Illinois	0.105
+17017	17	Cass	Illinois	0.073
+17019	17	Champaign	Illinois	0.082
+17021	17	Christian	Illinois	0.099
+17023	17	Clark	Illinois	0.131
+17025	17	Clay	Illinois	0.114
+17027	17	Clinton	Illinois	0.079
+17029	17	Coles	Illinois	0.091
+17031	17	Cook	Illinois	0.106
+17033	17	Crawford	Illinois	0.105
+17035	17	Cumberland	Illinois	0.097
+17037	17	DeKalb	Illinois	0.092
+17039	17	De Witt	Illinois	0.092
+17041	17	Douglas	Illinois	0.091
+17043	17	DuPage	Illinois	0.086
+17045	17	Edgar	Illinois	0.107
+17047	17	Edwards	Illinois	0.091
+17049	17	Effingham	Illinois	0.079
+17051	17	Fayette	Illinois	0.116
+17053	17	Ford	Illinois	0.104
+17055	17	Franklin	Illinois	0.146
+17057	17	Fulton	Illinois	0.125
+17059	17	Gallatin	Illinois	0.11
+17061	17	Greene	Illinois	0.092
+17063	17	Grundy	Illinois	0.114
+17065	17	Hamilton	Illinois	0.093
+17067	17	Hancock	Illinois	0.113
+17069	17	Hardin	Illinois	0.128
+17071	17	Henderson	Illinois	0.094
+17073	17	Henry	Illinois	0.086
+17075	17	Iroquois	Illinois	0.1
+17077	17	Jackson	Illinois	0.073
+17079	17	Jasper	Illinois	0.095
+17081	17	Jefferson	Illinois	0.1
+17083	17	Jersey	Illinois	0.088
+17085	17	Jo Daviess	Illinois	0.081
+17087	17	Johnson	Illinois	0.104
+17089	17	Kane	Illinois	0.099
+17091	17	Kankakee	Illinois	0.128
+17093	17	Kendall	Illinois	0.104
+17095	17	Knox	Illinois	0.103
+17097	17	Lake	Illinois	0.1
+17099	17	La Salle	Illinois	0.124
+17101	17	Lawrence	Illinois	0.103
+17103	17	Lee	Illinois	0.109
+17105	17	Livingston	Illinois	0.107
+17107	17	Logan	Illinois	0.095
+17109	17	McDonough	Illinois	0.077
+17111	17	McHenry	Illinois	0.093
+17113	17	McLean	Illinois	0.074
+17115	17	Macon	Illinois	0.124
+17117	17	Macoupin	Illinois	0.105
+17119	17	Madison	Illinois	0.097
+17121	17	Marion	Illinois	0.119
+17123	17	Marshall	Illinois	0.106
+17125	17	Mason	Illinois	0.143
+17127	17	Massac	Illinois	0.08
+17129	17	Menard	Illinois	0.078
+17131	17	Mercer	Illinois	0.089
+17133	17	Monroe	Illinois	0.078
+17135	17	Montgomery	Illinois	0.122
+17137	17	Morgan	Illinois	0.084
+17139	17	Moultrie	Illinois	0.09
+17141	17	Ogle	Illinois	0.119
+17143	17	Peoria	Illinois	0.116
+17145	17	Perry	Illinois	0.119
+17147	17	Piatt	Illinois	0.082
+17149	17	Pike	Illinois	0.081
+17151	17	Pope	Illinois	0.106
+17153	17	Pulaski	Illinois	0.119
+17155	17	Putnam	Illinois	0.15
+17157	17	Randolph	Illinois	0.094
+17159	17	Richland	Illinois	0.105
+17161	17	Rock Island	Illinois	0.095
+17163	17	St. Clair	Illinois	0.108
+17165	17	Saline	Illinois	0.112
+17167	17	Sangamon	Illinois	0.079
+17169	17	Schuyler	Illinois	0.066
+17171	17	Scott	Illinois	0.075
+17173	17	Shelby	Illinois	0.1
+17175	17	Stark	Illinois	0.098
+17177	17	Stephenson	Illinois	0.116
+17179	17	Tazewell	Illinois	0.113
+17181	17	Union	Illinois	0.108
+17183	17	Vermilion	Illinois	0.12
+17185	17	Wabash	Illinois	0.103
+17187	17	Warren	Illinois	0.08
+17189	17	Washington	Illinois	0.08
+17191	17	Wayne	Illinois	0.097
+17193	17	White	Illinois	0.086
+17195	17	Whiteside	Illinois	0.106
+17197	17	Will	Illinois	0.099
+17199	17	Williamson	Illinois	0.096
+17201	17	Winnebago	Illinois	0.155
+17203	17	Woodford	Illinois	0.086
+18001	18	Adams	Indiana	0.134
+18003	18	Allen	Indiana	0.093
+18005	18	Bartholomew	Indiana	0.088
+18007	18	Benton	Indiana	0.09
+18009	18	Blackford	Indiana	0.133
+18011	18	Boone	Indiana	0.068
+18013	18	Brown	Indiana	0.078
+18015	18	Carroll	Indiana	0.099
+18017	18	Cass	Indiana	0.105
+18019	18	Clark	Indiana	0.082
+18021	18	Clay	Indiana	0.096
+18023	18	Clinton	Indiana	0.092
+18025	18	Crawford	Indiana	0.105
+18027	18	Daviess	Indiana	0.049
+18029	18	Dearborn	Indiana	0.089
+18031	18	Decatur	Indiana	0.11
+18033	18	DeKalb	Indiana	0.124
+18035	18	Delaware	Indiana	0.095
+18037	18	Dubois	Indiana	0.08
+18039	18	Elkhart	Indiana	0.15
+18041	18	Fayette	Indiana	0.134
+18043	18	Floyd	Indiana	0.074
+18045	18	Fountain	Indiana	0.116
+18047	18	Franklin	Indiana	0.089
+18049	18	Fulton	Indiana	0.112
+18051	18	Gibson	Indiana	0.067
+18053	18	Grant	Indiana	0.111
+18055	18	Greene	Indiana	0.071
+18057	18	Hamilton	Indiana	0.061
+18059	18	Hancock	Indiana	0.078
+18061	18	Harrison	Indiana	0.078
+18063	18	Hendricks	Indiana	0.068
+18065	18	Henry	Indiana	0.12
+18067	18	Howard	Indiana	0.119
+18069	18	Huntington	Indiana	0.111
+18071	18	Jackson	Indiana	0.101
+18073	18	Jasper	Indiana	0.087
+18075	18	Jay	Indiana	0.104
+18077	18	Jefferson	Indiana	0.095
+18079	18	Jennings	Indiana	0.122
+18081	18	Johnson	Indiana	0.074
+18083	18	Knox	Indiana	0.066
+18085	18	Kosciusko	Indiana	0.11
+18087	18	LaGrange	Indiana	0.14
+18089	18	Lake	Indiana	0.094
+18091	18	LaPorte	Indiana	0.107
+18093	18	Lawrence	Indiana	0.111
+18095	18	Madison	Indiana	0.097
+18097	18	Marion	Indiana	0.084
+18099	18	Marshall	Indiana	0.114
+18101	18	Martin	Indiana	0.063
+18103	18	Miami	Indiana	0.123
+18105	18	Monroe	Indiana	0.056
+18107	18	Montgomery	Indiana	0.097
+18109	18	Morgan	Indiana	0.075
+18111	18	Newton	Indiana	0.089
+18113	18	Noble	Indiana	0.145
+18115	18	Ohio	Indiana	0.105
+18117	18	Orange	Indiana	0.092
+18119	18	Owen	Indiana	0.081
+18121	18	Parke	Indiana	0.083
+18123	18	Perry	Indiana	0.088
+18125	18	Pike	Indiana	0.087
+18127	18	Porter	Indiana	0.082
+18129	18	Posey	Indiana	0.07
+18131	18	Pulaski	Indiana	0.095
+18133	18	Putnam	Indiana	0.082
+18135	18	Randolph	Indiana	0.102
+18137	18	Ripley	Indiana	0.091
+18139	18	Rush	Indiana	0.095
+18141	18	St. Joseph	Indiana	0.104
+18143	18	Scott	Indiana	0.121
+18145	18	Shelby	Indiana	0.088
+18147	18	Spencer	Indiana	0.081
+18149	18	Starke	Indiana	0.126
+18151	18	Steuben	Indiana	0.129
+18153	18	Sullivan	Indiana	0.093
+18155	18	Switzerland	Indiana	0.07
+18157	18	Tippecanoe	Indiana	0.085
+18159	18	Tipton	Indiana	0.103
+18161	18	Union	Indiana	0.086
+18163	18	Vanderburgh	Indiana	0.074
+18165	18	Vermillion	Indiana	0.108
+18167	18	Vigo	Indiana	0.092
+18169	18	Wabash	Indiana	0.12
+18171	18	Warren	Indiana	0.101
+18173	18	Warrick	Indiana	0.069
+18175	18	Washington	Indiana	0.112
+18177	18	Wayne	Indiana	0.109
+18179	18	Wells	Indiana	0.091
+18181	18	White	Indiana	0.094
+18183	18	Whitley	Indiana	0.116
+19001	19	Adair	Iowa	0.051
+19003	19	Adams	Iowa	0.06
+19005	19	Allamakee	Iowa	0.093
+19007	19	Appanoose	Iowa	0.094
+19009	19	Audubon	Iowa	0.051
+19011	19	Benton	Iowa	0.058
+19013	19	Black Hawk	Iowa	0.058
+19015	19	Boone	Iowa	0.059
+19017	19	Bremer	Iowa	0.05
+19019	19	Buchanan	Iowa	0.059
+19021	19	Buena Vista	Iowa	0.055
+19023	19	Butler	Iowa	0.06
+19025	19	Calhoun	Iowa	0.054
+19027	19	Carroll	Iowa	0.042
+19029	19	Cass	Iowa	0.058
+19031	19	Cedar	Iowa	0.057
+19033	19	Cerro Gordo	Iowa	0.067
+19035	19	Cherokee	Iowa	0.044
+19037	19	Chickasaw	Iowa	0.084
+19039	19	Clarke	Iowa	0.074
+19041	19	Clay	Iowa	0.062
+19043	19	Clayton	Iowa	0.079
+19045	19	Clinton	Iowa	0.077
+19047	19	Crawford	Iowa	0.047
+19049	19	Dallas	Iowa	0.051
+19051	19	Davis	Iowa	0.101
+19053	19	Decatur	Iowa	0.066
+19055	19	Delaware	Iowa	0.068
+19057	19	Des Moines	Iowa	0.082
+19059	19	Dickinson	Iowa	0.058
+19061	19	Dubuque	Iowa	0.06
+19063	19	Emmet	Iowa	0.086
+19065	19	Fayette	Iowa	0.085
+19067	19	Floyd	Iowa	0.087
+19069	19	Franklin	Iowa	0.07
+19071	19	Fremont	Iowa	0.07
+19073	19	Greene	Iowa	0.063
+19075	19	Grundy	Iowa	0.049
+19077	19	Guthrie	Iowa	0.056
+19079	19	Hamilton	Iowa	0.081
+19081	19	Hancock	Iowa	0.09
+19083	19	Hardin	Iowa	0.06
+19085	19	Harrison	Iowa	0.044
+19087	19	Henry	Iowa	0.088
+19089	19	Howard	Iowa	0.086
+19091	19	Humboldt	Iowa	0.062
+19093	19	Ida	Iowa	0.058
+19095	19	Iowa	Iowa	0.058
+19097	19	Jackson	Iowa	0.077
+19099	19	Jasper	Iowa	0.081
+19101	19	Jefferson	Iowa	0.087
+19103	19	Johnson	Iowa	0.044
+19105	19	Jones	Iowa	0.063
+19107	19	Keokuk	Iowa	0.071
+19109	19	Kossuth	Iowa	0.056
+19111	19	Lee	Iowa	0.114
+19113	19	Linn	Iowa	0.065
+19115	19	Louisa	Iowa	0.08
+19117	19	Lucas	Iowa	0.06
+19119	19	Lyon	Iowa	0.043
+19121	19	Madison	Iowa	0.058
+19123	19	Mahaska	Iowa	0.077
+19125	19	Marion	Iowa	0.057
+19127	19	Marshall	Iowa	0.07
+19129	19	Mills	Iowa	0.043
+19131	19	Mitchell	Iowa	0.054
+19133	19	Monona	Iowa	0.071
+19135	19	Monroe	Iowa	0.075
+19137	19	Montgomery	Iowa	0.087
+19139	19	Muscatine	Iowa	0.089
+19141	19	O'Brien	Iowa	0.053
+19143	19	Osceola	Iowa	0.054
+19145	19	Page	Iowa	0.087
+19147	19	Palo Alto	Iowa	0.07
+19149	19	Plymouth	Iowa	0.047
+19151	19	Pocahontas	Iowa	0.052
+19153	19	Polk	Iowa	0.062
+19155	19	Pottawattamie	Iowa	0.048
+19157	19	Poweshiek	Iowa	0.066
+19159	19	Ringgold	Iowa	0.053
+19161	19	Sac	Iowa	0.047
+19163	19	Scott	Iowa	0.073
+19165	19	Shelby	Iowa	0.039
+19167	19	Sioux	Iowa	0.041
+19169	19	Story	Iowa	0.045
+19171	19	Tama	Iowa	0.066
+19173	19	Taylor	Iowa	0.067
+19175	19	Union	Iowa	0.06
+19177	19	Van Buren	Iowa	0.08
+19179	19	Wapello	Iowa	0.094
+19181	19	Warren	Iowa	0.058
+19183	19	Washington	Iowa	0.049
+19185	19	Wayne	Iowa	0.064
+19187	19	Webster	Iowa	0.083
+19189	19	Winnebago	Iowa	0.091
+19191	19	Winneshiek	Iowa	0.058
+19193	19	Woodbury	Iowa	0.057
+19195	19	Worth	Iowa	0.063
+19197	19	Wright	Iowa	0.084
+20001	20	Allen	Kansas	0.078
+20003	20	Anderson	Kansas	0.079
+20005	20	Atchison	Kansas	0.081
+20007	20	Barber	Kansas	0.051
+20009	20	Barton	Kansas	0.061
+20011	20	Bourbon	Kansas	0.065
+20013	20	Brown	Kansas	0.056
+20015	20	Butler	Kansas	0.072
+20017	20	Chase	Kansas	0.054
+20019	20	Chautauqua	Kansas	0.084
+20021	20	Cherokee	Kansas	0.085
+20023	20	Cheyenne	Kansas	0.037
+20025	20	Clark	Kansas	0.037
+20027	20	Clay	Kansas	0.042
+20029	20	Cloud	Kansas	0.045
+20031	20	Coffey	Kansas	0.057
+20033	20	Comanche	Kansas	0.038
+20035	20	Cowley	Kansas	0.076
+20037	20	Crawford	Kansas	0.081
+20039	20	Decatur	Kansas	0.033
+20041	20	Dickinson	Kansas	0.051
+20043	20	Doniphan	Kansas	0.088
+20045	20	Douglas	Kansas	0.054
+20047	20	Edwards	Kansas	0.044
+20049	20	Elk	Kansas	0.11
+20051	20	Ellis	Kansas	0.036
+20053	20	Ellsworth	Kansas	0.041
+20055	20	Finney	Kansas	0.043
+20057	20	Ford	Kansas	0.038
+20059	20	Franklin	Kansas	0.071
+20061	20	Geary	Kansas	0.069
+20063	20	Gove	Kansas	0.035
+20065	20	Graham	Kansas	0.043
+20067	20	Grant	Kansas	0.042
+20069	20	Gray	Kansas	0.034
+20071	20	Greeley	Kansas	0.045
+20073	20	Greenwood	Kansas	0.072
+20075	20	Hamilton	Kansas	0.042
+20077	20	Harper	Kansas	0.056
+20079	20	Harvey	Kansas	0.074
+20081	20	Haskell	Kansas	0.037
+20083	20	Hodgeman	Kansas	0.042
+20085	20	Jackson	Kansas	0.06
+20087	20	Jefferson	Kansas	0.067
+20089	20	Jewell	Kansas	0.049
+20091	20	Johnson	Kansas	0.068
+20093	20	Kearny	Kansas	0.045
+20095	20	Kingman	Kansas	0.063
+20097	20	Kiowa	Kansas	0.049
+20099	20	Labette	Kansas	0.078
+20101	20	Lane	Kansas	0.034
+20103	20	Leavenworth	Kansas	0.073
+20105	20	Lincoln	Kansas	0.063
+20107	20	Linn	Kansas	0.084
+20109	20	Logan	Kansas	0.04
+20111	20	Lyon	Kansas	0.057
+20113	20	McPherson	Kansas	0.051
+20115	20	Marion	Kansas	0.063
+20117	20	Marshall	Kansas	0.049
+20119	20	Meade	Kansas	0.042
+20121	20	Miami	Kansas	0.068
+20123	20	Mitchell	Kansas	0.058
+20125	20	Montgomery	Kansas	0.094
+20127	20	Morris	Kansas	0.068
+20129	20	Morton	Kansas	0.047
+20131	20	Nemaha	Kansas	0.043
+20133	20	Neosho	Kansas	0.07
+20135	20	Ness	Kansas	0.04
+20137	20	Norton	Kansas	0.047
+20139	20	Osage	Kansas	0.07
+20141	20	Osborne	Kansas	0.044
+20143	20	Ottawa	Kansas	0.065
+20145	20	Pawnee	Kansas	0.037
+20147	20	Phillips	Kansas	0.06
+20149	20	Pottawatomie	Kansas	0.041
+20151	20	Pratt	Kansas	0.053
+20153	20	Rawlins	Kansas	0.035
+20155	20	Reno	Kansas	0.063
+20157	20	Republic	Kansas	0.041
+20159	20	Rice	Kansas	0.051
+20161	20	Riley	Kansas	0.032
+20163	20	Rooks	Kansas	0.073
+20165	20	Rush	Kansas	0.059
+20167	20	Russell	Kansas	0.046
+20169	20	Saline	Kansas	0.057
+20171	20	Scott	Kansas	0.032
+20173	20	Sedgwick	Kansas	0.088
+20175	20	Seward	Kansas	0.051
+20177	20	Shawnee	Kansas	0.064
+20179	20	Sheridan	Kansas	0.032
+20181	20	Sherman	Kansas	0.039
+20183	20	Smith	Kansas	0.043
+20185	20	Stafford	Kansas	0.061
+20187	20	Stanton	Kansas	0.034
+20189	20	Stevens	Kansas	0.053
+20191	20	Sumner	Kansas	0.09
+20193	20	Thomas	Kansas	0.036
+20195	20	Trego	Kansas	0.036
+20197	20	Wabaunsee	Kansas	0.066
+20199	20	Wallace	Kansas	0.059
+20201	20	Washington	Kansas	0.045
+20203	20	Wichita	Kansas	0.035
+20205	20	Wilson	Kansas	0.102
+20207	20	Woodson	Kansas	0.089
+20209	20	Wyandotte	Kansas	0.104
+21001	21	Adair	Kentucky	0.101
+21003	21	Allen	Kentucky	0.143
+21005	21	Anderson	Kentucky	0.109
+21007	21	Ballard	Kentucky	0.102
+21009	21	Barren	Kentucky	0.116
+21011	21	Bath	Kentucky	0.133
+21013	21	Bell	Kentucky	0.125
+21015	21	Boone	Kentucky	0.092
+21017	21	Bourbon	Kentucky	0.091
+21019	21	Boyd	Kentucky	0.083
+21021	21	Boyle	Kentucky	0.11
+21023	21	Bracken	Kentucky	0.102
+21025	21	Breathitt	Kentucky	0.1
+21027	21	Breckinridge	Kentucky	0.121
+21029	21	Bullitt	Kentucky	0.108
+21031	21	Butler	Kentucky	0.137
+21033	21	Caldwell	Kentucky	0.109
+21035	21	Calloway	Kentucky	0.08
+21037	21	Campbell	Kentucky	0.107
+21039	21	Carlisle	Kentucky	0.091
+21041	21	Carroll	Kentucky	0.124
+21043	21	Carter	Kentucky	0.135
+21045	21	Casey	Kentucky	0.102
+21047	21	Christian	Kentucky	0.129
+21049	21	Clark	Kentucky	0.114
+21051	21	Clay	Kentucky	0.135
+21053	21	Clinton	Kentucky	0.09
+21055	21	Crittenden	Kentucky	0.108
+21057	21	Cumberland	Kentucky	0.13
+21059	21	Daviess	Kentucky	0.091
+21061	21	Edmonson	Kentucky	0.128
+21063	21	Elliott	Kentucky	0.126
+21065	21	Estill	Kentucky	0.129
+21067	21	Fayette	Kentucky	0.077
+21069	21	Fleming	Kentucky	0.122
+21071	21	Floyd	Kentucky	0.124
+21073	21	Franklin	Kentucky	0.091
+21075	21	Fulton	Kentucky	0.144
+21077	21	Gallatin	Kentucky	0.111
+21079	21	Garrard	Kentucky	0.119
+21081	21	Grant	Kentucky	0.101
+21083	21	Graves	Kentucky	0.103
+21085	21	Grayson	Kentucky	0.164
+21087	21	Green	Kentucky	0.124
+21089	21	Greenup	Kentucky	0.098
+21091	21	Hancock	Kentucky	0.136
+21093	21	Hardin	Kentucky	0.1
+21095	21	Harlan	Kentucky	0.125
+21097	21	Harrison	Kentucky	0.111
+21099	21	Hart	Kentucky	0.106
+21101	21	Henderson	Kentucky	0.098
+21103	21	Henry	Kentucky	0.107
+21105	21	Hickman	Kentucky	0.092
+21107	21	Hopkins	Kentucky	0.091
+21109	21	Jackson	Kentucky	0.175
+21111	21	Jefferson	Kentucky	0.105
+21113	21	Jessamine	Kentucky	0.088
+21115	21	Johnson	Kentucky	0.111
+21117	21	Kenton	Kentucky	0.1
+21119	21	Knott	Kentucky	0.12
+21121	21	Knox	Kentucky	0.115
+21123	21	Larue	Kentucky	0.107
+21125	21	Laurel	Kentucky	0.101
+21127	21	Lawrence	Kentucky	0.131
+21129	21	Lee	Kentucky	0.123
+21131	21	Leslie	Kentucky	0.137
+21133	21	Letcher	Kentucky	0.12
+21135	21	Lewis	Kentucky	0.151
+21137	21	Lincoln	Kentucky	0.121
+21139	21	Livingston	Kentucky	0.098
+21141	21	Logan	Kentucky	0.104
+21143	21	Lyon	Kentucky	0.122
+21145	21	McCracken	Kentucky	0.091
+21147	21	McCreary	Kentucky	0.133
+21149	21	McLean	Kentucky	0.106
+21151	21	Madison	Kentucky	0.087
+21153	21	Magoffin	Kentucky	0.214
+21155	21	Marion	Kentucky	0.129
+21157	21	Marshall	Kentucky	0.107
+21159	21	Martin	Kentucky	0.124
+21161	21	Mason	Kentucky	0.111
+21163	21	Meade	Kentucky	0.124
+21165	21	Menifee	Kentucky	0.147
+21167	21	Mercer	Kentucky	0.108
+21169	21	Metcalfe	Kentucky	0.158
+21171	21	Monroe	Kentucky	0.14
+21173	21	Montgomery	Kentucky	0.126
+21175	21	Morgan	Kentucky	0.145
+21177	21	Muhlenberg	Kentucky	0.107
+21179	21	Nelson	Kentucky	0.115
+21181	21	Nicholas	Kentucky	0.125
+21183	21	Ohio	Kentucky	0.094
+21185	21	Oldham	Kentucky	0.086
+21187	21	Owen	Kentucky	0.101
+21189	21	Owsley	Kentucky	0.112
+21191	21	Pendleton	Kentucky	0.117
+21193	21	Perry	Kentucky	0.125
+21195	21	Pike	Kentucky	0.107
+21197	21	Powell	Kentucky	0.167
+21199	21	Pulaski	Kentucky	0.1
+21201	21	Robertson	Kentucky	0.096
+21203	21	Rockcastle	Kentucky	0.128
+21205	21	Rowan	Kentucky	0.086
+21207	21	Russell	Kentucky	0.108
+21209	21	Scott	Kentucky	0.091
+21211	21	Shelby	Kentucky	0.096
+21213	21	Simpson	Kentucky	0.118
+21215	21	Spencer	Kentucky	0.102
+21217	21	Taylor	Kentucky	0.102
+21219	21	Todd	Kentucky	0.126
+21221	21	Trigg	Kentucky	0.16
+21223	21	Trimble	Kentucky	0.107
+21225	21	Union	Kentucky	0.108
+21227	21	Warren	Kentucky	0.092
+21229	21	Washington	Kentucky	0.127
+21231	21	Wayne	Kentucky	0.136
+21233	21	Webster	Kentucky	0.088
+21235	21	Whitley	Kentucky	0.114
+21237	21	Wolfe	Kentucky	0.139
+21239	21	Woodford	Kentucky	0.083
+22001	22	Acadia	Louisiana	0.071
+22003	22	Allen	Louisiana	0.101
+22005	22	Ascension	Louisiana	0.067
+22007	22	Assumption	Louisiana	0.088
+22009	22	Avoyelles	Louisiana	0.081
+22011	22	Beauregard	Louisiana	0.08
+22013	22	Bienville	Louisiana	0.105
+22015	22	Bossier	Louisiana	0.064
+22017	22	Caddo	Louisiana	0.079
+22019	22	Calcasieu	Louisiana	0.072
+22021	22	Caldwell	Louisiana	0.107
+22023	22	Cameron	Louisiana	0.056
+22025	22	Catahoula	Louisiana	0.103
+22027	22	Claiborne	Louisiana	0.103
+22029	22	Concordia	Louisiana	0.113
+22031	22	De Soto	Louisiana	0.09
+22033	22	East Baton Rouge	Louisiana	0.068
+22035	22	East Carroll	Louisiana	0.142
+22037	22	East Feliciana	Louisiana	0.08
+22039	22	Evangeline	Louisiana	0.086
+22041	22	Franklin	Louisiana	0.113
+22043	22	Grant	Louisiana	0.082
+22045	22	Iberia	Louisiana	0.076
+22047	22	Iberville	Louisiana	0.104
+22049	22	Jackson	Louisiana	0.078
+22051	22	Jefferson	Louisiana	0.065
+22053	22	Jefferson Davis	Louisiana	0.064
+22055	22	Lafayette	Louisiana	0.059
+22057	22	Lafourche	Louisiana	0.049
+22059	22	La Salle	Louisiana	0.073
+22061	22	Lincoln	Louisiana	0.078
+22063	22	Livingston	Louisiana	0.07
+22065	22	Madison	Louisiana	0.093
+22067	22	Morehouse	Louisiana	0.151
+22069	22	Natchitoches	Louisiana	0.084
+22071	22	Orleans	Louisiana	0.107
+22073	22	Ouachita	Louisiana	0.076
+22075	22	Plaquemines	Louisiana	0.062
+22077	22	Pointe Coupee	Louisiana	0.079
+22079	22	Rapides	Louisiana	0.069
+22081	22	Red River	Louisiana	0.096
+22083	22	Richland	Louisiana	0.107
+22085	22	Sabine	Louisiana	0.081
+22087	22	St. Bernard	Louisiana	0.105
+22089	22	St. Charles	Louisiana	0.065
+22091	22	St. Helena	Louisiana	0.118
+22093	22	St. James	Louisiana	0.1
+22095	22	St. John the Baptist	Louisiana	0.084
+22097	22	St. Landry	Louisiana	0.083
+22099	22	St. Martin	Louisiana	0.075
+22101	22	St. Mary	Louisiana	0.086
+22103	22	St. Tammany	Louisiana	0.052
+22105	22	Tangipahoa	Louisiana	0.081
+22107	22	Tensas	Louisiana	0.135
+22109	22	Terrebonne	Louisiana	0.052
+22111	22	Union	Louisiana	0.122
+22113	22	Vermilion	Louisiana	0.072
+22115	22	Vernon	Louisiana	0.067
+22117	22	Washington	Louisiana	0.096
+22119	22	Webster	Louisiana	0.091
+22121	22	West Baton Rouge	Louisiana	0.074
+22123	22	West Carroll	Louisiana	0.17
+22125	22	West Feliciana	Louisiana	0.082
+22127	22	Winn	Louisiana	0.091
+23001	23	Androscoggin	Maine	0.084
+23003	23	Aroostook	Maine	0.093
+23005	23	Cumberland	Maine	0.065
+23007	23	Franklin	Maine	0.112
+23009	23	Hancock	Maine	0.068
+23011	23	Kennebec	Maine	0.073
+23013	23	Knox	Maine	0.07
+23015	23	Lincoln	Maine	0.063
+23017	23	Oxford	Maine	0.109
+23019	23	Penobscot	Maine	0.08
+23021	23	Piscataquis	Maine	0.116
+23023	23	Sagadahoc	Maine	0.067
+23025	23	Somerset	Maine	0.107
+23027	23	Waldo	Maine	0.078
+23029	23	Washington	Maine	0.104
+23031	23	York	Maine	0.074
+24001	24	Allegany	Maryland	0.075
+24003	24	Anne Arundel	Maryland	0.065
+24005	24	Baltimore	Maryland	0.077
+24009	24	Calvert	Maryland	0.059
+24011	24	Caroline	Maryland	0.088
+24013	24	Carroll	Maryland	0.06
+24015	24	Cecil	Maryland	0.086
+24017	24	Charles	Maryland	0.059
+24019	24	Dorchester	Maryland	0.109
+24021	24	Frederick	Maryland	0.059
+24023	24	Garrett	Maryland	0.069
+24025	24	Harford	Maryland	0.071
+24027	24	Howard	Maryland	0.054
+24029	24	Kent	Maryland	0.071
+24031	24	Montgomery	Maryland	0.053
+24033	24	Prince George's	Maryland	0.073
+24035	24	Queen Anne's	Maryland	0.066
+24037	24	St. Mary's	Maryland	0.056
+24039	24	Somerset	Maryland	0.095
+24041	24	Talbot	Maryland	0.068
+24043	24	Washington	Maryland	0.094
+24045	24	Wicomico	Maryland	0.077
+24047	24	Worcester	Maryland	0.075
+24510	24	Baltimore	Maryland	0.106
+25001	25	Barnstable	Massachusetts	0.08
+25003	25	Berkshire	Massachusetts	0.084
+25005	25	Bristol	Massachusetts	0.118
+25009	25	Essex	Massachusetts	0.101
+25011	25	Franklin	Massachusetts	0.087
+25013	25	Hampden	Massachusetts	0.105
+25015	25	Hampshire	Massachusetts	0.073
+25017	25	Middlesex	Massachusetts	0.081
+25021	25	Norfolk	Massachusetts	0.085
+25023	25	Plymouth	Massachusetts	0.097
+25025	25	Suffolk	Massachusetts	0.093
+25027	25	Worcester	Massachusetts	0.101
+26001	26	Alcona	Michigan	0.167
+26003	26	Alger	Michigan	0.12
+26005	26	Allegan	Michigan	0.132
+26007	26	Alpena	Michigan	0.139
+26009	26	Antrim	Michigan	0.147
+26011	26	Arenac	Michigan	0.158
+26013	26	Baraga	Michigan	0.243
+26015	26	Barry	Michigan	0.105
+26017	26	Bay	Michigan	0.123
+26019	26	Benzie	Michigan	0.12
+26021	26	Berrien	Michigan	0.135
+26023	26	Branch	Michigan	0.14
+26025	26	Calhoun	Michigan	0.124
+26027	26	Cass	Michigan	0.114
+26029	26	Charlevoix	Michigan	0.139
+26031	26	Cheboygan	Michigan	0.086
+26033	26	Chippewa	Michigan	0.116
+26035	26	Clare	Michigan	0.168
+26037	26	Clinton	Michigan	0.094
+26039	26	Crawford	Michigan	0.137
+26041	26	Delta	Michigan	0.115
+26043	26	Dickinson	Michigan	0.12
+26045	26	Eaton	Michigan	0.103
+26047	26	Emmet	Michigan	0.122
+26049	26	Genesee	Michigan	0.158
+26051	26	Gladwin	Michigan	0.165
+26053	26	Gogebic	Michigan	0.133
+26055	26	Grand Traverse	Michigan	0.12
+26057	26	Gratiot	Michigan	0.137
+26059	26	Hillsdale	Michigan	0.172
+26061	26	Houghton	Michigan	0.102
+26063	26	Huron	Michigan	0.148
+26065	26	Ingham	Michigan	0.116
+26067	26	Ionia	Michigan	0.134
+26069	26	Iosco	Michigan	0.164
+26071	26	Iron	Michigan	0.117
+26073	26	Isabella	Michigan	0.085
+26075	26	Jackson	Michigan	0.149
+26077	26	Kalamazoo	Michigan	0.112
+26079	26	Kalkaska	Michigan	0.143
+26081	26	Kent	Michigan	0.117
+26083	26	Keweenaw	Michigan	0.119
+26085	26	Lake	Michigan	0.175
+26087	26	Lapeer	Michigan	0.181
+26089	26	Leelanau	Michigan	0.09
+26091	26	Lenawee	Michigan	0.161
+26093	26	Livingston	Michigan	0.136
+26095	26	Luce	Michigan	0.132
+26097	26	Mackinac	Michigan	0.061
+26099	26	Macomb	Michigan	0.181
+26101	26	Manistee	Michigan	0.126
+26103	26	Marquette	Michigan	0.101
+26105	26	Mason	Michigan	0.129
+26107	26	Mecosta	Michigan	0.13
+26109	26	Menominee	Michigan	0.125
+26111	26	Midland	Michigan	0.102
+26113	26	Missaukee	Michigan	0.15
+26115	26	Monroe	Michigan	0.142
+26117	26	Montcalm	Michigan	0.176
+26119	26	Montmorency	Michigan	0.189
+26121	26	Muskegon	Michigan	0.16
+26123	26	Newaygo	Michigan	0.138
+26125	26	Oakland	Michigan	0.156
+26127	26	Oceana	Michigan	0.152
+26129	26	Ogemaw	Michigan	0.127
+26131	26	Ontonagon	Michigan	0.138
+26133	26	Osceola	Michigan	0.153
+26135	26	Oscoda	Michigan	0.191
+26137	26	Otsego	Michigan	0.147
+26139	26	Ottawa	Michigan	0.128
+26141	26	Presque Isle	Michigan	0.16
+26143	26	Roscommon	Michigan	0.146
+26145	26	Saginaw	Michigan	0.129
+26147	26	St. Clair	Michigan	0.19
+26149	26	St. Joseph	Michigan	0.139
+26151	26	Sanilac	Michigan	0.178
+26153	26	Schoolcraft	Michigan	0.127
+26155	26	Shiawassee	Michigan	0.152
+26157	26	Tuscola	Michigan	0.163
+26159	26	Van Buren	Michigan	0.132
+26161	26	Washtenaw	Michigan	0.093
+26163	26	Wayne	Michigan	0.183
+26165	26	Wexford	Michigan	0.183
+27001	27	Aitkin	Minnesota	0.081
+27003	27	Anoka	Minnesota	0.079
+27005	27	Becker	Minnesota	0.064
+27007	27	Beltrami	Minnesota	0.072
+27009	27	Benton	Minnesota	0.07
+27011	27	Big Stone	Minnesota	0.045
+27013	27	Blue Earth	Minnesota	0.063
+27015	27	Brown	Minnesota	0.055
+27017	27	Carlton	Minnesota	0.073
+27019	27	Carver	Minnesota	0.07
+27021	27	Cass	Minnesota	0.079
+27023	27	Chippewa	Minnesota	0.061
+27025	27	Chisago	Minnesota	0.084
+27027	27	Clay	Minnesota	0.036
+27029	27	Clearwater	Minnesota	0.091
+27031	27	Cook	Minnesota	0.047
+27033	27	Cottonwood	Minnesota	0.052
+27035	27	Crow Wing	Minnesota	0.074
+27037	27	Dakota	Minnesota	0.069
+27039	27	Dodge	Minnesota	0.061
+27041	27	Douglas	Minnesota	0.056
+27043	27	Faribault	Minnesota	0.076
+27045	27	Fillmore	Minnesota	0.07
+27047	27	Freeborn	Minnesota	0.076
+27049	27	Goodhue	Minnesota	0.067
+27051	27	Grant	Minnesota	0.068
+27053	27	Hennepin	Minnesota	0.073
+27055	27	Houston	Minnesota	0.071
+27057	27	Hubbard	Minnesota	0.073
+27059	27	Isanti	Minnesota	0.083
+27061	27	Itasca	Minnesota	0.092
+27063	27	Jackson	Minnesota	0.047
+27065	27	Kanabec	Minnesota	0.103
+27067	27	Kandiyohi	Minnesota	0.055
+27069	27	Kittson	Minnesota	0.052
+27071	27	Koochiching	Minnesota	0.073
+27073	27	Lac qui Parle	Minnesota	0.054
+27075	27	Lake	Minnesota	0.075
+27077	27	Lake of the Woods	Minnesota	0.069
+27079	27	Le Sueur	Minnesota	0.086
+27081	27	Lincoln	Minnesota	0.045
+27083	27	Lyon	Minnesota	0.049
+27085	27	McLeod	Minnesota	0.08
+27087	27	Mahnomen	Minnesota	0.06
+27089	27	Marshall	Minnesota	0.062
+27091	27	Martin	Minnesota	0.069
+27093	27	Meeker	Minnesota	0.078
+27095	27	Mille Lacs	Minnesota	0.105
+27097	27	Morrison	Minnesota	0.09
+27099	27	Mower	Minnesota	0.055
+27101	27	Murray	Minnesota	0.039
+27103	27	Nicollet	Minnesota	0.061
+27105	27	Nobles	Minnesota	0.045
+27107	27	Norman	Minnesota	0.051
+27109	27	Olmsted	Minnesota	0.055
+27111	27	Otter Tail	Minnesota	0.063
+27113	27	Pennington	Minnesota	0.056
+27115	27	Pine	Minnesota	0.091
+27117	27	Pipestone	Minnesota	0.053
+27119	27	Polk	Minnesota	0.044
+27121	27	Pope	Minnesota	0.064
+27123	27	Ramsey	Minnesota	0.074
+27125	27	Red Lake	Minnesota	0.067
+27127	27	Redwood	Minnesota	0.061
+27129	27	Renville	Minnesota	0.064
+27131	27	Rice	Minnesota	0.075
+27133	27	Rock	Minnesota	0.051
+27135	27	Roseau	Minnesota	0.05
+27137	27	St. Louis	Minnesota	0.082
+27139	27	Scott	Minnesota	0.068
+27141	27	Sherburne	Minnesota	0.081
+27143	27	Sibley	Minnesota	0.065
+27145	27	Stearns	Minnesota	0.068
+27147	27	Steele	Minnesota	0.077
+27149	27	Stevens	Minnesota	0.043
+27151	27	Swift	Minnesota	0.066
+27153	27	Todd	Minnesota	0.075
+27155	27	Traverse	Minnesota	0.062
+27157	27	Wabasha	Minnesota	0.071
+27159	27	Wadena	Minnesota	0.088
+27161	27	Waseca	Minnesota	0.07
+27163	27	Washington	Minnesota	0.068
+27165	27	Watonwan	Minnesota	0.075
+27167	27	Wilkin	Minnesota	0.047
+27169	27	Winona	Minnesota	0.07
+27171	27	Wright	Minnesota	0.082
+27173	27	Yellow Medicine	Minnesota	0.051
+28001	28	Adams	Mississippi	0.08
+28003	28	Alcorn	Mississippi	0.113
+28005	28	Amite	Mississippi	0.086
+28007	28	Attala	Mississippi	0.118
+28009	28	Benton	Mississippi	0.126
+28011	28	Bolivar	Mississippi	0.09
+28013	28	Calhoun	Mississippi	0.097
+28015	28	Carroll	Mississippi	0.098
+28017	28	Chickasaw	Mississippi	0.132
+28019	28	Choctaw	Mississippi	0.113
+28021	28	Claiborne	Mississippi	0.15
+28023	28	Clarke	Mississippi	0.1
+28025	28	Clay	Mississippi	0.178
+28027	28	Coahoma	Mississippi	0.111
+28029	28	Copiah	Mississippi	0.099
+28031	28	Covington	Mississippi	0.077
+28033	28	DeSoto	Mississippi	0.072
+28035	28	Forrest	Mississippi	0.077
+28037	28	Franklin	Mississippi	0.09
+28039	28	George	Mississippi	0.1
+28041	28	Greene	Mississippi	0.099
+28043	28	Grenada	Mississippi	0.11
+28045	28	Hancock	Mississippi	0.075
+28047	28	Harrison	Mississippi	0.072
+28049	28	Hinds	Mississippi	0.079
+28051	28	Holmes	Mississippi	0.166
+28053	28	Humphreys	Mississippi	0.102
+28055	28	Issaquena	Mississippi	0.092
+28057	28	Itawamba	Mississippi	0.096
+28059	28	Jackson	Mississippi	0.08
+28061	28	Jasper	Mississippi	0.102
+28063	28	Jefferson	Mississippi	0.155
+28065	28	Jefferson Davis	Mississippi	0.106
+28067	28	Jones	Mississippi	0.071
+28069	28	Kemper	Mississippi	0.103
+28071	28	Lafayette	Mississippi	0.069
+28073	28	Lamar	Mississippi	0.066
+28075	28	Lauderdale	Mississippi	0.087
+28077	28	Lawrence	Mississippi	0.102
+28079	28	Leake	Mississippi	0.087
+28081	28	Lee	Mississippi	0.098
+28083	28	Leflore	Mississippi	0.116
+28085	28	Lincoln	Mississippi	0.088
+28087	28	Lowndes	Mississippi	0.102
+28089	28	Madison	Mississippi	0.063
+28091	28	Marion	Mississippi	0.101
+28093	28	Marshall	Mississippi	0.112
+28095	28	Monroe	Mississippi	0.137
+28097	28	Montgomery	Mississippi	0.127
+28099	28	Neshoba	Mississippi	0.084
+28101	28	Newton	Mississippi	0.079
+28103	28	Noxubee	Mississippi	0.176
+28105	28	Oktibbeha	Mississippi	0.08
+28107	28	Panola	Mississippi	0.119
+28109	28	Pearl River	Mississippi	0.083
+28111	28	Perry	Mississippi	0.104
+28113	28	Pike	Mississippi	0.098
+28115	28	Pontotoc	Mississippi	0.087
+28117	28	Prentiss	Mississippi	0.115
+28119	28	Quitman	Mississippi	0.111
+28121	28	Rankin	Mississippi	0.056
+28123	28	Scott	Mississippi	0.059
+28125	28	Sharkey	Mississippi	0.09
+28127	28	Simpson	Mississippi	0.082
+28129	28	Smith	Mississippi	0.082
+28131	28	Stone	Mississippi	0.072
+28133	28	Sunflower	Mississippi	0.118
+28135	28	Tallahatchie	Mississippi	0.099
+28137	28	Tate	Mississippi	0.103
+28139	28	Tippah	Mississippi	0.125
+28141	28	Tishomingo	Mississippi	0.101
+28143	28	Tunica	Mississippi	0.13
+28145	28	Union	Mississippi	0.088
+28147	28	Walthall	Mississippi	0.103
+28149	28	Warren	Mississippi	0.091
+28151	28	Washington	Mississippi	0.113
+28153	28	Wayne	Mississippi	0.094
+28155	28	Webster	Mississippi	0.135
+28157	28	Wilkinson	Mississippi	0.101
+28159	28	Winston	Mississippi	0.151
+28161	28	Yalobusha	Mississippi	0.129
+28163	28	Yazoo	Mississippi	0.105
+29001	29	Adair	Missouri	0.065
+29003	29	Andrew	Missouri	0.076
+29005	29	Atchison	Missouri	0.079
+29007	29	Audrain	Missouri	0.092
+29009	29	Barry	Missouri	0.081
+29011	29	Barton	Missouri	0.117
+29013	29	Bates	Missouri	0.108
+29015	29	Benton	Missouri	0.093
+29017	29	Bollinger	Missouri	0.088
+29019	29	Boone	Missouri	0.062
+29021	29	Buchanan	Missouri	0.087
+29023	29	Butler	Missouri	0.08
+29025	29	Caldwell	Missouri	0.086
+29027	29	Callaway	Missouri	0.08
+29029	29	Camden	Missouri	0.079
+29031	29	Cape Girardeau	Missouri	0.069
+29033	29	Carroll	Missouri	0.098
+29035	29	Carter	Missouri	0.087
+29037	29	Cass	Missouri	0.097
+29039	29	Cedar	Missouri	0.086
+29041	29	Chariton	Missouri	0.105
+29043	29	Christian	Missouri	0.08
+29045	29	Clark	Missouri	0.113
+29047	29	Clay	Missouri	0.086
+29049	29	Clinton	Missouri	0.087
+29051	29	Cole	Missouri	0.067
+29053	29	Cooper	Missouri	0.084
+29055	29	Crawford	Missouri	0.107
+29057	29	Dade	Missouri	0.101
+29059	29	Dallas	Missouri	0.094
+29061	29	Daviess	Missouri	0.087
+29063	29	DeKalb	Missouri	0.093
+29065	29	Dent	Missouri	0.094
+29067	29	Douglas	Missouri	0.098
+29069	29	Dunklin	Missouri	0.111
+29071	29	Franklin	Missouri	0.115
+29073	29	Gasconade	Missouri	0.108
+29075	29	Gentry	Missouri	0.068
+29077	29	Greene	Missouri	0.083
+29079	29	Grundy	Missouri	0.069
+29081	29	Harrison	Missouri	0.078
+29083	29	Henry	Missouri	0.096
+29085	29	Hickory	Missouri	0.123
+29087	29	Holt	Missouri	0.071
+29089	29	Howard	Missouri	0.083
+29091	29	Howell	Missouri	0.092
+29093	29	Iron	Missouri	0.087
+29095	29	Jackson	Missouri	0.109
+29097	29	Jasper	Missouri	0.084
+29099	29	Jefferson	Missouri	0.106
+29101	29	Johnson	Missouri	0.08
+29103	29	Knox	Missouri	0.059
+29105	29	Laclede	Missouri	0.11
+29107	29	Lafayette	Missouri	0.09
+29109	29	Lawrence	Missouri	0.078
+29111	29	Lewis	Missouri	0.083
+29113	29	Lincoln	Missouri	0.113
+29115	29	Linn	Missouri	0.103
+29117	29	Livingston	Missouri	0.078
+29119	29	McDonald	Missouri	0.07
+29121	29	Macon	Missouri	0.079
+29123	29	Madison	Missouri	0.098
+29125	29	Maries	Missouri	0.087
+29127	29	Marion	Missouri	0.089
+29129	29	Mercer	Missouri	0.079
+29131	29	Miller	Missouri	0.106
+29133	29	Mississippi	Missouri	0.097
+29135	29	Moniteau	Missouri	0.078
+29137	29	Monroe	Missouri	0.11
+29139	29	Montgomery	Missouri	0.103
+29141	29	Morgan	Missouri	0.113
+29143	29	New Madrid	Missouri	0.089
+29145	29	Newton	Missouri	0.079
+29147	29	Nodaway	Missouri	0.059
+29149	29	Oregon	Missouri	0.09
+29151	29	Osage	Missouri	0.099
+29153	29	Ozark	Missouri	0.076
+29155	29	Pemiscot	Missouri	0.121
+29157	29	Perry	Missouri	0.072
+29159	29	Pettis	Missouri	0.081
+29161	29	Phelps	Missouri	0.071
+29163	29	Pike	Missouri	0.083
+29165	29	Platte	Missouri	0.08
+29167	29	Polk	Missouri	0.089
+29169	29	Pulaski	Missouri	0.068
+29171	29	Putnam	Missouri	0.074
+29173	29	Ralls	Missouri	0.08
+29175	29	Randolph	Missouri	0.094
+29177	29	Ray	Missouri	0.083
+29179	29	Reynolds	Missouri	0.127
+29181	29	Ripley	Missouri	0.095
+29183	29	St. Charles	Missouri	0.087
+29185	29	St. Clair	Missouri	0.103
+29186	29	Ste. Genevieve	Missouri	0.093
+29187	29	St. Francois	Missouri	0.109
+29189	29	St. Louis	Missouri	0.096
+29195	29	Saline	Missouri	0.079
+29197	29	Schuyler	Missouri	0.078
+29199	29	Scotland	Missouri	0.122
+29201	29	Scott	Missouri	0.092
+29203	29	Shannon	Missouri	0.096
+29205	29	Shelby	Missouri	0.081
+29207	29	Stoddard	Missouri	0.09
+29209	29	Stone	Missouri	0.09
+29211	29	Sullivan	Missouri	0.064
+29213	29	Taney	Missouri	0.086
+29215	29	Texas	Missouri	0.088
+29217	29	Vernon	Missouri	0.079
+29219	29	Warren	Missouri	0.112
+29221	29	Washington	Missouri	0.137
+29223	29	Wayne	Missouri	0.095
+29225	29	Webster	Missouri	0.09
+29227	29	Worth	Missouri	0.084
+29229	29	Wright	Missouri	0.096
+29510	29	St. Louis	Missouri	0.111
+30001	30	Beaverhead	Montana	0.044
+30003	30	Big Horn	Montana	0.102
+30005	30	Blaine	Montana	0.05
+30007	30	Broadwater	Montana	0.062
+30009	30	Carbon	Montana	0.048
+30011	30	Carter	Montana	0.039
+30013	30	Cascade	Montana	0.052
+30015	30	Chouteau	Montana	0.042
+30017	30	Custer	Montana	0.046
+30019	30	Daniels	Montana	0.042
+30021	30	Dawson	Montana	0.048
+30023	30	Deer Lodge	Montana	0.065
+30025	30	Fallon	Montana	0.037
+30027	30	Fergus	Montana	0.047
+30029	30	Flathead	Montana	0.088
+30031	30	Gallatin	Montana	0.055
+30033	30	Garfield	Montana	0.034
+30035	30	Glacier	Montana	0.072
+30037	30	Golden Valley	Montana	0.047
+30039	30	Granite	Montana	0.082
+30041	30	Hill	Montana	0.051
+30043	30	Jefferson	Montana	0.058
+30045	30	Judith Basin	Montana	0.046
+30047	30	Lake	Montana	0.083
+30049	30	Lewis and Clark	Montana	0.043
+30051	30	Liberty	Montana	0.047
+30053	30	Lincoln	Montana	0.111
+30055	30	McCone	Montana	0.032
+30057	30	Madison	Montana	0.048
+30059	30	Meagher	Montana	0.078
+30061	30	Mineral	Montana	0.086
+30063	30	Missoula	Montana	0.056
+30065	30	Musselshell	Montana	0.075
+30067	30	Park	Montana	0.061
+30069	30	Petroleum	Montana	0.045
+30071	30	Phillips	Montana	0.048
+30073	30	Pondera	Montana	0.06
+30075	30	Powder River	Montana	0.04
+30077	30	Powell	Montana	0.073
+30079	30	Prairie	Montana	0.031
+30081	30	Ravalli	Montana	0.075
+30083	30	Richland	Montana	0.046
+30085	30	Roosevelt	Montana	0.075
+30087	30	Rosebud	Montana	0.073
+30089	30	Sanders	Montana	0.112
+30091	30	Sheridan	Montana	0.043
+30093	30	Silver Bow	Montana	0.055
+30095	30	Stillwater	Montana	0.052
+30097	30	Sweet Grass	Montana	0.031
+30099	30	Teton	Montana	0.04
+30101	30	Toole	Montana	0.041
+30103	30	Treasure	Montana	0.051
+30105	30	Valley	Montana	0.046
+30107	30	Wheatland	Montana	0.043
+30109	30	Wibaux	Montana	0.041
+30111	30	Yellowstone	Montana	0.047
+31001	31	Adams	Nebraska	0.056
+31003	31	Antelope	Nebraska	0.036
+31005	31	Arthur	Nebraska	0.044
+31007	31	Banner	Nebraska	0.035
+31009	31	Blaine	Nebraska	0.052
+31011	31	Boone	Nebraska	0.039
+31013	31	Box Butte	Nebraska	0.071
+31015	31	Boyd	Nebraska	0.036
+31017	31	Brown	Nebraska	0.031
+31019	31	Buffalo	Nebraska	0.035
+31021	31	Burt	Nebraska	0.057
+31023	31	Butler	Nebraska	0.039
+31025	31	Cass	Nebraska	0.046
+31027	31	Cedar	Nebraska	0.032
+31029	31	Chase	Nebraska	0.03
+31031	31	Cherry	Nebraska	0.025
+31033	31	Cheyenne	Nebraska	0.041
+31035	31	Clay	Nebraska	0.043
+31037	31	Colfax	Nebraska	0.04
+31039	31	Cuming	Nebraska	0.035
+31041	31	Custer	Nebraska	0.031
+31043	31	Dakota	Nebraska	0.055
+31045	31	Dawes	Nebraska	0.044
+31047	31	Dawson	Nebraska	0.048
+31049	31	Deuel	Nebraska	0.038
+31051	31	Dixon	Nebraska	0.037
+31053	31	Dodge	Nebraska	0.049
+31055	31	Douglas	Nebraska	0.05
+31057	31	Dundy	Nebraska	0.04
+31059	31	Fillmore	Nebraska	0.044
+31061	31	Franklin	Nebraska	0.037
+31063	31	Frontier	Nebraska	0.03
+31065	31	Furnas	Nebraska	0.041
+31067	31	Gage	Nebraska	0.059
+31069	31	Garden	Nebraska	0.044
+31071	31	Garfield	Nebraska	0.025
+31073	31	Gosper	Nebraska	0.038
+31075	31	Grant	Nebraska	0.031
+31077	31	Greeley	Nebraska	0.033
+31079	31	Hall	Nebraska	0.044
+31081	31	Hamilton	Nebraska	0.034
+31083	31	Harlan	Nebraska	0.036
+31085	31	Hayes	Nebraska	0.042
+31087	31	Hitchcock	Nebraska	0.066
+31089	31	Holt	Nebraska	0.032
+31091	31	Hooker	Nebraska	0.04
+31093	31	Howard	Nebraska	0.038
+31095	31	Jefferson	Nebraska	0.046
+31097	31	Johnson	Nebraska	0.039
+31099	31	Kearney	Nebraska	0.038
+31101	31	Keith	Nebraska	0.039
+31103	31	Keya Paha	Nebraska	0.044
+31105	31	Kimball	Nebraska	0.043
+31107	31	Knox	Nebraska	0.036
+31109	31	Lancaster	Nebraska	0.042
+31111	31	Lincoln	Nebraska	0.04
+31113	31	Logan	Nebraska	0.043
+31115	31	Loup	Nebraska	0.032
+31117	31	McPherson	Nebraska	0.04
+31119	31	Madison	Nebraska	0.042
+31121	31	Merrick	Nebraska	0.04
+31123	31	Morrill	Nebraska	0.041
+31125	31	Nance	Nebraska	0.036
+31127	31	Nemaha	Nebraska	0.054
+31129	31	Nuckolls	Nebraska	0.047
+31131	31	Otoe	Nebraska	0.05
+31133	31	Pawnee	Nebraska	0.041
+31135	31	Perkins	Nebraska	0.031
+31137	31	Phelps	Nebraska	0.038
+31139	31	Pierce	Nebraska	0.036
+31141	31	Platte	Nebraska	0.044
+31143	31	Polk	Nebraska	0.042
+31145	31	Red Willow	Nebraska	0.042
+31147	31	Richardson	Nebraska	0.057
+31149	31	Rock	Nebraska	0.031
+31151	31	Saline	Nebraska	0.04
+31153	31	Sarpy	Nebraska	0.047
+31155	31	Saunders	Nebraska	0.045
+31157	31	Scotts Bluff	Nebraska	0.048
+31159	31	Seward	Nebraska	0.037
+31161	31	Sheridan	Nebraska	0.035
+31163	31	Sherman	Nebraska	0.03
+31165	31	Sioux	Nebraska	0.038
+31167	31	Stanton	Nebraska	0.036
+31169	31	Thayer	Nebraska	0.043
+31171	31	Thomas	Nebraska	0.038
+31173	31	Thurston	Nebraska	0.138
+31175	31	Valley	Nebraska	0.029
+31177	31	Washington	Nebraska	0.041
+31179	31	Wayne	Nebraska	0.038
+31181	31	Webster	Nebraska	0.042
+31183	31	Wheeler	Nebraska	0.032
+31185	31	York	Nebraska	0.057
+32001	32	Churchill	Nevada	0.099
+32003	32	Clark	Nevada	0.139
+32005	32	Douglas	Nevada	0.126
+32007	32	Elko	Nevada	0.068
+32009	32	Esmeralda	Nevada	0.083
+32011	32	Eureka	Nevada	0.093
+32013	32	Humboldt	Nevada	0.086
+32015	32	Lander	Nevada	0.072
+32017	32	Lincoln	Nevada	0.094
+32019	32	Lyon	Nevada	0.163
+32021	32	Mineral	Nevada	0.105
+32023	32	Nye	Nevada	0.161
+32027	32	Pershing	Nevada	0.106
+32029	32	Storey	Nevada	0.148
+32031	32	Washoe	Nevada	0.131
+32033	32	White Pine	Nevada	0.084
+32510	32	Carson City	Nevada	0.128
+33001	33	Belknap	New Hampshire	0.07
+33003	33	Carroll	New Hampshire	0.054
+33005	33	Cheshire	New Hampshire	0.065
+33007	33	Coos	New Hampshire	0.078
+33009	33	Grafton	New Hampshire	0.056
+33011	33	Hillsborough	New Hampshire	0.075
+33013	33	Merrimack	New Hampshire	0.063
+33015	33	Rockingham	New Hampshire	0.075
+33017	33	Strafford	New Hampshire	0.066
+33019	33	Sullivan	New Hampshire	0.065
+34001	34	Atlantic	New Jersey	0.122
+34003	34	Bergen	New Jersey	0.084
+34005	34	Burlington	New Jersey	0.091
+34007	34	Camden	New Jersey	0.109
+34009	34	Cape May	New Jersey	0.085
+34011	34	Cumberland	New Jersey	0.126
+34013	34	Essex	New Jersey	0.111
+34015	34	Gloucester	New Jersey	0.1
+34017	34	Hudson	New Jersey	0.116
+34019	34	Hunterdon	New Jersey	0.069
+34021	34	Mercer	New Jersey	0.081
+34023	34	Middlesex	New Jersey	0.092
+34025	34	Monmouth	New Jersey	0.087
+34027	34	Morris	New Jersey	0.076
+34029	34	Ocean	New Jersey	0.096
+34031	34	Passaic	New Jersey	0.117
+34033	34	Salem	New Jersey	0.101
+34035	34	Somerset	New Jersey	0.079
+34037	34	Sussex	New Jersey	0.085
+34039	34	Union	New Jersey	0.098
+34041	34	Warren	New Jersey	0.088
+35001	35	Bernalillo	New Mexico	0.075
+35003	35	Catron	New Mexico	0.081
+35005	35	Chaves	New Mexico	0.068
+35006	35	Cibola	New Mexico	0.063
+35007	35	Colfax	New Mexico	0.08
+35009	35	Curry	New Mexico	0.044
+35011	35	De Baca	New Mexico	0.043
+35013	35	Dona Ana	New Mexico	0.069
+35015	35	Eddy	New Mexico	0.06
+35017	35	Grant	New Mexico	0.123
+35019	35	Guadalupe	New Mexico	0.075
+35021	35	Harding	New Mexico	0.045
+35023	35	Hidalgo	New Mexico	0.076
+35025	35	Lea	New Mexico	0.083
+35027	35	Lincoln	New Mexico	0.051
+35028	35	Los Alamos	New Mexico	0.029
+35029	35	Luna	New Mexico	0.134
+35031	35	McKinley	New Mexico	0.086
+35033	35	Mora	New Mexico	0.131
+35035	35	Otero	New Mexico	0.068
+35037	35	Quay	New Mexico	0.059
+35039	35	Rio Arriba	New Mexico	0.072
+35041	35	Roosevelt	New Mexico	0.044
+35043	35	Sandoval	New Mexico	0.09
+35045	35	San Juan	New Mexico	0.083
+35047	35	San Miguel	New Mexico	0.078
+35049	35	Santa Fe	New Mexico	0.065
+35051	35	Sierra	New Mexico	0.048
+35053	35	Socorro	New Mexico	0.05
+35055	35	Taos	New Mexico	0.087
+35057	35	Torrance	New Mexico	0.088
+35059	35	Union	New Mexico	0.055
+35061	35	Valencia	New Mexico	0.085
+36001	36	Albany	New York	0.071
+36003	36	Allegany	New York	0.079
+36005	36	Bronx	New York	0.133
+36007	36	Broome	New York	0.085
+36009	36	Cattaraugus	New York	0.085
+36011	36	Cayuga	New York	0.08
+36013	36	Chautauqua	New York	0.078
+36015	36	Chemung	New York	0.089
+36017	36	Chenango	New York	0.087
+36019	36	Clinton	New York	0.09
+36021	36	Columbia	New York	0.077
+36023	36	Cortland	New York	0.085
+36025	36	Delaware	New York	0.084
+36027	36	Dutchess	New York	0.082
+36029	36	Erie	New York	0.083
+36031	36	Essex	New York	0.078
+36033	36	Franklin	New York	0.078
+36035	36	Fulton	New York	0.091
+36037	36	Genesee	New York	0.072
+36039	36	Greene	New York	0.084
+36041	36	Hamilton	New York	0.056
+36043	36	Herkimer	New York	0.076
+36045	36	Jefferson	New York	0.078
+36047	36	Kings	New York	0.11
+36049	36	Lewis	New York	0.076
+36051	36	Livingston	New York	0.075
+36053	36	Madison	New York	0.074
+36055	36	Monroe	New York	0.083
+36057	36	Montgomery	New York	0.088
+36059	36	Nassau	New York	0.072
+36061	36	New York	New York	0.092
+36063	36	Niagara	New York	0.088
+36065	36	Oneida	New York	0.073
+36067	36	Onondaga	New York	0.079
+36069	36	Ontario	New York	0.067
+36071	36	Orange	New York	0.082
+36073	36	Orleans	New York	0.082
+36075	36	Oswego	New York	0.093
+36077	36	Otsego	New York	0.068
+36079	36	Putnam	New York	0.07
+36081	36	Queens	New York	0.091
+36083	36	Rensselaer	New York	0.077
+36087	36	Rockland	New York	0.074
+36089	36	St. Lawrence	New York	0.089
+36091	36	Saratoga	New York	0.064
+36093	36	Schenectady	New York	0.078
+36095	36	Schoharie	New York	0.076
+36097	36	Schuyler	New York	0.074
+36099	36	Seneca	New York	0.073
+36101	36	Steuben	New York	0.095
+36103	36	Suffolk	New York	0.075
+36105	36	Sullivan	New York	0.086
+36107	36	Tioga	New York	0.079
+36109	36	Tompkins	New York	0.056
+36111	36	Ulster	New York	0.081
+36113	36	Warren	New York	0.072
+36115	36	Washington	New York	0.074
+36117	36	Wayne	New York	0.078
+36119	36	Westchester	New York	0.074
+36121	36	Wyoming	New York	0.078
+36123	36	Yates	New York	0.06
+37001	37	Alamance	North Carolina	0.118
+37003	37	Alexander	North Carolina	0.136
+37005	37	Alleghany	North Carolina	0.109
+37007	37	Anson	North Carolina	0.148
+37009	37	Ashe	North Carolina	0.1
+37011	37	Avery	North Carolina	0.079
+37013	37	Beaufort	North Carolina	0.112
+37015	37	Bertie	North Carolina	0.105
+37017	37	Bladen	North Carolina	0.12
+37019	37	Brunswick	North Carolina	0.105
+37021	37	Buncombe	North Carolina	0.082
+37023	37	Burke	North Carolina	0.141
+37025	37	Cabarrus	North Carolina	0.114
+37027	37	Caldwell	North Carolina	0.152
+37029	37	Camden	North Carolina	0.071
+37031	37	Carteret	North Carolina	0.076
+37033	37	Caswell	North Carolina	0.124
+37035	37	Catawba	North Carolina	0.136
+37037	37	Chatham	North Carolina	0.08
+37039	37	Cherokee	North Carolina	0.142
+37041	37	Chowan	North Carolina	0.119
+37043	37	Clay	North Carolina	0.108
+37045	37	Cleveland	North Carolina	0.143
+37047	37	Columbus	North Carolina	0.125
+37049	37	Craven	North Carolina	0.1
+37051	37	Cumberland	North Carolina	0.091
+37053	37	Currituck	North Carolina	0.05
+37055	37	Dare	North Carolina	0.068
+37057	37	Davidson	North Carolina	0.125
+37059	37	Davie	North Carolina	0.121
+37061	37	Duplin	North Carolina	0.087
+37063	37	Durham	North Carolina	0.08
+37065	37	Edgecombe	North Carolina	0.163
+37067	37	Forsyth	North Carolina	0.095
+37069	37	Franklin	North Carolina	0.097
+37071	37	Gaston	North Carolina	0.133
+37073	37	Gates	North Carolina	0.071
+37075	37	Graham	North Carolina	0.134
+37077	37	Granville	North Carolina	0.102
+37079	37	Greene	North Carolina	0.102
+37081	37	Guilford	North Carolina	0.11
+37083	37	Halifax	North Carolina	0.131
+37085	37	Harnett	North Carolina	0.109
+37087	37	Haywood	North Carolina	0.085
+37089	37	Henderson	North Carolina	0.086
+37091	37	Hertford	North Carolina	0.094
+37093	37	Hoke	North Carolina	0.083
+37095	37	Hyde	North Carolina	0.059
+37097	37	Iredell	North Carolina	0.121
+37099	37	Jackson	North Carolina	0.078
+37101	37	Johnston	North Carolina	0.095
+37103	37	Jones	North Carolina	0.109
+37105	37	Lee	North Carolina	0.135
+37107	37	Lenoir	North Carolina	0.114
+37109	37	Lincoln	North Carolina	0.132
+37111	37	McDowell	North Carolina	0.141
+37113	37	Macon	North Carolina	0.092
+37115	37	Madison	North Carolina	0.093
+37117	37	Martin	North Carolina	0.106
+37119	37	Mecklenburg	North Carolina	0.11
+37121	37	Mitchell	North Carolina	0.11
+37123	37	Montgomery	North Carolina	0.133
+37125	37	Moore	North Carolina	0.095
+37127	37	Nash	North Carolina	0.119
+37129	37	New Hanover	North Carolina	0.091
+37131	37	Northampton	North Carolina	0.107
+37133	37	Onslow	North Carolina	0.083
+37135	37	Orange	North Carolina	0.063
+37137	37	Pamlico	North Carolina	0.101
+37139	37	Pasquotank	North Carolina	0.091
+37141	37	Pender	North Carolina	0.108
+37143	37	Perquimans	North Carolina	0.103
+37145	37	Person	North Carolina	0.108
+37147	37	Pitt	North Carolina	0.1
+37149	37	Polk	North Carolina	0.082
+37151	37	Randolph	North Carolina	0.11
+37153	37	Richmond	North Carolina	0.132
+37155	37	Robeson	North Carolina	0.115
+37157	37	Rockingham	North Carolina	0.117
+37159	37	Rowan	North Carolina	0.128
+37161	37	Rutherford	North Carolina	0.143
+37163	37	Sampson	North Carolina	0.083
+37165	37	Scotland	North Carolina	0.165
+37167	37	Stanly	North Carolina	0.119
+37169	37	Stokes	North Carolina	0.101
+37171	37	Surry	North Carolina	0.118
+37173	37	Swain	North Carolina	0.091
+37175	37	Transylvania	North Carolina	0.085
+37177	37	Tyrrell	North Carolina	0.088
+37179	37	Union	North Carolina	0.1
+37181	37	Vance	North Carolina	0.13
+37183	37	Wake	North Carolina	0.083
+37185	37	Warren	North Carolina	0.127
+37187	37	Washington	North Carolina	0.117
+37189	37	Watauga	North Carolina	0.069
+37191	37	Wayne	North Carolina	0.088
+37193	37	Wilkes	North Carolina	0.129
+37195	37	Wilson	North Carolina	0.119
+37197	37	Yadkin	North Carolina	0.093
+37199	37	Yancey	North Carolina	0.109
+38001	38	Adams	North Dakota	0.027
+38003	38	Barnes	North Dakota	0.034
+38005	38	Benson	North Dakota	0.053
+38007	38	Billings	North Dakota	0.013
+38009	38	Bottineau	North Dakota	0.029
+38011	38	Bowman	North Dakota	0.027
+38013	38	Burke	North Dakota	0.022
+38015	38	Burleigh	North Dakota	0.028
+38017	38	Cass	North Dakota	0.037
+38019	38	Cavalier	North Dakota	0.025
+38021	38	Dickey	North Dakota	0.041
+38023	38	Divide	North Dakota	0.034
+38025	38	Dunn	North Dakota	0.036
+38027	38	Eddy	North Dakota	0.038
+38029	38	Emmons	North Dakota	0.051
+38031	38	Foster	North Dakota	0.028
+38033	38	Golden Valley	North Dakota	0.025
+38035	38	Grand Forks	North Dakota	0.035
+38037	38	Grant	North Dakota	0.032
+38039	38	Griggs	North Dakota	0.036
+38041	38	Hettinger	North Dakota	0.027
+38043	38	Kidder	North Dakota	0.034
+38045	38	LaMoure	North Dakota	0.043
+38047	38	Logan	North Dakota	0.027
+38049	38	McHenry	North Dakota	0.029
+38051	38	McIntosh	North Dakota	0.031
+38053	38	McKenzie	North Dakota	0.022
+38055	38	McLean	North Dakota	0.034
+38057	38	Mercer	North Dakota	0.033
+38059	38	Morton	North Dakota	0.03
+38061	38	Mountrail	North Dakota	0.044
+38063	38	Nelson	North Dakota	0.029
+38065	38	Oliver	North Dakota	0.031
+38067	38	Pembina	North Dakota	0.051
+38069	38	Pierce	North Dakota	0.04
+38071	38	Ramsey	North Dakota	0.032
+38073	38	Ransom	North Dakota	0.06
+38075	38	Renville	North Dakota	0.033
+38077	38	Richland	North Dakota	0.043
+38079	38	Rolette	North Dakota	0.097
+38081	38	Sargent	North Dakota	0.065
+38083	38	Sheridan	North Dakota	0.037
+38085	38	Sioux	North Dakota	0.043
+38087	38	Slope	North Dakota	0.012
+38089	38	Stark	North Dakota	0.028
+38091	38	Steele	North Dakota	0.021
+38093	38	Stutsman	North Dakota	0.032
+38095	38	Towner	North Dakota	0.026
+38097	38	Traill	North Dakota	0.035
+38099	38	Walsh	North Dakota	0.045
+38101	38	Ward	North Dakota	0.028
+38103	38	Wells	North Dakota	0.038
+38105	38	Williams	North Dakota	0.02
+39001	39	Adams	Ohio	0.138
+39003	39	Allen	Ohio	0.102
+39005	39	Ashland	Ohio	0.114
+39007	39	Ashtabula	Ohio	0.126
+39009	39	Athens	Ohio	0.086
+39011	39	Auglaize	Ohio	0.101
+39013	39	Belmont	Ohio	0.092
+39015	39	Brown	Ohio	0.119
+39017	39	Butler	Ohio	0.091
+39019	39	Carroll	Ohio	0.132
+39021	39	Champaign	Ohio	0.114
+39023	39	Clark	Ohio	0.099
+39025	39	Clermont	Ohio	0.094
+39027	39	Clinton	Ohio	0.139
+39029	39	Columbiana	Ohio	0.125
+39031	39	Coshocton	Ohio	0.123
+39033	39	Crawford	Ohio	0.132
+39035	39	Cuyahoga	Ohio	0.085
+39037	39	Darke	Ohio	0.099
+39039	39	Defiance	Ohio	0.117
+39041	39	Delaware	Ohio	0.067
+39043	39	Erie	Ohio	0.095
+39045	39	Fairfield	Ohio	0.082
+39047	39	Fayette	Ohio	0.117
+39049	39	Franklin	Ohio	0.082
+39051	39	Fulton	Ohio	0.121
+39053	39	Gallia	Ohio	0.095
+39055	39	Geauga	Ohio	0.065
+39057	39	Greene	Ohio	0.094
+39059	39	Guernsey	Ohio	0.108
+39061	39	Hamilton	Ohio	0.089
+39063	39	Hancock	Ohio	0.091
+39065	39	Hardin	Ohio	0.112
+39067	39	Harrison	Ohio	0.106
+39069	39	Henry	Ohio	0.109
+39071	39	Highland	Ohio	0.153
+39073	39	Hocking	Ohio	0.104
+39075	39	Holmes	Ohio	0.063
+39077	39	Huron	Ohio	0.128
+39079	39	Jackson	Ohio	0.105
+39081	39	Jefferson	Ohio	0.127
+39083	39	Knox	Ohio	0.087
+39085	39	Lake	Ohio	0.079
+39087	39	Lawrence	Ohio	0.084
+39089	39	Licking	Ohio	0.089
+39091	39	Logan	Ohio	0.112
+39093	39	Lorain	Ohio	0.091
+39095	39	Lucas	Ohio	0.113
+39097	39	Madison	Ohio	0.085
+39099	39	Mahoning	Ohio	0.118
+39101	39	Marion	Ohio	0.102
+39103	39	Medina	Ohio	0.075
+39105	39	Meigs	Ohio	0.152
+39107	39	Mercer	Ohio	0.078
+39109	39	Miami	Ohio	0.11
+39111	39	Monroe	Ohio	0.115
+39113	39	Montgomery	Ohio	0.11
+39115	39	Morgan	Ohio	0.146
+39117	39	Morrow	Ohio	0.1
+39119	39	Muskingum	Ohio	0.119
+39121	39	Noble	Ohio	0.14
+39123	39	Ottawa	Ohio	0.107
+39125	39	Paulding	Ohio	0.115
+39127	39	Perry	Ohio	0.128
+39129	39	Pickaway	Ohio	0.103
+39131	39	Pike	Ohio	0.147
+39133	39	Portage	Ohio	0.092
+39135	39	Preble	Ohio	0.111
+39137	39	Putnam	Ohio	0.09
+39139	39	Richland	Ohio	0.118
+39141	39	Ross	Ohio	0.115
+39143	39	Sandusky	Ohio	0.108
+39145	39	Scioto	Ohio	0.121
+39147	39	Seneca	Ohio	0.12
+39149	39	Shelby	Ohio	0.119
+39151	39	Stark	Ohio	0.11
+39153	39	Summit	Ohio	0.096
+39155	39	Trumbull	Ohio	0.135
+39157	39	Tuscarawas	Ohio	0.102
+39159	39	Union	Ohio	0.08
+39161	39	Van Wert	Ohio	0.132
+39163	39	Vinton	Ohio	0.113
+39165	39	Warren	Ohio	0.085
+39167	39	Washington	Ohio	0.094
+39169	39	Wayne	Ohio	0.089
+39171	39	Williams	Ohio	0.141
+39173	39	Wood	Ohio	0.1
+39175	39	Wyandot	Ohio	0.112
+40001	40	Adair	Oklahoma	0.076
+40003	40	Alfalfa	Oklahoma	0.055
+40005	40	Atoka	Oklahoma	0.084
+40007	40	Beaver	Oklahoma	0.033
+40009	40	Beckham	Oklahoma	0.059
+40011	40	Blaine	Oklahoma	0.057
+40013	40	Bryan	Oklahoma	0.052
+40015	40	Caddo	Oklahoma	0.061
+40017	40	Canadian	Oklahoma	0.055
+40019	40	Carter	Oklahoma	0.057
+40021	40	Cherokee	Oklahoma	0.056
+40023	40	Choctaw	Oklahoma	0.076
+40025	40	Cimarron	Oklahoma	0.035
+40027	40	Cleveland	Oklahoma	0.052
+40029	40	Coal	Oklahoma	0.088
+40031	40	Comanche	Oklahoma	0.051
+40033	40	Cotton	Oklahoma	0.04
+40035	40	Craig	Oklahoma	0.055
+40037	40	Creek	Oklahoma	0.081
+40039	40	Custer	Oklahoma	0.049
+40041	40	Delaware	Oklahoma	0.06
+40043	40	Dewey	Oklahoma	0.046
+40045	40	Ellis	Oklahoma	0.045
+40047	40	Garfield	Oklahoma	0.045
+40049	40	Garvin	Oklahoma	0.059
+40051	40	Grady	Oklahoma	0.074
+40053	40	Grant	Oklahoma	0.042
+40055	40	Greer	Oklahoma	0.079
+40057	40	Harmon	Oklahoma	0.069
+40059	40	Harper	Oklahoma	0.043
+40061	40	Haskell	Oklahoma	0.084
+40063	40	Hughes	Oklahoma	0.107
+40065	40	Jackson	Oklahoma	0.048
+40067	40	Jefferson	Oklahoma	0.086
+40069	40	Johnston	Oklahoma	0.07
+40071	40	Kay	Oklahoma	0.081
+40073	40	Kingfisher	Oklahoma	0.043
+40075	40	Kiowa	Oklahoma	0.062
+40077	40	Latimer	Oklahoma	0.104
+40079	40	Le Flore	Oklahoma	0.087
+40081	40	Lincoln	Oklahoma	0.067
+40083	40	Logan	Oklahoma	0.056
+40085	40	Love	Oklahoma	0.054
+40087	40	McClain	Oklahoma	0.056
+40089	40	McCurtain	Oklahoma	0.116
+40091	40	McIntosh	Oklahoma	0.082
+40093	40	Major	Oklahoma	0.045
+40095	40	Marshall	Oklahoma	0.075
+40097	40	Mayes	Oklahoma	0.081
+40099	40	Murray	Oklahoma	0.047
+40101	40	Muskogee	Oklahoma	0.081
+40103	40	Noble	Oklahoma	0.077
+40105	40	Nowata	Oklahoma	0.093
+40107	40	Okfuskee	Oklahoma	0.089
+40109	40	Oklahoma	Oklahoma	0.061
+40111	40	Okmulgee	Oklahoma	0.085
+40113	40	Osage	Oklahoma	0.074
+40115	40	Ottawa	Oklahoma	0.062
+40117	40	Pawnee	Oklahoma	0.082
+40119	40	Payne	Oklahoma	0.063
+40121	40	Pittsburg	Oklahoma	0.065
+40123	40	Pontotoc	Oklahoma	0.051
+40125	40	Pottawatomie	Oklahoma	0.065
+40127	40	Pushmataha	Oklahoma	0.089
+40129	40	Roger Mills	Oklahoma	0.045
+40131	40	Rogers	Oklahoma	0.072
+40133	40	Seminole	Oklahoma	0.092
+40135	40	Sequoyah	Oklahoma	0.087
+40137	40	Stephens	Oklahoma	0.084
+40139	40	Texas	Oklahoma	0.038
+40141	40	Tillman	Oklahoma	0.056
+40143	40	Tulsa	Oklahoma	0.068
+40145	40	Wagoner	Oklahoma	0.066
+40147	40	Washington	Oklahoma	0.059
+40149	40	Washita	Oklahoma	0.063
+40151	40	Woods	Oklahoma	0.042
+40153	40	Woodward	Oklahoma	0.065
+41001	41	Baker	Oregon	0.085
+41003	41	Benton	Oregon	0.075
+41005	41	Clackamas	Oregon	0.104
+41007	41	Clatsop	Oregon	0.082
+41009	41	Columbia	Oregon	0.126
+41011	41	Coos	Oregon	0.117
+41013	41	Crook	Oregon	0.161
+41015	41	Curry	Oregon	0.112
+41017	41	Deschutes	Oregon	0.135
+41019	41	Douglas	Oregon	0.14
+41021	41	Gilliam	Oregon	0.056
+41023	41	Grant	Oregon	0.099
+41025	41	Harney	Oregon	0.15
+41027	41	Hood River	Oregon	0.066
+41029	41	Jackson	Oregon	0.115
+41031	41	Jefferson	Oregon	0.129
+41033	41	Josephine	Oregon	0.133
+41035	41	Klamath	Oregon	0.12
+41037	41	Lake	Oregon	0.101
+41039	41	Lane	Oregon	0.115
+41041	41	Lincoln	Oregon	0.094
+41043	41	Linn	Oregon	0.136
+41045	41	Malheur	Oregon	0.093
+41047	41	Marion	Oregon	0.103
+41049	41	Morrow	Oregon	0.074
+41051	41	Multnomah	Oregon	0.109
+41053	41	Polk	Oregon	0.093
+41055	41	Sherman	Oregon	0.076
+41057	41	Tillamook	Oregon	0.082
+41059	41	Umatilla	Oregon	0.078
+41061	41	Union	Oregon	0.102
+41063	41	Wallowa	Oregon	0.087
+41065	41	Wasco	Oregon	0.08
+41067	41	Washington	Oregon	0.096
+41069	41	Wheeler	Oregon	0.067
+41071	41	Yamhill	Oregon	0.11
+42001	42	Adams	Pennsylvania	0.074
+42003	42	Allegheny	Pennsylvania	0.072
+42005	42	Armstrong	Pennsylvania	0.08
+42007	42	Beaver	Pennsylvania	0.084
+42009	42	Bedford	Pennsylvania	0.109
+42011	42	Berks	Pennsylvania	0.091
+42013	42	Blair	Pennsylvania	0.074
+42015	42	Bradford	Pennsylvania	0.076
+42017	42	Bucks	Pennsylvania	0.073
+42019	42	Butler	Pennsylvania	0.071
+42021	42	Cambria	Pennsylvania	0.088
+42023	42	Cameron	Pennsylvania	0.167
+42025	42	Carbon	Pennsylvania	0.1
+42027	42	Centre	Pennsylvania	0.056
+42029	42	Chester	Pennsylvania	0.063
+42031	42	Clarion	Pennsylvania	0.083
+42033	42	Clearfield	Pennsylvania	0.098
+42035	42	Clinton	Pennsylvania	0.082
+42037	42	Columbia	Pennsylvania	0.082
+42039	42	Crawford	Pennsylvania	0.101
+42041	42	Cumberland	Pennsylvania	0.068
+42043	42	Dauphin	Pennsylvania	0.081
+42045	42	Delaware	Pennsylvania	0.079
+42047	42	Elk	Pennsylvania	0.129
+42049	42	Erie	Pennsylvania	0.092
+42051	42	Fayette	Pennsylvania	0.091
+42053	42	Forest	Pennsylvania	0.102
+42055	42	Franklin	Pennsylvania	0.086
+42057	42	Fulton	Pennsylvania	0.143
+42059	42	Greene	Pennsylvania	0.078
+42061	42	Huntingdon	Pennsylvania	0.102
+42063	42	Indiana	Pennsylvania	0.078
+42065	42	Jefferson	Pennsylvania	0.095
+42067	42	Juniata	Pennsylvania	0.076
+42069	42	Lackawanna	Pennsylvania	0.083
+42071	42	Lancaster	Pennsylvania	0.075
+42073	42	Lawrence	Pennsylvania	0.089
+42075	42	Lebanon	Pennsylvania	0.07
+42077	42	Lehigh	Pennsylvania	0.093
+42079	42	Luzerne	Pennsylvania	0.092
+42081	42	Lycoming	Pennsylvania	0.093
+42083	42	McKean	Pennsylvania	0.1
+42085	42	Mercer	Pennsylvania	0.113
+42087	42	Mifflin	Pennsylvania	0.104
+42089	42	Monroe	Pennsylvania	0.09
+42091	42	Montgomery	Pennsylvania	0.07
+42093	42	Montour	Pennsylvania	0.059
+42095	42	Northampton	Pennsylvania	0.088
+42097	42	Northumberland	Pennsylvania	0.094
+42099	42	Perry	Pennsylvania	0.081
+42101	42	Philadelphia	Pennsylvania	0.11
+42103	42	Pike	Pennsylvania	0.086
+42105	42	Potter	Pennsylvania	0.103
+42107	42	Schuylkill	Pennsylvania	0.101
+42109	42	Snyder	Pennsylvania	0.086
+42111	42	Somerset	Pennsylvania	0.085
+42113	42	Sullivan	Pennsylvania	0.079
+42115	42	Susquehanna	Pennsylvania	0.078
+42117	42	Tioga	Pennsylvania	0.078
+42119	42	Union	Pennsylvania	0.088
+42121	42	Venango	Pennsylvania	0.087
+42123	42	Warren	Pennsylvania	0.073
+42125	42	Washington	Pennsylvania	0.079
+42127	42	Wayne	Pennsylvania	0.066
+42129	42	Westmoreland	Pennsylvania	0.078
+42131	42	Wyoming	Pennsylvania	0.069
+42133	42	York	Pennsylvania	0.084
+44001	44	Bristol	Rhode Island	0.111
+44003	44	Kent	Rhode Island	0.119
+44007	44	Providence	Rhode Island	0.135
+44009	44	Washington	Rhode Island	0.092
+45001	45	Abbeville	South Carolina	0.148
+45003	45	Aiken	South Carolina	0.094
+45005	45	Allendale	South Carolina	0.225
+45007	45	Anderson	South Carolina	0.125
+45009	45	Bamberg	South Carolina	0.181
+45011	45	Barnwell	South Carolina	0.19
+45013	45	Beaufort	South Carolina	0.087
+45015	45	Berkeley	South Carolina	0.107
+45017	45	Calhoun	South Carolina	0.144
+45019	45	Charleston	South Carolina	0.09
+45021	45	Cherokee	South Carolina	0.162
+45023	45	Chester	South Carolina	0.211
+45025	45	Chesterfield	South Carolina	0.168
+45027	45	Clarendon	South Carolina	0.161
+45029	45	Colleton	South Carolina	0.142
+45031	45	Darlington	South Carolina	0.13
+45033	45	Dillon	South Carolina	0.172
+45035	45	Dorchester	South Carolina	0.103
+45037	45	Edgefield	South Carolina	0.107
+45039	45	Fairfield	South Carolina	0.129
+45041	45	Florence	South Carolina	0.117
+45043	45	Georgetown	South Carolina	0.125
+45045	45	Greenville	South Carolina	0.102
+45047	45	Greenwood	South Carolina	0.137
+45049	45	Hampton	South Carolina	0.161
+45051	45	Horry	South Carolina	0.109
+45053	45	Jasper	South Carolina	0.107
+45055	45	Kershaw	South Carolina	0.104
+45057	45	Lancaster	South Carolina	0.179
+45059	45	Laurens	South Carolina	0.117
+45061	45	Lee	South Carolina	0.157
+45063	45	Lexington	South Carolina	0.083
+45065	45	McCormick	South Carolina	0.157
+45067	45	Marion	South Carolina	0.21
+45069	45	Marlboro	South Carolina	0.202
+45071	45	Newberry	South Carolina	0.117
+45073	45	Oconee	South Carolina	0.142
+45075	45	Orangeburg	South Carolina	0.187
+45077	45	Pickens	South Carolina	0.106
+45079	45	Richland	South Carolina	0.095
+45081	45	Saluda	South Carolina	0.094
+45083	45	Spartanburg	South Carolina	0.122
+45085	45	Sumter	South Carolina	0.139
+45087	45	Union	South Carolina	0.206
+45089	45	Williamsburg	South Carolina	0.154
+45091	45	York	South Carolina	0.141
+46003	46	Aurora	South Dakota	0.04
+46005	46	Beadle	South Dakota	0.03
+46007	46	Bennett	South Dakota	0.06
+46009	46	Bon Homme	South Dakota	0.049
+46011	46	Brookings	South Dakota	0.032
+46013	46	Brown	South Dakota	0.031
+46015	46	Brule	South Dakota	0.027
+46017	46	Buffalo	South Dakota	0.172
+46019	46	Butte	South Dakota	0.039
+46021	46	Campbell	South Dakota	0.045
+46023	46	Charles Mix	South Dakota	0.048
+46025	46	Clark	South Dakota	0.047
+46027	46	Clay	South Dakota	0.037
+46029	46	Codington	South Dakota	0.058
+46031	46	Corson	South Dakota	0.056
+46033	46	Custer	South Dakota	0.03
+46035	46	Davison	South Dakota	0.043
+46037	46	Day	South Dakota	0.053
+46039	46	Deuel	South Dakota	0.048
+46041	46	Dewey	South Dakota	0.104
+46043	46	Douglas	South Dakota	0.031
+46045	46	Edmunds	South Dakota	0.027
+46047	46	Fall River	South Dakota	0.049
+46049	46	Faulk	South Dakota	0.031
+46051	46	Grant	South Dakota	0.035
+46053	46	Gregory	South Dakota	0.031
+46055	46	Haakon	South Dakota	0.036
+46057	46	Hamlin	South Dakota	0.051
+46059	46	Hand	South Dakota	0.028
+46061	46	Hanson	South Dakota	0.03
+46063	46	Harding	South Dakota	0.023
+46065	46	Hughes	South Dakota	0.027
+46067	46	Hutchinson	South Dakota	0.039
+46069	46	Hyde	South Dakota	0.036
+46071	46	Jackson	South Dakota	0.062
+46073	46	Jerauld	South Dakota	0.026
+46075	46	Jones	South Dakota	0.024
+46077	46	Kingsbury	South Dakota	0.051
+46079	46	Lake	South Dakota	0.058
+46081	46	Lawrence	South Dakota	0.038
+46083	46	Lincoln	South Dakota	0.039
+46085	46	Lyman	South Dakota	0.057
+46087	46	McCook	South Dakota	0.045
+46089	46	McPherson	South Dakota	0.05
+46091	46	Marshall	South Dakota	0.047
+46093	46	Meade	South Dakota	0.04
+46095	46	Mellette	South Dakota	0.068
+46097	46	Miner	South Dakota	0.057
+46099	46	Minnehaha	South Dakota	0.047
+46101	46	Moody	South Dakota	0.061
+46103	46	Pennington	South Dakota	0.044
+46105	46	Perkins	South Dakota	0.039
+46107	46	Potter	South Dakota	0.032
+46109	46	Roberts	South Dakota	0.048
+46111	46	Sanborn	South Dakota	0.038
+46113	46	Shannon	South Dakota	0.126
+46115	46	Spink	South Dakota	0.034
+46117	46	Stanley	South Dakota	0.021
+46119	46	Sully	South Dakota	0.024
+46121	46	Todd	South Dakota	0.084
+46123	46	Tripp	South Dakota	0.029
+46125	46	Turner	South Dakota	0.044
+46127	46	Union	South Dakota	0.053
+46129	46	Walworth	South Dakota	0.04
+46135	46	Yankton	South Dakota	0.053
+46137	46	Ziebach	South Dakota	0.078
+47001	47	Anderson	Tennessee	0.097
+47003	47	Bedford	Tennessee	0.121
+47005	47	Benton	Tennessee	0.128
+47007	47	Bledsoe	Tennessee	0.137
+47009	47	Blount	Tennessee	0.093
+47011	47	Bradley	Tennessee	0.093
+47013	47	Campbell	Tennessee	0.131
+47015	47	Cannon	Tennessee	0.108
+47017	47	Carroll	Tennessee	0.164
+47019	47	Carter	Tennessee	0.098
+47021	47	Cheatham	Tennessee	0.094
+47023	47	Chester	Tennessee	0.115
+47025	47	Claiborne	Tennessee	0.111
+47027	47	Clay	Tennessee	0.126
+47029	47	Cocke	Tennessee	0.122
+47031	47	Coffee	Tennessee	0.102
+47033	47	Crockett	Tennessee	0.134
+47035	47	Cumberland	Tennessee	0.108
+47037	47	Davidson	Tennessee	0.092
+47039	47	Decatur	Tennessee	0.142
+47041	47	DeKalb	Tennessee	0.102
+47043	47	Dickson	Tennessee	0.098
+47045	47	Dyer	Tennessee	0.14
+47047	47	Fayette	Tennessee	0.108
+47049	47	Fentress	Tennessee	0.13
+47051	47	Franklin	Tennessee	0.104
+47053	47	Gibson	Tennessee	0.157
+47055	47	Giles	Tennessee	0.14
+47057	47	Grainger	Tennessee	0.135
+47059	47	Greene	Tennessee	0.143
+47061	47	Grundy	Tennessee	0.13
+47063	47	Hamblen	Tennessee	0.125
+47065	47	Hamilton	Tennessee	0.087
+47067	47	Hancock	Tennessee	0.183
+47069	47	Hardeman	Tennessee	0.127
+47071	47	Hardin	Tennessee	0.111
+47073	47	Hawkins	Tennessee	0.103
+47075	47	Haywood	Tennessee	0.18
+47077	47	Henderson	Tennessee	0.181
+47079	47	Henry	Tennessee	0.131
+47081	47	Hickman	Tennessee	0.124
+47083	47	Houston	Tennessee	0.116
+47085	47	Humphreys	Tennessee	0.119
+47087	47	Jackson	Tennessee	0.127
+47089	47	Jefferson	Tennessee	0.118
+47091	47	Johnson	Tennessee	0.122
+47093	47	Knox	Tennessee	0.081
+47095	47	Lake	Tennessee	0.107
+47097	47	Lauderdale	Tennessee	0.189
+47099	47	Lawrence	Tennessee	0.146
+47101	47	Lewis	Tennessee	0.149
+47103	47	Lincoln	Tennessee	0.069
+47105	47	Loudon	Tennessee	0.095
+47107	47	McMinn	Tennessee	0.13
+47109	47	McNairy	Tennessee	0.127
+47111	47	Macon	Tennessee	0.112
+47113	47	Madison	Tennessee	0.11
+47115	47	Marion	Tennessee	0.121
+47117	47	Marshall	Tennessee	0.163
+47119	47	Maury	Tennessee	0.119
+47121	47	Meigs	Tennessee	0.136
+47123	47	Monroe	Tennessee	0.161
+47125	47	Montgomery	Tennessee	0.09
+47127	47	Moore	Tennessee	0.097
+47129	47	Morgan	Tennessee	0.116
+47131	47	Obion	Tennessee	0.104
+47133	47	Overton	Tennessee	0.12
+47135	47	Perry	Tennessee	0.176
+47137	47	Pickett	Tennessee	0.134
+47139	47	Polk	Tennessee	0.114
+47141	47	Putnam	Tennessee	0.097
+47143	47	Rhea	Tennessee	0.127
+47145	47	Roane	Tennessee	0.089
+47147	47	Robertson	Tennessee	0.101
+47149	47	Rutherford	Tennessee	0.095
+47151	47	Scott	Tennessee	0.184
+47153	47	Sequatchie	Tennessee	0.128
+47155	47	Sevier	Tennessee	0.092
+47157	47	Shelby	Tennessee	0.102
+47159	47	Smith	Tennessee	0.128
+47161	47	Stewart	Tennessee	0.111
+47163	47	Sullivan	Tennessee	0.088
+47165	47	Sumner	Tennessee	0.097
+47167	47	Tipton	Tennessee	0.116
+47169	47	Trousdale	Tennessee	0.12
+47171	47	Unicoi	Tennessee	0.103
+47173	47	Union	Tennessee	0.107
+47175	47	Van Buren	Tennessee	0.142
+47177	47	Warren	Tennessee	0.125
+47179	47	Washington	Tennessee	0.086
+47181	47	Wayne	Tennessee	0.129
+47183	47	Weakley	Tennessee	0.13
+47185	47	White	Tennessee	0.135
+47187	47	Williamson	Tennessee	0.075
+47189	47	Wilson	Tennessee	0.09
+48001	48	Anderson	Texas	0.094
+48003	48	Andrews	Texas	0.076
+48005	48	Angelina	Texas	0.089
+48007	48	Aransas	Texas	0.073
+48009	48	Archer	Texas	0.065
+48011	48	Armstrong	Texas	0.051
+48013	48	Atascosa	Texas	0.079
+48015	48	Austin	Texas	0.084
+48017	48	Bailey	Texas	0.052
+48019	48	Bandera	Texas	0.068
+48021	48	Bastrop	Texas	0.08
+48023	48	Baylor	Texas	0.051
+48025	48	Bee	Texas	0.103
+48027	48	Bell	Texas	0.071
+48029	48	Bexar	Texas	0.072
+48031	48	Blanco	Texas	0.058
+48033	48	Borden	Texas	0.062
+48035	48	Bosque	Texas	0.086
+48037	48	Bowie	Texas	0.078
+48039	48	Brazoria	Texas	0.089
+48041	48	Brazos	Texas	0.062
+48043	48	Brewster	Texas	0.051
+48045	48	Briscoe	Texas	0.059
+48047	48	Brooks	Texas	0.099
+48049	48	Brown	Texas	0.072
+48051	48	Burleson	Texas	0.074
+48053	48	Burnet	Texas	0.063
+48055	48	Caldwell	Texas	0.082
+48057	48	Calhoun	Texas	0.095
+48059	48	Callahan	Texas	0.063
+48061	48	Cameron	Texas	0.108
+48063	48	Camp	Texas	0.096
+48065	48	Carson	Texas	0.067
+48067	48	Cass	Texas	0.125
+48069	48	Castro	Texas	0.053
+48071	48	Chambers	Texas	0.107
+48073	48	Cherokee	Texas	0.097
+48075	48	Childress	Texas	0.064
+48077	48	Clay	Texas	0.074
+48079	48	Cochran	Texas	0.072
+48081	48	Coke	Texas	0.086
+48083	48	Coleman	Texas	0.069
+48085	48	Collin	Texas	0.078
+48087	48	Collingsworth	Texas	0.059
+48089	48	Colorado	Texas	0.066
+48091	48	Comal	Texas	0.066
+48093	48	Comanche	Texas	0.061
+48095	48	Concho	Texas	0.082
+48097	48	Cooke	Texas	0.065
+48099	48	Coryell	Texas	0.087
+48101	48	Cottle	Texas	0.056
+48103	48	Crane	Texas	0.095
+48105	48	Crockett	Texas	0.097
+48107	48	Crosby	Texas	0.07
+48109	48	Culberson	Texas	0.045
+48111	48	Dallam	Texas	0.044
+48113	48	Dallas	Texas	0.087
+48115	48	Dawson	Texas	0.087
+48117	48	Deaf Smith	Texas	0.058
+48119	48	Delta	Texas	0.084
+48121	48	Denton	Texas	0.077
+48123	48	DeWitt	Texas	0.083
+48125	48	Dickens	Texas	0.06
+48127	48	Dimmit	Texas	0.11
+48129	48	Donley	Texas	0.07
+48131	48	Duval	Texas	0.125
+48133	48	Eastland	Texas	0.084
+48135	48	Ector	Texas	0.092
+48137	48	Edwards	Texas	0.067
+48139	48	Ellis	Texas	0.086
+48141	48	El Paso	Texas	0.098
+48143	48	Erath	Texas	0.071
+48145	48	Falls	Texas	0.095
+48147	48	Fannin	Texas	0.09
+48149	48	Fayette	Texas	0.057
+48151	48	Fisher	Texas	0.064
+48153	48	Floyd	Texas	0.069
+48155	48	Foard	Texas	0.057
+48157	48	Fort Bend	Texas	0.083
+48159	48	Franklin	Texas	0.073
+48161	48	Freestone	Texas	0.067
+48163	48	Frio	Texas	0.084
+48165	48	Gaines	Texas	0.068
+48167	48	Galveston	Texas	0.085
+48169	48	Garza	Texas	0.057
+48171	48	Gillespie	Texas	0.049
+48173	48	Glasscock	Texas	0.052
+48175	48	Goliad	Texas	0.079
+48177	48	Gonzales	Texas	0.061
+48179	48	Gray	Texas	0.089
+48181	48	Grayson	Texas	0.087
+48183	48	Gregg	Texas	0.08
+48185	48	Grimes	Texas	0.1
+48187	48	Guadalupe	Texas	0.067
+48189	48	Hale	Texas	0.064
+48191	48	Hall	Texas	0.089
+48193	48	Hamilton	Texas	0.06
+48195	48	Hansford	Texas	0.055
+48197	48	Hardeman	Texas	0.072
+48199	48	Hardin	Texas	0.101
+48201	48	Harris	Texas	0.085
+48203	48	Harrison	Texas	0.087
+48205	48	Hartley	Texas	0.043
+48207	48	Haskell	Texas	0.052
+48209	48	Hays	Texas	0.068
+48211	48	Hemphill	Texas	0.03
+48213	48	Henderson	Texas	0.085
+48215	48	Hidalgo	Texas	0.116
+48217	48	Hill	Texas	0.085
+48219	48	Hockley	Texas	0.07
+48221	48	Hood	Texas	0.076
+48223	48	Hopkins	Texas	0.065
+48225	48	Houston	Texas	0.103
+48227	48	Howard	Texas	0.075
+48229	48	Hudspeth	Texas	0.065
+48231	48	Hunt	Texas	0.085
+48233	48	Hutchinson	Texas	0.08
+48235	48	Irion	Texas	0.054
+48237	48	Jack	Texas	0.064
+48239	48	Jackson	Texas	0.076
+48241	48	Jasper	Texas	0.119
+48243	48	Jeff Davis	Texas	0.056
+48245	48	Jefferson	Texas	0.108
+48247	48	Jim Hogg	Texas	0.1
+48249	48	Jim Wells	Texas	0.1
+48251	48	Johnson	Texas	0.091
+48253	48	Jones	Texas	0.082
+48255	48	Karnes	Texas	0.105
+48257	48	Kaufman	Texas	0.088
+48259	48	Kendall	Texas	0.06
+48261	48	Kenedy	Texas	0.061
+48263	48	Kent	Texas	0.062
+48265	48	Kerr	Texas	0.06
+48267	48	Kimble	Texas	0.054
+48269	48	King	Texas	0.054
+48271	48	Kinney	Texas	0.089
+48273	48	Kleberg	Texas	0.077
+48275	48	Knox	Texas	0.064
+48277	48	Lamar	Texas	0.078
+48279	48	Lamb	Texas	0.066
+48281	48	Lampasas	Texas	0.061
+48283	48	La Salle	Texas	0.099
+48285	48	Lavaca	Texas	0.064
+48287	48	Lee	Texas	0.069
+48289	48	Leon	Texas	0.079
+48291	48	Liberty	Texas	0.112
+48293	48	Limestone	Texas	0.072
+48295	48	Lipscomb	Texas	0.061
+48297	48	Live Oak	Texas	0.076
+48299	48	Llano	Texas	0.073
+48301	48	Loving	Texas	0.115
+48303	48	Lubbock	Texas	0.057
+48305	48	Lynn	Texas	0.068
+48307	48	McCulloch	Texas	0.091
+48309	48	McLennan	Texas	0.071
+48311	48	McMullen	Texas	0.078
+48313	48	Madison	Texas	0.087
+48315	48	Marion	Texas	0.118
+48317	48	Martin	Texas	0.05
+48319	48	Mason	Texas	0.054
+48321	48	Matagorda	Texas	0.112
+48323	48	Maverick	Texas	0.136
+48325	48	Medina	Texas	0.071
+48327	48	Menard	Texas	0.09
+48329	48	Midland	Texas	0.062
+48331	48	Milam	Texas	0.102
+48333	48	Mills	Texas	0.06
+48335	48	Mitchell	Texas	0.087
+48337	48	Montague	Texas	0.078
+48339	48	Montgomery	Texas	0.079
+48341	48	Moore	Texas	0.053
+48343	48	Morris	Texas	0.156
+48345	48	Motley	Texas	0.053
+48347	48	Nacogdoches	Texas	0.07
+48349	48	Navarro	Texas	0.084
+48351	48	Newton	Texas	0.124
+48353	48	Nolan	Texas	0.064
+48355	48	Nueces	Texas	0.077
+48357	48	Ochiltree	Texas	0.063
+48359	48	Oldham	Texas	0.055
+48361	48	Orange	Texas	0.111
+48363	48	Palo Pinto	Texas	0.091
+48365	48	Panola	Texas	0.075
+48367	48	Parker	Texas	0.084
+48369	48	Parmer	Texas	0.048
+48371	48	Pecos	Texas	0.117
+48373	48	Polk	Texas	0.103
+48375	48	Potter	Texas	0.066
+48377	48	Presidio	Texas	0.178
+48379	48	Rains	Texas	0.085
+48381	48	Randall	Texas	0.051
+48383	48	Reagan	Texas	0.058
+48385	48	Real	Texas	0.061
+48387	48	Red River	Texas	0.105
+48389	48	Reeves	Texas	0.14
+48391	48	Refugio	Texas	0.07
+48393	48	Roberts	Texas	0.062
+48395	48	Robertson	Texas	0.087
+48397	48	Rockwall	Texas	0.078
+48399	48	Runnels	Texas	0.101
+48401	48	Rusk	Texas	0.091
+48403	48	Sabine	Texas	0.159
+48405	48	San Augustine	Texas	0.108
+48407	48	San Jacinto	Texas	0.1
+48409	48	San Patricio	Texas	0.098
+48411	48	San Saba	Texas	0.078
+48413	48	Schleicher	Texas	0.111
+48415	48	Scurry	Texas	0.072
+48417	48	Shackelford	Texas	0.043
+48419	48	Shelby	Texas	0.081
+48421	48	Sherman	Texas	0.049
+48423	48	Smith	Texas	0.083
+48425	48	Somervell	Texas	0.073
+48427	48	Starr	Texas	0.178
+48429	48	Stephens	Texas	0.069
+48431	48	Sterling	Texas	0.046
+48433	48	Stonewall	Texas	0.048
+48435	48	Sutton	Texas	0.078
+48437	48	Swisher	Texas	0.067
+48439	48	Tarrant	Texas	0.082
+48441	48	Taylor	Texas	0.061
+48443	48	Terrell	Texas	0.078
+48445	48	Terry	Texas	0.077
+48447	48	Throckmorton	Texas	0.056
+48449	48	Titus	Texas	0.077
+48451	48	Tom Green	Texas	0.07
+48453	48	Travis	Texas	0.07
+48455	48	Trinity	Texas	0.088
+48457	48	Tyler	Texas	0.105
+48459	48	Upshur	Texas	0.081
+48461	48	Upton	Texas	0.056
+48463	48	Uvalde	Texas	0.089
+48465	48	Val Verde	Texas	0.096
+48467	48	Van Zandt	Texas	0.074
+48469	48	Victoria	Texas	0.079
+48471	48	Walker	Texas	0.078
+48473	48	Waller	Texas	0.09
+48475	48	Ward	Texas	0.085
+48477	48	Washington	Texas	0.069
+48479	48	Webb	Texas	0.091
+48481	48	Wharton	Texas	0.079
+48483	48	Wheeler	Texas	0.056
+48485	48	Wichita	Texas	0.081
+48487	48	Wilbarger	Texas	0.055
+48489	48	Willacy	Texas	0.139
+48491	48	Williamson	Texas	0.078
+48493	48	Wilson	Texas	0.069
+48495	48	Winkler	Texas	0.09
+48497	48	Wise	Texas	0.096
+48499	48	Wood	Texas	0.084
+48501	48	Yoakum	Texas	0.071
+48503	48	Young	Texas	0.064
+48505	48	Zapata	Texas	0.126
+48507	48	Zavala	Texas	0.163
+49001	49	Beaver	Utah	0.042
+49003	49	Box Elder	Utah	0.056
+49005	49	Cache	Utah	0.042
+49007	49	Carbon	Utah	0.065
+49009	49	Daggett	Utah	0.027
+49011	49	Davis	Utah	0.056
+49013	49	Duchesne	Utah	0.069
+49015	49	Emery	Utah	0.062
+49017	49	Garfield	Utah	0.049
+49019	49	Grand	Utah	0.052
+49021	49	Iron	Utah	0.063
+49023	49	Juab	Utah	0.068
+49025	49	Kane	Utah	0.044
+49027	49	Millard	Utah	0.04
+49029	49	Morgan	Utah	0.053
+49031	49	Piute	Utah	0.038
+49033	49	Rich	Utah	0.028
+49035	49	Salt Lake	Utah	0.06
+49037	49	San Juan	Utah	0.086
+49039	49	Sanpete	Utah	0.056
+49041	49	Sevier	Utah	0.057
+49043	49	Summit	Utah	0.058
+49045	49	Tooele	Utah	0.064
+49047	49	Uintah	Utah	0.066
+49049	49	Utah	Utah	0.054
+49051	49	Wasatch	Utah	0.06
+49053	49	Washington	Utah	0.078
+49055	49	Wayne	Utah	0.042
+49057	49	Weber	Utah	0.07
+50001	50	Addison	Vermont	0.058
+50003	50	Bennington	Vermont	0.068
+50005	50	Caledonia	Vermont	0.07
+50007	50	Chittenden	Vermont	0.057
+50009	50	Essex	Vermont	0.078
+50011	50	Franklin	Vermont	0.062
+50013	50	Grand Isle	Vermont	0.07
+50015	50	Lamoille	Vermont	0.066
+50017	50	Orange	Vermont	0.055
+50019	50	Orleans	Vermont	0.083
+50021	50	Rutland	Vermont	0.087
+50023	50	Washington	Vermont	0.061
+50025	50	Windham	Vermont	0.063
+50027	50	Windsor	Vermont	0.058
+51001	51	Accomack	Virginia	0.061
+51003	51	Albemarle	Virginia	0.05
+51005	51	Alleghany	Virginia	0.087
+51007	51	Amelia	Virginia	0.07
+51009	51	Amherst	Virginia	0.07
+51011	51	Appomattox	Virginia	0.067
+51013	51	Arlington	Virginia	0.042
+51015	51	Augusta	Virginia	0.058
+51017	51	Bath	Virginia	0.054
+51019	51	Bedford	Virginia	0.062
+51021	51	Bland	Virginia	0.075
+51023	51	Botetourt	Virginia	0.062
+51025	51	Brunswick	Virginia	0.114
+51027	51	Buchanan	Virginia	0.088
+51029	51	Buckingham	Virginia	0.078
+51031	51	Campbell	Virginia	0.066
+51033	51	Caroline	Virginia	0.082
+51035	51	Carroll	Virginia	0.113
+51036	51	Charles City	Virginia	0.087
+51037	51	Charlotte	Virginia	0.091
+51041	51	Chesterfield	Virginia	0.068
+51043	51	Clarke	Virginia	0.061
+51045	51	Craig	Virginia	0.072
+51047	51	Culpeper	Virginia	0.075
+51049	51	Cumberland	Virginia	0.07
+51051	51	Dickenson	Virginia	0.083
+51053	51	Dinwiddie	Virginia	0.083
+51057	51	Essex	Virginia	0.077
+51059	51	Fairfax	Virginia	0.047
+51061	51	Fauquier	Virginia	0.05
+51063	51	Floyd	Virginia	0.071
+51065	51	Fluvanna	Virginia	0.058
+51067	51	Franklin	Virginia	0.078
+51069	51	Frederick	Virginia	0.073
+51071	51	Giles	Virginia	0.085
+51073	51	Gloucester	Virginia	0.055
+51075	51	Goochland	Virginia	0.067
+51077	51	Grayson	Virginia	0.104
+51079	51	Greene	Virginia	0.058
+51081	51	Greensville	Virginia	0.091
+51083	51	Halifax	Virginia	0.115
+51085	51	Hanover	Virginia	0.066
+51087	51	Henrico	Virginia	0.072
+51089	51	Henry	Virginia	0.134
+51091	51	Highland	Virginia	0.059
+51093	51	Isle of Wight	Virginia	0.063
+51095	51	James City	Virginia	0.046
+51097	51	King and Queen	Virginia	0.075
+51099	51	King George	Virginia	0.075
+51101	51	King William	Virginia	0.064
+51103	51	Lancaster	Virginia	0.073
+51105	51	Lee	Virginia	0.071
+51107	51	Loudoun	Virginia	0.047
+51109	51	Louisa	Virginia	0.081
+51111	51	Lunenburg	Virginia	0.091
+51113	51	Madison	Virginia	0.06
+51115	51	Mathews	Virginia	0.048
+51117	51	Mecklenburg	Virginia	0.105
+51119	51	Middlesex	Virginia	0.064
+51121	51	Montgomery	Virginia	0.063
+51125	51	Nelson	Virginia	0.062
+51127	51	New Kent	Virginia	0.069
+51133	51	Northumberland	Virginia	0.065
+51135	51	Nottoway	Virginia	0.079
+51137	51	Orange	Virginia	0.076
+51139	51	Page	Virginia	0.098
+51141	51	Patrick	Virginia	0.099
+51143	51	Pittsylvania	Virginia	0.103
+51145	51	Powhatan	Virginia	0.06
+51147	51	Prince Edward	Virginia	0.084
+51149	51	Prince George	Virginia	0.073
+51153	51	Prince William	Virginia	0.053
+51155	51	Pulaski	Virginia	0.108
+51157	51	Rappahannock	Virginia	0.056
+51159	51	Richmond	Virginia	0.072
+51161	51	Roanoke	Virginia	0.059
+51163	51	Rockbridge	Virginia	0.056
+51165	51	Rockingham	Virginia	0.053
+51167	51	Russell	Virginia	0.096
+51169	51	Scott	Virginia	0.099
+51171	51	Shenandoah	Virginia	0.076
+51173	51	Smyth	Virginia	0.102
+51175	51	Southampton	Virginia	0.077
+51177	51	Spotsylvania	Virginia	0.051
+51179	51	Stafford	Virginia	0.051
+51181	51	Surry	Virginia	0.073
+51183	51	Sussex	Virginia	0.095
+51185	51	Tazewell	Virginia	0.079
+51187	51	Warren	Virginia	0.066
+51191	51	Washington	Virginia	0.082
+51193	51	Westmoreland	Virginia	0.071
+51195	51	Wise	Virginia	0.067
+51197	51	Wythe	Virginia	0.097
+51199	51	York	Virginia	0.05
+51510	51	Alexandria	Virginia	0.048
+51520	51	Bristol	Virginia	0.099
+51550	51	Chesapeake	Virginia	0.064
+51590	51	Danville	Virginia	0.13
+51650	51	Hampton	Virginia	0.077
+51670	51	Hopewell	Virginia	0.104
+51680	51	Lynchburg	Virginia	0.077
+51700	51	Newport News	Virginia	0.073
+51710	51	Norfolk	Virginia	0.084
+51730	51	Petersburg	Virginia	0.138
+51735	51	Poquoson	Virginia	0.05
+51740	51	Portsmouth	Virginia	0.084
+51760	51	Richmond	Virginia	0.1
+51770	51	Roanoke	Virginia	0.086
+51800	51	Suffolk	Virginia	0.066
+51810	51	Virginia Beach	Virginia	0.059
+53001	53	Adams	Washington	0.065
+53003	53	Asotin	Washington	0.081
+53005	53	Benton	Washington	0.058
+53007	53	Chelan	Washington	0.065
+53009	53	Clallam	Washington	0.085
+53011	53	Clark	Washington	0.127
+53013	53	Columbia	Washington	0.084
+53015	53	Cowlitz	Washington	0.128
+53017	53	Douglas	Washington	0.066
+53019	53	Ferry	Washington	0.113
+53021	53	Franklin	Washington	0.062
+53023	53	Garfield	Washington	0.053
+53025	53	Grant	Washington	0.073
+53027	53	Grays Harbor	Washington	0.117
+53031	53	Jefferson	Washington	0.074
+53033	53	King	Washington	0.088
+53035	53	Kitsap	Washington	0.071
+53037	53	Kittitas	Washington	0.073
+53039	53	Klickitat	Washington	0.081
+53041	53	Lewis	Washington	0.12
+53043	53	Lincoln	Washington	0.074
+53045	53	Mason	Washington	0.094
+53047	53	Okanogan	Washington	0.074
+53049	53	Pacific	Washington	0.107
+53051	53	Pend Oreille	Washington	0.121
+53053	53	Pierce	Washington	0.088
+53057	53	Skagit	Washington	0.091
+53059	53	Skamania	Washington	0.094
+53061	53	Snohomish	Washington	0.101
+53063	53	Spokane	Washington	0.083
+53065	53	Stevens	Washington	0.105
+53067	53	Thurston	Washington	0.071
+53069	53	Wahkiakum	Washington	0.114
+53071	53	Walla Walla	Washington	0.055
+53073	53	Whatcom	Washington	0.078
+53075	53	Whitman	Washington	0.047
+53077	53	Yakima	Washington	0.068
+54001	54	Barbour	West Virginia	0.092
+54003	54	Berkeley	West Virginia	0.085
+54005	54	Boone	West Virginia	0.094
+54007	54	Braxton	West Virginia	0.08
+54009	54	Brooke	West Virginia	0.111
+54011	54	Cabell	West Virginia	0.066
+54013	54	Calhoun	West Virginia	0.121
+54015	54	Clay	West Virginia	0.119
+54017	54	Doddridge	West Virginia	0.074
+54019	54	Fayette	West Virginia	0.086
+54021	54	Gilmer	West Virginia	0.065
+54023	54	Grant	West Virginia	0.112
+54025	54	Greenbrier	West Virginia	0.083
+54027	54	Hampshire	West Virginia	0.078
+54029	54	Hancock	West Virginia	0.118
+54031	54	Hardy	West Virginia	0.097
+54033	54	Harrison	West Virginia	0.071
+54035	54	Jackson	West Virginia	0.129
+54037	54	Jefferson	West Virginia	0.066
+54039	54	Kanawha	West Virginia	0.071
+54041	54	Lewis	West Virginia	0.075
+54043	54	Lincoln	West Virginia	0.106
+54045	54	Logan	West Virginia	0.098
+54047	54	McDowell	West Virginia	0.127
+54049	54	Marion	West Virginia	0.065
+54051	54	Marshall	West Virginia	0.087
+54053	54	Mason	West Virginia	0.121
+54055	54	Mercer	West Virginia	0.069
+54057	54	Mineral	West Virginia	0.079
+54059	54	Mingo	West Virginia	0.107
+54061	54	Monongalia	West Virginia	0.046
+54063	54	Monroe	West Virginia	0.065
+54065	54	Morgan	West Virginia	0.091
+54067	54	Nicholas	West Virginia	0.091
+54069	54	Ohio	West Virginia	0.078
+54071	54	Pendleton	West Virginia	0.075
+54073	54	Pleasants	West Virginia	0.102
+54075	54	Pocahontas	West Virginia	0.113
+54077	54	Preston	West Virginia	0.07
+54079	54	Putnam	West Virginia	0.063
+54081	54	Raleigh	West Virginia	0.08
+54083	54	Randolph	West Virginia	0.085
+54085	54	Ritchie	West Virginia	0.088
+54087	54	Roane	West Virginia	0.13
+54089	54	Summers	West Virginia	0.078
+54091	54	Taylor	West Virginia	0.079
+54093	54	Tucker	West Virginia	0.109
+54095	54	Tyler	West Virginia	0.108
+54097	54	Upshur	West Virginia	0.089
+54099	54	Wayne	West Virginia	0.077
+54101	54	Webster	West Virginia	0.104
+54103	54	Wetzel	West Virginia	0.123
+54105	54	Wirt	West Virginia	0.114
+54107	54	Wood	West Virginia	0.088
+54109	54	Wyoming	West Virginia	0.115
+55001	55	Adams	Wisconsin	0.083
+55003	55	Ashland	Wisconsin	0.083
+55005	55	Barron	Wisconsin	0.071
+55007	55	Bayfield	Wisconsin	0.062
+55009	55	Brown	Wisconsin	0.071
+55011	55	Buffalo	Wisconsin	0.057
+55013	55	Burnett	Wisconsin	0.091
+55015	55	Calumet	Wisconsin	0.067
+55017	55	Chippewa	Wisconsin	0.066
+55019	55	Clark	Wisconsin	0.076
+55021	55	Columbia	Wisconsin	0.071
+55023	55	Crawford	Wisconsin	0.081
+55025	55	Dane	Wisconsin	0.054
+55027	55	Dodge	Wisconsin	0.084
+55029	55	Door	Wisconsin	0.066
+55031	55	Douglas	Wisconsin	0.065
+55033	55	Dunn	Wisconsin	0.058
+55035	55	Eau Claire	Wisconsin	0.06
+55037	55	Florence	Wisconsin	0.081
+55039	55	Fond du Lac	Wisconsin	0.078
+55041	55	Forest	Wisconsin	0.081
+55043	55	Grant	Wisconsin	0.061
+55045	55	Green	Wisconsin	0.078
+55047	55	Green Lake	Wisconsin	0.075
+55049	55	Iowa	Wisconsin	0.062
+55051	55	Iron	Wisconsin	0.094
+55053	55	Jackson	Wisconsin	0.072
+55055	55	Jefferson	Wisconsin	0.08
+55057	55	Juneau	Wisconsin	0.085
+55059	55	Kenosha	Wisconsin	0.098
+55061	55	Kewaunee	Wisconsin	0.073
+55063	55	La Crosse	Wisconsin	0.059
+55065	55	Lafayette	Wisconsin	0.06
+55067	55	Langlade	Wisconsin	0.085
+55069	55	Lincoln	Wisconsin	0.096
+55071	55	Manitowoc	Wisconsin	0.085
+55073	55	Marathon	Wisconsin	0.077
+55075	55	Marinette	Wisconsin	0.102
+55077	55	Marquette	Wisconsin	0.083
+55078	55	Menominee	Wisconsin	0.127
+55079	55	Milwaukee	Wisconsin	0.093
+55081	55	Monroe	Wisconsin	0.064
+55083	55	Oconto	Wisconsin	0.091
+55085	55	Oneida	Wisconsin	0.074
+55087	55	Outagamie	Wisconsin	0.075
+55089	55	Ozaukee	Wisconsin	0.072
+55091	55	Pepin	Wisconsin	0.054
+55093	55	Pierce	Wisconsin	0.061
+55095	55	Polk	Wisconsin	0.084
+55097	55	Portage	Wisconsin	0.058
+55099	55	Price	Wisconsin	0.094
+55101	55	Racine	Wisconsin	0.093
+55103	55	Richland	Wisconsin	0.075
+55105	55	Rock	Wisconsin	0.111
+55107	55	Rusk	Wisconsin	0.101
+55109	55	St. Croix	Wisconsin	0.068
+55111	55	Sauk	Wisconsin	0.07
+55113	55	Sawyer	Wisconsin	0.071
+55115	55	Shawano	Wisconsin	0.082
+55117	55	Sheboygan	Wisconsin	0.083
+55119	55	Taylor	Wisconsin	0.096
+55121	55	Trempealeau	Wisconsin	0.064
+55123	55	Vernon	Wisconsin	0.066
+55125	55	Vilas	Wisconsin	0.071
+55127	55	Walworth	Wisconsin	0.077
+55129	55	Washburn	Wisconsin	0.078
+55131	55	Washington	Wisconsin	0.081
+55133	55	Waukesha	Wisconsin	0.072
+55135	55	Waupaca	Wisconsin	0.082
+55137	55	Waushara	Wisconsin	0.082
+55139	55	Winnebago	Wisconsin	0.07
+55141	55	Wood	Wisconsin	0.074
+56001	56	Albany	Wyoming	0.036
+56003	56	Big Horn	Wyoming	0.082
+56005	56	Campbell	Wyoming	0.057
+56007	56	Carbon	Wyoming	0.068
+56009	56	Converse	Wyoming	0.059
+56011	56	Crook	Wyoming	0.049
+56013	56	Fremont	Wyoming	0.074
+56015	56	Goshen	Wyoming	0.053
+56017	56	Hot Springs	Wyoming	0.058
+56019	56	Johnson	Wyoming	0.067
+56021	56	Laramie	Wyoming	0.063
+56023	56	Lincoln	Wyoming	0.065
+56025	56	Natrona	Wyoming	0.073
+56027	56	Niobrara	Wyoming	0.045
+56029	56	Park	Wyoming	0.051
+56031	56	Platte	Wyoming	0.062
+56033	56	Sheridan	Wyoming	0.066
+56035	56	Sublette	Wyoming	0.045
+56037	56	Sweetwater	Wyoming	0.074
+56039	56	Teton	Wyoming	0.052
+56041	56	Uinta	Wyoming	0.072
+56043	56	Washakie	Wyoming	0.059
+56045	56	Weston	Wyoming	0.059
+72001	72	Adjuntas	Puerto Rico	0.217
+72003	72	Aguada	Puerto Rico	0.179
+72005	72	Aguadilla	Puerto Rico	0.178
+72007	72	Aguas Buenas	Puerto Rico	0.182
+72009	72	Aibonito	Puerto Rico	0.192
+72011	72	Añasco	Puerto Rico	0.183
+72013	72	Arecibo	Puerto Rico	0.167
+72015	72	Arroyo	Puerto Rico	0.227
+72017	72	Barceloneta	Puerto Rico	0.201
+72019	72	Barranquitas	Puerto Rico	0.196
+72021	72	Bayamón	Puerto Rico	0.136
+72023	72	Cabo Rojo	Puerto Rico	0.135
+72025	72	Caguas	Puerto Rico	0.158
+72027	72	Camuy	Puerto Rico	0.156
+72029	72	Canóvanas	Puerto Rico	0.212
+72031	72	Carolina	Puerto Rico	0.133
+72033	72	Cataño	Puerto Rico	0.183
+72035	72	Cayey	Puerto Rico	0.181
+72037	72	Ceiba	Puerto Rico	0.176
+72039	72	Ciales	Puerto Rico	0.236
+72041	72	Cidra	Puerto Rico	0.173
+72043	72	Coamo	Puerto Rico	0.231
+72045	72	Comerío	Puerto Rico	0.234
+72047	72	Corozal	Puerto Rico	0.177
+72051	72	Dorado	Puerto Rico	0.152
+72053	72	Fajardo	Puerto Rico	0.178
+72054	72	Florida	Puerto Rico	0.215
+72055	72	Guánica	Puerto Rico	0.199
+72057	72	Guayama	Puerto Rico	0.22
+72059	72	Guayanilla	Puerto Rico	0.226
+72061	72	Guaynabo	Puerto Rico	0.106
+72063	72	Gurabo	Puerto Rico	0.163
+72065	72	Hatillo	Puerto Rico	0.165
+72067	72	Hormigueros	Puerto Rico	0.164
+72069	72	Humacao	Puerto Rico	0.208
+72071	72	Isabela	Puerto Rico	0.191
+72073	72	Jayuya	Puerto Rico	0.219
+72075	72	Juana Díaz	Puerto Rico	0.186
+72077	72	Juncos	Puerto Rico	0.191
+72079	72	Lajas	Puerto Rico	0.186
+72081	72	Lares	Puerto Rico	0.175
+72083	72	Las Marías	Puerto Rico	0.181
+72085	72	Las Piedras	Puerto Rico	0.192
+72087	72	Loíza	Puerto Rico	0.204
+72089	72	Luquillo	Puerto Rico	0.202
+72091	72	Manatí	Puerto Rico	0.192
+72093	72	Maricao	Puerto Rico	0.199
+72095	72	Maunabo	Puerto Rico	0.259
+72097	72	Mayagüez	Puerto Rico	0.179
+72099	72	Moca	Puerto Rico	0.18
+72101	72	Morovis	Puerto Rico	0.216
+72103	72	Naguabo	Puerto Rico	0.232
+72105	72	Naranjito	Puerto Rico	0.189
+72107	72	Orocovis	Puerto Rico	0.228
+72109	72	Patillas	Puerto Rico	0.236
+72111	72	Peñuelas	Puerto Rico	0.202
+72113	72	Ponce	Puerto Rico	0.159
+72115	72	Quebradillas	Puerto Rico	0.168
+72117	72	Rincón	Puerto Rico	0.179
+72119	72	Río Grande	Puerto Rico	0.171
+72121	72	Sabana Grande	Puerto Rico	0.189
+72123	72	Salinas	Puerto Rico	0.252
+72125	72	San Germán	Puerto Rico	0.178
+72127	72	San Juan	Puerto Rico	0.119
+72129	72	San Lorenzo	Puerto Rico	0.185
+72131	72	San Sebastián	Puerto Rico	0.182
+72133	72	Santa Isabel	Puerto Rico	0.257
+72135	72	Toa Alta	Puerto Rico	0.129
+72137	72	Toa Baja	Puerto Rico	0.134
+72139	72	Trujillo Alto	Puerto Rico	0.111
+72141	72	Utuado	Puerto Rico	0.258
+72143	72	Vega Alta	Puerto Rico	0.163
+72145	72	Vega Baja	Puerto Rico	0.176
+72149	72	Villalba	Puerto Rico	0.198
+72151	72	Yabucoa	Puerto Rico	0.241
+72153	72	Yauco	Puerto Rico	0.16
