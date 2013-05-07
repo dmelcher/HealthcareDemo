@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <datamart xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
-    <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
+    <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20130129-1905 Build &lt;3.7.2.v20130129-1905></property>
     <list-property name="userProperties">
         <structure>
             <property name="name">test.Press Ganey Cube.x</property>
@@ -327,7 +327,7 @@ CalcDataFromView]]></xml-property>
             <structure name="designerState">
                 <property name="version">11.0.0.0</property>
                 <property name="stateContentAsBlob">
-                    UEsDBBQACAAIAOd+eUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNjM4ODQ0MDk3
+                    UEsDBBQACAAIAApAokIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNjM4ODQ0MDk3
 MD
                     lcUXVlcnlGaWxlLmlvYmV45VpZb9s4EH5foP+BYNHmJRXrbM/U6uUmCwM5jCQNCiz6wEi0rK5E
 uhSV
@@ -365,8 +365,8 @@ rzGCFnj2HG+0zm+o+lW8xHXuGhXpK6iPSx
 x5w4rdatdom5p+Nq8wTD6WtnfO0SxzLuupuu
                     MnKnrdRZ8W5Zv0ei94uy/h9SPWhM9S+nonhK/no6
 yp32mCfLjtOx80dWXu18JqQqtgr9vLzlf5qA9A
-                    9QSwcIhMtLAw0EAAC/IgAAUEsDBBQACAAIAOd+
-eUIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90
+                    9QSwcIhMtLAw0EAAC/IgAAUEsDBBQACAAIAApA
+okIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90
                     ZW1wXzEzNjM4ODQ0MDk3MDlcLnByb2plY3R1
 kE9LAzEQxc8Kfoeyd5MtLbqFdEu1CJ5XzyVNhpKy+d
                     NkIn58kzS1rOAt7/GbN2/CNt96nH2BD8qa
@@ -376,11 +376,11 @@ XT23K0YLk2FhtQaDPaPXV3ZrciiCTtQhqlEODkRWVb6mUW
                     5kcer+lEa4wMgRiAoYpbLESk4S6tQI
 L3kM/K1ImuP+GHODUDWdGoz+3VWda5m0GKOHSl/Evz2E9cmw
                     58OFy0UKX2JvQb/HTz/5B1BLBwg9
-1pu74AAAAKMBAABQSwECFAAUAAgACADnfnlChMtLAw0EAAC/Ig
+1pu74AAAAKMBAABQSwECFAAUAAgACAAKQKJChMtLAw0EAAC/Ig
                     AALQAAAAAAAAAAAAAAAAAAAAAA
 QUlTRGF0YVNldF90ZW1wXzEzNjM4ODQ0MDk3MDlcUXVlcnlGaWxl
                     LmlvYmV4UEsBAhQAFAAIAAgA
-5355Qj3Wm7vgAAAAowEAACYAAAAAAAAAAAAAAAAAaAQAAEFJU0RhdG
+CkCiQj3Wm7vgAAAAowEAACYAAAAAAAAAAAAAAAAAaAQAAEFJU0RhdG
                     FTZXRfdGVtcF8xMzYzODg0
 NDA5NzA5XC5wcm9qZWN0UEsFBgAAAAACAAIArwAAAJwFAAAAAA==
 
@@ -5575,7 +5575,7 @@ NjM4OD
                         </tabular-hierarchy>
                     </property>
                 </tabular-dimension>
-                <tabular-dimension name="Hospital1" id="105">
+                <tabular-dimension name="Facility" id="105">
                     <property name="isTimeType">false</property>
                     <property name="defaultHierarchy">NewTabularHierarchy51</property>
                     <property name="hierarchies">

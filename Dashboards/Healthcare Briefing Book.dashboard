@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <body>
+        <text name="e44829ff-1788-4d7b-a9a1-3a2c18aa50fe" id="10">
+            <text-property name="content"><![CDATA[]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="4">
+            <property name="tabs">
+                <tab-element name="1d5b23ed-12c3-482a-92e3-273e88477022" id="5">
+                    <property name="title">Briefing Book</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="7ce57a1d-9545-4841-80e0-1f14de25ffa8" id="6">
+                            <property name="x">10px</property>
+                            <property name="y">10px</property>
+                            <property name="height">150px</property>
+                            <property name="width">1521px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="content">
+                                <current-selections id="7"/>
+                            </property>
+                        </gadget>
+                        <gadget name="45110bf9-daf8-4854-8102-d984c177480a" id="8">
+                            <list-property name="userProperties">
+                                <structure>
+                                    <property name="name">candidateId</property>
+                                    <property name="type">string</property>
+                                </structure>
+                            </list-property>
+                            <property name="candidateId">-2106374945</property>
+                            <property name="x">9px</property>
+                            <property name="y">18px</property>
+                            <property name="height">607px</property>
+                            <property name="width">1336px</property>
+                            <property name="title">Briefing Book</property>
+                            <property name="gadgetContentType">html</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="9">
+                                    <property name="gadgetType">Book</property>
+                                    <property name="internalReportLetRef">e44829ff-1788-4d7b-a9a1-3a2c18aa50fe</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

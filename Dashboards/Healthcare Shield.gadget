@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <body>
+        <text name="5a3c5460-93cd-439f-a948-a3b478dacf58" id="8">
+            <text-property name="content"><![CDATA[http://localhost/custom/sfshield.png]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="4">
+            <property name="tabs">
+                <tab-element name="newTab" id="5">
+                    <property name="freeFormGadgets">
+                        <gadget name="25b671a1-c68a-43c5-a4ca-53d2c7b02c2f" id="6">
+                            <property name="x">900px</property>
+                            <property name="y">-18px</property>
+                            <property name="height">42px</property>
+                            <property name="width">40px</property>
+                            <property name="title">HTML Gadget 2HTML Gadget 2HTML Gadget 2</property>
+                            <property name="gadgetContentType">url</property>
+                            <property name="showTitle">true</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">17</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="7">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">5a3c5460-93cd-439f-a948-a3b478dacf58</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>

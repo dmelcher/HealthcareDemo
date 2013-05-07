@@ -37,20 +37,35 @@
             <property name="borderTopWidth">1pt</property>
         </style>
     </styles>
+    <body>
+        <text name="5be41569-476e-49b0-a2c0-5b8b23794177" id="12">
+            <text-property name="content"><![CDATA[http://localhost/icons/v_collections_png/objects_people_industries/48x48/shadow/hospital.png]]></text-property>
+        </text>
+        <text name="5a3c5460-93cd-439f-a948-a3b478dacf58" id="15">
+            <text-property name="content"><![CDATA[http://localhost/custom/sfshield.png]]></text-property>
+        </text>
+        <text name="58da7a68-d19d-418d-8021-9ca8cc52a117" id="18">
+            <text-property name="content"><![CDATA[<div style="font-family: tahoma, verdana, arial, sans-serif; font-size: 11px; text-align: center;"><span style="font-family: verdana; font-size: x-small;"><b><br></b></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="font-family: verdana; font-size: x-small; background-color: rgb(255, 255, 255);"><b><font color="#808080">Our Mission:</font></b></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="font-family: verdana; font-size: x-small; background-color: rgb(255, 255, 255);"><font color="#808080">SFHealthcare brings the passion and science of healing to the community.</font></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="background-color: rgb(255, 255, 255);"><font color="#808080"><span style="font-family: verdana; font-size: x-small;">Our vision is to </span><span style="font-family: verdana; font-size: x-small;">be the best place to receive care and best place to work.</span></font></span></div><div><div style="text-align: center;"><font face="tahoma, verdana, arial, sans-serif"><span style="font-size: 11px;"><br></span></font></div><div style="font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><br></div></div>]]></text-property>
+        </text>
+    </body>
     <property name="dashboardView">
         <dashboard id="4">
             <property name="tabs">
-                <tab-element name="b7713857-12ac-4e7a-bd24-af1c45bd3c68" id="5">
+                <tab-element name="b7713857-12ac-4e7a-bd24-af1c45bd3c681" id="5">
                     <property name="title">Performance Indicators</property>
+                    <property name="showHeader">false</property>
+                    <property name="showFooter">false</property>
+                    <property name="headerHTML">null</property>
+                    <property name="footerHTML">null</property>
                     <property name="freeFormGadgets">
-                        <gadget name="Gadget_4a672737-1b38-4798-b549-b4fa8e451ad1" id="6">
-                            <property name="x">0px</property>
+                        <gadget name="Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11" id="6">
+                            <property name="x">81px</property>
                             <property name="y">0px</property>
-                            <property name="height">80px</property>
-                            <property name="width">284px</property>
-                            <property name="title">Select Location</property>
-                            <property name="showTitle">true</property>
-                            <property name="showBorder">true</property>
+                            <property name="height">46px</property>
+                            <property name="width">726px</property>
+                            <property name="title">Select a Facility</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
                             <property name="zIndex">3</property>
                             <property name="content">
                                 <radio-data-selector id="7">
@@ -65,11 +80,11 @@
                                     <property name="controlType">list-box</property>
                                     <property name="dataType">string</property>
                                     <simple-property-list name="selectedValues">
-                                        <value>City Central</value>
+                                        <value>Eastern Medical</value>
                                     </simple-property-list>
                                     <property name="orientation">horizontal</property>
-                                    <property name="autoAdjust">true</property>
-                                    <property name="autoAdjustNumber">3</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">5</property>
                                     <property name="listLimit">1000</property>
                                 </radio-data-selector>
                             </property>
@@ -78,7 +93,7 @@
                                     <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                     <property name="eventObjects">
                                         <event-object>
-                                            <property name="gadget">17523498-7039-43f2-8d3e-6fb7bb1d5012</property>
+                                            <property name="gadget">17523498-7039-43f2-8d3e-6fb7bb1d50121</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -87,17 +102,17 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_16001424-6a2e-432d-b6a4-f89101422345</property>
+                                            <property name="gadget">Gadget_0889ee8d-5194-4eea-9b93-ea04dd176948</property>
                                         </event-object>
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_8a6821e3-6aa1-469e-a82b-24ed84e0414e</property>
+                                            <property name="gadget">Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab4</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="17523498-7039-43f2-8d3e-6fb7bb1d5012" id="8">
+                        <gadget name="17523498-7039-43f2-8d3e-6fb7bb1d50121" id="8">
                             <property name="x">10px</property>
                             <property name="y">108px</property>
                             <property name="height">150px</property>
@@ -112,173 +127,91 @@
                                     <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                     <property name="eventObjects">
                                         <event-object>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad1</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_16001424-6a2e-432d-b6a4-f89101422345" id="10">
-                            <property name="x">0px</property>
-                            <property name="y">144px</property>
-                            <property name="height">236px</property>
-                            <property name="width">318px</property>
-                            <property name="title">Press Ganey</property>
-                            <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                            <property name="showTitle">true</property>
-                            <property name="showBorder">true</property>
-                            <property name="zIndex">2</property>
+                        <gadget name="8ac2d65c-da03-421b-8141-d38df64ea73b" id="10">
+                            <property name="x">18px</property>
+                            <property name="y">-18px</property>
+                            <property name="height">52px</property>
+                            <property name="width">52px</property>
+                            <property name="title">HTML Gadget 1</property>
+                            <property name="gadgetContentType">url</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">14</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
                                 <data-view id="11">
-                                    <list-property name="userProperties">
-                                        <structure>
-                                            <property name="name">showViewerToolbar</property>
-                                            <property name="type">boolean</property>
-                                        </structure>
-                                    </list-property>
-                                    <property name="showViewerToolbar">true</property>
-                                    <property name="gadgetType">viewer</property>
-                                    <property name="externalContentRef">
-                                        <external-element-ref>
-                                            <property name="sourceFile">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                                            <property name="targetBookmark">Press Ganey</property>
-                                        </external-element-ref>
-                                    </property>
-                                    <property name="paramSettings">
-                                        <param-setting>
-                                            <property name="paramName">pLocation</property>
-                                            <expression name="value">Mt. Mercer</expression>
-                                            <property name="isHidden">true</property>
-                                            <expression name="defaultValue" type="javascript">Mt. Mercer</expression>
-                                        </param-setting>
-                                    </property>
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">5be41569-476e-49b0-a2c0-5b8b23794177</property>
                                 </data-view>
                             </property>
-                            <property name="subscribeTo">
-                                <event-subscriber>
-                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
-                                    <property name="eventObjects">
-                                        <event-object>
-                                            <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad1</property>
-                                        </event-object>
-                                    </property>
-                                </event-subscriber>
-                            </property>
                         </gadget>
-                        <gadget name="Gadget_8a6821e3-6aa1-469e-a82b-24ed84e0414e" id="12">
-                            <property name="x">342px</property>
-                            <property name="y">144px</property>
-                            <property name="height">233px</property>
-                            <property name="width">304px</property>
-                            <property name="title">Core Measures</property>
-                            <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                            <property name="showTitle">true</property>
-                            <property name="showBorder">true</property>
-                            <property name="zIndex">3</property>
+                        <gadget name="25b671a1-c68a-43c5-a4ca-53d2c7b02c2f" id="13">
+                            <property name="x">900px</property>
+                            <property name="y">-18px</property>
+                            <property name="height">42px</property>
+                            <property name="width">40px</property>
+                            <property name="title">HTML Gadget 2HTML Gadget 2HTML Gadget 2</property>
+                            <property name="gadgetContentType">url</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">17</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
-                                <data-view id="13">
-                                    <list-property name="userProperties">
-                                        <structure>
-                                            <property name="name">showViewerToolbar</property>
-                                            <property name="type">boolean</property>
-                                        </structure>
-                                    </list-property>
-                                    <property name="showViewerToolbar">true</property>
-                                    <property name="gadgetType">viewer</property>
-                                    <property name="externalContentRef">
-                                        <external-element-ref>
-                                            <property name="sourceFile">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                                            <property name="targetBookmark">Core Measures</property>
-                                        </external-element-ref>
-                                    </property>
-                                    <property name="paramSettings">
-                                        <param-setting>
-                                            <property name="paramName">pLocation</property>
-                                            <expression name="value">Mt. Mercer</expression>
-                                            <property name="isHidden">true</property>
-                                            <expression name="defaultValue" type="javascript">Mt. Mercer</expression>
-                                        </param-setting>
-                                    </property>
-                                </data-view>
-                            </property>
-                            <property name="subscribeTo">
-                                <event-subscriber>
-                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
-                                    <property name="eventObjects">
-                                        <event-object>
-                                            <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad1</property>
-                                        </event-object>
-                                    </property>
-                                </event-subscriber>
-                            </property>
-                        </gadget>
-                        <gadget name="Gadget_bb4930bd-20ba-40b6-b841-3d208c870f39" id="14">
-                            <property name="x">666px</property>
-                            <property name="y">144px</property>
-                            <property name="height">236px</property>
-                            <property name="width">312px</property>
-                            <property name="title">Financial</property>
-                            <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                            <property name="showTitle">true</property>
-                            <property name="showBorder">true</property>
-                            <property name="zIndex">4</property>
-                            <property name="showScrollBar">false</property>
-                            <property name="content">
-                                <data-view id="15">
-                                    <list-property name="userProperties">
-                                        <structure>
-                                            <property name="name">showViewerToolbar</property>
-                                            <property name="type">boolean</property>
-                                        </structure>
-                                    </list-property>
-                                    <property name="showViewerToolbar">true</property>
-                                    <property name="gadgetType">viewer</property>
-                                    <property name="externalContentRef">
-                                        <external-element-ref>
-                                            <property name="sourceFile">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                                            <property name="targetBookmark">Financial</property>
-                                        </external-element-ref>
-                                    </property>
-                                    <property name="paramSettings">
-                                        <param-setting>
-                                            <property name="paramName">pLocation</property>
-                                            <expression name="value">Mt. Mercer</expression>
-                                            <property name="isHidden">true</property>
-                                            <expression name="defaultValue" type="javascript">Mt. Mercer</expression>
-                                        </param-setting>
-                                    </property>
+                                <data-view id="14">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">5a3c5460-93cd-439f-a948-a3b478dacf58</property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_ee702937-893c-4215-bb69-fcc231cfbf56" id="16">
-                            <property name="x">1008px</property>
-                            <property name="y">144px</property>
-                            <property name="height">233px</property>
-                            <property name="width">311px</property>
-                            <property name="title">Safety</property>
-                            <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                            <property name="showTitle">true</property>
-                            <property name="showBorder">true</property>
-                            <property name="zIndex">5</property>
+                        <gadget name="0bc2b0af-9b9b-49ef-90cc-d627a120816d" id="16">
+                            <property name="x">945px</property>
+                            <property name="y">0px</property>
+                            <property name="height">56px</property>
+                            <property name="width">418px</property>
+                            <property name="title">Our Mission:</property>
+                            <property name="gadgetContentType">text</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">16</property>
                             <property name="showScrollBar">false</property>
                             <property name="content">
                                 <data-view id="17">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">58da7a68-d19d-418d-8021-9ca8cc52a117</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab4" id="19">
+                            <property name="x">9px</property>
+                            <property name="y">81px</property>
+                            <property name="height">106px</property>
+                            <property name="width">1339px</property>
+                            <property name="title">Strategic Goal Performance for Current Period</property>
+                            <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">18</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="20">
                                     <list-property name="userProperties">
                                         <structure>
                                             <property name="name">showViewerToolbar</property>
                                             <property name="type">boolean</property>
                                         </structure>
                                     </list-property>
-                                    <property name="showViewerToolbar">true</property>
+                                    <property name="showViewerToolbar">false</property>
                                     <property name="gadgetType">viewer</property>
                                     <property name="externalContentRef">
                                         <external-element-ref>
                                             <property name="sourceFile">/National Healthcare/PerspectivesDashboard.rptdesign</property>
-                                            <property name="targetBookmark">Safety</property>
+                                            <property name="targetBookmark">Perspective Dashboard</property>
                                         </external-element-ref>
                                     </property>
                                     <property name="paramSettings">
@@ -290,6 +223,66 @@
                                         </param-setting>
                                     </property>
                                 </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">pLocation</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_0889ee8d-5194-4eea-9b93-ea04dd176948" id="21">
+                            <property name="x">9px</property>
+                            <property name="y">216px</property>
+                            <property name="height">410px</property>
+                            <property name="width">1344px</property>
+                            <property name="title">Strategic Goal Performance History</property>
+                            <property name="externalGadgetURI">/National Healthcare/Trending_SingleDashboard.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">19</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="22">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/Trending_SingleDashboard.rptdesign</property>
+                                            <property name="targetBookmark">Trending Dashboard</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">pLocation</property>
+                                            <expression name="value">City Central</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">City Central</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">pLocation</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
                             </property>
                         </gadget>
                     </property>

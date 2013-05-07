@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="layoutPreference">auto layout</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">ThemesReportItems.rptlibrary</property>
+            <property name="namespace">ThemesReportItems</property>
+        </structure>
+    </list-property>
+    <styles>
+        <style name="crosstab-cell" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <body>
+        <text name="5be41569-476e-49b0-a2c0-5b8b237941773" id="24">
+            <text-property name="content"><![CDATA[http://localhost/icons/v_collections_png/objects_people_industries/48x48/shadow/hospital.png]]></text-property>
+        </text>
+        <text name="5a3c5460-93cd-439f-a948-a3b478dacf583" id="27">
+            <text-property name="content"><![CDATA[http://localhost/custom/sfshield.png]]></text-property>
+        </text>
+    </body>
+    <property name="dashboardView">
+        <dashboard id="4">
+            <property name="tabs">
+                <tab-element name="b9be61d9-9776-40a1-8b3c-534c0be7cce5" id="5">
+                    <property name="title">Trending 2</property>
+                    <property name="showHeader">false</property>
+                    <property name="showFooter">false</property>
+                    <property name="headerHTML">null</property>
+                    <property name="footerHTML">null</property>
+                    <property name="freeFormGadgets">
+                        <gadget name="Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1" id="6">
+                            <property name="x">63px</property>
+                            <property name="y">9px</property>
+                            <property name="height">21px</property>
+                            <property name="width">1008px</property>
+                            <property name="title">Select Location</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">1</property>
+                            <property name="content">
+                                <radio-data-selector id="7">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">Location</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>City Central</value>
+                                    </simple-property-list>
+                                    <property name="orientation">vertical</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">1</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">327b7e84-bd1b-4a1d-9c39-01cd817990fa</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_707904f7-4d51-4557-b90c-d8cd5b537f36</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_bfff313e-c39e-455e-bea3-5ee61a6bac82</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_6c86173b-be8d-4bfb-95a3-2df69efb80d8</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_0eea4d4c-c976-4fd4-a193-7360f2091bc2</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_707904f7-4d51-4557-b90c-d8cd5b537f36" id="8">
+                            <property name="x">72px</property>
+                            <property name="y">72px</property>
+                            <property name="height">225px</property>
+                            <property name="width">450px</property>
+                            <property name="title">Safety Metrics Over Time</property>
+                            <property name="externalGadgetURI">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">2</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="9">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">Safety Metrics</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">'Eastern Medical'</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">'Eastern Medical'</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SafetyMeasureParm</property>
+                                            <expression name="value">MRI Burn Log</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">MRI Burn Log</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="327b7e84-bd1b-4a1d-9c39-01cd817990fa" id="10">
+                            <property name="x">10px</property>
+                            <property name="y">706px</property>
+                            <property name="height">150px</property>
+                            <property name="width">632px</property>
+                            <property name="zIndex">1</property>
+                            <property name="isVisible">false</property>
+                            <property name="content">
+                                <current-selections id="11"/>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_214b209d-2541-4aeb-af79-4ca0ca76b350</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="gadget">Gadget_e3f660f7-6ec0-424e-8288-8a47507defa4</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_bfff313e-c39e-455e-bea3-5ee61a6bac82" id="12">
+                            <property name="x">63px</property>
+                            <property name="y">387px</property>
+                            <property name="height">225px</property>
+                            <property name="width">450px</property>
+                            <property name="title">Safety Metrics Detail Over Time</property>
+                            <property name="externalGadgetURI">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="13">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">Safety Metrics Detail</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">'Eastern Medical'</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">'Eastern Medical'</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">SafetyMeasureParm</property>
+                                            <expression name="value">MRI Burn Log</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">MRI Burn Log</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">SafetyMeasureParm</property>
+                                            <property name="gadget">Gadget_214b209d-2541-4aeb-af79-4ca0ca76b350</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_214b209d-2541-4aeb-af79-4ca0ca76b350" id="14">
+                            <property name="x">63px</property>
+                            <property name="y">315px</property>
+                            <property name="height">23px</property>
+                            <property name="width">450px</property>
+                            <property name="title">Select Safety Measure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">3</property>
+                            <property name="content">
+                                <radio-data-selector id="15">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_Safety.rptdesign</property>
+                                            <property name="targetBookmark">SafetyMeasureParm</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>PCT Injuries Related to IV Insertion</value>
+                                    </simple-property-list>
+                                    <property name="orientation">vertical</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">1</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">327b7e84-bd1b-4a1d-9c39-01cd817990fa</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">SafetyMeasureParm</property>
+                                            <property name="gadget">Gadget_bfff313e-c39e-455e-bea3-5ee61a6bac82</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_6c86173b-be8d-4bfb-95a3-2df69efb80d8" id="16">
+                            <property name="x">612px</property>
+                            <property name="y">72px</property>
+                            <property name="height">225px</property>
+                            <property name="width">450px</property>
+                            <property name="title">HCAHPS Metrics Over Time</property>
+                            <property name="externalGadgetURI">/National Healthcare/MetricsOverTime_HCAHPS.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">4</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="17">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_HCAHPS.rptdesign</property>
+                                            <property name="targetBookmark">HCAHPs Metrics</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">'Eastern Medical'</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">'Eastern Medical'</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">HCAHPsMeasureParm</property>
+                                            <expression name="value">Hospital Experience</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Hospital Experience</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_0eea4d4c-c976-4fd4-a193-7360f2091bc2" id="18">
+                            <property name="x">621px</property>
+                            <property name="y">387px</property>
+                            <property name="height">225px</property>
+                            <property name="width">450px</property>
+                            <property name="title">HCAHPS Metrics Detail Over Time</property>
+                            <property name="externalGadgetURI">/National Healthcare/MetricsOverTime_HCAHPS.rptdesign</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="19">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">showViewerToolbar</property>
+                                            <property name="type">boolean</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="showViewerToolbar">false</property>
+                                    <property name="gadgetType">viewer</property>
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_HCAHPS.rptdesign</property>
+                                            <property name="targetBookmark">HCAHPs Metrics Detail</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="paramSettings">
+                                        <param-setting>
+                                            <property name="paramName">Location</property>
+                                            <expression name="value">'Eastern Medical'</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">'Eastern Medical'</expression>
+                                        </param-setting>
+                                        <param-setting>
+                                            <property name="paramName">HCAHPsMeasureParm</property>
+                                            <expression name="value">Hospital Experience</expression>
+                                            <property name="isHidden">true</property>
+                                            <expression name="defaultValue" type="javascript">Hospital Experience</expression>
+                                        </param-setting>
+                                    </property>
+                                </data-view>
+                            </property>
+                            <property name="subscribeTo">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">Location</property>
+                                            <property name="gadget">Gadget_2535dfdf-bcd7-464d-95a5-a2c07d8021d1</property>
+                                        </event-object>
+                                        <event-object>
+                                            <property name="appliedTo">HCAHPsMeasureParm</property>
+                                            <property name="gadget">Gadget_e3f660f7-6ec0-424e-8288-8a47507defa4</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="Gadget_e3f660f7-6ec0-424e-8288-8a47507defa4" id="20">
+                            <property name="x">621px</property>
+                            <property name="y">315px</property>
+                            <property name="height">23px</property>
+                            <property name="width">450px</property>
+                            <property name="title">Select HCAHPS Measure</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">5</property>
+                            <property name="content">
+                                <radio-data-selector id="21">
+                                    <property name="externalContentRef">
+                                        <external-element-ref>
+                                            <property name="sourceFile">/National Healthcare/MetricsOverTime_HCAHPS.rptdesign</property>
+                                            <property name="targetBookmark">HCAHPsMeasureParm</property>
+                                            <property name="isNoValueSupported">false</property>
+                                        </external-element-ref>
+                                    </property>
+                                    <property name="operator">eq</property>
+                                    <property name="controlType">list-box</property>
+                                    <property name="dataType">string</property>
+                                    <simple-property-list name="selectedValues">
+                                        <value>Communication</value>
+                                    </simple-property-list>
+                                    <property name="orientation">vertical</property>
+                                    <property name="autoAdjust">false</property>
+                                    <property name="autoAdjustNumber">1</property>
+                                    <property name="listLimit">1000</property>
+                                </radio-data-selector>
+                            </property>
+                            <property name="observers">
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="gadget">327b7e84-bd1b-4a1d-9c39-01cd817990fa</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                                <event-subscriber>
+                                    <property name="eventName">SELECT_EVENT:SEMANTIC_parameter</property>
+                                    <property name="eventObjects">
+                                        <event-object>
+                                            <property name="appliedTo">HCAHPsMeasureParm</property>
+                                            <property name="gadget">Gadget_0eea4d4c-c976-4fd4-a193-7360f2091bc2</property>
+                                        </event-object>
+                                    </property>
+                                </event-subscriber>
+                            </property>
+                        </gadget>
+                        <gadget name="8ac2d65c-da03-421b-8141-d38df64ea73b3" id="22">
+                            <property name="x">9px</property>
+                            <property name="y">0px</property>
+                            <property name="height">52px</property>
+                            <property name="width">52px</property>
+                            <property name="title">HTML Gadget 1</property>
+                            <property name="gadgetContentType">url</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">6</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="23">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">5be41569-476e-49b0-a2c0-5b8b237941773</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                        <gadget name="25b671a1-c68a-43c5-a4ca-53d2c7b02c2f3" id="25">
+                            <property name="x">1107px</property>
+                            <property name="y">0px</property>
+                            <property name="height">42px</property>
+                            <property name="width">40px</property>
+                            <property name="title">HTML Gadget 2HTML Gadget 2HTML Gadget 2</property>
+                            <property name="gadgetContentType">url</property>
+                            <property name="showTitle">false</property>
+                            <property name="showBorder">false</property>
+                            <property name="zIndex">8</property>
+                            <property name="showScrollBar">false</property>
+                            <property name="content">
+                                <data-view id="26">
+                                    <property name="gadgetType">embedded</property>
+                                    <property name="internalReportLetRef">5a3c5460-93cd-439f-a948-a3b478dacf583</property>
+                                </data-view>
+                            </property>
+                        </gadget>
+                    </property>
+                </tab-element>
+            </property>
+        </dashboard>
+    </property>
+</report>
