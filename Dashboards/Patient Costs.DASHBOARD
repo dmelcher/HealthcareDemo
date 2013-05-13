@@ -2078,7 +2078,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
   <extendedProperties name="enable.drill.category" value="true"/>
   <extendedProperties name="enable.drill.series" value="true"/>
   <extendedProperties name="jschart.zoom" value=""/>
-  <extendedProperties name="drilled.filters_" value=""/>
+  <extendedProperties name="drilled.filters_" value="[Diagnostic Group].[Diagnostic]"/>
   <extendedProperties name="enable.drill.proc_" value="true"/>
   <sampleData>
    <baseSampleData dataSetRepresentation="5"/>
@@ -2109,7 +2109,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
      </outline>
     </title>
     <seriesDefinitions sorting="0">
-     <query definition="data[&quot;Diagnostic Group/Diagnostic&quot;]"/>
+     <query definition="data[&quot;Diagnostic Group/Prescription&quot;]"/>
      <series _type="LineSeries" seriesIdentifier="Summary Field/Diagnostic Cost" paletteLineColor="true">
       <label>
        <background _nil="1"/>
@@ -2249,6 +2249,13 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                         <value type="constant">90K plus</value>
                     </simple-property-list>
                     <property name="filterTarget">DataSet</property>
+                </filter-condition-element>
+                <filter-condition-element>
+                    <expression name="expr" type="javascript">data["Diagnostic Group/Diagnostic"]</expression>
+                    <property name="operator">eq</property>
+                    <simple-property-list name="value1">
+                        <value type="constant">Tobacco Use</value>
+                    </simple-property-list>
                 </filter-condition-element>
             </property>
             <property name="height">187.5pt</property>
@@ -3005,7 +3012,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                             <property name="x">223px</property>
                             <property name="y">344px</property>
                             <property name="height">500px</property>
-                            <property name="width">913px</property>
+                            <property name="width">376px</property>
                             <property name="title">Which areas have the most arthritis diagnoses?</property>
                             <property name="externalGadgetURI">/Health/choropleth-health.rptdesign</property>
                             <property name="showTitle">false</property>
@@ -3024,7 +3031,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                     <property name="gadgetType">viewer</property>
                                     <property name="externalContentRef">
                                         <external-element-ref>
-                                            <property name="sourceFile">/Health/choropleth-health.rptdesign</property>
+                                            <property name="sourceFile">/Health/choropleth-health-IL.rptdesign</property>
                                         </external-element-ref>
                                     </property>
                                     <property name="paramSettings">
