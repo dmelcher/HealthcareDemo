@@ -38,27 +38,27 @@
         </style>
     </styles>
     <body>
-        <text name="5be41569-476e-49b0-a2c0-5b8b23794177" id="12">
+        <text name="5be41569-476e-49b0-a2c0-5b8b237941772" id="12">
             <text-property name="content"><![CDATA[http://localhost/icons/v_collections_png/objects_people_industries/48x48/shadow/hospital.png]]></text-property>
         </text>
-        <text name="5a3c5460-93cd-439f-a948-a3b478dacf58" id="15">
+        <text name="5a3c5460-93cd-439f-a948-a3b478dacf582" id="15">
             <text-property name="content"><![CDATA[http://localhost/custom/sfshield.png]]></text-property>
         </text>
-        <text name="58da7a68-d19d-418d-8021-9ca8cc52a117" id="18">
+        <text name="58da7a68-d19d-418d-8021-9ca8cc52a1172" id="18">
             <text-property name="content"><![CDATA[<div style="font-family: tahoma, verdana, arial, sans-serif; font-size: 11px; text-align: center;"><span style="font-family: verdana; font-size: x-small;"><b><br></b></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="font-family: verdana; font-size: x-small; background-color: rgb(255, 255, 255);"><b><font color="#808080">Our Mission:</font></b></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="font-family: verdana; font-size: x-small; background-color: rgb(255, 255, 255);"><font color="#808080">SFHealthcare brings the passion and science of healing to the community.</font></span></div><div style="text-align: left; font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><span style="background-color: rgb(255, 255, 255);"><font color="#808080"><span style="font-family: verdana; font-size: x-small;">Our vision is to </span><span style="font-family: verdana; font-size: x-small;">be the best place to receive care and best place to work.</span></font></span></div><div><div style="text-align: center;"><font face="tahoma, verdana, arial, sans-serif"><span style="font-size: 11px;"><br></span></font></div><div style="font-family: tahoma, verdana, arial, sans-serif; font-size: 11px;"><br></div></div>]]></text-property>
         </text>
     </body>
     <property name="dashboardView">
         <dashboard id="4">
             <property name="tabs">
-                <tab-element name="b7713857-12ac-4e7a-bd24-af1c45bd3c681" id="5">
+                <tab-element name="b7713857-12ac-4e7a-bd24-af1c45bd3c6811" id="5">
                     <property name="title">Performance Indicators</property>
                     <property name="showHeader">false</property>
                     <property name="showFooter">false</property>
                     <property name="headerHTML">null</property>
                     <property name="footerHTML">null</property>
                     <property name="freeFormGadgets">
-                        <gadget name="Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11" id="6">
+                        <gadget name="Gadget_4a672737-1b38-4798-b549-b4fa8e451ad111" id="6">
                             <property name="x">81px</property>
                             <property name="y">0px</property>
                             <property name="height">46px</property>
@@ -80,7 +80,7 @@
                                     <property name="controlType">list-box</property>
                                     <property name="dataType">string</property>
                                     <simple-property-list name="selectedValues">
-                                        <value>Eastern Medical</value>
+                                        <value>All Hospitals</value>
                                     </simple-property-list>
                                     <property name="orientation">horizontal</property>
                                     <property name="autoAdjust">false</property>
@@ -93,7 +93,7 @@
                                     <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                     <property name="eventObjects">
                                         <event-object>
-                                            <property name="gadget">17523498-7039-43f2-8d3e-6fb7bb1d50121</property>
+                                            <property name="gadget">17523498-7039-43f2-8d3e-6fb7bb1d501211</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
@@ -102,17 +102,17 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_0889ee8d-5194-4eea-9b93-ea04dd176948</property>
+                                            <property name="gadget">Gadget_0889ee8d-5194-4eea-9b93-ea04dd1769481</property>
                                         </event-object>
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab4</property>
+                                            <property name="gadget">Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab41</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="17523498-7039-43f2-8d3e-6fb7bb1d50121" id="8">
+                        <gadget name="17523498-7039-43f2-8d3e-6fb7bb1d501211" id="8">
                             <property name="x">10px</property>
                             <property name="y">108px</property>
                             <property name="height">150px</property>
@@ -127,13 +127,13 @@
                                     <property name="eventName">SELECT_EVENT:SEMANTIC_filter</property>
                                     <property name="eventObjects">
                                         <event-object>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad111</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="8ac2d65c-da03-421b-8141-d38df64ea73b" id="10">
+                        <gadget name="8ac2d65c-da03-421b-8141-d38df64ea73b1" id="10">
                             <property name="x">18px</property>
                             <property name="y">-18px</property>
                             <property name="height">52px</property>
@@ -147,11 +147,11 @@
                             <property name="content">
                                 <data-view id="11">
                                     <property name="gadgetType">embedded</property>
-                                    <property name="internalReportLetRef">5be41569-476e-49b0-a2c0-5b8b23794177</property>
+                                    <property name="internalReportLetRef">5be41569-476e-49b0-a2c0-5b8b237941772</property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="25b671a1-c68a-43c5-a4ca-53d2c7b02c2f" id="13">
+                        <gadget name="25b671a1-c68a-43c5-a4ca-53d2c7b02c2f1" id="13">
                             <property name="x">900px</property>
                             <property name="y">-18px</property>
                             <property name="height">42px</property>
@@ -165,11 +165,11 @@
                             <property name="content">
                                 <data-view id="14">
                                     <property name="gadgetType">embedded</property>
-                                    <property name="internalReportLetRef">5a3c5460-93cd-439f-a948-a3b478dacf58</property>
+                                    <property name="internalReportLetRef">5a3c5460-93cd-439f-a948-a3b478dacf582</property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="0bc2b0af-9b9b-49ef-90cc-d627a120816d" id="16">
+                        <gadget name="0bc2b0af-9b9b-49ef-90cc-d627a120816d1" id="16">
                             <property name="x">945px</property>
                             <property name="y">0px</property>
                             <property name="height">56px</property>
@@ -183,16 +183,16 @@
                             <property name="content">
                                 <data-view id="17">
                                     <property name="gadgetType">embedded</property>
-                                    <property name="internalReportLetRef">58da7a68-d19d-418d-8021-9ca8cc52a117</property>
+                                    <property name="internalReportLetRef">58da7a68-d19d-418d-8021-9ca8cc52a1172</property>
                                 </data-view>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab4" id="19">
-                            <property name="x">9px</property>
+                        <gadget name="Gadget_56e2cb9c-1bea-4036-b1e6-7cf832b72ab41" id="19">
+                            <property name="x">18px</property>
                             <property name="y">81px</property>
                             <property name="height">106px</property>
                             <property name="width">1339px</property>
-                            <property name="title">Strategic Goal Performance for Current Period</property>
+                            <property name="title">Metrics for Current Period</property>
                             <property name="externalGadgetURI">/National Healthcare/PerspectivesDashboard.rptdesign</property>
                             <property name="showTitle">false</property>
                             <property name="showBorder">false</property>
@@ -230,18 +230,18 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad111</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>
                             </property>
                         </gadget>
-                        <gadget name="Gadget_0889ee8d-5194-4eea-9b93-ea04dd176948" id="21">
-                            <property name="x">9px</property>
+                        <gadget name="Gadget_0889ee8d-5194-4eea-9b93-ea04dd1769481" id="21">
+                            <property name="x">18px</property>
                             <property name="y">216px</property>
                             <property name="height">410px</property>
                             <property name="width">1344px</property>
-                            <property name="title">Strategic Goal Performance History</property>
+                            <property name="title">Metrics  Performance History</property>
                             <property name="externalGadgetURI">/National Healthcare/Trending_SingleDashboard.rptdesign</property>
                             <property name="showTitle">false</property>
                             <property name="showBorder">false</property>
@@ -279,7 +279,7 @@
                                     <property name="eventObjects">
                                         <event-object>
                                             <property name="appliedTo">pLocation</property>
-                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad11</property>
+                                            <property name="gadget">Gadget_4a672737-1b38-4798-b549-b4fa8e451ad111</property>
                                         </event-object>
                                     </property>
                                 </event-subscriber>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
-    <property name="layoutPreference">auto layout</property>
     <list-property name="libraries">
         <structure>
             <property name="fileName">ThemesReportItems.rptlibrary</property>
@@ -38,42 +37,45 @@
         </style>
     </styles>
     <body>
-        <text name="04fe4c24-b136-4a39-82a3-4a3588254e6e1" id="6">
-            <text-property name="content"><![CDATA[http://localhost/Scorecard/portal_view.aspx?viewID=-800514884&amp;measureID=670565914&amp;locationID=695637848&amp;comparisonID=-422329611&amp;periodID=-222907516&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standardu=sysadmin&amp;p=sysadmin]]></text-property>
+        <text name="04d6a337-bc91-4d5e-aff9-68e61daed3c8" id="6">
+            <text-property name="content"><![CDATA[]]></text-property>
         </text>
     </body>
     <property name="dashboardView">
         <dashboard id="4">
             <property name="tabs">
-                <tab-element name="8cf84019-ba75-4adc-ae7f-6b3eb5c434aa1" id="5">
+                <tab-element name="70943a32-e8dc-46ba-aa34-8fd52e028732" id="5">
                     <property name="title">Overall Health View</property>
-                    <property name="showHeader">false</property>
-                    <property name="showFooter">false</property>
-                    <property name="headerHTML">null</property>
-                    <property name="footerHTML">null</property>
                     <property name="sections">
                         <section id="7">
                             <property name="width">100%</property>
                             <property name="gadgets">
-                                <gadget name="63b2e75a-1edb-45a8-8529-53c74ac77ab82" id="8">
-                                    <property name="height">552px</property>
-                                    <property name="title">Overall Health</property>
-                                    <property name="gadgetContentType">url</property>
-                                    <property name="zIndex">2</property>
-                                    <property name="showScrollBar">false</property>
-                                    <property name="content">
-                                        <data-view id="9">
-                                            <property name="gadgetType">embedded</property>
-                                            <property name="internalReportLetRef">04fe4c24-b136-4a39-82a3-4a3588254e6e1</property>
-                                        </data-view>
-                                    </property>
-                                </gadget>
-                                <gadget name="70f5bab9-08d5-4219-903d-9b01047260402" id="10">
+                                <gadget name="2f277df4-0e96-4234-be80-828cf44f80d9" id="8">
                                     <property name="height">150px</property>
                                     <property name="zIndex">1</property>
                                     <property name="isVisible">false</property>
                                     <property name="content">
-                                        <current-selections id="11"/>
+                                        <current-selections id="9"/>
+                                    </property>
+                                </gadget>
+                                <gadget name="ad23a5e5-7125-4084-aa48-02d58fd30c4e" id="10">
+                                    <list-property name="userProperties">
+                                        <structure>
+                                            <property name="name">candidateId</property>
+                                            <property name="type">string</property>
+                                        </structure>
+                                    </list-property>
+                                    <property name="candidateId">-800514884</property>
+                                    <property name="height">576px</property>
+                                    <property name="title">Overall Health View</property>
+                                    <property name="gadgetContentType">html</property>
+                                    <property name="zIndex">2</property>
+                                    <property name="showScrollBar">false</property>
+                                    <property name="content">
+                                        <data-view id="11">
+                                            <property name="gadgetType">View</property>
+                                            <property name="internalReportLetRef">04d6a337-bc91-4d5e-aff9-68e61daed3c8</property>
+                                        </data-view>
                                     </property>
                                 </gadget>
                             </property>

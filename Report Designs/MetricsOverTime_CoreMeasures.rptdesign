@@ -1852,7 +1852,7 @@ CalcDataFromView.PeriodName<>HierarchicalCalcDataFromView.PeriodName ) ]]></xml-
                             <structure name="designerState">
                                 <property name="version">11.0.0.0</property>
                                 <property name="stateContentAsBlob">
-                                    UEsDBBQACAAIAEhbnUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5
+                                    UEsDBBQACAAIALdcnUIAAAAAAAAAAAAAAAAtAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5
 Nj
                                     RcUXVlcnlGaWxlLmlvYmV47Vxtb9s2EP4+YP+BULFmBVrLkp20Ta12aV5Wb6kdJFkwYBgCRqJt
 dbLo
@@ -1923,7 +1923,7 @@ pKd/jEAYadyt0C2DSYMNscwb0Mm2Tnye2zDGDatuoxOTrLSHFiSuZnbx10g2MPpZ
                                     tBZC7qwr
 W7v1w9qrWztcHVe2dfuHrTO2zq33MPGDA1d2TlDwd5Up9f9QSwcISQ4PJaMHAACtWQAAUE
                                     sDBBQA
-CAAIAEhbnUIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5NjRc
+CAAIALdcnUIAAAAAAAAAAAAAAAAmAAAAQUlTRGF0YVNldF90ZW1wXzEzNTI4NDAyNzQ5NjRc
                                     LnBy
 b2plY3R1kE9PAjEQxc+S+B3I3m0BV8WkLBEJiefVMynthNRs/9hOjR+fthTJmnjre/nNmzdl6x
                                     89
@@ -1933,11 +1933,11 @@ TL/BB2XNqpmTWTMFI6xU5rhqPt53d8tm3d1OmPP2EwRuIQivHCY6uTfMcA3dy1u/5ch7wD2Cdvv5
 
                                     WMlJQp0aYJPHwF+LpDnujzE3CFXTscHo313VuZRJizF6qPRZ/NtDWJ8M+3U4c7lI4UvsNej3+PEn
 nw
-                                    BQSwcI1zqHo+EAAACjAQAAUEsBAhQAFAAIAAgASFudQkkODyWjBwAArVkAAC0AAAAAAAAAAAAA
+                                    BQSwcI1zqHo+EAAACjAQAAUEsBAhQAFAAIAAgAt1ydQkkODyWjBwAArVkAAC0AAAAAAAAAAAAA
 AAAA
                                     AAAAAEFJU0RhdGFTZXRfdGVtcF8xMzUyODQwMjc0OTY0XFF1ZXJ5RmlsZS5pb2JleFBLAQIU
 ABQACA
-                                    AIAEhbnULXOoej4QAAAKMBAAAmAAAAAAAAAAAAAAAAAP4HAABBSVNEYXRhU2V0X3RlbXBf
+                                    AIALdcnULXOoej4QAAAKMBAAAmAAAAAAAAAAAAAAAAAP4HAABBSVNEYXRhU2V0X3RlbXBf
 MTM1Mjg0
                                     MDI3NDk2NFwucHJvamVjdFBLBQYAAAAAAgACAK8AAAAzCQAAAAA=
 
@@ -3980,6 +3980,21 @@ MTM1Mjg0
         <value _type="TooltipValue" text="" delay="200"/>
        </action>
       </triggers>
+      <triggers condition="2">
+       <action type="0">
+        <value _type="MultiURLValues">
+         <uRLValues baseUrl="&lt;structure&gt;&#10;    &lt;property name=&quot;linkType&quot;&gt;hyperlink&lt;/property&gt;&#10;    &lt;expression name=&quot;uri&quot; type=&quot;javascript&quot;&gt;&quot;http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;amp;measureID=&quot; + row[&quot;MeasureID&quot;] + &quot;&amp;amp;locationID=&quot; + row[&quot;LocationID&quot;] + &quot;&amp;amp;periodID=-222907516&amp;amp;s=ACTUATEONE&amp;amp;d=National+Healthcare&amp;amp;m=Standard&amp;amp;u=sysadmin&amp;amp;p=sysadmin&quot;&lt;/expression&gt;&#10;    &lt;property name=&quot;targetWindow&quot;&gt;_blank&lt;/property&gt;&#10;&lt;/structure&gt;&#10;" baseParameterName="" valueParameterName="" seriesParameterName="">
+          <label>
+           <caption value="Drill to Detail"/>
+          </label>
+         </uRLValues>
+         <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
+         <propertiesMap key="Menu" value="zIndex:99999;backgroundColor:#FAFFF8;width:auto;height:auto;border:1px solid #333333;filter:progid:DXImageTransform.Microsoft.Shadow(Color:#333333,Direction=120,strength=5)"/>
+         <propertiesMap key="OnMouseOut" value="backgroundColor:#FAFFF8;color:#000000"/>
+         <propertiesMap key="OnMouseOver" value="backgroundColor:#245DDB;color:#FFFFFF"/>
+        </value>
+       </action>
+      </triggers>
       <curveFitting _nil="1"/>
       <markers>
        <outline/>
@@ -4120,6 +4135,13 @@ MTM1Mjg0
 </ActuateChart>
 ]]></xml-property>
             <property name="outputFormat">JS</property>
+            <list-property name="action">
+                <structure>
+                    <property name="targetWindow">_blank</property>
+                    <property name="linkType">hyperlink</property>
+                    <expression name="uri" type="javascript">"http://localhost/Scorecard/portal_dashboard.aspx?viewID=726713787&amp;measureID=" + row["MeasureID"] + "&amp;locationID=" + row["LocationID"] + "&amp;periodID=-222907516&amp;s=ACTUATEONE&amp;d=National+Healthcare&amp;m=Standard&amp;u=sysadmin&amp;p=sysadmin"</expression>
+                </structure>
+            </list-property>
             <list-property name="filter">
                 <structure>
                     <property name="operator">eq</property>
