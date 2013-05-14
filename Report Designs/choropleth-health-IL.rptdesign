@@ -31,6 +31,22 @@
                 <property name="category">Unformatted</property>
             </structure>
         </scalar-parameter>
+        <scalar-parameter name="pDiagnostic" id="366">
+            <text-property name="promptText">Enter Diagnostic</text-property>
+            <property name="valueType">static</property>
+            <property name="isRequired">false</property>
+            <property name="dataType">string</property>
+            <property name="distinct">true</property>
+            <simple-property-list name="defaultValue">
+                <value type="constant"></value>
+            </simple-property-list>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
+            <property name="controlType">text-box</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
     </parameters>
     <styles>
         <style name="report" id="4">
@@ -139,7 +155,7 @@ function drawMap() {
 
   queue()
       .defer(d3.json, "<VALUE-OF>vars['geoJsonURL']</VALUE-OF>")
-      .defer(d3.tsv, "<VALUE-OF>vars['tsvDataURL']</VALUE-OF>")
+      .defer(d3.tsv, "<VALUE-OF>params["extraResourceFolderURL"].value</VALUE-OF>/diagnostic-IL-<VALUE-OF>params["pDiagnostic"].value</VALUE-OF>.tsv")
       .await(ready);
 
 function ready(error, us, unemployment) {
@@ -228,7 +244,7 @@ This report is intended for web view only.]]></text-property>
             <property name="type">report</property>
         </variable-element>
         <variable-element name="tsvDataURL">
-            <expression name="value" type="javascript">params["extraResourceFolderURL"].value + "/unemployment-IL.tsv"</expression>
+            <expression name="value" type="javascript">"/diagnostic-IL-all.tsv"</expression>
             <property name="type">report</property>
         </variable-element>
         <variable-element name="geoJsonURL">

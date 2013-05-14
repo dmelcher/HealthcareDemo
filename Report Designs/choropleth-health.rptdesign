@@ -133,7 +133,7 @@ function drawMap() {
       .attr("height", height);
 
   queue()
-      .defer(d3.json, "<VALUE-OF>vars['usJsonURL']</VALUE-OF>")
+      .defer(d3.json, "<VALUE-OF>vars['geoJsonURL']</VALUE-OF>")
       .defer(d3.tsv, "<VALUE-OF>vars['tsvDataURL']</VALUE-OF>")
       .await(ready);
 
@@ -226,7 +226,7 @@ This report is intended for web view only.]]></text-property>
             <expression name="value" type="javascript">params["extraResourceFolderURL"].value + "/unemployment-counties.tsv"</expression>
             <property name="type">report</property>
         </variable-element>
-        <variable-element name="usJsonURL">
+        <variable-element name="geoJsonURL">
             <expression name="value" type="javascript">params["extraResourceFolderURL"].value + "/us.json"</expression>
             <property name="type">report</property>
         </variable-element>
