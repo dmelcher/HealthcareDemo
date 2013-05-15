@@ -3582,7 +3582,7 @@ MTM1Mjg0
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -3597,7 +3597,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -3612,7 +3612,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,225,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="150.0"/>
      <label visible="false">
@@ -4015,7 +4015,7 @@ MTM1Mjg0
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -4030,7 +4030,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -4045,7 +4045,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,225,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="150.0"/>
      <label visible="false">

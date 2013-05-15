@@ -3264,6 +3264,10 @@ MTM1Mjg0
             <property name="borderRightStyle">none</property>
             <property name="borderTopStyle">none</property>
         </style>
+        <style name="PerformanceChart" id="2041">
+            <property name="fontSize">x-small</property>
+            <property name="paddingTop">0pt</property>
+        </style>
     </styles>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
@@ -3428,7 +3432,7 @@ MTM1Mjg0
     <seriesDefinitions>
      <query definition=""/>
      <seriesPalette>
-      <entries _body=",255,0,121,193"/>
+      <entries _body=",255,51,51,153"/>
       <entries _body=",255,242,88,106"/>
       <entries _body=",255,232,172,57"/>
       <entries _body=",255,128,255,128"/>
@@ -3499,7 +3503,7 @@ MTM1Mjg0
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -3514,7 +3518,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -3529,7 +3533,7 @@ MTM1Mjg0
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,255,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="150.0"/>
      <label visible="false">
@@ -3569,7 +3573,7 @@ MTM1Mjg0
    <seriesDefinitions>
     <query definition=""/>
     <seriesPalette>
-     <entries _body=",255,0,121,193"/>
+     <entries _body=",255,51,51,153"/>
      <entries _body=",255,242,88,106"/>
      <entries _body=",255,232,172,57"/>
      <entries _body=",255,128,255,128"/>
@@ -4451,7 +4455,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     <seriesDefinitions>
      <query definition=""/>
      <seriesPalette>
-      <entries _body=",255,0,121,193"/>
+      <entries _body=",255,51,51,153"/>
       <entries _body=",255,242,88,106"/>
       <entries _body=",255,232,172,57"/>
       <entries _body=",255,128,255,128"/>
@@ -4522,7 +4526,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -4537,7 +4541,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -4552,7 +4556,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,255,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="150.0"/>
      <label visible="false">
@@ -4592,7 +4596,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
    <seriesDefinitions>
     <query definition=""/>
     <seriesPalette>
-     <entries _body=",255,0,121,193"/>
+     <entries _body=",255,51,51,153"/>
      <entries _body=",255,242,88,106"/>
      <entries _body=",255,232,172,57"/>
      <entries _body=",255,128,255,128"/>
@@ -5477,7 +5481,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     <seriesDefinitions>
      <query definition=""/>
      <seriesPalette>
-      <entries _body=",255,0,121,193"/>
+      <entries _body=",255,51,51,153"/>
       <entries _body=",255,242,88,106"/>
       <entries _body=",255,232,172,57"/>
       <entries _body=",255,128,255,128"/>
@@ -5548,7 +5552,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -5563,7 +5567,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -5578,7 +5582,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,255,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="150.0"/>
      <label visible="false">
@@ -5618,7 +5622,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
    <seriesDefinitions>
     <query definition=""/>
     <seriesPalette>
-     <entries _body=",255,0,121,193"/>
+     <entries _body=",255,51,51,153"/>
      <entries _body=",255,242,88,106"/>
      <entries _body=",255,232,172,57"/>
      <entries _body=",255,128,255,128"/>
@@ -6506,7 +6510,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     <seriesDefinitions>
      <query definition=""/>
      <seriesPalette>
-      <entries _body=",255,0,121,193"/>
+      <entries _body=",255,51,51,153"/>
       <entries _body=",255,242,88,106"/>
       <entries _body=",255,232,172,57"/>
       <entries _body=",255,128,255,128"/>
@@ -6577,7 +6581,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </label>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,111,111"/>
+     <fill _body=",32,255,0,0"/>
      <startValue _type="NumberDataElement" value="0.0"/>
      <endValue _type="NumberDataElement" value="45.0"/>
      <label visible="false">
@@ -6592,7 +6596,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,255,255,117"/>
+     <fill _body=",32,255,255,0"/>
      <startValue _type="NumberDataElement" value="45.0"/>
      <endValue _type="NumberDataElement" value="85.0"/>
      <label visible="false">
@@ -6607,7 +6611,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
     </markerRanges>
     <markerRanges>
      <outline/>
-     <fill _body=",255,140,255,140"/>
+     <fill _body=",32,0,128,0"/>
      <startValue _type="NumberDataElement" value="85.0"/>
      <endValue _type="NumberDataElement" value="500.0"/>
      <label visible="false">
@@ -6647,7 +6651,7 @@ if(BirtMath.divide(row["CurrentIndex"],1) &lt; BirtMath.divide(row["3MonthAvt"],
    <seriesDefinitions>
     <query definition=""/>
     <seriesPalette>
-     <entries _body=",255,0,121,193"/>
+     <entries _body=",255,51,51,153"/>
      <entries _body=",255,242,88,106"/>
      <entries _body=",255,232,172,57"/>
      <entries _body=",255,128,255,128"/>
