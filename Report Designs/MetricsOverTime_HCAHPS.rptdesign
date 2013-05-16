@@ -3666,6 +3666,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>
@@ -3701,7 +3704,7 @@ MTM1Mjg0
             <property name="inheritColumns">false</property>
             <expression name="bookmark" type="javascript">"HCAHPs Metrics"</expression>
             <property name="dataSet">HCAHPs Measures DataSet</property>
-            <property name="height">200pt</property>
+            <property name="height">130pt</property>
             <property name="width">5.5in</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -4098,6 +4101,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>
@@ -4150,7 +4156,7 @@ MTM1Mjg0
             <property name="inheritColumns">false</property>
             <expression name="bookmark" type="javascript">"HCAHPs Metrics Detail"</expression>
             <property name="dataSet">Filtered Data Set</property>
-            <property name="height">200pt</property>
+            <property name="height">130pt</property>
             <property name="width">5.5in</property>
             <list-property name="boundDataColumns">
                 <structure>

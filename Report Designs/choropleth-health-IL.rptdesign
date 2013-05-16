@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
-    <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20121022-1705 Build &lt;3.7.2.v20121022-1705></property>
+    <property name="createdBy">Eclipse BIRT Designer Version 3.7.2.v20130129-1905 Build &lt;3.7.2.v20130129-1905></property>
     <property name="units">in</property>
     <method name="beforeFactory"><![CDATA[
 
@@ -241,10 +241,6 @@ This report is intended for web view only.]]></text-property>
         </variable-element>
         <variable-element name="Callback">
             <expression name="value" type="javascript">"drawMap"</expression>
-            <property name="type">report</property>
-        </variable-element>
-        <variable-element name="tsvDataURL">
-            <expression name="value" type="javascript">"/diagnostic-IL-all.tsv"</expression>
             <property name="type">report</property>
         </variable-element>
         <variable-element name="geoJsonURL">

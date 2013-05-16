@@ -3666,6 +3666,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>
@@ -4056,6 +4059,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>

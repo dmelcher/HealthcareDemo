@@ -2271,7 +2271,7 @@ MTM1Mjg0
     <property name="imageDPI">96</property>
     <list-property name="libraries">
         <structure>
-            <property name="fileName">/ThemesReportItems.rptlibrary</property>
+            <property name="fileName">ThemesReportItems.rptlibrary</property>
             <property name="namespace">ThemesReportItems</property>
         </structure>
     </list-property>
@@ -3670,6 +3670,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>
@@ -3988,10 +3991,10 @@ MTM1Mjg0
            <caption value="Drill to Detail"/>
           </label>
          </uRLValues>
-         <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
          <propertiesMap key="Menu" value="zIndex:99999;backgroundColor:#FAFFF8;width:auto;height:auto;border:1px solid #333333;filter:progid:DXImageTransform.Microsoft.Shadow(Color:#333333,Direction=120,strength=5)"/>
          <propertiesMap key="OnMouseOut" value="backgroundColor:#FAFFF8;color:#000000"/>
          <propertiesMap key="OnMouseOver" value="backgroundColor:#245DDB;color:#FFFFFF"/>
+         <propertiesMap key="MenuItem" value="color:Black;fontSize:10pt;paddingLeft:10px;paddingRight:10px;paddingTop:2px;paddingBottom:2px"/>
         </value>
        </action>
       </triggers>
@@ -4103,6 +4106,9 @@ MTM1Mjg0
     <color _nil="1"/>
    </lineAttributes>
    <label>
+    <caption>
+     <font rotation="90.0"/>
+    </caption>
     <background _nil="1"/>
     <outline>
      <color _nil="1"/>
