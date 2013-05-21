@@ -26,11 +26,10 @@
 <![CDATA[
 <script type="text/javascript" src="http://localhost:8700/iportal/jsapi"></script>
 <script>
-
 gadgets.pubsub.subscribe("diagnostic_changed", diagnosticChanged);
 
 var viewer;
-var g_diagnostic = 'Arthritis';
+var g_diagnostic = "Arthritis";
 
 function getValueFromMessage(message) {
 	// message comes in like {"Time/YR":"1995"} but for some unknown reason was unable to use JSON parsing to extract 1995 value.
@@ -42,9 +41,7 @@ function getValueFromMessage(message) {
 }
 
 function diagnosticChanged(sender, message) {
-	//alert("diagnosticChanged message is " + message);
 	g_diagnostic = getValueFromMessage(message);
-	//alert("g_diagnostic is now: " + g_diagnostic);
 	runReport();
 }
 
@@ -62,18 +59,15 @@ function runReport(){
 	config.setContentPanel(scrollPanel);
 
 	viewer = new actuate.Viewer("acviewer",config);
-	viewer.setReportName("/Health/choropleth-health-IL.rptdesign");
+	viewer.setReportName("/National Healthcare/choropleth-health-IL.rptdesign");
 	var parms = {"pDiagnostic": ""};
-	//alert("before parms: pDiagnostic " + parms.pDiagnostic);
 	parms.pDiagnostic = g_diagnostic;
-	//alert("after parms: pDiagnostic " + parms.pDiagnostic);
 	viewer.setParameters(parms);
 	viewer.setWidth(300);
 	viewer.setHeight(350);
 	var uiOpts = new actuate.viewer.UIOptions();
 	uiOpts.enableToolBar(false);
 	viewer.setUIOptions(uiOpts);
-	//viewer.submit(function(){viewer.enableIV();});
 	viewer.submit();
 }
 
