@@ -348,12 +348,18 @@
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Prescription Decode</text-property>
                     <text-property name="heading">Prescription Decode</text-property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">true</property>
                 </structure>
                 <structure>
                     <property name="columnName">Diagnostic CIE Decode</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Diagnostic CIE Decode</text-property>
                     <text-property name="heading">Diagnostic CIE Decode</text-property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">true</property>
                 </structure>
                 <structure>
                     <property name="columnName">Unit Cost</property>
@@ -412,7 +418,7 @@
                     <text-property name="displayName">Income</text-property>
                     <text-property name="heading">Income</text-property>
                     <property name="horizontalAlign">right</property>
-                    <property name="indexColumn">true</property>
+                    <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
                 <structure>
@@ -421,7 +427,7 @@
                     <text-property name="displayName">Age</text-property>
                     <text-property name="heading">Age</text-property>
                     <property name="horizontalAlign">right</property>
-                    <property name="indexColumn">true</property>
+                    <property name="indexColumn">false</property>
                     <property name="compressed">false</property>
                 </structure>
             </list-property>
@@ -1798,14 +1804,7 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </tabular-level>
                                 <tabular-level name="Contact Date Quarter" id="123">
                                     <property name="dataType">string</property>
-                                    <property name="columnName">Contact Date Quarter</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date Month" id="124">
-                                    <property name="dataType">string</property>
-                                    <property name="columnName">Contact Date Month</property>
-                                </tabular-level>
-                                <tabular-level name="Contact Date" id="125">
-                                    <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
                                     <property name="columnName">Contact Date</property>
                                 </tabular-level>
                             </property>
