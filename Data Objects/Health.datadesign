@@ -602,8 +602,7 @@ from
 	,[Health].[dbo].[Patient] p
 where 
 	d.[Contact History Id] = c.[Contact History Id]
-	and d.[Patient Id] = p.[Patient Record ID]
-	and c.[Contact Date] > '2010-12-31']]></xml-property>
+	and d.[Patient Id] = p.[Patient Record ID]]]></xml-property>
             <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
   <Version>2.0</Version>
@@ -988,45 +987,61 @@ ORDER BY [Age]]]></xml-property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date</text-property>
                     <text-property name="heading">Contact Date</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Month</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Month</text-property>
                     <text-property name="heading">Contact Date Month</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Quarter</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Quarter</text-property>
                     <text-property name="heading">Contact Date Quarter</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Semester</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Semester</text-property>
                     <text-property name="heading">Contact Date Semester</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Week No</property>
-                    <property name="analysis">measure</property>
+                    <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Week No</text-property>
                     <text-property name="heading">Contact Date Week No</text-property>
+                    <property name="horizontalAlign">right</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Year</property>
-                    <property name="analysis">measure</property>
+                    <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Year</text-property>
                     <text-property name="heading">Contact Date Year</text-property>
+                    <property name="horizontalAlign">right</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date WeekDay</property>
-                    <property name="analysis">measure</property>
+                    <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date WeekDay</text-property>
                     <text-property name="heading">Contact Date WeekDay</text-property>
+                    <property name="horizontalAlign">right</property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
             </list-property>
-            <list-property name="parameters"/>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
@@ -1126,7 +1141,6 @@ ORDER BY [Age]]]></xml-property>
       ,[Contact Date Year]
       ,[Contact Date WeekDay]
   FROM [Health].[dbo].[Contact History]
-  WHERE [Contact Date] > '2010-12-31'
   GROUP BY [Contact Date]
       ,[Contact Date Month]
       ,[Contact Date Quarter]
