@@ -988,42 +988,58 @@ ORDER BY [Age]]]></xml-property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date</text-property>
                     <text-property name="heading">Contact Date</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Month</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Month</text-property>
                     <text-property name="heading">Contact Date Month</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Quarter</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Quarter</text-property>
                     <text-property name="heading">Contact Date Quarter</text-property>
+                    <property name="horizontalAlign">left</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Semester</property>
                     <property name="analysis">dimension</property>
                     <text-property name="displayName">Contact Date Semester</text-property>
                     <text-property name="heading">Contact Date Semester</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Week No</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">Contact Date Week No</text-property>
                     <text-property name="heading">Contact Date Week No</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date Year</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">Contact Date Year</text-property>
                     <text-property name="heading">Contact Date Year</text-property>
+                    <property name="horizontalAlign">right</property>
+                    <property name="indexColumn">true</property>
+                    <property name="compressed">false</property>
                 </structure>
                 <structure>
                     <property name="columnName">Contact Date WeekDay</property>
                     <property name="analysis">measure</property>
                     <text-property name="displayName">Contact Date WeekDay</text-property>
                     <text-property name="heading">Contact Date WeekDay</text-property>
+                    <property name="indexColumn">false</property>
+                    <property name="compressed">false</property>
                 </structure>
             </list-property>
             <list-property name="parameters"/>
@@ -1790,6 +1806,11 @@ ORDER BY [Occupation],[Occupation Decode]]]></xml-property>
                                 </tabular-level>
                                 <tabular-level name="Contact Date Quarter" id="123">
                                     <property name="dataType">string</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="columnName">Contact Date Quarter</property>
+                                </tabular-level>
+                                <tabular-level name="Contact Date" id="156">
+                                    <property name="dataType">date</property>
                                     <property name="levelType">dynamic</property>
                                     <property name="columnName">Contact Date</property>
                                 </tabular-level>
